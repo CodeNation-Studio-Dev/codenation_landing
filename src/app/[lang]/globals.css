@@ -57,5 +57,5 @@
 body {
   background: var(--color-background);
   color: var(--color-on-surface);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-space-mono), Arial, Helvetica, sans-serif;
 }

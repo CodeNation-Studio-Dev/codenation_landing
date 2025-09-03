@@ -1,0 +1,29 @@
+{
+  "footer": {
+    "contactUs": {
+      "title": "Contáctanos",
+      "address": "Avenida Obsidiana #3632 Residencial Loma Bonita, C.P. 45088 Zapopan, Jalisco, México.",
+      "phone": "+52 33 1725 5576",
+      "callUs": "Agenda una Reunión",
+      "analyze": "Analiza tu caso"
+    },
+    "services": {
+      "title": "Servicios",
+      "web": "Desarrollo Web",
+      "mobile": "Aplicaciones Móviles",
+      "design": "Diseño UI/UX"
+    },
+    "solutions": {
+      "title": "Soluciones",
+      "contactCenter": "Centro de Contacto",
+      "cloud": "Soluciones en la Nube",
+      "ai": "Inteligencia Artificial"
+    },
+    "company": {
+      "title": "Empresa",
+      "aboutUs": "Sobre Nosotros",
+      "careers": "Carreras",
+      "blog": "Blog"
+    }
+  }
+}
