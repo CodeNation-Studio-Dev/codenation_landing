@@ -2,13 +2,18 @@
 
 import { createContext, useContext } from "react";
 
-const TranslationContext = createContext<any>(null);
+export type TranslationDict = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  [key: string]: any;
+};
+
+const TranslationContext = createContext<TranslationDict>({});
 
 export function TranslationProvider({
   dict,
   children,
 }: {
-  dict: Record<string, any>;
+  dict: TranslationDict;
   children: React.ReactNode;
 }) {
   return (
