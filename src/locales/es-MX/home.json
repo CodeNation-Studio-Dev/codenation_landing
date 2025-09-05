@@ -25,5 +25,13 @@
       "careers": "Carreras",
       "blog": "Blog"
     }
+  },
+  "header": {
+    "services": "Servicios",
+    "work": "Proyectos",
+    "about": "Nosotros",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "start_project": "Iniciar proyecto"
   }
 }

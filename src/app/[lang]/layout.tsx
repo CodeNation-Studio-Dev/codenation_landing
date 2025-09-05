@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter, Space_Mono } from "next/font/google";
 import "./globals.css";
+import { Header } from "@components/header/Header";
+import { Footer } from "@components/footer/Footer";
+import { getDictionary } from "@lib/getDictionary";
+import { TranslationProvider } from "@providers/translationProvider";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -18,15 +22,24 @@ export const metadata: Metadata = {
   description: "",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ lang: string }>;
 }>) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang, "home");
+
   return (
-    <html lang="en">
+    <html lang={lang}>
       <body className={`${spaceMono.variable} ${inter.variable}`}>
-        {children}
+        <TranslationProvider dict={dict}>
+          <Header />
+          {children}
+          <Footer />
+        </TranslationProvider>
       </body>
     </html>
   );
