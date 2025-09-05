@@ -1,7 +1,7 @@
 "use client";
 import { useTranslations } from "@providers/translationProvider";
 import { GoArrowUpRight } from "react-icons/go";
-import { FaSquareFacebook, FaLinkedinIn, FaPhone } from "react-icons/fa6";
+import { FaSquareFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 export const Footer = () => {
@@ -57,10 +57,26 @@ export const Footer = () => {
             <li>{footer.company.blog}</li>
           </ul>
           <footer className="grid grid-cols-4 text-2xl">
-            <FaSquareFacebook />
-            <FaLinkedinIn />
-            <FaPhone />
-            <MdEmail />
+            <a href="https://www.facebook.com/CodenationStudio">
+              <FaSquareFacebook />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/codenation-studio/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://wa.me/523317255576"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaWhatsapp />
+            </a>
+            <a href="mailto:info@codenation-studio.com">
+              <MdEmail />
+            </a>
           </footer>
         </section>
       </article>

@@ -25,5 +25,13 @@
       "careers": "Careers",
       "blog": "Blog"
     }
+  },
+  "header": {
+    "services": "Services",
+    "work": "Work",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact",
+    "start_project": "Start a project"
   }
 }

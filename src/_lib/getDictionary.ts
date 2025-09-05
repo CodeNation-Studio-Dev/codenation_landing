@@ -1,5 +1,5 @@
 import "server-only";
-import { TranslationDict } from "../_providers/translationProvider";
+import { TranslationDict } from "@providers/translationProvider";
 
 export async function getDictionary(
   locale: string,
