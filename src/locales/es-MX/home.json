@@ -33,5 +33,15 @@
     "blog": "Blog",
     "contact": "Contacto",
     "start_project": "Iniciar proyecto"
+  },
+  "banner": {
+    "hi": "Hola somos Codenation",
+    "title": "A web design and",
+    "title2": "branding agency",
+    "title3": "in Manchester",
+    "contact": {
+      "hear": "Hear from Paco",
+      "co_founder": "Co-Founder of Codenation"
+    }
   }
 }
