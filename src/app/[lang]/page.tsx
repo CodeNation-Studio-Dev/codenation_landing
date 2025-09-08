@@ -1,3 +1,5 @@
+import { Banner } from "@components/banner/Banner";
+
 export default async function Home() {
-  return <div className="h-[900px] w-full"></div>;
+  return <Banner />;
 }

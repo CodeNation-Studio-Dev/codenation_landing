@@ -53,7 +53,7 @@ export const Header = () => {
     <div className="relative h-[82px] w-full">
       <header
         ref={headerRef}
-        className="font-inter absolute top-0 left-[50%] flex w-full translate-x-[-50%] justify-between px-8 py-4 transition-[width] duration-500"
+        className="font-inter absolute top-3 left-[50%] flex w-full translate-x-[-50%] justify-between px-8 py-4 transition-[width] duration-500"
       >
         <div className="flex w-full items-center justify-between">
           <section className="relative h-10 w-20">
@@ -94,7 +94,7 @@ export const Header = () => {
             )}
 
             {windowSize > 1024 ? (
-              <PlayButton content={header.start_project} />
+              <PlayButton content={header.start_project} width={150} />
             ) : (
               <>
                 {open ? (
@@ -112,7 +112,7 @@ export const Header = () => {
           <p>{header.about}</p>
           <p>{header.blog}</p>
           <p>{header.contact}</p>
-          <PlayButton content={header.start_project} />
+          <PlayButton content={header.start_project} width={150} />
         </section>
       </header>
     </div>
