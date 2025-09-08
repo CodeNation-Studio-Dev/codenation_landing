@@ -3,7 +3,7 @@ import { Inter, Space_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@components/header/Header";
 import { Footer } from "@components/footer/Footer";
-import { getDictionary } from "@lib/getDictionary";
+import { getDictionary } from "@lib/helpers/getDictionary";
 import { TranslationProvider } from "@providers/translationProvider";
 
 const inter = Inter({

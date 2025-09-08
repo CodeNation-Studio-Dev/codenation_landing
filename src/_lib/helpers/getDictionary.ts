@@ -5,5 +5,5 @@ export async function getDictionary(
   locale: string,
   namespace: string,
 ): Promise<TranslationDict> {
-  return (await import(`../locales/${locale}/${namespace}.json`)).default;
+  return (await import(`../../locales/${locale}/${namespace}.json`)).default;
 }
