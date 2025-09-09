@@ -43,5 +43,23 @@
       "hear": "Hear from Paco",
       "co_founder": "Co-Founder of Codenation"
     }
+  },
+  "motto": {
+    "title": "We transform brands and experiences to help our partners raise funding, grow revenue, and capture new customers",
+    "mainGraph": {
+      "value": "%",
+      "description": "Increase in content production per month",
+      "client": "OFCOLOR"
+    },
+    "leftGraph": {
+      "value": "+",
+      "description": "Increase in content production per month",
+      "client": "ATELIO"
+    },
+    "rightGraph": {
+      "value": "%",
+      "description": "Increase in content production per month",
+      "client": "THE ART STUDENTS LEAGUE"
+    }
   }
 }
