@@ -1,5 +1,5 @@
 "use client";
-import Counter from "@lib/components/counter";
+import Counter from "@lib/components/Counter";
 import { useTranslations } from "@providers/translationProvider";
 import { FaArrowRight } from "react-icons/fa6";
 

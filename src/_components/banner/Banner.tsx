@@ -1,7 +1,7 @@
 "use client";
 import { useWindowSize } from "@hooks/windowSize";
-import { PinButton } from "../pinButton/PinButton";
-import { PlayButton } from "../playButton/PlayButton";
+import { PinButton } from "@components/pinButton/PinButton";
+import { PlayButton } from "@components/playButton/PlayButton";
 import Image from "next/image";
 import { useTranslations } from "@providers/translationProvider";
 
@@ -15,14 +15,15 @@ export const Banner = () => {
         <header className="font-inter gooey-content absolute left-0 z-10 text-4xl md:text-6xl lg:left-[10%] 2xl:text-7xl">
           <div className="bg-background flex w-full items-center gap-x-3 pr-7 pl-5 text-sm md:py-2">
             {banner.hi}
-            <Image
-              src="/assets/like.gif"
-              alt="Like"
-              loading="lazy"
-              unoptimized
-              width="40"
-              height="40"
-            />
+            <div className="relative h-[34px] w-[40px]">
+              <Image
+                src="/assets/like.gif"
+                alt="Like"
+                loading="lazy"
+                fill
+                sizes="10x10"
+              />
+            </div>
           </div>
           <p className="bg-background w-fit rounded-br-2xl pr-7 pb-3 pl-5 md:py-2">
             {banner.title}
