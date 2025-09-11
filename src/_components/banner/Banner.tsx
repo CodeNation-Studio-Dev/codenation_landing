@@ -21,6 +21,7 @@ export const Banner = () => {
                 alt="Like"
                 loading="lazy"
                 fill
+                unoptimized
                 sizes="10x10"
               />
             </div>
