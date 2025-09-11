@@ -61,5 +61,9 @@
       "description": "Increase in organic search traffic",
       "client": "THE ART STUDENTS LEAGUE"
     }
+  },
+  "showCase": {
+    "title": "Showcase",
+    "explore": "Explore All Showcases"
   }
 }

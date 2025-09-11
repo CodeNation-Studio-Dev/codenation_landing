@@ -1,9 +1,10 @@
 "use client";
 import { useEffect, useRef } from "react";
-import gsap from "gsap";
+import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
+const obj = { val: 0 };
 
 export default function Counter({
   target,
@@ -20,7 +21,7 @@ export default function Counter({
     if (!el.current) return;
 
     gsap.fromTo(
-      el,
+      obj,
       { val: 0 },
       {
         val: target,
@@ -33,7 +34,7 @@ export default function Counter({
         },
         onUpdate: function () {
           if (el.current) {
-            el.current.innerText = Math.floor(this.targets()[0].val).toString();
+            el.current.innerText = Math.floor(obj.val).toString();
           }
         },
       },

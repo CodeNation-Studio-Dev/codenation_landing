@@ -61,5 +61,9 @@
       "description": "Increase in content production per month",
       "client": "THE ART STUDENTS LEAGUE"
     }
+  },
+  "showCase": {
+    "title": "Portafolio",
+    "explore": "Explora los portafolios"
   }
 }
