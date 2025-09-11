@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./ShowCase.css";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { useTranslations } from "@/src/_providers/translationProvider";
+import Link from "next/link";
 
 interface VideoProps {
   src: string;
@@ -175,7 +176,7 @@ export const ShowCase = () => {
                   ></path>
                 </svg>
 
-                <a href={data.subtitleLink}>{data.subtitle}</a>
+                <Link href={data.subtitleLink}>{data.subtitle}</Link>
                 <svg
                   className="max-w-1.5 rotate-180"
                   xmlns="http://www.w3.org/2000/svg"
@@ -192,12 +193,12 @@ export const ShowCase = () => {
             ))}
           </div>
 
-          <a
+          <Link
             href="/showcases"
             className="inline-flex w-full items-center justify-center rounded-full border-2 border-amber-50 px-6 py-3.5 sm:w-fit"
           >
             <span className="button__label">{showCase.explore}</span>
-          </a>
+          </Link>
 
           <div className="absolute top-0 right-6 flex sm:top-auto sm:bottom-0">
             <button
