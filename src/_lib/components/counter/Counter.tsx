@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 const obj = { val: 0 };
 
-export default function Counter({
+export const Counter = ({
   target,
   duration,
   animation,
@@ -14,7 +14,7 @@ export default function Counter({
   target: number;
   duration?: number;
   animation?: gsap.EaseString | gsap.EaseFunction;
-}) {
+}) => {
   const el = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
@@ -42,4 +42,4 @@ export default function Counter({
   }, [target, animation, duration]);
 
   return <span ref={el}>0</span>;
-}
+};

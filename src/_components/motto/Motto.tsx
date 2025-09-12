@@ -1,5 +1,5 @@
 "use client";
-import Counter from "@lib/components/counter";
+import { Counter } from "@lib/components/counter/Counter";
 import { useTranslations } from "@providers/translationProvider";
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -13,7 +13,7 @@ export const Motto = () => {
           {motto.title}
         </h2>
         <div className="grid grid-cols-1 gap-x-2 gap-y-2 sm:grid-cols-2">
-          <figure className="col-span-1 flex justify-between rounded-2xl bg-[#ffffff0d] p-5 sm:col-span-2 lg:p-8">
+          <figure className="bg-surface-container-low col-span-1 flex justify-between rounded-2xl p-5 sm:col-span-2 lg:p-8">
             <figcaption className="flex flex-col gap-y-1">
               <p className="text-5xl md:text-7xl">
                 <Counter target={500} duration={2} animation={"circ.out"} />
@@ -26,7 +26,7 @@ export const Motto = () => {
               <FaArrowRight />
             </div>
           </figure>
-          <figure className="col-span-1 flex justify-between rounded-2xl bg-[#ffffff0d] p-5 lg:p-8">
+          <figure className="bg-surface-container-low col-span-1 flex justify-between rounded-2xl p-5 lg:p-8">
             <figcaption className="flex flex-col gap-y-1">
               <p className="text-5xl md:text-7xl">
                 <Counter target={200} duration={4} animation={"circ.out"} />
@@ -39,7 +39,7 @@ export const Motto = () => {
               <FaArrowRight />
             </div>
           </figure>
-          <figure className="col-span-1 flex justify-between rounded-2xl bg-[#ffffff0d] p-5 lg:p-8">
+          <figure className="bg-surface-container-low col-span-1 flex justify-between rounded-2xl p-5 lg:p-8">
             <figcaption className="flex flex-col gap-y-1">
               <p className="text-5xl md:text-7xl">
                 <Counter target={76} duration={5} animation={"circ.out"} />
