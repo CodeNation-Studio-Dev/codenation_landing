@@ -65,5 +65,10 @@
   "showCase": {
     "title": "Portafolio",
     "explore": "Explora los portafolios"
+  },
+  "clients": {
+    "plug": "Publicidad vergonzosa",
+    "title": "Trabajamos con empresas emergentes y organizaciones globales.",
+    "contact": "Contáctanos hoy"
   }
 }

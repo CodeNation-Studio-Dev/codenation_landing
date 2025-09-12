@@ -11,7 +11,7 @@ import "./Header.css";
 import { useWindowSize } from "@hooks/windowSize";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
-import { PlayButton } from "@components/playButton/PlayButton";
+import { PlayButton } from "@lib/components/playButton/PlayButton";
 
 gsap.registerPlugin(ScrollTrigger);
 

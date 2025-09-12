@@ -65,5 +65,10 @@
   "showCase": {
     "title": "Showcase",
     "explore": "Explore All Showcases"
+  },
+  "clients": {
+    "plug": "Shameful Plug",
+    "title": "We work with start-up businesses through to global organisations.",
+    "contact": "Get in touch today"
   }
 }

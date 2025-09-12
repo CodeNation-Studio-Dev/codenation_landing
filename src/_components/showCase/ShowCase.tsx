@@ -2,7 +2,7 @@
 import { useState } from "react";
 import "./ShowCase.css";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useTranslations } from "@providers/translationProvider";
 import Link from "next/link";
 
 interface VideoProps {
@@ -136,6 +136,7 @@ export const ShowCase = () => {
                   loop
                   autoPlay
                   muted
+                  playsInline
                   preload="metadata"
                 >
                   <source src={data.src} type="video/mp4" />

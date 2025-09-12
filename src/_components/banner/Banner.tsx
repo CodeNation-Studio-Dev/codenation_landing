@@ -1,7 +1,7 @@
 "use client";
 import { useWindowSize } from "@hooks/windowSize";
-import { PinButton } from "@components/pinButton/PinButton";
-import { PlayButton } from "@components/playButton/PlayButton";
+import { PinButton } from "@lib/components/pinButton/PinButton";
+import { PlayButton } from "@lib/components/playButton/PlayButton";
 import Image from "next/image";
 import { useTranslations } from "@providers/translationProvider";
 
@@ -46,6 +46,7 @@ export const Banner = () => {
               autoPlay
               loop
               muted
+              playsInline
               className="absolute top-0 left-0 h-full w-full object-cover"
               src="https://servd-made-byshape.b-cdn.net/production/uploads/videos/shape-showreel-2024_looping-v3.mp4"
             ></video>
