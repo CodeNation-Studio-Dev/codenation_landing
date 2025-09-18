@@ -87,6 +87,7 @@ export const Clients = () => {
               disableOnInteraction: false,
               pauseOnMouseEnter: false,
             }}
+            allowTouchMove={false}
             speed={10000}
             className="relative mt-10 w-full overflow-hidden lg:mt-16"
           >
@@ -124,6 +125,7 @@ export const Clients = () => {
               reverseDirection: true,
               pauseOnMouseEnter: false,
             }}
+            allowTouchMove={false}
             speed={10000}
             className="relative mt-10 w-full overflow-hidden lg:mt-16"
           >
