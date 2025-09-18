@@ -76,9 +76,9 @@ export const Categories = () => {
   return (
     <section
       ref={ref}
-      className="font-inter mt-20 flex w-full overflow-hidden px-2 py-[10svh] sm:px-7 lg:h-[930px] lg:px-3 xl:px-4"
+      className="font-inter mt-20 flex w-full overflow-hidden px-2 lg:py-[10svh] sm:px-7 lg:h-[930px] lg:px-3 xl:px-4"
     >
-      <div className="categories-container h-[80svh]">
+      <div className="categories-container lg:h-[80svh]">
         <div
           ref={panelRef}
           className="bg-surface-container-low flex h-full w-full flex-col overflow-hidden rounded-[20px] lg:flex-row"
