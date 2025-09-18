@@ -70,5 +70,11 @@
     "plug": "Shameful Plug",
     "title": "We work with start-up businesses through to global organisations.",
     "contact": "Get in touch today"
+  },
+  "categories": {
+    "title": "Projects",
+    "subtitle": "From front-end development to crafting beautiful, funcional digital spaces",
+    "description": "We specialize in building interactive, accessible, and purpose-driven websites. We passionate about crafting web experiences that are both functional and emotionally resonant",
+    "extra": "These projects are developed by Codenation Studio"
   }
 }

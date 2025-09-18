@@ -70,5 +70,11 @@
     "plug": "Publicidad vergonzosa",
     "title": "Trabajamos con empresas emergentes y organizaciones globales.",
     "contact": "Contáctanos hoy"
+  },
+  "categories": {
+    "title": "Proyectos",
+    "subtitle": "Desde el desarrollo front-end hasta la creación de espacios digitales atractivos y funcionales",
+    "description": "Nos especializamos en la creación de sitios web interactivos, accesibles y con un propósito definido. Nos apasiona crear experiencias web funcionales y emocionalmente impactantes",
+    "extra": "Estos proyectos son desarrollados por Codenation Studio"
   }
 }
