@@ -7,11 +7,11 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef, useState } from "react";
-import "./Header.css";
 import { useWindowSize } from "@hooks/windowSize";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import { PlayButton } from "@lib/components/playButton/PlayButton";
+import "./Header.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -57,20 +57,22 @@ export const Header = () => {
       >
         <div className="flex w-full items-center justify-between">
           <section className="relative h-10 w-20">
-            <Image
-              src="/assets/logo.png"
-              alt="Logo"
-              fill
-              sizes="10x10"
-              priority
-            />
+            <Link href={"/"}>
+              <Image
+                src="/assets/logo.png"
+                alt="Logo"
+                fill
+                sizes="10x10"
+                priority
+              />
+            </Link>
           </section>
 
           {windowSize > 1024 && (
             <section className="flex gap-x-8 text-center">
               <p>{header.services}</p>
               <p>{header.work}</p>
-              <p>{header.about}</p>
+              <Link href={"/about-us"}>{header.about}</Link>
               <p>{header.blog}</p>
               <p>{header.contact}</p>
             </section>
@@ -109,7 +111,7 @@ export const Header = () => {
         <section className="dropdown-menu mt-10 hidden flex-col items-start gap-y-4 text-4xl">
           <p>{header.services}</p>
           <p>{header.work}</p>
-          <p>{header.about}</p>
+          <Link href={"/about-us"}>{header.about}</Link>
           <p>{header.blog}</p>
           <p>{header.contact}</p>
           <PlayButton content={header.start_project} width={150} />
