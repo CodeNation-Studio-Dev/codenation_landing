@@ -3,5 +3,13 @@
   "title_extra": "We are Codenation Studio",
   "show_us": {
     "title": "At Codenation Studio, we create technology aligned with your company's strategic objectives"
+  },
+  "purpose": {
+    "title": "We'll be with you throughout the entire journey",
+    "description": "Our purpose: to put innovation and digital technology at the service of the business objectives of startups and established companies.  \n\n How? By developing new products and services, optimizing operations and communications, and even partnering to launch new brands together.  \n\n We manage processes from concept to implementation and follow-up. And we even help you access financing to make your business idea a reality."
+  },
+  "solutions": {
+    "title": "In love with technology",
+    "description": "Fascinated by its possibilities and results, but applying it with impartiality and judgment. \n\n We design and develop the solutions necessary for business objectives. We embrace innovation without fear of complexity, but without seeking complexity. Technology, at its best. \n\n • Analytics, big data, and business intelligence. \n\n • Internet of Things. \n\n • Artificial intelligence. \n\n • Software, apps, systems, and web and mobile platforms development."
   }
 }

@@ -6,7 +6,7 @@ export const ShowUsGallery = () => {
   const { show_us } = useTranslations();
 
   return (
-    <section className="mb-[96px] flex max-w-[1740px] flex-col justify-center gap-y-12 px-2 lg:flex-row lg:gap-x-[10px] xl:mx-auto xl:px-[72px]">
+    <section className="mb-[96px] flex max-w-[1740px] flex-col justify-center gap-y-12 lg:flex-row lg:gap-x-[10px] xl:mx-auto xl:px-[72px]">
       <p className="hidden w-[100%] text-3xl sm:flex lg:w-[calc(20%-5px)] lg:self-end xl:w-[calc(30%-5px)]">
         {show_us.title}
       </p>
