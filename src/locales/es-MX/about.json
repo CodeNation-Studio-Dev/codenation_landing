@@ -11,5 +11,15 @@
   "solutions": {
     "title": "Enamorados de la tecnología",
     "description": "Fascinados con sus posibilidades y los resultados, pero aplicándola con imparcialidad y criterio. \n\n Diseñamos y desarrollamos las soluciones necesarias para el objetivo de negocio. Abrazamos la innovación sin miedo a lo complejo, pero sin buscar lo complicado. La tecnología, en su punto correcto. \n\n • Analytics, big data y business intelligence \n\n • Internet of things \n\n • Inteligencia artificial \n\n • Desarrollo de software, apps, sistemas y plataformas web y móviles"
+  },
+  "contact": {
+    "title": "Somos el socio tecnológico de los grandes retos",
+    "description": "En Codenation Studio ponemos mucho empeño en la selección de proyectos con los que colaboramos. Si quieres que valoremos tu caso para ver si podemos ayudarte a optimizar con la tecnología y crecer con nuestra visión de negocio, puedes contactarnos.",
+    "link": "Contáctanos"
+  },
+  "story": {
+    "title": "“Entonces, Sería divertido acompañarlo.”",
+    "description": "Atleta, esquiador, experto carpintero… y además osado, inventivo y leal. Olav Bjaaland era el compañero que Amundsen buscaba para conquistar regiones inexploradas. \n\n Y todo surgió de un encuentro casual tras ganar un campeonato internacional de esquí.",
+    "link": "Rompamos el hielo"
   }
 }
