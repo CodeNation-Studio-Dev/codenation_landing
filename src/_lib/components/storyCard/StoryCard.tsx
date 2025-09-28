@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ReactElement } from "react";
 import { AiOutlineAntDesign } from "react-icons/ai";
 
