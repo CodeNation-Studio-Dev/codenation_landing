@@ -37,6 +37,7 @@ const AboutUs = async ({
           className="w-full max-w-[1540px] xl:mx-auto"
           gallery={[
             <video
+              key="video"
               autoPlay
               loop
               muted
@@ -45,18 +46,21 @@ const AboutUs = async ({
               src="https://servd-made-byshape.b-cdn.net/production/uploads/videos/shape-showreel-2024_looping-v3.mp4"
             ></video>,
             <Image
+              key="first-image"
               src="/assets/weare.jpg"
               alt=""
               fill
               className="object-cover"
             />,
             <Image
+              key="second-image"
               src="/assets/dogs.jpeg"
               alt=""
               fill
               className="object-cover"
             />,
             <Image
+              key="third-image"
               src="/assets/lija.jpg"
               alt=""
               fill
