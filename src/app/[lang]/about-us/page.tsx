@@ -4,6 +4,7 @@ import { TwoColumnText } from "@lib/components/twoColumnText/TwoColumnText";
 import { getDictionary } from "@lib/helpers/getDictionary";
 import { TranslationProvider } from "@providers/translationProvider";
 import Image from "next/image";
+import { TrophyShelf } from "@components/trophyShelf/TrophyShelf";
 
 const AboutUs = async ({
   params,
@@ -90,6 +91,7 @@ const AboutUs = async ({
           }
           rotate
         />
+        <TrophyShelf />
       </div>
     </TranslationProvider>
   );
