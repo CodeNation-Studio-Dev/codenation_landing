@@ -1,4 +1,6 @@
-.swiper-wrapper {
-  transition-timing-function: linear !important;
-  pointer-events: none !important;
+.swipper-clients {
+  .swiper-wrapper {
+    transition-timing-function: linear !important;
+    pointer-events: none !important;
+  }
 }
