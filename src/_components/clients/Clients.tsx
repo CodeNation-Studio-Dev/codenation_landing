@@ -32,7 +32,7 @@ export const Clients = () => {
   return (
     <section className="4xl:pb-40 mt-20 w-full px-2 pb-20 lg:px-3 lg:pb-24 xl:px-4 2xl:pb-32">
       <div className="3xl:px-40 4xl:px-60 px-2 sm:px-6 xl:px-12 2xl:px-20">
-        <div className="bg-surface-container-low 4xl:py-40 relative w-full transform-gpu overflow-hidden rounded-2xl rounded-tl-none py-20 lg:rounded-3xl lg:rounded-tl-none lg:py-24 2xl:py-32">
+        <div className="swipper-clients bg-surface-container-low 4xl:py-40 relative w-full transform-gpu overflow-hidden rounded-2xl rounded-tl-none py-20 lg:rounded-3xl lg:rounded-tl-none lg:py-24 2xl:py-32">
           <figure className="bg-background absolute top-0 left-0 h-12 w-5/16 rounded-br-2xl lg:h-20 lg:w-3/16 lg:rounded-br-3xl">
             <svg
               id="Layer_1"
