@@ -73,7 +73,7 @@ export const TrophyShelf = () => {
   const { trophy_shelf } = useTranslations();
 
   return (
-    <section className="flex w-full max-w-[1540px] flex-col xl:mx-auto">
+    <section className="swipper-trophy flex w-full max-w-[1540px] flex-col xl:mx-auto">
       <div className="flex w-full gap-x-[20%] lg:w-[90%] lg:self-center xl:gap-x-[30%]">
         <header className="max-w-[300px] lg:max-w-[400px]">
           <span className="trophy-count relative text-[8px] xl:text-xs">
