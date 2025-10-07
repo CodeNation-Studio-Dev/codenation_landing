@@ -5,6 +5,7 @@ import { getDictionary } from "@lib/helpers/getDictionary";
 import { TranslationProvider } from "@providers/translationProvider";
 import Image from "next/image";
 import { TrophyShelf } from "@components/trophyShelf/TrophyShelf";
+import { OurTeam } from "@components/ourTeam/OurTeam";
 
 const AboutUs = async ({
   params,
@@ -92,6 +93,7 @@ const AboutUs = async ({
           rotate
         />
         <TrophyShelf />
+        <OurTeam />
       </div>
     </TranslationProvider>
   );
