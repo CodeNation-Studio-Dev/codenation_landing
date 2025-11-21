@@ -1,22 +1,23 @@
-interface TwoColumnTextProps {
-  rightText: string;
-  leftText: string;
+import Image from "next/image";
+import { ReactNode } from "react";
+
+interface TwoColumnImageContentProps {
+  rightImage: string;
+  leftText: ReactNode;
   className?: string;
   rotate?: boolean;
   leftClassName?: string;
-  rightClassName?: string;
   topHidden?: boolean;
 }
 
-export const TwoColumnText = ({
-  rightText,
+export const TwoColumnImageContent = ({
   leftText,
   className,
-  topHidden = true,
   leftClassName = "",
-  rightClassName = "",
+  rightImage,
   rotate = false,
-}: TwoColumnTextProps) => {
+  topHidden = false,
+}: TwoColumnImageContentProps) => {
   return (
     <section
       className={
@@ -27,12 +28,14 @@ export const TwoColumnText = ({
       <div
         className={`${topHidden && "hidden"} max-w-[765px] md:flex ${rotate && "lg:order-2 lg:justify-end"} lg:w-1/2`}
       >
-        <p className={"font-bold " + leftClassName}>{leftText}</p>
+        {leftText}
       </div>
       <div
         className={`max-w-[765px] text-justify ${rotate && "lg:order-1"} lg:w-1/2`}
       >
-        <p className={"whitespace-pre-line " + rightClassName}>{rightText}</p>
+        <div className="relative h-[550px] w-full overflow-hidden rounded-xl">
+          <Image src={rightImage} alt="" fill className="object-cover" />
+        </div>
       </div>
     </section>
   );

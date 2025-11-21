@@ -1,0 +1,6 @@
+.swiper-bigtext {
+  .swiper-wrapper {
+    transition-timing-function: linear !important;
+    pointer-events: none !important;
+  }
+}
