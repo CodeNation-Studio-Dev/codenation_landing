@@ -26,7 +26,7 @@ export const TwoColumnImageContent = ({
       }
     >
       <div
-        className={`${topHidden && "hidden"} max-w-[765px] md:flex ${rotate && "lg:order-2 lg:justify-end"} lg:w-1/2`}
+        className={`${topHidden && "hidden"} max-w-[765px] md:flex ${rotate && "lg:order-2 lg:justify-end"} lg:w-1/2 ${leftClassName}`}
       >
         {leftText}
       </div>
