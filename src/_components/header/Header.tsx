@@ -70,7 +70,7 @@ export const Header = () => {
 
           {windowSize > 1024 && (
             <section className="flex gap-x-8 text-center">
-              <p>{header.services}</p>
+              <Link href={"/services/webpage"}>{header.services}</Link>
               <p>{header.work}</p>
               <Link href={"/about-us"}>{header.about}</Link>
               <p>{header.blog}</p>
