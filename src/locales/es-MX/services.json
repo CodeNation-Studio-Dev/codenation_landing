@@ -1,9 +1,48 @@
 {
   "webpage": {
     "main": {
-      "title": "A web design studio in manchester",
-      "description": "Here at MadeByShape, we offer honest advice, industry experience, and a great portfolio of work. \n\n UI/UX, wireframes, research and development — we understand all areas of web design. We can take a start-up business with nothing to a fully functioning brand online and offline. We can revamp an existing website or take a successful brand to the next level. Our talented and creative in-house web design team in Manchester will work alongside you in collaboration to create a site that reflects your brand, talks to your audience with meaning and personality, and has great functionality across the latest devices."
-    }
+      "title": "Un estudio de diseño web en Manchester",
+      "description": "En MadeByShape ofrecemos asesoramiento honesto, experiencia en la industria y un gran portafolio de trabajos.\n\nUI/UX, wireframes, investigación y desarrollo: entendemos todas las áreas del diseño web. Podemos llevar a una startup desde cero hasta una marca totalmente funcional en línea y fuera de ella. Podemos renovar un sitio web existente o llevar una marca exitosa al siguiente nivel. Nuestro talentoso y creativo equipo interno de diseño web en Manchester trabajará contigo de manera colaborativa para crear un sitio que refleje tu marca, se comunique con tu audiencia con significado y personalidad, y ofrezca una excelente funcionalidad en los dispositivos más recientes."
+    },
+    "explanation": {
+      "fewWords": "Abordamos cada proyecto con una visión clara.",
+      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
+      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
+      "startProject": "Inicia un proyecto hoy"
+    },
+    "inhouse": {
+      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
+      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+    },
+    "bigText": "Lets work together."
   },
-  "bigText": "Lets work together."
+  "subcategories": {
+    "fewWords": "En qué podemos ayudarte",
+    "title": "Un equipo de expertos en diseño web que puede ayudarte a diseñar y construir un sitio web del que te sientas orgulloso",
+    "getInTouch": "Ponte en contacto hoy",
+    "webDesign": {
+      "title": "Diseño Web",
+      "description": "Diseño web a medida, perfecto para tu marca y tu público objetivo."
+    },
+    "eCommerce": {
+      "title": "Comercio Electrónico",
+      "description": "Vende productos en línea las 24/7 a través de un sitio web de comercio electrónico bien diseñado y fácil de usar."
+    },
+    "uxDesign": {
+      "title": "Diseño UX",
+      "description": "Ofrece experiencias significativas y relevantes a los usuarios mediante el diseño de experiencia de usuario (UX)."
+    },
+    "responsiveDesign": {
+      "title": "Diseño Responsivo",
+      "description": "Diseñado para todos los dispositivos más recientes, incluidos iPhone y iPad."
+    },
+    "wireframes": {
+      "title": "Wireframes",
+      "description": "Una herramienta de visualización para presentar la estructura, funciones y contenido propuestos de un sitio web."
+    },
+    "strategy": {
+      "title": "Estrategia",
+      "description": "No solo enfocada en el presente, sino también en el futuro para identificar oportunidades de crecimiento."
+    }
+  }
 }

@@ -15,5 +15,34 @@
       "description": "We're a strong team of 16, we know how much work we can take on, and we let clients know if there will be a delay. Every website project we take on is produced in-house, with no outsourcing involved. If we feel we're not the right fit for your project, we will use our digital industry experience to recommend a suitable agency for you. Our team of brand designers, web designers, and content writers work together to give you the perfect solution."
     }
   },
-  "bigText": "Lets work together."
+  "bigText": "Lets work together.",
+  "subcategories": {
+    "fewWords": "What we can help you with",
+    "title": "A team of web design experts that can help you design and build a website you´re proud of",
+    "getInTouch": "Get in touch today",
+    "webDesign": {
+      "title": "Web Design",
+      "description": "Bespoke web design perfect for your brand and target audience."
+    },
+    "eCommerce": {
+      "title": "eCommerce",
+      "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
+    },
+    "uxDesign": {
+      "title": "UX Design",
+      "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+    },
+    "responsiveDesign": {
+      "title": "Responsive Design",
+      "description": "Designed for all the latest devices, including iPhone and iPad."
+    },
+    "wireframes": {
+      "title": "Wireframes",
+      "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+    },
+    "strategy": {
+      "title": "Strategy",
+      "description": "Not only looking at the now, but also to the future to see potential growth."
+    }
+  }
 }
