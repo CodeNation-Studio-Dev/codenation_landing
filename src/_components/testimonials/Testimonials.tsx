@@ -78,12 +78,16 @@ export const Testimonials = () => {
                 className="w-full"
               >
                 {testimonials.alltestimonials.map(
-                  (testimonial: {
-                    message: string;
-                    user: string;
-                    company: string;
-                  }) => (
+                  (
+                    testimonial: {
+                      message: string;
+                      user: string;
+                      company: string;
+                    },
+                    index: number,
+                  ) => (
                     <SwiperSlide
+                      key={index}
                       className="flex h-auto px-2 lg:px-3 xl:px-4"
                       style={{ width: "570.588px" }}
                     >
