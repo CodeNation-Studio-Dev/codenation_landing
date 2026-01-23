@@ -116,7 +116,7 @@ export const ShowCase = () => {
       : "flex translate-y-[-100%] pt-0.5 text-sm [grid-area:1/1] items-center transition-transform duration-300 ease-in-out";
 
   return (
-    <section className="relative overflow-hidden pt-20 pb-20">
+    <section id="showcase" className="relative overflow-hidden pt-20 pb-20">
       <div className="relative z-2">
         <h3 className="font-inter pl-[6vw] text-6xl font-bold sm:text-7xl xl:text-8xl">
           {showCase.title}

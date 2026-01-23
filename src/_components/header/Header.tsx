@@ -12,6 +12,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import { PlayButton } from "@lib/components/playButton/PlayButton";
 import "./Header.css";
+import { DropdownMenu } from "../dropdownMenu/DropdownMenu";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -22,6 +23,7 @@ export const Header = () => {
   const pathname = usePathname();
   const headerRef = useRef<HTMLHeadElement>(null);
   const windowSize = useWindowSize();
+  const [openMenu, setOpenMenu] = useState(false);
 
   useGSAP(() => {
     if (!headerRef.current) return;
@@ -50,9 +52,10 @@ export const Header = () => {
   }, [windowSize]);
 
   return (
-    <div className="relative h-[82px] w-full">
+    <div className="relative z-101 h-[82px] w-full">
       <header
         ref={headerRef}
+        onMouseLeave={() => setOpenMenu(false)}
         className="font-inter absolute top-3 left-[50%] flex w-full translate-x-[-50%] justify-between px-8 py-4 transition-[width] duration-500"
       >
         <div className="flex w-full items-center justify-between">
@@ -70,8 +73,17 @@ export const Header = () => {
 
           {windowSize > 1024 && (
             <section className="flex gap-x-8 text-center">
-              <Link href={"/services/webpage"}>{header.services}</Link>
-              <p>{header.work}</p>
+              <button
+                onMouseEnter={() => setOpenMenu(true)}
+                onClick={() => setOpenMenu(true)}
+                className="cursor-pointer"
+              >
+                {header.services}
+              </button>
+              <DropdownMenu open={openMenu} setOpen={setOpenMenu} />
+              <a className="cursor-pointer" href="#showcase">
+                {header.work}
+              </a>
               <Link href={"/about-us"}>{header.about}</Link>
               <p>{header.blog}</p>
               <p>{header.contact}</p>
@@ -109,8 +121,8 @@ export const Header = () => {
           </section>
         </div>
         <section className="dropdown-menu mt-10 hidden flex-col items-start gap-y-4 text-4xl">
-          <p>{header.services}</p>
-          <p>{header.work}</p>
+          <Link href={"/services/webpage"}>{header.services}</Link>
+          <Link href={"#showcase"}>{header.work}</Link>
           <Link href={"/about-us"}>{header.about}</Link>
           <p>{header.blog}</p>
           <p>{header.contact}</p>
