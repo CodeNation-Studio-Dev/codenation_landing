@@ -6,7 +6,8 @@ import { CompleteImage } from "@lib/components/completeImage/CompleteImage";
 import { TwoColumnText } from "@lib/components/twoColumnText/TwoColumnText";
 import { getDictionary } from "@lib/helpers/getDictionary";
 import { Subcategories } from "@components/subcategories/Subcategories";
-import { TranslationProvider } from "@/src/_providers/translationProvider";
+import { Testimonials } from "@components/testimonials/Testimonials";
+import { TranslationProvider } from "@providers/translationProvider";
 
 const Page = async ({
   params,
@@ -16,7 +17,6 @@ const Page = async ({
 }>) => {
   const { lang, service } = await params;
   const dict = await getDictionary(lang, "services");
-  console.log(dict.bigText);
 
   return (
     <TranslationProvider dict={dict}>
@@ -68,6 +68,7 @@ const Page = async ({
         />
         <Tecnologies />
         <Subcategories />
+        <Testimonials />
       </div>
     </TranslationProvider>
   );
