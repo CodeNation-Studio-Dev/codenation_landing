@@ -77,7 +77,7 @@ export const DropdownMenu = ({
                 </div>
               </div>
               <div className="4xl:text-sm text-sm font-light text-gray-400 dark:text-gray-200">
-                Creating brands you're proud of
+                Creating brands you&apos;re proud of
               </div>
             </div>
           </Link>
