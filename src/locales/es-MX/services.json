@@ -44,5 +44,31 @@
       "title": "Estrategia",
       "description": "No solo enfocada en el presente, sino también en el futuro para identificar oportunidades de crecimiento."
     }
+  },
+  "testimonials": {
+    "title": "Why our clients love Craft CMS",
+    "subtitle": "Testimonials",
+    "alltestimonials": [
+      {
+        "user": "Emily Schweitzer",
+        "company": "Inside Out Contracts",
+        "message": "Our website just blows our competitors out the water. It's so much easier to navigate than before and is just a cut above the rest. If I went back in time I would definitely choose Shape again, I just wouldn't bother with anyone else. The team at Shape are very friendly, very responsive and they are great value for money."
+      },
+      {
+        "user": "Suzie Steel",
+        "company": "The Plough",
+        "message": "Our website smashes our competitors websites out the park. We've had lots of comments about how good it is, how easy it is to navigate through and how beautiful it is. Benefits of working with Shape are that they really engross themselves in your brand &amp; put that across in your website."
+      },
+      {
+        "user": "Rachel Bates",
+        "company": "Rachel Bates",
+        "message": "If I went back in time I would definitely work with Shape again. Our website would stand up as being totally unique against all our competitors. Shape are so hip &amp; so different and their approach is so fresh. Andy really goes above and beyond with everything you ask him to do."
+      },
+      {
+        "user": "Nicola Wellard",
+        "company": "Silver Sixpence",
+        "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
+      }
+    ]
   }
 }
