@@ -1,16 +1,16 @@
 "use client";
-import { PlayButton } from "@/src/_lib/components/playButton/PlayButton";
+import { PlayButton } from "@lib/components/playButton/PlayButton";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation } from "swiper/modules";
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useTranslations } from "@providers/translationProvider";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 export const Testimonials = () => {
   const { testimonials } = useTranslations();
 
   return (
-    <div className="4xl:pb-40 w-full pb-20 lg:pb-24 2xl:pb-32">
+    <div className="4xl:pb-40 mt-20 w-full pb-20 lg:pb-24 2xl:pb-32">
       <div className="3xl:pl-40 4xl:pl-60 pl-2 sm:pl-6 xl:pl-12 2xl:pl-20">
         <div className="flex w-full flex-wrap">
           <div className="mb-5 inline-flex w-full flex-row items-end justify-between px-2 lg:mb-0 lg:w-4/16 lg:flex-col lg:items-start lg:justify-between lg:px-3 xl:px-4">
@@ -88,10 +88,9 @@ export const Testimonials = () => {
                   ) => (
                     <SwiperSlide
                       key={index}
-                      className="flex h-auto px-2 lg:px-3 xl:px-4"
-                      style={{ width: "570.588px" }}
+                      className="flex !h-[440px] !w-[350px] px-2 md:!h-[400px] md:!w-[570px] lg:px-3 xl:px-4"
                     >
-                      <div className="bg-surface-container flex h-[400px] w-full flex-col items-start justify-between rounded-2xl p-6 lg:rounded-3xl lg:p-10">
+                      <div className="bg-surface-container flex h-full flex-col items-start justify-between rounded-2xl p-6 lg:rounded-3xl lg:p-10">
                         <div className="w-full">
                           <div className="leading-relaxed">
                             {testimonial.message}
