@@ -70,5 +70,48 @@
         "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
       }
     ]
+  },
+  "favorites": {
+    "fewWords": "Our work",
+    "title": "Our favourite Web design Projects",
+    "viewWork": "View our work",
+    "projects": {
+      "first": {
+        "title": "Refreshin Gary Nevill'es digital presence",
+        "client": "Gary Neville",
+        "date": 2023,
+        "mediaType": "video"
+      },
+      "second": {
+        "title": "Disrupting the plasma donation space",
+        "client": "Olgam Life",
+        "date": 2023,
+        "mediaType": "video"
+      },
+      "third": {
+        "title": "Overhauling a people-first marketing agency",
+        "client": "Natterjack",
+        "date": 2023,
+        "mediaType": "img"
+      },
+      "fourth": {
+        "title": "Complete brand overhaul for a digital performance agency",
+        "client": "This is digital",
+        "date": 2023,
+        "mediaType": "img"
+      },
+      "fifth": {
+        "title": "Re-imagining the visual face of later life care",
+        "client": "Millennium Care",
+        "date": 2023,
+        "mediaType": "img"
+      },
+      "sixth": {
+        "title": "Showcasing a common passion for the workplace",
+        "client": "Area",
+        "date": 2023,
+        "mediaType": "img"
+      }
+    }
   }
 }
