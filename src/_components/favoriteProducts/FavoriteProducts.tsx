@@ -24,7 +24,6 @@ interface Project {
 }
 
 export const FavoriteProducts = () => {
-  const [padding, setPadding] = useState(true);
   const { favorites } = useTranslations();
   const projects = Object.values(favorites.projects) as Project[];
   return (
@@ -49,9 +48,7 @@ export const FavoriteProducts = () => {
               className="font-inter my-4 lg:my-0"
             />
           </div>
-          <div
-            className={`flex w-full flex-col ${padding && "3xl:pl-40 4xl:pl-60 xl:pl-20"} pl-2 md:pl-6`}
-          >
+          <div className="flex w-full flex-col">
             <Swiper
               modules={[Navigation]}
               navigation={{
@@ -59,8 +56,22 @@ export const FavoriteProducts = () => {
                 prevEl: ".previous-slide-fav",
               }}
               slidesPerView={"auto"}
-              loop
               className="w-full"
+              slidesOffsetBefore={8}
+              breakpoints={{
+                768: {
+                  slidesOffsetBefore: 24,
+                },
+                1280: {
+                  slidesOffsetBefore: 80,
+                },
+                1920: {
+                  slidesOffsetBefore: 160,
+                },
+                2560: {
+                  slidesOffsetBefore: 240,
+                },
+              }}
             >
               {projects.map((project, i) => (
                 <SwiperSlide
@@ -100,16 +111,10 @@ export const FavoriteProducts = () => {
               ))}
             </Swiper>
             <div className="mt-10 flex w-full justify-center gap-x-2">
-              <button
-                onClick={() => setPadding(false)}
-                className="previous-slide-fav bg-surface-container inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
-              >
+              <button className="previous-slide-fav bg-surface-container inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-full">
                 <FaArrowLeft />
               </button>
-              <button
-                onClick={() => setPadding(false)}
-                className="next-slide-fav bg-surface-container inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
-              >
+              <button className="next-slide-fav bg-surface-container inline-flex h-10 w-10 cursor-pointer items-center justify-center rounded-full">
                 <FaArrowRight />
               </button>
             </div>
