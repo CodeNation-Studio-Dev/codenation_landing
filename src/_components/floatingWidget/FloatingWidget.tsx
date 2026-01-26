@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -24,8 +25,8 @@ export const FloatingWidget = () => {
 
   return (
     <div className="group pointer-events-auto fixed right-0 bottom-0 z-50 mx-8 my-6 hidden opacity-100 transition md:block">
-      <a
-        href="/contact/"
+      <Link
+        href="#"
         className="bg-secondary-container group relative flex h-28 w-28 items-center justify-center rounded-full"
       >
         <div className="relative top-0.5 text-2xl">👀</div>
@@ -89,7 +90,7 @@ export const FloatingWidget = () => {
             </svg>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   );
 };
