@@ -70,5 +70,48 @@
         "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
       }
     ]
+  },
+  "favorites": {
+    "fewWords": "Nuestro trabajo",
+    "title": "Nuestros proyectos favoritos de diseño web",
+    "viewWork": "Ver nuestro trabajo",
+    "projects": {
+      "first": {
+        "title": "Renovando la presencia digital de Gary Neville",
+        "client": "Gary Neville",
+        "date": 2023,
+        "mediaType": "video"
+      },
+      "second": {
+        "title": "Transformando el sector de la donación de plasma",
+        "client": "Olgam Life",
+        "date": 2023,
+        "mediaType": "video"
+      },
+      "third": {
+        "title": "Renovación integral de una agencia de marketing centrada en las personas",
+        "client": "Natterjack",
+        "date": 2023,
+        "mediaType": "img"
+      },
+      "fourth": {
+        "title": "Renovación completa de marca para una agencia de rendimiento digital",
+        "client": "This is digital",
+        "date": 2023,
+        "mediaType": "img"
+      },
+      "fifth": {
+        "title": "Reimaginando la identidad visual del cuidado en la etapa adulta",
+        "client": "Millennium Care",
+        "date": 2023,
+        "mediaType": "img"
+      },
+      "sixth": {
+        "title": "Mostrando una pasión compartida por el entorno laboral",
+        "client": "Area",
+        "date": 2023,
+        "mediaType": "img"
+      }
+    }
   }
 }

@@ -8,6 +8,7 @@ import { getDictionary } from "@lib/helpers/getDictionary";
 import { Subcategories } from "@components/subcategories/Subcategories";
 import { Testimonials } from "@components/testimonials/Testimonials";
 import { TranslationProvider } from "@providers/translationProvider";
+import { FavoriteProducts } from "@components/favoriteProducts/FavoriteProducts";
 
 const Page = async ({
   params,
@@ -69,6 +70,7 @@ const Page = async ({
         <Tecnologies />
         <Subcategories />
         <Testimonials />
+        <FavoriteProducts />
       </div>
     </TranslationProvider>
   );
