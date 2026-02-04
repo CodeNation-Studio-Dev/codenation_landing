@@ -11,37 +11,6 @@ import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// const serviceCategories = [
-//   {
-//     title: "Fábrica de Software",
-//     subtitle: "Soluciones digitales a la medida de tu negocio",
-//     description:
-//       "Web, mobile, e-commerce, SaaS y sistemas internos. Construimos productos escalables con metodologías ágiles y tecnología moderna.",
-//     link: "",
-//   },
-//   {
-//     title: "Desarrollo de MVP",
-//     subtitle: "Válida tu idea con un producto funcional",
-//     description:
-//       "Creamos un producto mínimo viable (MVP) con enfoque Lean para probar mercado, atraer usuarios y avanzar rápido sin sobreinvertir.",
-//     link: "",
-//   },
-//   {
-//     title: "Integración de IA",
-//     subtitle: "Inteligencia artificial y automatización aplicada a tu producto",
-//     description:
-//       "Chatbots, automatización, recomendaciones y análisis de datos para optimizar procesos y decisiones.",
-//     link: "",
-//   },
-//   {
-//     title: "Arquitectura en la Nube",
-//     subtitle: "Infraestructura segura, flexible y de alto rendimiento",
-//     description:
-//       "Diseño y gestión en AWS, GCP o Azure para alto rendimiento, seguridad y crecimiento continuo. Ideal para productos en crecimiento.",
-//     link: "",
-//   },
-// ];
-
 interface AllCategories {
   title: string;
   subtitle: string;
