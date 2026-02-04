@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
 import "swiper/css";
 import { useTranslations } from "@providers/translationProvider";
+import Link from "next/link";
 
 const brands = [
   { name: "doctoradvisor", image: "doctoradvisor.svg" },
@@ -68,12 +69,20 @@ export const Clients = () => {
               <h2 className="4xl:text-6xl max-w-2xl text-2xl leading-none tracking-tight text-balance text-white md:text-4xl xl:max-w-3xl xl:text-5xl">
                 {clients.title}
               </h2>
-              <PlayButton
-                content={clients.contact}
-                width={175}
-                color={{ text: "text-background", bg: "bg-secondary" }}
-                className="mt-5"
-              />
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href={
+                  "https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+                }
+              >
+                <PlayButton
+                  content={clients.contact}
+                  width={175}
+                  color={{ text: "text-background", bg: "bg-secondary" }}
+                  className="mt-5"
+                />
+              </Link>
             </div>
           </header>
           <Swiper

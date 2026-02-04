@@ -24,7 +24,6 @@ interface Project {
 
 export const FavoriteProducts = () => {
   const { favorites } = useTranslations();
-  const projects = Object.values(favorites.projects) as Project[];
   return (
     <section className="4xl:pb-40 w-full pb-20 lg:pb-24 2xl:pb-32">
       <div className="px-0">
@@ -72,7 +71,7 @@ export const FavoriteProducts = () => {
                 },
               }}
             >
-              {projects.map((project, i) => (
+              {favorites.allprojects.map((project: Project, i: number) => (
                 <SwiperSlide
                   key={i}
                   className="3xl:max-w-xl 4xl:max-w-3xl flex w-xs flex-col items-start px-2 md:max-w-sm lg:max-w-md lg:px-3 xl:max-w-lg xl:px-4 2xl:max-w-xl"

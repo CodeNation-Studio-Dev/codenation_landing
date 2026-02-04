@@ -14,21 +14,21 @@ export const PlayButton = ({
   className,
 }: PlayButtonProps) => {
   return (
-    <a
+    <button
       className={`group ${color.text} relative flex ` + className}
       style={{ width: width + 25 }}
     >
-      <button
+      <div
         className={`border-default ${color.bg} relative inline-flex items-center justify-center overflow-hidden rounded-full px-5 py-2 text-sm leading-tight shadow-none`}
         style={{ width }}
       >
         {content}
-      </button>
+      </div>
       <div
         className={`${color.bg} absolute right-0 flex h-9 w-9 transform items-center justify-center rounded-full transition-transform group-hover:translate-x-3 group-hover:rotate-45`}
       >
         <GoArrowUpRight size="16px" />
       </div>
-    </a>
+    </button>
   );
 };

@@ -19,7 +19,7 @@
   "subcategories": {
     "fewWords": "What we can help you with",
     "title": "A team of web design experts that can help you design and build a website you´re proud of",
-    "getInTouch": "Get in touch today",
+    "getInTouch": "Start your project",
     "webDesign": {
       "title": "Web Design",
       "description": "Bespoke web design perfect for your brand and target audience."
@@ -75,43 +75,43 @@
     "fewWords": "Our work",
     "title": "Our favourite Web design Projects",
     "viewWork": "View our work",
-    "projects": {
-      "first": {
+    "allprojects": [
+      {
         "title": "Refreshin Gary Nevill'es digital presence",
         "client": "Gary Neville",
         "date": 2023,
         "mediaType": "video"
       },
-      "second": {
+      {
         "title": "Disrupting the plasma donation space",
         "client": "Olgam Life",
         "date": 2023,
         "mediaType": "video"
       },
-      "third": {
+      {
         "title": "Overhauling a people-first marketing agency",
         "client": "Natterjack",
         "date": 2023,
         "mediaType": "img"
       },
-      "fourth": {
+      {
         "title": "Complete brand overhaul for a digital performance agency",
         "client": "This is digital",
         "date": 2023,
         "mediaType": "img"
       },
-      "fifth": {
+      {
         "title": "Re-imagining the visual face of later life care",
         "client": "Millennium Care",
         "date": 2023,
         "mediaType": "img"
       },
-      "sixth": {
+      {
         "title": "Showcasing a common passion for the workplace",
         "client": "Area",
         "date": 2023,
         "mediaType": "img"
       }
-    }
+    ]
   }
 }

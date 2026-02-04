@@ -3,6 +3,7 @@ import { useTranslations } from "@providers/translationProvider";
 import { GoArrowUpRight } from "react-icons/go";
 import { FaSquareFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import Link from "next/link";
 
 export const Footer = () => {
   const { footer } = useTranslations();
@@ -17,10 +18,15 @@ export const Footer = () => {
           <p className="max-w-[350px]">{footer.contactUs.address}</p>
           <p>{footer.contactUs.phone}</p>
           <button className="bg-primary-container text-tertiary group grid w-[300px] cursor-pointer grid-flow-col items-center justify-between gap-4 rounded-full px-7 py-4 backdrop-blur-2xl">
-            <div className="text-left">
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+              className="text-left"
+            >
               <p className="text-sm font-bold">{footer.contactUs.callUs}</p>
               <span className="text-sm">{footer.contactUs.analyze}</span>
-            </div>
+            </Link>
             <figure className="bg-opacity-30 relative h-[55px] w-[55px] overflow-hidden rounded-full">
               <GoArrowUpRight className="absolute top-1/2 left-1/2 h-[25px] w-[25px] -translate-x-1/2 -translate-y-1/2 opacity-100 transition-all duration-500 group-hover:translate-x-8 group-hover:-translate-y-12 group-hover:opacity-0" />
               <GoArrowUpRight className="absolute h-[25px] w-[25px] -translate-x-4 translate-y-12 opacity-0 transition-all duration-500 group-hover:translate-x-[19px] group-hover:translate-y-3 group-hover:opacity-100" />

@@ -108,7 +108,15 @@ export const Header = () => {
             )}
 
             {windowSize > 1024 ? (
-              <PlayButton content={header.start_project} width={150} />
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href={
+                  "https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+                }
+              >
+                <PlayButton content={header.start_project} width={150} />
+              </Link>
             ) : (
               <>
                 {open ? (
@@ -126,7 +134,14 @@ export const Header = () => {
           <Link href={"/about-us"}>{header.about}</Link>
           <p>{header.blog}</p>
           <p>{header.contact}</p>
-          <PlayButton content={header.start_project} width={150} />
+
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"https://www.linkedin.com/in/francisco-javier-luna-figueroa/"}
+          >
+            <PlayButton content={header.start_project} width={150} />
+          </Link>
         </section>
       </header>
     </div>

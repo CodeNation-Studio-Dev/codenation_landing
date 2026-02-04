@@ -16,7 +16,7 @@ export const Motto = () => {
           <figure className="bg-surface-container-low col-span-1 flex justify-between rounded-2xl p-5 sm:col-span-2 lg:p-8">
             <figcaption className="flex flex-col gap-y-1">
               <p className="text-5xl md:text-7xl">
-                <Counter target={500} duration={2} animation={"circ.out"} />
+                <Counter target={300} duration={2} animation={"circ.out"} />
                 {motto.mainGraph.value}
               </p>
               <span className="text-xs">{motto.mainGraph.description}</span>
@@ -29,7 +29,7 @@ export const Motto = () => {
           <figure className="bg-surface-container-low col-span-1 flex justify-between rounded-2xl p-5 lg:p-8">
             <figcaption className="flex flex-col gap-y-1">
               <p className="text-5xl md:text-7xl">
-                <Counter target={200} duration={4} animation={"circ.out"} />
+                <Counter target={3} duration={4} animation={"circ.out"} />
                 {motto.leftGraph.value}
               </p>
               <span className="text-xs">{motto.leftGraph.description}</span>
@@ -42,7 +42,7 @@ export const Motto = () => {
           <figure className="bg-surface-container-low col-span-1 flex justify-between rounded-2xl p-5 lg:p-8">
             <figcaption className="flex flex-col gap-y-1">
               <p className="text-5xl md:text-7xl">
-                <Counter target={76} duration={5} animation={"circ.out"} />
+                <Counter target={40} duration={5} animation={"circ.out"} />
                 {motto.rightGraph.value}
               </p>
               <span className="text-xs">{motto.rightGraph.description}</span>
