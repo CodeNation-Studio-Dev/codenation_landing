@@ -4,6 +4,7 @@ import { PinButton } from "@lib/components/pinButton/PinButton";
 import { PlayButton } from "@lib/components/playButton/PlayButton";
 import Image from "next/image";
 import { useTranslations } from "@providers/translationProvider";
+import Link from "next/link";
 
 export const Banner = () => {
   const { banner } = useTranslations();
@@ -36,8 +37,14 @@ export const Banner = () => {
             {banner.title3}
           </p>
           <div className="bg-background flex w-fit gap-x-6 rounded-b-2xl pr-6 pb-5 pl-5 md:pt-4">
-            <PlayButton content={"View our work"} width={160} />
-            {windowSize > 1024 && <PinButton content={"Meet the team"} />}
+            <Link href="#showcase">
+              <PlayButton content={banner.viewOurWork} width={160} />
+            </Link>
+            {windowSize > 1024 && (
+              <Link href="/about-us">
+                <PinButton content={banner.meetTeam} />
+              </Link>
+            )}
           </div>
         </header>
         <section className="3xl:px-40 4xl:px-60 px-2 sm:px-6 xl:px-12 2xl:px-20">

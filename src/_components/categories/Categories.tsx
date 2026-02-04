@@ -7,46 +7,16 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
 import { useWindowSize } from "@/src/_hooks/windowSize";
 import { useTranslations } from "@/src/_providers/translationProvider";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const serviceCategories = [
-  {
-    title: "Edelman’s Coins",
-    subtitle: "(USA)",
-    description:
-      "Front-end development, animations, optimization, web accessibility.",
-    link: "",
-  },
-  {
-    title: "Edelman’s Coins",
-    subtitle: "(USA)",
-    description:
-      "Front-end development, animations, optimization, web accessibility.",
-    link: "",
-  },
-  {
-    title: "Edelman’s Coins",
-    subtitle: "(USA)",
-    description:
-      "Front-end development, animations, optimization, web accessibility.",
-    link: "",
-  },
-  {
-    title: "Edelman’s Coins",
-    subtitle: "(USA)",
-    description:
-      "Front-end development, animations, optimization, web accessibility.",
-    link: "",
-  },
-  {
-    title: "Edelman’s Coins",
-    subtitle: "(USA)",
-    description:
-      "Front-end development, animations, optimization, web accessibility.",
-    link: "",
-  },
-];
+interface AllCategories {
+  title: string;
+  subtitle: string;
+  description: string;
+  url: string;
+}
 
 export const Categories = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -76,7 +46,7 @@ export const Categories = () => {
   return (
     <section
       ref={ref}
-      className="font-inter mt-20 flex w-full overflow-hidden px-2 lg:py-[10svh] sm:px-7 lg:h-[930px] lg:px-3 xl:px-4"
+      className="font-inter mt-20 flex w-full overflow-hidden px-2 sm:px-7 lg:h-[930px] lg:px-3 lg:py-[10svh] xl:px-4"
     >
       <div className="categories-container lg:h-[80svh]">
         <div
@@ -93,35 +63,42 @@ export const Categories = () => {
             <span className="text-md flex indent-[50px] font-light lg:w-[400px] lg:self-end">
               {categories.description}
             </span>
-
-            <PlayButton
-              content={"Contáctanos hoy"}
-              width={155}
-              color={{ text: "text-background", bg: "bg-secondary" }}
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href={"https://www.linkedin.com/company/codenation-studio/"}
               className="mt-5 lg:self-end"
-            />
+            >
+              <PlayButton
+                content={categories.contact}
+                width={155}
+                color={{ text: "text-background", bg: "bg-secondary" }}
+              />
+            </Link>
             <p>{categories.extra}</p>
           </header>
           <section className="flex flex-col lg:flex-row">
-            {serviceCategories.map((data, index) => (
-              <div
-                className="group border-on-surface hover:bg-on-tertiary-container flex flex-col gap-y-6 border-t-1 px-[25px] py-[30px] transition-all duration-300 ease-in-out lg:w-[30rem] lg:justify-between lg:border-t-0 lg:border-l-1 lg:px-[50px] lg:pb-[100px]"
-                key={index}
-              >
-                <h3 className="text-8xl lg:text-[200px]">{index + 1}</h3>
-                <div className="flex flex-col gap-y-4">
-                  <p className="text-4xl">{data.title}</p>
-                  <p className="text-lg">{data.subtitle}</p>
-                  <p className="text-md">{data.description}</p>
-                  <a
-                    href={data.link}
-                    className="bg-secondary flex h-[50px] w-[50px] items-center justify-center rounded-full group-hover:scale-110 lg:scale-0 lg:self-end lg:transition-transform lg:duration-300 lg:ease-[cubic-bezier(0.215,0.61,0.355,1)]"
-                  >
-                    <GoArrowUpRight className="text-background h-6 w-6" />
-                  </a>
+            {categories.allcategories.map(
+              (data: AllCategories, index: number) => (
+                <div
+                  className="group border-on-surface hover:bg-on-tertiary-container flex flex-col gap-y-6 border-t-1 px-[25px] py-[30px] transition-all duration-300 ease-in-out lg:w-[30rem] lg:justify-between lg:border-t-0 lg:border-l-1 lg:px-[50px] lg:pb-[100px]"
+                  key={index}
+                >
+                  <h3 className="text-8xl lg:text-[200px]">{index + 1}</h3>
+                  <div className="flex flex-col gap-y-4">
+                    <p className="text-4xl">{data.title}</p>
+                    <p className="text-lg">{data.subtitle}</p>
+                    <p className="text-md">{data.description}</p>
+                    <a
+                      href={data.url}
+                      className="bg-secondary flex h-[50px] w-[50px] items-center justify-center rounded-full group-hover:scale-110 lg:scale-0 lg:self-end lg:transition-transform lg:duration-300 lg:ease-[cubic-bezier(0.215,0.61,0.355,1)]"
+                    >
+                      <GoArrowUpRight className="text-background h-6 w-6" />
+                    </a>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ),
+            )}
           </section>
         </div>
       </div>

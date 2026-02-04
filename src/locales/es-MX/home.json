@@ -34,32 +34,60 @@
     "contact": "Contacto",
     "start_project": "Iniciar proyecto"
   },
+  "dropdown": {
+    "sideTitle": "Entrega de principio a fin",
+    "sideDescription": "Un conjunto completo de servicios para diseñar, construir y escalar productos digitales.",
+    "menuItems": [
+      {
+        "title": "Desarrollo de software",
+        "description": "Aplicaciones seguras adaptadas a tus necesidades"
+      },
+      {
+        "title": "MVP Técnico Validado",
+        "description": "Producto mínimo variable listo para escalar"
+      },
+      {
+        "title": "Diseño UX/UI",
+        "description": "Interfaces centradas en el usuario"
+      },
+      {
+        "title": "IA y automatización",
+        "description": "Integración de funciones inteligentes"
+      },
+      {
+        "title": "Arquitectura nativa de nube",
+        "description": "Sistemas basados en plataformas de nube modernas"
+      }
+    ]
+  },
   "banner": {
-    "hi": "Hola somos Codenation",
-    "title": "A web design and",
-    "title2": "branding agency",
-    "title3": "in Manchester",
+    "hi": "Hola somos CodeNation Studio",
+    "title": "Transformamos ideas",
+    "title2": "en soluciones",
+    "title3": "tecnológicas",
+    "viewOurWork": "Nuestro trabajo",
+    "meetTeam": "Conoce al equipo",
     "contact": {
       "hear": "Hear from Paco",
       "co_founder": "Co-Founder of Codenation"
     }
   },
   "motto": {
-    "title": "We transform brands and experiences to help our partners raise funding, grow revenue, and capture new customers",
+    "title": "Desarrollamos software enfocado en velocidad, escala y eficiencia.",
     "mainGraph": {
       "value": "%",
-      "description": "Increase in content production per month",
-      "client": "OFCOLOR"
+      "description": "Mayor velocidad de lanzamiento para MVPs",
+      "client": "METODOLOGÍAS ÁGILES"
     },
     "leftGraph": {
-      "value": "+",
-      "description": "Increase in content production per month",
-      "client": "ATELIO"
+      "value": "X",
+      "description": "Escalabilidad mejorada post-lanzamiento",
+      "client": "EFICIENCIA Y AUTOMATIZACIÓN"
     },
     "rightGraph": {
       "value": "%",
-      "description": "Increase in content production per month",
-      "client": "THE ART STUDENTS LEAGUE"
+      "description": "Reducción de costos operativos",
+      "client": "INGENIERÍA MODULAR Y NUBE"
     }
   },
   "showCase": {
@@ -67,14 +95,47 @@
     "explore": "Explora los portafolios"
   },
   "clients": {
-    "plug": "Publicidad vergonzosa",
-    "title": "Trabajamos con empresas emergentes y organizaciones globales.",
-    "contact": "Contáctanos hoy"
+    "plug": "De startups a empresas en crecimiento",
+    "title": "Colaboramos con equipos visionarios que valoran el software sólido y el crecimiento sostenible.",
+    "contact": "Inicia tu proyecto"
   },
   "categories": {
     "title": "Proyectos",
-    "subtitle": "Desde el desarrollo front-end hasta la creación de espacios digitales atractivos y funcionales",
-    "description": "Nos especializamos en la creación de sitios web interactivos, accesibles y con un propósito definido. Nos apasiona crear experiencias web funcionales y emocionalmente impactantes",
-    "extra": "Estos proyectos son desarrollados por Codenation Studio"
+    "subtitle": "Construimos tus soluciones digitales desde cero",
+    "description": "Ya sea que necesites validar una idea, escalar tu negocio o modernizar tu tecnología, desarrollamos productos digitales personalizados con enfoque ágil y tecnologías de vanguardia.",
+    "extra": "Estos proyectos son desarrollados por Codenation Studio",
+    "contact": "Contáctanos hoy",
+    "allcategories": [
+      {
+        "title": "Desarrollo de software a Medida",
+        "subtitle": "Soluciones a la medida de tu negocio",
+        "description": "Creamos aplicaciones seguras y fáciles de mantener, desde el concepto hasta la implementación y mucho más.",
+        "url": ""
+      },
+      {
+        "title": "MVP Técnico Validado",
+        "subtitle": "De la idea a tus primeros usuarios",
+        "description": "Construimos tu producto mínimo viable con arquitectura sólida, listo para escalar desde el primer día.",
+        "url": ""
+      },
+      {
+        "title": "Diseño UX/UI Orientado al Producto",
+        "subtitle": "Diseño con propósito",
+        "description": "Interfaces centradas en el usuario, respaldadas por investigación, pruebas de usabilidad y una entrega fluida al desarrollo.",
+        "url": ""
+      },
+      {
+        "title": "Integración de IA y automatización",
+        "subtitle": "Flujos de trabajo impulsados por IA",
+        "description": "Integre funciones inteligentes en sus flujos de trabajo, desde análisis de datos hasta herramientas predictivas y automatización de procesos",
+        "url": ""
+      },
+      {
+        "title": "Arquitectura Nativa de Nube",
+        "subtitle": "Infraestructura que escala contigo",
+        "description": "Sistemas escalables y resilientes basados ​​en plataformas de nube modernas (AWS, Azure, GCP) con las mejores prácticas de DevOps.",
+        "url": ""
+      }
+    ]
   }
 }

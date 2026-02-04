@@ -26,7 +26,9 @@ export const FloatingWidget = () => {
   return (
     <div className="group pointer-events-auto fixed right-0 bottom-0 z-50 mx-8 my-6 hidden opacity-100 transition md:block">
       <Link
-        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
         className="bg-secondary-container group relative flex h-28 w-28 items-center justify-center rounded-full"
       >
         <div className="relative top-0.5 text-2xl">👀</div>

@@ -34,32 +34,60 @@
     "contact": "Contact",
     "start_project": "Start a project"
   },
+  "dropdown": {
+    "sideTitle": "End-to-end delivery",
+    "sideDescription": "A complete set of services to design, build, and scale digital products.",
+    "menuItems": [
+      {
+        "title": "Software Development",
+        "description": "Secure applications tailored to your needs"
+      },
+      {
+        "title": "Validated Technical MVP",
+        "description": "Minimum viable product ready to scale"
+      },
+      {
+        "title": "UX/UI Design",
+        "description": "User-centered interfaces"
+      },
+      {
+        "title": "AI & Automation",
+        "description": "Integration of intelligent features"
+      },
+      {
+        "title": "Cloud-Native Architecture",
+        "description": "Systems built on modern cloud platforms"
+      }
+    ]
+  },
   "banner": {
-    "hi": "Hi We're Codenation",
-    "title": "A web design and",
-    "title2": "branding agency",
-    "title3": "in Manchester",
+    "hi": "Hi We're CodenNation Studio",
+    "title": "Transforming ideas",
+    "title2": "into personalized",
+    "title3": "digital products",
+    "viewOurWork": "View our work",
+    "meetTeam": "Meet the team",
     "contact": {
       "hear": "Hear from Paco",
       "co_founder": "Co-Founder of Codenation"
     }
   },
   "motto": {
-    "title": "We transform brands and experiences to help our partners raise funding, grow revenue, and capture new customers",
+    "title": "We build software focused on speed, scalability, and efficiency.",
     "mainGraph": {
       "value": "%",
-      "description": "Increase in content production per month",
-      "client": "OFCOLOR"
+      "description": "Faster MVP launch time",
+      "client": "AGILE METHODOLOGIES"
     },
     "leftGraph": {
-      "value": "+",
-      "description": "Brand artifacts created in 2 weeks",
-      "client": "ATELIO"
+      "value": "X",
+      "description": "Improved scalability after launch",
+      "client": "EFFICIENCY & AUTOMATION"
     },
     "rightGraph": {
       "value": "%",
-      "description": "Increase in organic search traffic",
-      "client": "THE ART STUDENTS LEAGUE"
+      "description": "Reduced operational costs",
+      "client": "MODULAR & CLOUD ENGINEERING"
     }
   },
   "showCase": {
@@ -67,14 +95,47 @@
     "explore": "Explore All Showcases"
   },
   "clients": {
-    "plug": "Shameful Plug",
-    "title": "We work with start-up businesses through to global organisations.",
+    "plug": "From startups to growing companies",
+    "title": "We collaborate with visionary teams that value solid software and sustainable growth.",
     "contact": "Get in touch today"
   },
   "categories": {
-    "title": "Projects",
-    "subtitle": "From front-end development to crafting beautiful, funcional digital spaces",
-    "description": "We specialize in building interactive, accessible, and purpose-driven websites. We passionate about crafting web experiences that are both functional and emotionally resonant",
-    "extra": "These projects are developed by Codenation Studio"
+    "title": "Services",
+    "subtitle": "Software solutions built for growth, scale, and impact",
+    "description": "Whether you need to validate an idea, scale your business, or modernize your technology, we develop custom digital products with an agile approach and cutting-edge technologies.",
+    "extra": "These services are offered by Codenation Studio",
+    "contact": "Get in touch",
+    "allcategories": [
+      {
+        "title": "Custom Software Development",
+        "subtitle": "Build around your business",
+        "description": "We build secure, maintainable applications tailored to your business needs — from concept to deployment and beyond.",
+        "url": ""
+      },
+      {
+        "title": "MVP Development",
+        "subtitle": "From idea to first users",
+        "description": "Launch faster with a lean, validated product that tests your idea, attracts users, and secures funding.",
+        "url": ""
+      },
+      {
+        "title": "Product-Driven UX/UI Design",
+        "subtitle": "User-first design with purpose",
+        "description": "User-centered interfaces backed by research, usability testing, and seamless handoff to development.",
+        "url": ""
+      },
+      {
+        "title": "AI & Automation Integration",
+        "subtitle": "AI-powered business workflows",
+        "description": "Embed intelligent features into your workflows — from data analysis to predictive tools and process automation.",
+        "url": ""
+      },
+      {
+        "title": "Cloud-Native Architecture",
+        "subtitle": "Infrastructure that scales with you",
+        "description": "Scalable, resilient systems built on modern cloud platforms (AWS, Azure, GCP) with DevOps best practices.",
+        "url": ""
+      }
+    ]
   }
 }
