@@ -1,23 +1,24 @@
-import { Tecnologies } from "@components/tecnologies/Tecnologies";
 import { PlayButton } from "@lib/components/playButton/PlayButton";
 import { TwoColumnImageContent } from "@lib/components/twoColumnImageContent/TwoColumnImageContent";
 import { BigText } from "@lib/components/bigText/BigText";
 import { CompleteImage } from "@lib/components/completeImage/CompleteImage";
 import { TwoColumnText } from "@lib/components/twoColumnText/TwoColumnText";
 import { getDictionary } from "@lib/helpers/getDictionary";
-import { Subcategories } from "@components/subcategories/Subcategories";
-import { Testimonials } from "@components/testimonials/Testimonials";
 import { TranslationProvider } from "@providers/translationProvider";
-import { FavoriteProducts } from "@components/favoriteProducts/FavoriteProducts";
+import { servicesStructure } from "@/src/config/servicesStructure";
 
 const Page = async ({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ lang: string; service: string }>;
+  params: Promise<{
+    lang: string;
+    service: "webpage" | "mvp" | "design" | "automatization" | "cloud";
+  }>;
 }>) => {
   const { lang, service } = await params;
   const dict = await getDictionary(lang, "services");
+  const sections = servicesStructure[service];
 
   return (
     <TranslationProvider dict={dict}>
@@ -67,10 +68,10 @@ const Page = async ({
           }
           rotate
         />
-        <Tecnologies />
-        <Subcategories />
-        <Testimonials />
-        <FavoriteProducts />
+        {sections.map((section) => {
+          const Component = section.component;
+          return <Component key={section.key} service={dict[service]} />;
+        })}
       </div>
     </TranslationProvider>
   );

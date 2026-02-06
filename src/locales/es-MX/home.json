@@ -40,23 +40,28 @@
     "menuItems": [
       {
         "title": "Desarrollo de software",
-        "description": "Aplicaciones seguras adaptadas a tus necesidades"
+        "description": "Aplicaciones seguras adaptadas a tus necesidades",
+        "url": "webpage"
       },
       {
         "title": "MVP Técnico Validado",
-        "description": "Producto mínimo variable listo para escalar"
+        "description": "Producto mínimo variable listo para escalar",
+        "url": "mvp"
       },
       {
         "title": "Diseño UX/UI",
-        "description": "Interfaces centradas en el usuario"
+        "description": "Interfaces centradas en el usuario",
+        "url": "design"
       },
       {
         "title": "IA y automatización",
-        "description": "Integración de funciones inteligentes"
+        "description": "Integración de funciones inteligentes",
+        "url": "automatization"
       },
       {
         "title": "Arquitectura nativa de nube",
-        "description": "Sistemas basados en plataformas de nube modernas"
+        "description": "Sistemas basados en plataformas de nube modernas",
+        "url": "cloud"
       }
     ]
   },

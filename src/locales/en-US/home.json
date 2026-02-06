@@ -40,23 +40,28 @@
     "menuItems": [
       {
         "title": "Software Development",
-        "description": "Secure applications tailored to your needs"
+        "description": "Secure applications tailored to your needs",
+        "url": "webpage"
       },
       {
         "title": "Validated Technical MVP",
-        "description": "Minimum viable product ready to scale"
+        "description": "Minimum viable product ready to scale",
+        "url": "mvp"
       },
       {
         "title": "UX/UI Design",
-        "description": "User-centered interfaces"
+        "description": "User-centered interfaces",
+        "url": "design"
       },
       {
         "title": "AI & Automation",
-        "description": "Integration of intelligent features"
+        "description": "Integration of intelligent features",
+        "url": "automatization"
       },
       {
         "title": "Cloud-Native Architecture",
-        "description": "Systems built on modern cloud platforms"
+        "description": "Systems built on modern cloud platforms",
+        "url": "cloud"
       }
     ]
   },

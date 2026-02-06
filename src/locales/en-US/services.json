@@ -1,5 +1,6 @@
 {
   "webpage": {
+    "name": "webpage",
     "main": {
       "title": "A web design studio in manchester",
       "description": "Here at MadeByShape, we offer honest advice, industry experience, and a great portfolio of work. \n\n UI/UX, wireframes, research and development — we understand all areas of web design. We can take a start-up business with nothing to a fully functioning brand online and offline. We can revamp an existing website or take a successful brand to the next level. Our talented and creative in-house web design team in Manchester will work alongside you in collaboration to create a site that reflects your brand, talks to your audience with meaning and personality, and has great functionality across the latest devices."
@@ -13,105 +14,609 @@
     "inhouse": {
       "title": "We handle every project in-house, we don't outsource.",
       "description": "We're a strong team of 16, we know how much work we can take on, and we let clients know if there will be a delay. Every website project we take on is produced in-house, with no outsourcing involved. If we feel we're not the right fit for your project, we will use our digital industry experience to recommend a suitable agency for you. Our team of brand designers, web designers, and content writers work together to give you the perfect solution."
+    },
+    "bigText": "Lets work together.",
+    "subcategories": {
+      "fewWords": "What we can help you with",
+      "title": "A team of web design experts that can help you design and build a website you´re proud of",
+      "getInTouch": "Start your project",
+      "allsubcategories": [
+        {
+          "title": "Web Design",
+          "description": "Bespoke web design perfect for your brand and target audience."
+        },
+        {
+          "title": "eCommerce",
+          "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
+        },
+        {
+          "title": "UX Design",
+          "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+        },
+        {
+          "title": "Responsive Design",
+          "description": "Designed for all the latest devices, including iPhone and iPad."
+        },
+        {
+          "title": "Wireframes",
+          "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+        },
+        {
+          "title": "Strategy",
+          "description": "Not only looking at the now, but also to the future to see potential growth."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Why our clients love Craft CMS",
+      "subtitle": "Testimonials",
+      "alltestimonials": [
+        {
+          "user": "Emily Schweitzer",
+          "company": "Inside Out Contracts",
+          "message": "Our website just blows our competitors out the water. It's so much easier to navigate than before and is just a cut above the rest. If I went back in time I would definitely choose Shape again, I just wouldn't bother with anyone else. The team at Shape are very friendly, very responsive and they are great value for money."
+        },
+        {
+          "user": "Suzie Steel",
+          "company": "The Plough",
+          "message": "Our website smashes our competitors websites out the park. We've had lots of comments about how good it is, how easy it is to navigate through and how beautiful it is. Benefits of working with Shape are that they really engross themselves in your brand &amp; put that across in your website."
+        },
+        {
+          "user": "Rachel Bates",
+          "company": "Rachel Bates",
+          "message": "If I went back in time I would definitely work with Shape again. Our website would stand up as being totally unique against all our competitors. Shape are so hip &amp; so different and their approach is so fresh. Andy really goes above and beyond with everything you ask him to do."
+        },
+        {
+          "user": "Nicola Wellard",
+          "company": "Silver Sixpence",
+          "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
+        }
+      ]
+    },
+    "favorites": {
+      "fewWords": "Our work",
+      "title": "Our favourite Web design Projects",
+      "viewWork": "View our work",
+      "allprojects": [
+        {
+          "title": "Refreshin Gary Nevill'es digital presence",
+          "client": "Gary Neville",
+          "date": 2023,
+          "mediaType": "video",
+          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+        },
+        {
+          "title": "Disrupting the plasma donation space",
+          "client": "Olgam Life",
+          "date": 2023,
+          "mediaType": "video",
+          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
+        },
+        {
+          "title": "Overhauling a people-first marketing agency",
+          "client": "Natterjack",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Complete brand overhaul for a digital performance agency",
+          "client": "This is digital",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Re-imagining the visual face of later life care",
+          "client": "Millennium Care",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Showcasing a common passion for the workplace",
+          "client": "Area",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        }
+      ]
     }
   },
-  "bigText": "Lets work together.",
-  "subcategories": {
-    "fewWords": "What we can help you with",
-    "title": "A team of web design experts that can help you design and build a website you´re proud of",
-    "getInTouch": "Start your project",
-    "webDesign": {
-      "title": "Web Design",
-      "description": "Bespoke web design perfect for your brand and target audience."
+  "mvp": {
+    "name": "mvp",
+    "main": {
+      "title": "MVP listo para escalar",
+      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio.\n\nDesarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
     },
-    "eCommerce": {
-      "title": "eCommerce",
-      "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
+    "explanation": {
+      "fewWords": "Abordamos cada proyecto con una visión clara.",
+      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
+      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
+      "startProject": "Inicia un proyecto hoy"
     },
-    "uxDesign": {
-      "title": "UX Design",
-      "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+    "inhouse": {
+      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
+      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
     },
-    "responsiveDesign": {
-      "title": "Responsive Design",
-      "description": "Designed for all the latest devices, including iPhone and iPad."
+    "bigText": "Lets work together.",
+    "subcategories": {
+      "fewWords": "What we can help you with",
+      "title": "A team of web design experts that can help you design and build a website you´re proud of",
+      "getInTouch": "Start your project",
+      "allsubcategories": [
+        {
+          "title": "Web Design",
+          "description": "Bespoke web design perfect for your brand and target audience."
+        },
+        {
+          "title": "eCommerce",
+          "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
+        },
+        {
+          "title": "UX Design",
+          "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+        },
+        {
+          "title": "Responsive Design",
+          "description": "Designed for all the latest devices, including iPhone and iPad."
+        },
+        {
+          "title": "Wireframes",
+          "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+        },
+        {
+          "title": "Strategy",
+          "description": "Not only looking at the now, but also to the future to see potential growth."
+        }
+      ]
     },
-    "wireframes": {
-      "title": "Wireframes",
-      "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+    "testimonials": {
+      "title": "Dynamic Layout",
+      "subtitle": "Testimonials",
+      "alltestimonials": [
+        {
+          "user": "Emily Schweitzer",
+          "company": "Inside Out Contracts",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Suzie Steel",
+          "company": "The Plough",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Rachel Bates",
+          "company": "Rachel Bates",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Nicola Wellard",
+          "company": "Silver Sixpence",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
     },
-    "strategy": {
-      "title": "Strategy",
-      "description": "Not only looking at the now, but also to the future to see potential growth."
+    "favorites": {
+      "fewWords": "Our work",
+      "title": "Dynamic Layout",
+      "viewWork": "View our work",
+      "allprojects": [
+        {
+          "title": "Dynamic Layout",
+          "client": "Gary Neville",
+          "date": 2023,
+          "mediaType": "video",
+          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Olgam Life",
+          "date": 2023,
+          "mediaType": "video",
+          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Natterjack",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "This is digital",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Millennium Care",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Area",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        }
+      ]
     }
   },
-  "testimonials": {
-    "title": "Why our clients love Craft CMS",
-    "subtitle": "Testimonials",
-    "alltestimonials": [
-      {
-        "user": "Emily Schweitzer",
-        "company": "Inside Out Contracts",
-        "message": "Our website just blows our competitors out the water. It's so much easier to navigate than before and is just a cut above the rest. If I went back in time I would definitely choose Shape again, I just wouldn't bother with anyone else. The team at Shape are very friendly, very responsive and they are great value for money."
-      },
-      {
-        "user": "Suzie Steel",
-        "company": "The Plough",
-        "message": "Our website smashes our competitors websites out the park. We've had lots of comments about how good it is, how easy it is to navigate through and how beautiful it is. Benefits of working with Shape are that they really engross themselves in your brand &amp; put that across in your website."
-      },
-      {
-        "user": "Rachel Bates",
-        "company": "Rachel Bates",
-        "message": "If I went back in time I would definitely work with Shape again. Our website would stand up as being totally unique against all our competitors. Shape are so hip &amp; so different and their approach is so fresh. Andy really goes above and beyond with everything you ask him to do."
-      },
-      {
-        "user": "Nicola Wellard",
-        "company": "Silver Sixpence",
-        "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
-      }
-    ]
+  "design": {
+    "name": "design",
+    "main": {
+      "title": "MVP listo para escalar",
+      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio.\n\nDesarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+    },
+    "explanation": {
+      "fewWords": "Abordamos cada proyecto con una visión clara.",
+      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
+      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
+      "startProject": "Inicia un proyecto hoy"
+    },
+    "inhouse": {
+      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
+      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+    },
+    "bigText": "Lets work together.",
+    "subcategories": {
+      "fewWords": "What we can help you with",
+      "title": "A team of web design experts that can help you design and build a website you´re proud of",
+      "getInTouch": "Start your project",
+      "allsubcategories": [
+        {
+          "title": "Web Design",
+          "description": "Bespoke web design perfect for your brand and target audience."
+        },
+        {
+          "title": "eCommerce",
+          "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
+        },
+        {
+          "title": "UX Design",
+          "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+        },
+        {
+          "title": "Responsive Design",
+          "description": "Designed for all the latest devices, including iPhone and iPad."
+        },
+        {
+          "title": "Wireframes",
+          "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+        },
+        {
+          "title": "Strategy",
+          "description": "Not only looking at the now, but also to the future to see potential growth."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Dynamic Layout",
+      "subtitle": "Testimonials",
+      "alltestimonials": [
+        {
+          "user": "Emily Schweitzer",
+          "company": "Inside Out Contracts",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Suzie Steel",
+          "company": "The Plough",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Rachel Bates",
+          "company": "Rachel Bates",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Nicola Wellard",
+          "company": "Silver Sixpence",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    "favorites": {
+      "fewWords": "Our work",
+      "title": "Dynamic Layout",
+      "viewWork": "View our work",
+      "allprojects": [
+        {
+          "title": "Dynamic Layout",
+          "client": "Gary Neville",
+          "date": 2023,
+          "mediaType": "video",
+          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Olgam Life",
+          "date": 2023,
+          "mediaType": "video",
+          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Natterjack",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "This is digital",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Millennium Care",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Area",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        }
+      ]
+    }
   },
-  "favorites": {
-    "fewWords": "Our work",
-    "title": "Our favourite Web design Projects",
-    "viewWork": "View our work",
-    "allprojects": [
-      {
-        "title": "Refreshin Gary Nevill'es digital presence",
-        "client": "Gary Neville",
-        "date": 2023,
-        "mediaType": "video"
-      },
-      {
-        "title": "Disrupting the plasma donation space",
-        "client": "Olgam Life",
-        "date": 2023,
-        "mediaType": "video"
-      },
-      {
-        "title": "Overhauling a people-first marketing agency",
-        "client": "Natterjack",
-        "date": 2023,
-        "mediaType": "img"
-      },
-      {
-        "title": "Complete brand overhaul for a digital performance agency",
-        "client": "This is digital",
-        "date": 2023,
-        "mediaType": "img"
-      },
-      {
-        "title": "Re-imagining the visual face of later life care",
-        "client": "Millennium Care",
-        "date": 2023,
-        "mediaType": "img"
-      },
-      {
-        "title": "Showcasing a common passion for the workplace",
-        "client": "Area",
-        "date": 2023,
-        "mediaType": "img"
-      }
-    ]
+  "automatization": {
+    "name": "automatization",
+    "main": {
+      "title": "MVP listo para escalar",
+      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio.\n\nDesarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+    },
+    "explanation": {
+      "fewWords": "Abordamos cada proyecto con una visión clara.",
+      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
+      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
+      "startProject": "Inicia un proyecto hoy"
+    },
+    "inhouse": {
+      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
+      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+    },
+    "bigText": "Lets work together.",
+    "subcategories": {
+      "fewWords": "What we can help you with",
+      "title": "A team of web design experts that can help you design and build a website you´re proud of",
+      "getInTouch": "Start your project",
+      "allsubcategories": [
+        {
+          "title": "Web Design",
+          "description": "Bespoke web design perfect for your brand and target audience."
+        },
+        {
+          "title": "eCommerce",
+          "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
+        },
+        {
+          "title": "UX Design",
+          "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+        },
+        {
+          "title": "Responsive Design",
+          "description": "Designed for all the latest devices, including iPhone and iPad."
+        },
+        {
+          "title": "Wireframes",
+          "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+        },
+        {
+          "title": "Strategy",
+          "description": "Not only looking at the now, but also to the future to see potential growth."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Dynamic Layout",
+      "subtitle": "Testimonials",
+      "alltestimonials": [
+        {
+          "user": "Emily Schweitzer",
+          "company": "Inside Out Contracts",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Suzie Steel",
+          "company": "The Plough",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Rachel Bates",
+          "company": "Rachel Bates",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Nicola Wellard",
+          "company": "Silver Sixpence",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    "favorites": {
+      "fewWords": "Our work",
+      "title": "Dynamic Layout",
+      "viewWork": "View our work",
+      "allprojects": [
+        {
+          "title": "Dynamic Layout",
+          "client": "Gary Neville",
+          "date": 2023,
+          "mediaType": "video",
+          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Olgam Life",
+          "date": 2023,
+          "mediaType": "video",
+          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Natterjack",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "This is digital",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Millennium Care",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Area",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        }
+      ]
+    }
+  },
+  "cloud": {
+    "name": "cloud",
+    "main": {
+      "title": "MVP listo para escalar",
+      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio.\n\nDesarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+    },
+    "explanation": {
+      "fewWords": "Abordamos cada proyecto con una visión clara.",
+      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
+      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
+      "startProject": "Inicia un proyecto hoy"
+    },
+    "inhouse": {
+      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
+      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+    },
+    "bigText": "Lets work together.",
+    "subcategories": {
+      "fewWords": "What we can help you with",
+      "title": "A team of web design experts that can help you design and build a website you´re proud of",
+      "getInTouch": "Start your project",
+      "allsubcategories": [
+        {
+          "title": "Web Design",
+          "description": "Bespoke web design perfect for your brand and target audience."
+        },
+        {
+          "title": "eCommerce",
+          "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
+        },
+        {
+          "title": "UX Design",
+          "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+        },
+        {
+          "title": "Responsive Design",
+          "description": "Designed for all the latest devices, including iPhone and iPad."
+        },
+        {
+          "title": "Wireframes",
+          "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+        },
+        {
+          "title": "Strategy",
+          "description": "Not only looking at the now, but also to the future to see potential growth."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Dynamic Layout",
+      "subtitle": "Testimonials",
+      "alltestimonials": [
+        {
+          "user": "Emily Schweitzer",
+          "company": "Inside Out Contracts",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Suzie Steel",
+          "company": "The Plough",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Rachel Bates",
+          "company": "Rachel Bates",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+          "user": "Nicola Wellard",
+          "company": "Silver Sixpence",
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    },
+    "favorites": {
+      "fewWords": "Our work",
+      "title": "Dynamic Layout",
+      "viewWork": "View our work",
+      "allprojects": [
+        {
+          "title": "Dynamic Layout",
+          "client": "Gary Neville",
+          "date": 2023,
+          "mediaType": "video",
+          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Olgam Life",
+          "date": 2023,
+          "mediaType": "video",
+          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Natterjack",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "This is digital",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Millennium Care",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        },
+        {
+          "title": "Dynamic Layout",
+          "client": "Area",
+          "date": 2023,
+          "mediaType": "img",
+          "asset": "/assets/talk.webp"
+        }
+      ]
+    }
   }
 }
