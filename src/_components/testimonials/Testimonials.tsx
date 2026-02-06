@@ -3,12 +3,10 @@ import { PlayButton } from "@lib/components/playButton/PlayButton";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation } from "swiper/modules";
-import { useTranslations } from "@providers/translationProvider";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
+import { TranslationDict } from "@/src/_providers/translationProvider";
 
-export const Testimonials = () => {
-  const { testimonials } = useTranslations();
-
+export const Testimonials = ({ service }: TranslationDict) => {
   return (
     <div className="4xl:pb-40 mt-20 w-full pb-20 lg:pb-24 2xl:pb-32">
       <div className="3xl:pl-40 4xl:pl-60 pl-2 sm:pl-6 xl:pl-12 2xl:pl-20">
@@ -18,11 +16,11 @@ export const Testimonials = () => {
               <div className="inline-flex items-center space-x-2">
                 <div className="h-1.5 w-1.5 rounded-full bg-gray-600"></div>
                 <div className="text-sm font-light text-white">
-                  {testimonials.subtitle}
+                  {service.testimonials.subtitle}
                 </div>
               </div>
               <h2 className="font-inter max-w-xs text-2xl leading-none tracking-tight text-balance text-white md:text-4xl lg:mb-10 xl:text-6xl">
-                {testimonials.title}
+                {service.testimonials.title}
               </h2>
               <div className="group relative inline-flex items-center">
                 <PlayButton
@@ -77,7 +75,7 @@ export const Testimonials = () => {
                 loop
                 className="w-full"
               >
-                {testimonials.alltestimonials.map(
+                {service.testimonials.alltestimonials.map(
                   (
                     testimonial: {
                       message: string;
