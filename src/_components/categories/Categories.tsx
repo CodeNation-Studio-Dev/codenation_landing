@@ -15,6 +15,7 @@ interface AllCategories {
   title: string;
   subtitle: string;
   description: string;
+  img: string;
   url: string;
 }
 
@@ -81,11 +82,16 @@ export const Categories = () => {
             {categories.allcategories.map(
               (data: AllCategories, index: number) => (
                 <div
-                  className="group border-on-surface hover:bg-on-tertiary-container flex flex-col gap-y-6 border-t-1 px-[25px] py-[30px] transition-all duration-300 ease-in-out lg:w-[30rem] lg:justify-between lg:border-t-0 lg:border-l-1 lg:px-[50px] lg:pb-[100px]"
+                  className="group border-on-surface relative flex flex-col gap-y-6 border-t-1 px-[25px] py-[30px] transition-all duration-300 ease-in-out lg:w-[30rem] lg:justify-between lg:border-t-0 lg:border-l-1 lg:px-[50px] lg:pb-[100px]"
                   key={index}
                 >
-                  <h3 className="text-8xl lg:text-[200px]">{index + 1}</h3>
-                  <div className="flex flex-col gap-y-4">
+                  <div
+                    className="pointer-events-none absolute inset-0 bg-cover bg-[center] opacity-0 transition-opacity duration-300 group-hover:opacity-50"
+                    style={{ backgroundImage: `url(${data.img})` }}
+                  />
+
+                  <h3 className="z-10 text-8xl lg:text-[200px]">{index + 1}</h3>
+                  <div className="z-10 flex flex-col gap-y-4">
                     <p className="text-4xl">{data.title}</p>
                     <p className="text-lg">{data.subtitle}</p>
                     <p className="text-md">{data.description}</p>
