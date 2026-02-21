@@ -54,8 +54,9 @@ export const Banner = () => {
               loop
               muted
               playsInline
+              preload="auto"
               className="absolute top-0 left-0 h-full w-full object-cover"
-              src="https://servd-made-byshape.b-cdn.net/production/uploads/videos/shape-showreel-2024_looping-v3.mp4"
+              src="https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/projects-banner.mp4"
             ></video>
           </div>
         </section>
