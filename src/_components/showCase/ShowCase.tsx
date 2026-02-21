@@ -16,24 +16,7 @@ interface VideoProps {
 
 const videos: VideoProps[] = [
   {
-    src: "https://gsap.com/community/uploads/monthly_2025_01/trimmed.mp4.b3ee24a03e178b0c306dba74ff29e698.mp4",
-    title: "GSAP Showreel 2024",
-    link: "https://www.youtube.com/watch?v=ic-bHSoIUaA",
-    subtitle: "Watch Previous Showreels",
-    subtitleLink:
-      "https://youtube.com/playlist?list=PLLLrVKlAVicLCG0u8WkwLueVU40z0U456&si=FtIszRBdaARjuaAA",
-    features: "Watch Previous Showreels",
-  },
-  {
-    src: "https://gsap.com/community/uploads/monthly_2025_06/mb-gsap-sm.mp4.a8bed83d69ab830e1a6368832644e176.mp4",
-    title: "Keskinube",
-    link: "https://www.mbrown.work/",
-    subtitle: "Plataforma SaaS full-stack para retail y e-commerce",
-    subtitleLink: "",
-    features: "ScrollTrigger, Flip, SplitText",
-  },
-  {
-    src: "https://gsap.com/community/uploads/monthly_2025_06/gsap-vid-flowfest-sm.mp4.3b5bc1bbbf8658fdfa01f6938622baf4.mp4",
+    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/casino-radar-showcase.mp4",
     title: "Casino Radar",
     link: "https://www.flowfest.co.uk/",
     subtitle: "Datos en tiempo real con búsqueda por ubicación",
@@ -41,28 +24,28 @@ const videos: VideoProps[] = [
     features: "ScrollTrigger, DrawSVG, Draggable, Text, CustomEase",
   },
   {
-    src: "https://gsap.com/community/uploads/monthly_2025_06/phantom-site-gsap-vid-2_22.mp4.def6189fa924b7769c0a0f52f2f748a9.mp4",
+    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/keskinube-showcase.mp4",
+    title: "Keskinube",
+    link: "https://www.mbrown.work/",
+    subtitle: "Plataforma SaaS full-stack para retail y e-commerce",
+    subtitleLink: "",
+    features: "ScrollTrigger, Flip, SplitText",
+  },
+  {
+    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/mercadomi-showcase.mp4",
+    title: "Mercadomi",
+    link: "https://nvg8.io/",
+    subtitle: "Plataforma para contratación de servicios",
+    subtitleLink: "",
+    features: "ScrollTrigger, SplitText",
+  },
+  {
+    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/joypack-showcase.mp4",
     title: "Joypack for Business",
     link: "https://www.phantom.land/",
     subtitle: "Recompensas B2B con enfoque API-first",
     subtitleLink: "",
     features: "CustomEase, useGSAP",
-  },
-  {
-    src: "https://gsap.com/community/uploads/monthly_2025_05/gasp20submission20videos.mp4.6e16fb015e57976b93e6be4f0d1b58d1.mp4",
-    title: "CodeNation Internshipsstar",
-    link: "https://nvg8.io/",
-    subtitle: "Formación práctica para desarrolladores junior",
-    subtitleLink: "",
-    features: "ScrollTrigger, SplitText",
-  },
-  {
-    src: "https://gsap.com/community/uploads/monthly_2025_05/Meet-Your-Legend-GSAP-sm.mp4.529ab43da23e9add22f2714875611e79.mp4",
-    title: "Meet Your Legend / Beaucoup",
-    link: "https://meetyourlegend.com/",
-    subtitle: "ScrollTrigger",
-    subtitleLink: "",
-    features: "",
   },
 ];
 export const ShowCase = () => {
