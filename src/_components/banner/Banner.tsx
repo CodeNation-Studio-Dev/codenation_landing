@@ -61,7 +61,12 @@ export const Banner = () => {
           </div>
         </section>
         <footer className="3xl:px-42 4xl:px-62 absolute top-0 right-0 z-20 flex h-full bg-transparent px-3 pb-4 sm:px-7 xl:px-13 2xl:px-22">
-          <a className="bg-background group sticky bottom-6 flex h-fit cursor-pointer items-center self-end rounded-full py-1.5 pr-8 pl-1.5">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+            className="bg-background group sticky bottom-6 flex h-fit cursor-pointer items-center self-end rounded-full py-1.5 pr-8 pl-1.5"
+          >
             <div className="relative z-20 mr-3 flex h-14 w-14 transform items-center justify-center overflow-hidden rounded-full transition-all duration-700 group-hover:-translate-x-[-204px]">
               <Image
                 src="/assets/profile.jpeg"

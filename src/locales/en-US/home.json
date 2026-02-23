@@ -116,35 +116,35 @@
         "subtitle": "Build around your business",
         "description": "We build secure, maintainable applications tailored to your business needs — from concept to deployment and beyond.",
         "img": "/assets/categories-bg-software.png",
-        "url": ""
+        "url": "webpage"
       },
       {
         "title": "MVP Development",
         "subtitle": "From idea to first users",
         "description": "Launch faster with a lean, validated product that tests your idea, attracts users, and secures funding.",
         "img": "/assets/categories-bg-mvp.png",
-        "url": ""
+        "url": "mvp"
       },
       {
         "title": "Product-Driven UX/UI Design",
         "subtitle": "User-first design with purpose",
         "description": "User-centered interfaces backed by research, usability testing, and seamless handoff to development.",
         "img": "/assets/categories-bg-uxui.png",
-        "url": ""
+        "url": "design"
       },
       {
         "title": "AI & Automation Integration",
         "subtitle": "AI-powered business workflows",
         "description": "Embed intelligent features into your workflows — from data analysis to predictive tools and process automation.",
         "img": "/assets/categories-bg-automation.png",
-        "url": ""
+        "url": "automatization"
       },
       {
         "title": "Cloud-Native Architecture",
         "subtitle": "Infrastructure that scales with you",
         "description": "Scalable, resilient systems built on modern cloud platforms (AWS, Azure, GCP) with DevOps best practices.",
         "img": "/assets/categories-bg-cloud.png",
-        "url": ""
+        "url": "cloud"
       }
     ]
   }
