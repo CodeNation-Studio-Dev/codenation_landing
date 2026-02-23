@@ -59,13 +59,13 @@ export const Header = () => {
         className="font-inter absolute top-3 left-[50%] flex w-full translate-x-[-50%] justify-between px-8 py-4 transition-[width] duration-500"
       >
         <div className="flex w-full items-center justify-between">
-          <section className="relative h-10 w-20">
+          <section className="relative h-10 w-30">
             <Link href={`/${lang}`}>
               <Image
-                src="/assets/logo.png"
+                src="/assets/new-logo.png"
                 alt="Logo"
                 fill
-                sizes="10x10"
+                sizes="10x30"
                 priority
               />
             </Link>

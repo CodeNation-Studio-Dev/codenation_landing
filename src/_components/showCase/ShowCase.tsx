@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./ShowCase.css";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { useTranslations } from "@providers/translationProvider";
@@ -16,7 +16,7 @@ interface VideoProps {
 
 const videos: VideoProps[] = [
   {
-    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/casino-radar-showcase.mp4",
+    src: "/assets/casino-radar-showcase.mp4",
     title: "Casino Radar",
     link: "https://www.flowfest.co.uk/",
     subtitle: "Datos en tiempo real con búsqueda por ubicación",
@@ -24,7 +24,7 @@ const videos: VideoProps[] = [
     features: "ScrollTrigger, DrawSVG, Draggable, Text, CustomEase",
   },
   {
-    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/keskinube-showcase.mp4",
+    src: "/assets/keskinube-showcase.mp4",
     title: "Keskinube",
     link: "https://www.mbrown.work/",
     subtitle: "Plataforma SaaS full-stack para retail y e-commerce",
@@ -32,7 +32,7 @@ const videos: VideoProps[] = [
     features: "ScrollTrigger, Flip, SplitText",
   },
   {
-    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/mercadomi-showcase.mp4",
+    src: "/assets/mercadomi-showcase.mp4",
     title: "Mercadomi",
     link: "https://nvg8.io/",
     subtitle: "Plataforma para contratación de servicios",
@@ -40,7 +40,7 @@ const videos: VideoProps[] = [
     features: "ScrollTrigger, SplitText",
   },
   {
-    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/joypack-showcase.mp4",
+    src: "/assets/joypack-showcase.mp4",
     title: "Joypack for Business",
     link: "https://www.phantom.land/",
     subtitle: "Recompensas B2B con enfoque API-first",
@@ -98,6 +98,29 @@ export const ShowCase = () => {
       ? "translate-y-0 flex pt-0.5 text-sm [grid-area:1/1] items-center transition-transform duration-800 ease-out"
       : "flex translate-y-[-100%] pt-0.5 text-sm [grid-area:1/1] items-center transition-transform duration-300 ease-in-out";
 
+  const videoRefs = useRef<HTMLVideoElement[]>([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const video = entry.target as HTMLVideoElement;
+          if (entry.isIntersecting) {
+            video.play();
+          } else {
+            video.pause();
+          }
+        });
+      },
+      {
+        threshold: 0.5,
+      },
+    );
+    videoRefs.current.forEach((video) => {
+      if (video) observer.observe(video);
+    });
+  }, []);
+
   return (
     <section id="showcase" className="relative overflow-hidden pt-20 pb-20">
       <div className="relative z-2">
@@ -115,9 +138,11 @@ export const ShowCase = () => {
             >
               <div className="relative h-0 origin-top scale-[.975] overflow-hidden rounded-lg pb-[56%]">
                 <video
+                  ref={(element) => {
+                    if (element) videoRefs.current[index] = element;
+                  }}
                   className="object-cover"
                   loop
-                  autoPlay
                   muted
                   playsInline
                   preload="metadata"
