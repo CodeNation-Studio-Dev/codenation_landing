@@ -56,7 +56,7 @@ export const Banner = () => {
               playsInline
               preload="auto"
               className="absolute top-0 left-0 h-full w-full object-cover"
-              src="https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/projects-banner.mp4"
+              src="/assets/projects-banner2.mp4"
             ></video>
           </div>
         </section>

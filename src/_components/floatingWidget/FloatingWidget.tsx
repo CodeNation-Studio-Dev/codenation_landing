@@ -29,9 +29,9 @@ export const FloatingWidget = () => {
         target="_blank"
         rel="noopener noreferrer"
         href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
-        className="bg-secondary-container group relative flex h-28 w-28 items-center justify-center rounded-full"
+        className="bg-primary group relative flex h-28 w-28 items-center justify-center rounded-full"
       >
-        <div className="relative top-0.5 text-2xl">👀</div>
+        <div className="relative top-0.5 text-2xl">🚀</div>
         <div className="absolute top-0 left-0 h-full w-full p-2.5">
           <div className="h-full w-full transform transition xl:group-hover:rotate-180">
             <svg

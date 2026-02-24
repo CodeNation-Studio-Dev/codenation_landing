@@ -203,7 +203,9 @@ export const ShowCase = () => {
           </div>
 
           <Link
-            href="/showcases"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/company/codenation-studio/"
             className="inline-flex w-full items-center justify-center rounded-full border-2 border-amber-50 px-6 py-3.5 sm:w-fit"
           >
             <span className="button__label">{showCase.explore}</span>

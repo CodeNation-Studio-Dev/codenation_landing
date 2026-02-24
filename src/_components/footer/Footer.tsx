@@ -17,33 +17,48 @@ export const Footer = () => {
           </h2>
           <p className="max-w-[350px]">{footer.contactUs.address}</p>
           <p>{footer.contactUs.phone}</p>
-          <button className="bg-primary-container text-tertiary group grid w-[300px] cursor-pointer grid-flow-col items-center justify-between gap-4 rounded-full px-7 py-4 backdrop-blur-2xl">
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
-              className="text-left"
-            >
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+            className="bg-primary-container text-tertiary group grid w-[300px] cursor-pointer grid-flow-col items-center justify-between gap-4 rounded-full px-7 py-4 backdrop-blur-2xl"
+          >
+            <div>
               <p className="text-sm font-bold">{footer.contactUs.callUs}</p>
               <span className="text-sm">{footer.contactUs.analyze}</span>
-            </Link>
+            </div>
             <figure className="bg-opacity-30 relative h-[55px] w-[55px] overflow-hidden rounded-full">
               <GoArrowUpRight className="absolute top-1/2 left-1/2 h-[25px] w-[25px] -translate-x-1/2 -translate-y-1/2 opacity-100 transition-all duration-500 group-hover:translate-x-8 group-hover:-translate-y-12 group-hover:opacity-0" />
               <GoArrowUpRight className="absolute h-[25px] w-[25px] -translate-x-4 translate-y-12 opacity-0 transition-all duration-500 group-hover:translate-x-[19px] group-hover:translate-y-3 group-hover:opacity-100" />
             </figure>
-          </button>
+          </Link>
         </section>
         <section>
           <h2 className="font-inter mb-3 text-sm font-bold tracking-[3px] uppercase">
             {footer.services.title}
           </h2>
           <ul className="grid gap-y-2">
-            <li>{footer.services.web}</li>
+            <li>
+              <Link href="/services/mvp">{footer.services.mvp}</Link>
+            </li>
+            <li>
+              <Link href="/services/webpage">{footer.services.web}</Link>
+            </li>
+            <li>
+              <Link href="/services/design">{footer.services.design}</Link>
+            </li>
+            <li>
+              <Link href="/services/automatization">
+                {footer.services.automatization}
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/cloud">{footer.services.cloud}</Link>
+            </li>
             <li>{footer.services.mobile}</li>
-            <li>{footer.services.design}</li>
           </ul>
         </section>
-        <section>
+        {/* <section>
           <h2 className="font-inter mb-3 text-sm font-bold tracking-[3px] uppercase">
             {footer.solutions.title}
           </h2>
@@ -52,15 +67,13 @@ export const Footer = () => {
             <li>{footer.solutions.cloud}</li>
             <li>{footer.solutions.ai}</li>
           </ul>
-        </section>
+        </section> */}
         <section>
           <h2 className="font-inter mb-3 text-sm font-bold tracking-[3px] uppercase">
             {footer.company.title}
           </h2>
           <ul className="mb-10 grid gap-y-2">
             <li>{footer.company.aboutUs}</li>
-            <li>{footer.company.careers}</li>
-            <li>{footer.company.blog}</li>
           </ul>
           <footer className="grid grid-cols-4 text-2xl">
             <a href="https://www.facebook.com/CodenationStudio">
@@ -74,7 +87,7 @@ export const Footer = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://wa.me/523317255576"
+              href="https://wa.me/523339556808"
               target="_blank"
               rel="noreferrer"
             >
