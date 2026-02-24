@@ -60,7 +60,7 @@ export const Header = () => {
       >
         <div className="flex w-full items-center justify-between">
           <section className="relative h-10 w-20">
-            <Link href={"/"}>
+            <Link href={`/${lang}`}>
               <Image
                 src="/assets/logo.png"
                 alt="Logo"
@@ -80,11 +80,11 @@ export const Header = () => {
               >
                 {header.services}
               </button>
-              <DropdownMenu open={openMenu} setOpen={setOpenMenu} />
-              <a className="cursor-pointer" href="#showcase">
+              <DropdownMenu open={openMenu} setOpen={setOpenMenu} lang={lang} />
+              <a className="cursor-pointer" href={`/${lang}#showcase`}>
                 {header.work}
               </a>
-              <Link href={"/about-us"}>{header.about}</Link>
+              <Link href={`/${lang}/about-us`}>{header.about}</Link>
               <p>{header.blog}</p>
               <p>{header.contact}</p>
             </section>
@@ -129,9 +129,9 @@ export const Header = () => {
           </section>
         </div>
         <section className="dropdown-menu mt-10 hidden flex-col items-start gap-y-4 text-4xl">
-          <Link href={"/services/webpage"}>{header.services}</Link>
-          <Link href={"#showcase"}>{header.work}</Link>
-          <Link href={"/about-us"}>{header.about}</Link>
+          <Link href={`/${lang}/services/webpage`}>{header.services}</Link>
+          <Link href={`/${lang}/#showcase`}>{header.work}</Link>
+          <Link href={`/${lang}/about-us`}>{header.about}</Link>
           <p>{header.blog}</p>
           <p>{header.contact}</p>
 
