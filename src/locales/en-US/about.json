@@ -2,31 +2,39 @@
   "title": "Hi.",
   "title_extra": "We are Codenation Studio",
   "show_us": {
-    "title": "At Codenation Studio, we create technology aligned with your company's strategic objectives"
+    "title": "At CodeNation Studio, we build software with purpose, people, and quality, not just code."
   },
   "purpose": {
-    "title": "We'll be with you throughout the entire journey",
-    "description": "Our purpose: to put innovation and digital technology at the service of the business objectives of startups and established companies.  \n\n How? By developing new products and services, optimizing operations and communications, and even partnering to launch new brands together.  \n\n We manage processes from concept to implementation and follow-up. And we even help you access financing to make your business idea a reality."
+    "title": "Technology rooted locally, built for global impact",
+    "description": "We’re proudly from Guadalajara, Jalisco — Mexico’s tech capital.\n\nWe think big: our products and partnerships span borders. We collaborate with local universities to discover emerging talent, train from the ground up, and bridge the gap between academia and industry.\n\nMany of our engineers started as interns. Today, they lead technical projects. Here, you don’t just work. You grow."
   },
   "solutions": {
-    "title": "In love with technology",
-    "description": "Fascinated by its possibilities and results, but applying it with impartiality and judgment. \n\n We design and develop the solutions necessary for business objectives. We embrace innovation without fear of complexity, but without seeking complexity. Technology, at its best. \n\n • Analytics, big data, and business intelligence. \n\n • Internet of Things. \n\n • Artificial intelligence. \n\n • Software, apps, systems, and web and mobile platforms development."
+    "title": "What drives us",
+    "description": "We don’t build software just to make it run. We build it for what it makes possible:\n\n • Watching an MVP we built help a startup secure its first funding round.\n\n • Receiving a message that says: “This transformed my business.”\n\n • Seeing a student from a partner university grow into a full-stack engineer on our team.\n\n • Knowing the solutions we design are used—and loved—by real people, every day."
   },
   "contact": {
-    "title": "We are the technological partner for major challenges",
-    "description": "At Codenation Studio, we put a lot of effort into selecting the projects we collaborate on. If you'd like us to assess your case to see if we can help you optimize with technology and grow with our business vision, you can contact us.",
-    "link": "Contact us"
+    "title": "Have an idea worth building?",
+    "description": "We partner with founders and teams who care about doing things right. From validating an MVP to developing complex systems, we bring solid engineering and strategic thinking. We focus on building solutions that are reliable, scalable, and thoughtfully designed. Tell us what you're working on.",
+    "link": "Share your project"
   },
   "story": {
-    "title": "“Then it would be fun to accompany him.”",
-    "description": "Athlete, skier, expert carpenter… and also daring, inventive, and loyal. Olav Bjäland was the partner Amundsen was looking for to conquer unexplored regions. And it all started with a chance meeting after winning an international ski championship.",
-    "link": "Let's break the ice"
+    "title": "“More than clients, we look for expedition partners”",
+    "description": "Software is just the vehicle. What matters is who’s on the other side: Do you have an idea that challenges the status quo? We bring rigorous engineering, homegrown talent, and years of experience building systems. If your mission demands more than a vendor… you’re in the right place.",
+    "link": "— The CodeNation Studio team"
   },
   "trophy_shelf": {
-    "count": "100+ Awards",
-    "title": "Great ideas make happy clients - and win awards too",
-    "description": "Awards aren't everything—but hey, we love when the talent, creativity, and collaboration behind each project get recognized.",
-    "link": "Check out the trophy shelf"
+    "count": "More than trophies: validation of impact",
+    "title": "Awards celebrate. Accelerators test. We create value — together.",
+    "description": "Our journey has been validated by high-impact programs like Endeavor, EmpreLatam, Reto Zapopan, and Codelaunch",
+    "link": "Take a look at  these milestones.",
+    "alltrophies": {
+      "retozapopan": "2021 - Finalist",
+      "endeavor": "2023 - Graduates",
+      "codelaunch": "2024 - Finalist",
+      "emprelatam": "2025 - Graduates",
+      "itjalisco": "Partners since 20XX",
+      "itcolima": "Partners since 20XX"
+    }
   },
   "our_team": {
     "caption": "• Our Team",
