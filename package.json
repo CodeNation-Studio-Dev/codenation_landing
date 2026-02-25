@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "copy": "mv ./.next/static ./.next/standalone/.next/static; cp -r ./public ./.next/standalone/"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
