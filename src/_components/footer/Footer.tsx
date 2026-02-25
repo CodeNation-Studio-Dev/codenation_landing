@@ -4,6 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import { FaSquareFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
+import Image from "next/image";
 
 export const Footer = () => {
   const { footer } = useTranslations();
@@ -58,16 +59,6 @@ export const Footer = () => {
             <li>{footer.services.mobile}</li>
           </ul>
         </section>
-        {/* <section>
-          <h2 className="font-inter mb-3 text-sm font-bold tracking-[3px] uppercase">
-            {footer.solutions.title}
-          </h2>
-          <ul className="grid gap-y-2">
-            <li>{footer.solutions.contactCenter}</li>
-            <li>{footer.solutions.cloud}</li>
-            <li>{footer.solutions.ai}</li>
-          </ul>
-        </section> */}
         <section>
           <h2 className="font-inter mb-3 text-sm font-bold tracking-[3px] uppercase">
             {footer.company.title}
@@ -97,6 +88,9 @@ export const Footer = () => {
               <MdEmail />
             </a>
           </footer>
+        </section>
+        <section className="relative h-20 w-60">
+          <Image src="/assets/new-logo.png" alt="Logo" fill sizes="10x30" />
         </section>
       </article>
     </footer>

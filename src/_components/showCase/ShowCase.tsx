@@ -6,7 +6,7 @@ import { useTranslations } from "@providers/translationProvider";
 import Link from "next/link";
 
 interface VideoProps {
-  src: string;
+  videoId: string;
   title: string;
   link: string;
   subtitle: string;
@@ -16,7 +16,7 @@ interface VideoProps {
 
 const videos: VideoProps[] = [
   {
-    src: "/assets/casino-radar-showcase.mp4",
+    videoId: "lwEFX89iciM",
     title: "Casino Radar",
     link: "https://www.flowfest.co.uk/",
     subtitle: "Datos en tiempo real con búsqueda por ubicación",
@@ -24,7 +24,7 @@ const videos: VideoProps[] = [
     features: "ScrollTrigger, DrawSVG, Draggable, Text, CustomEase",
   },
   {
-    src: "/assets/keskinube-showcase.mp4",
+    videoId: "J4HPaBDWVLs",
     title: "Keskinube",
     link: "https://www.mbrown.work/",
     subtitle: "Plataforma SaaS full-stack para retail y e-commerce",
@@ -32,7 +32,7 @@ const videos: VideoProps[] = [
     features: "ScrollTrigger, Flip, SplitText",
   },
   {
-    src: "/assets/mercadomi-showcase.mp4",
+    videoId: "PTLOJ23gTLE",
     title: "Mercadomi",
     link: "https://nvg8.io/",
     subtitle: "Plataforma para contratación de servicios",
@@ -40,7 +40,7 @@ const videos: VideoProps[] = [
     features: "ScrollTrigger, SplitText",
   },
   {
-    src: "/assets/joypack-showcase.mp4",
+    videoId: "dLSPu9wpnHw",
     title: "Joypack for Business",
     link: "https://www.phantom.land/",
     subtitle: "Recompensas B2B con enfoque API-first",
@@ -98,27 +98,64 @@ export const ShowCase = () => {
       ? "translate-y-0 flex pt-0.5 text-sm [grid-area:1/1] items-center transition-transform duration-800 ease-out"
       : "flex translate-y-[-100%] pt-0.5 text-sm [grid-area:1/1] items-center transition-transform duration-300 ease-in-out";
 
-  const videoRefs = useRef<HTMLVideoElement[]>([]);
+  const videoRefs = useRef<HTMLIFrameElement[]>([]);
+  const players = useRef<YT.Player[]>([]);
+
+  useEffect(() => {
+    if (window.YT && window.YT.Player) return;
+
+    const tag = document.createElement("script");
+    tag.src = "https://www.youtube.com/iframe_api";
+    document.body.appendChild(tag);
+
+    type YouTubeWindow = Window & {
+      onYouTubeIframeAPIReady?: () => void;
+    };
+
+    (window as YouTubeWindow).onYouTubeIframeAPIReady = () => {
+      videoRefs.current.forEach((iframe, index) => {
+        if (!iframe) return;
+
+        players.current[index] = new window.YT.Player(iframe, {
+          events: {
+            onStateChange: (event: YT.OnStateChangeEvent) => {
+              if (event.data === window.YT.PlayerState.ENDED) {
+                event.target.seekTo(0, true);
+                event.target.playVideo();
+              }
+            },
+          },
+        });
+      });
+    };
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          const video = entry.target as HTMLVideoElement;
+          const index = videoRefs.current.findIndex(
+            (iframe) => iframe === entry.target,
+          );
+
+          const player = players.current[index];
+          if (!player) return;
+
           if (entry.isIntersecting) {
-            video.play();
+            player.playVideo();
           } else {
-            video.pause();
+            player.stopVideo();
           }
         });
       },
-      {
-        threshold: 0.5,
-      },
+      { threshold: 0.5 },
     );
-    videoRefs.current.forEach((video) => {
-      if (video) observer.observe(video);
+
+    videoRefs.current.forEach((iframe) => {
+      if (iframe) observer.observe(iframe);
     });
+
+    return () => observer.disconnect();
   }, []);
 
   return (
@@ -136,19 +173,18 @@ export const ShowCase = () => {
               style={getItemStyle(index)}
               key={index}
             >
-              <div className="relative h-0 origin-top scale-[.975] overflow-hidden rounded-lg pb-[56%]">
-                <video
+              <div className="relative h-0 origin-top scale-[.975] overflow-hidden pb-[56%]">
+                <iframe
                   ref={(element) => {
                     if (element) videoRefs.current[index] = element;
                   }}
-                  className="object-cover"
-                  loop
-                  muted
-                  playsInline
-                  preload="metadata"
-                >
-                  <source src={data.src} type="video/mp4" />
-                </video>
+                  className="pointer-events-none absolute h-full w-full rounded-4xl"
+                  src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=0&mute=1&loop=1&playlist=${data.videoId}&controls=0&rel=0&modestbranding=1&iv_load_policy=3&rel=0&vq=hd1080`}
+                  title="YouTube video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  frameBorder="0"
+                ></iframe>
               </div>
             </div>
           ))}
