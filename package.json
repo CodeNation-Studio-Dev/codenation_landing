@@ -7,7 +7,7 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "copy": "mkdir -p ./.next/standalone/.next/static && mv ./.next/static ./.next/standalone/.next/static; cp -r ./public ./.next/standalone/"
+    "copy": "mkdir -p ./.next/standalone/.next/static && mv ./.next/static ./.next/standalone/.next/; cp -r ./public ./.next/standalone/"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
