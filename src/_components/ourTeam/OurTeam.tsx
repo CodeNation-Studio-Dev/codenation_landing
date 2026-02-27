@@ -18,51 +18,6 @@ interface member {
 
 const team: member[] = [
   {
-    name: "Francisco Marmolejo",
-    position: "Senior Developer",
-    profile: "/assets/francisco-1.jpg",
-    gallery: [
-      "/assets/francisco-2.jpeg",
-      "/assets/francisco-3.jpeg",
-      "/assets/francisco-1.jpg",
-    ],
-    linkedin: "https://www.linkedin.com/in/francisco-javier-luna-figueroa/",
-  },
-  {
-    name: "Joel Martínez",
-    position: "Senior Developer",
-    profile: "/assets/joel-1.jpeg",
-    gallery: [
-      "/assets/joel-2.jpg",
-      "/assets/joel-3.jpeg",
-      "/assets/joel-1.jpeg",
-    ],
-    linkedin: "",
-  },
-  {
-    name: "Joshua ....",
-    position: ".......",
-    profile: "/assets/joshua-1.jpeg",
-    gallery: [
-      "/assets/joshua-2.jpeg",
-      "/assets/joshua-3.jpeg",
-      "/assets/joshua-1.jpeg",
-    ],
-    linkedin: "",
-  },
-  {
-    name: "Paco Luna",
-    position: "Senior Developer",
-    profile: "/assets/paco-1.jpeg",
-    gallery: [
-      "/assets/paco-2.jpeg",
-      "/assets/paco-3.jpeg",
-      "/assets/paco-4.jpeg",
-      "/assets/paco-1.jpeg",
-    ],
-    linkedin: "",
-  },
-  {
     name: "Anna Durán",
     position: "Junior Developer",
     profile: "/assets/ana-1.jpeg",
@@ -76,7 +31,7 @@ const team: member[] = [
     linkedin: "",
   },
   {
-    name: "Ángel ...",
+    name: "Ángel Morán",
     position: "Junior Developer",
     profile: "/assets/angel-1.jpeg",
     gallery: [
@@ -85,11 +40,71 @@ const team: member[] = [
       "/assets/angel-4.jpeg",
       "/assets/angel-1.jpeg",
     ],
+    linkedin: "https://www.linkedin.com/in/angel-moran-342840264/",
+  },
+  {
+    name: "Antonio Cabrera",
+    position: "Senior Developer",
+    profile: "/assets/antonio-1.jpeg",
+    gallery: ["/assets/antonio-2.jpg", "/assets/antonio-1.jpeg"],
+    linkedin: "https://www.linkedin.com/in/arafael-cabrera/",
+  },
+  {
+    name: "Francisco Marmolejo",
+    position: "Senior Developer",
+    profile: "/assets/francisco-1.jpg",
+    gallery: [
+      "/assets/francisco-2.jpeg",
+      "/assets/francisco-3.jpeg",
+      "/assets/francisco-1.jpg",
+    ],
+    linkedin: "https://www.linkedin.com/in/francisco-marmolejo-martinez/",
+  },
+  {
+    name: "Joel Martínez",
+    position: "Director General",
+    profile: "/assets/joel-1.jpeg",
+    gallery: [
+      "/assets/joel-2.jpg",
+      "/assets/joel-3.jpeg",
+      "/assets/joel-1.jpeg",
+    ],
+    linkedin: "https://www.linkedin.com/in/joel-martinez-palacios/",
+  },
+  {
+    name: "Joshua Torres",
+    position: "Co-Director",
+    profile: "/assets/joshua-1.jpeg",
+    gallery: [
+      "/assets/joshua-2.jpeg",
+      "/assets/joshua-3.jpeg",
+      "/assets/joshua-1.jpeg",
+    ],
     linkedin: "",
   },
   {
+    name: "Mario Gómez",
+    position: "Junior Developer",
+    profile: "/assets/mario-1.jpeg",
+    gallery: ["/assets/mario-2.jpeg", "/assets/mario-1.jpeg"],
+    linkedin: "https://www.linkedin.com/in/mariogomezseguame/",
+  },
+  {
+    name: "Paco Luna",
+    position: "Senior Developer",
+    profile: "/assets/paco-1.jpeg",
+    gallery: [
+      "/assets/paco-2.jpeg",
+      "/assets/paco-3.jpeg",
+      "/assets/paco-4.jpeg",
+      "/assets/paco-1.jpeg",
+    ],
+    linkedin: "https://www.linkedin.com/in/francisco-javier-luna-figueroa/",
+  },
+
+  {
     name: "Sandra Delgado",
-    position: "junior Developer",
+    position: "Junior Developer",
     profile: "/assets/sandra-1.jpeg",
     gallery: [
       "/assets/sandra-2.jpeg",
@@ -98,7 +113,7 @@ const team: member[] = [
       "/assets/sandra-5.jpeg",
       "/assets/sandra-1.jpeg",
     ],
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/sandra-cdt15/",
   },
   {
     name: "Víctor Zamora",
@@ -110,21 +125,8 @@ const team: member[] = [
       "/assets/victor-4.jpeg",
       "/assets/victor-1.jpeg",
     ],
-    linkedin: "",
-  },
-  {
-    name: "Antonio Cabrera",
-    position: "Senior Developer",
-    profile: "/assets/antonio-1.jpeg",
-    gallery: ["/assets/antonio-2.jpg", "/assets/antonio-1.jpeg"],
-    linkedin: "",
-  },
-  {
-    name: "Mario Gómez",
-    position: "Senior Developer",
-    profile: "/assets/mario-1.jpeg",
-    gallery: ["/assets/mario-2.jpeg", "/assets/mario-1.jpeg"],
-    linkedin: "",
+    linkedin:
+      "https://www.linkedin.com/in/victor-martin-zamora-casta%C3%B1eda/",
   },
 ];
 

@@ -49,21 +49,21 @@ const AboutUs = async ({
             ></video>,
             <Image
               key="first-image"
-              src="/assets/weare.jpg"
+              src="/assets/boses.png"
               alt=""
               fill
               className="object-cover"
             />,
             <Image
               key="second-image"
-              src="/assets/dogs.jpeg"
+              src="/assets/meeting.png"
               alt=""
               fill
               className="object-cover"
             />,
             <Image
               key="third-image"
-              src="/assets/lija.jpg"
+              src="/assets/juniors.png"
               alt=""
               fill
               className="object-cover"
@@ -84,7 +84,7 @@ const AboutUs = async ({
           className="w-full max-w-[1540px] xl:mx-auto"
           gallery={
             <Image
-              src="/assets/data.jpeg"
+              src="/assets/build-ideas.png"
               alt=""
               fill
               className="object-cover"

@@ -49,15 +49,12 @@ export const Banner = () => {
         </header>
         <section className="3xl:px-40 4xl:px-60 px-2 sm:px-6 xl:px-12 2xl:px-20">
           <div className="relative aspect-9/16 w-full transform-gpu overflow-hidden rounded-2xl md:aspect-1/1 lg:aspect-16/9 lg:rounded-3xl">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              preload="auto"
-              className="absolute top-0 left-0 h-full w-full object-cover"
-              src="/assets/projects-banner2.mp4"
-            ></video>
+            <iframe
+              className="pointer-events-none absolute h-full w-full rounded-4xl"
+              src="https://www.youtube.com/embed/GAR-Os8yvcI?enablejsapi=1&autoplay=1&mute=1&loop=1&playlist=GAR-Os8yvcI&controls=0&rel=0&modestbranding=1&iv_load_policy=3&rel=0&vq=hd1080"
+              title="YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
           </div>
         </section>
         <footer className="3xl:px-42 4xl:px-62 absolute top-0 right-0 z-20 flex h-full bg-transparent px-3 pb-4 sm:px-7 xl:px-13 2xl:px-22">
@@ -69,7 +66,7 @@ export const Banner = () => {
           >
             <div className="relative z-20 mr-3 flex h-14 w-14 transform items-center justify-center overflow-hidden rounded-full transition-all duration-700 group-hover:-translate-x-[-204px]">
               <Image
-                src="/assets/profile.jpeg"
+                src="/assets/cofounder.jpeg"
                 alt="Co-founder"
                 width="80"
                 height="80"

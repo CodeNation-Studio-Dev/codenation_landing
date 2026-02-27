@@ -14,7 +14,7 @@ export const ShowUsGallery = () => {
         <div className="flex gap-x-5">
           <div className="relative h-[50vw] w-[70%] overflow-hidden rounded-2xl lg:h-[500px]">
             <Image
-              src="/assets/team.jpeg"
+              src="/assets/team.png"
               alt="team"
               fill
               className="object-cover"
@@ -22,7 +22,7 @@ export const ShowUsGallery = () => {
           </div>
           <div className="relative h-[40vw] w-[25%] self-end overflow-hidden rounded-2xl lg:h-[400px]">
             <Image
-              src="/assets/working.jpeg"
+              src="/assets/working.png"
               alt="team"
               fill
               className="object-cover"
@@ -32,7 +32,7 @@ export const ShowUsGallery = () => {
         <div className="flex gap-x-[10px]">
           <div className="relative h-[40vw] w-[calc(50%-5px)] overflow-hidden rounded-2xl lg:h-[400px]">
             <Image
-              src="/assets/teammate.jpeg"
+              src="/assets/teammates.png"
               alt="team"
               fill
               className="object-cover"
@@ -40,7 +40,7 @@ export const ShowUsGallery = () => {
           </div>
           <div className="relative h-[40vw] w-[calc(50%-5px)] self-end overflow-hidden rounded-2xl lg:h-[400px]">
             <Image
-              src="/assets/ana-sandra-friends.png"
+              src="/assets/exited.png"
               alt="team"
               fill
               className="object-cover"
