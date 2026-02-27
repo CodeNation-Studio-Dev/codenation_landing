@@ -2,16 +2,19 @@
   "footer": {
     "contactUs": {
       "title": "Contact Us",
-      "address": "Avenida Obsidiana #3632 Residencial Loma Bonita, C.P. 45088 Zapopan, Jalisco, Mexico.",
-      "phone": "+52 33 1725 5576",
+      "address": "Osa Mayor #4946, C.P.45070 Zapopan, Jalisco",
+      "phone": "+52 33 3955 6808",
       "callUs": "Schedule a Meeting",
       "analyze": "Analyze your case"
     },
     "services": {
       "title": "Services",
-      "web": "Web Development",
-      "mobile": "Mobile Applications",
-      "design": "UI/UX Design"
+      "web": "Software",
+      "mvp": "MVP",
+      "design": "UI/UX Design",
+      "automatization": "AI & Automation",
+      "cloud": "Cloud-Native",
+      "mobile": "Mobile Apps"
     },
     "solutions": {
       "title": "Solutions",
@@ -21,9 +24,7 @@
     },
     "company": {
       "title": "Company",
-      "aboutUs": "About Us",
-      "careers": "Careers",
-      "blog": "Blog"
+      "aboutUs": "About Us"
     }
   },
   "header": {
@@ -97,7 +98,7 @@
   },
   "showCase": {
     "title": "Showcase",
-    "explore": "Explore All Showcases"
+    "explore": "Do you like it?"
   },
   "clients": {
     "plug": "From startups to growing companies",
@@ -116,35 +117,35 @@
         "subtitle": "Build around your business",
         "description": "We build secure, maintainable applications tailored to your business needs — from concept to deployment and beyond.",
         "img": "/assets/categories-bg-software.png",
-        "url": ""
+        "url": "webpage"
       },
       {
         "title": "MVP Development",
         "subtitle": "From idea to first users",
         "description": "Launch faster with a lean, validated product that tests your idea, attracts users, and secures funding.",
         "img": "/assets/categories-bg-mvp.png",
-        "url": ""
+        "url": "mvp"
       },
       {
         "title": "Product-Driven UX/UI Design",
         "subtitle": "User-first design with purpose",
         "description": "User-centered interfaces backed by research, usability testing, and seamless handoff to development.",
         "img": "/assets/categories-bg-uxui.png",
-        "url": ""
+        "url": "design"
       },
       {
         "title": "AI & Automation Integration",
         "subtitle": "AI-powered business workflows",
         "description": "Embed intelligent features into your workflows — from data analysis to predictive tools and process automation.",
         "img": "/assets/categories-bg-automation.png",
-        "url": ""
+        "url": "automatization"
       },
       {
         "title": "Cloud-Native Architecture",
         "subtitle": "Infrastructure that scales with you",
         "description": "Scalable, resilient systems built on modern cloud platforms (AWS, Azure, GCP) with DevOps best practices.",
         "img": "/assets/categories-bg-cloud.png",
-        "url": ""
+        "url": "cloud"
       }
     ]
   }

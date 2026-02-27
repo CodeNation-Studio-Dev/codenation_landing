@@ -1,12 +1,12 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./ShowCase.css";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { useTranslations } from "@providers/translationProvider";
 import Link from "next/link";
 
 interface VideoProps {
-  src: string;
+  videoId: string;
   title: string;
   link: string;
   subtitle: string;
@@ -16,7 +16,7 @@ interface VideoProps {
 
 const videos: VideoProps[] = [
   {
-    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/casino-radar-showcase.mp4",
+    videoId: "lwEFX89iciM",
     title: "Casino Radar",
     link: "https://www.flowfest.co.uk/",
     subtitle: "Datos en tiempo real con búsqueda por ubicación",
@@ -24,7 +24,7 @@ const videos: VideoProps[] = [
     features: "ScrollTrigger, DrawSVG, Draggable, Text, CustomEase",
   },
   {
-    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/keskinube-showcase.mp4",
+    videoId: "J4HPaBDWVLs",
     title: "Keskinube",
     link: "https://www.mbrown.work/",
     subtitle: "Plataforma SaaS full-stack para retail y e-commerce",
@@ -32,7 +32,7 @@ const videos: VideoProps[] = [
     features: "ScrollTrigger, Flip, SplitText",
   },
   {
-    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/mercadomi-showcase.mp4",
+    videoId: "PTLOJ23gTLE",
     title: "Mercadomi",
     link: "https://nvg8.io/",
     subtitle: "Plataforma para contratación de servicios",
@@ -40,7 +40,7 @@ const videos: VideoProps[] = [
     features: "ScrollTrigger, SplitText",
   },
   {
-    src: "https://ccatkbsivj5b44gx.public.blob.vercel-storage.com/projects/joypack-showcase.mp4",
+    videoId: "dLSPu9wpnHw",
     title: "Joypack for Business",
     link: "https://www.phantom.land/",
     subtitle: "Recompensas B2B con enfoque API-first",
@@ -98,6 +98,66 @@ export const ShowCase = () => {
       ? "translate-y-0 flex pt-0.5 text-sm [grid-area:1/1] items-center transition-transform duration-800 ease-out"
       : "flex translate-y-[-100%] pt-0.5 text-sm [grid-area:1/1] items-center transition-transform duration-300 ease-in-out";
 
+  const videoRefs = useRef<HTMLIFrameElement[]>([]);
+  const players = useRef<YT.Player[]>([]);
+
+  useEffect(() => {
+    if (window.YT && window.YT.Player) return;
+
+    const tag = document.createElement("script");
+    tag.src = "https://www.youtube.com/iframe_api";
+    document.body.appendChild(tag);
+
+    type YouTubeWindow = Window & {
+      onYouTubeIframeAPIReady?: () => void;
+    };
+
+    (window as YouTubeWindow).onYouTubeIframeAPIReady = () => {
+      videoRefs.current.forEach((iframe, index) => {
+        if (!iframe) return;
+
+        players.current[index] = new window.YT.Player(iframe, {
+          events: {
+            onStateChange: (event: YT.OnStateChangeEvent) => {
+              if (event.data === window.YT.PlayerState.ENDED) {
+                event.target.seekTo(0, true);
+                event.target.playVideo();
+              }
+            },
+          },
+        });
+      });
+    };
+  }, []);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const index = videoRefs.current.findIndex(
+            (iframe) => iframe === entry.target,
+          );
+
+          const player = players.current[index];
+          if (!player) return;
+
+          if (entry.isIntersecting) {
+            player.playVideo();
+          } else {
+            player.stopVideo();
+          }
+        });
+      },
+      { threshold: 0.5 },
+    );
+
+    videoRefs.current.forEach((iframe) => {
+      if (iframe) observer.observe(iframe);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section id="showcase" className="relative overflow-hidden pt-20 pb-20">
       <div className="relative z-2">
@@ -113,17 +173,18 @@ export const ShowCase = () => {
               style={getItemStyle(index)}
               key={index}
             >
-              <div className="relative h-0 origin-top scale-[.975] overflow-hidden rounded-lg pb-[56%]">
-                <video
-                  className="object-cover"
-                  loop
-                  autoPlay
-                  muted
-                  playsInline
-                  preload="metadata"
-                >
-                  <source src={data.src} type="video/mp4" />
-                </video>
+              <div className="relative h-0 origin-top scale-[.975] overflow-hidden pb-[56%]">
+                <iframe
+                  ref={(element) => {
+                    if (element) videoRefs.current[index] = element;
+                  }}
+                  className="pointer-events-none absolute h-full w-full rounded-4xl"
+                  src={`https://www.youtube.com/embed/${data.videoId}?enablejsapi=1&autoplay=0&mute=1&loop=1&playlist=${data.videoId}&controls=0&rel=0&modestbranding=1&iv_load_policy=3&rel=0&vq=hd1080`}
+                  title="YouTube video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  frameBorder="0"
+                />
               </div>
             </div>
           ))}
@@ -178,7 +239,9 @@ export const ShowCase = () => {
           </div>
 
           <Link
-            href="/showcases"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/company/codenation-studio/"
             className="inline-flex w-full items-center justify-center rounded-full border-2 border-amber-50 px-6 py-3.5 sm:w-fit"
           >
             <span className="button__label">{showCase.explore}</span>

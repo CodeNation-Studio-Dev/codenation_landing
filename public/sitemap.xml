@@ -20,7 +20,7 @@
   </url>
 
   <url>
-    <loc>https://codenation-studio.com/about</loc>
+    <loc>https://codenation-studio.com/about-us</loc>
     <lastmod>2026-02-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -28,10 +28,10 @@
     <xhtml:link 
       rel="alternate" 
       hreflang="en" 
-      href="https://codenation-studio.com/en-US/about" />
+      href="https://codenation-studio.com/en-US/about-us" />
     <xhtml:link 
       rel="alternate" 
       hreflang="es" 
-      href="https://codenation-studio.com/es-MX" />
+      href="https://codenation-studio.com/es-MX/about-us" />
   </url>
 </urlset>

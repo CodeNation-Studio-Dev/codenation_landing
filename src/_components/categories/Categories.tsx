@@ -96,7 +96,7 @@ export const Categories = () => {
                     <p className="text-lg">{data.subtitle}</p>
                     <p className="text-md">{data.description}</p>
                     <a
-                      href={data.url}
+                      href={`/services/${data.url}`}
                       className="bg-secondary flex h-[50px] w-[50px] items-center justify-center rounded-full group-hover:scale-110 lg:scale-0 lg:self-end lg:transition-transform lg:duration-300 lg:ease-[cubic-bezier(0.215,0.61,0.355,1)]"
                     >
                       <GoArrowUpRight className="text-background h-6 w-6" />

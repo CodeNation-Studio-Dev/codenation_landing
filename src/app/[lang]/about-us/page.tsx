@@ -45,25 +45,25 @@ const AboutUs = async ({
               muted
               playsInline
               className="h-full w-full object-cover"
-              src="https://servd-made-byshape.b-cdn.net/production/uploads/videos/shape-showreel-2024_looping-v3.mp4"
+              src="/assets/our-work.mp4"
             ></video>,
             <Image
               key="first-image"
-              src="/assets/weare.jpg"
+              src="/assets/boses.png"
               alt=""
               fill
               className="object-cover"
             />,
             <Image
               key="second-image"
-              src="/assets/dogs.jpeg"
+              src="/assets/meeting.png"
               alt=""
               fill
               className="object-cover"
             />,
             <Image
               key="third-image"
-              src="/assets/lija.jpg"
+              src="/assets/juniors.png"
               alt=""
               fill
               className="object-cover"
@@ -84,7 +84,7 @@ const AboutUs = async ({
           className="w-full max-w-[1540px] xl:mx-auto"
           gallery={
             <Image
-              src="/assets/data.jpeg"
+              src="/assets/build-ideas.png"
               alt=""
               fill
               className="object-cover"
