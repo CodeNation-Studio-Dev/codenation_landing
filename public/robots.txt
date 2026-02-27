@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://codenation-studio.com/sitemap.xml
