@@ -78,15 +78,21 @@ export const Header = () => {
                 onClick={() => setOpenMenu(true)}
                 className="cursor-pointer"
               >
-                {header.services}
+                {/* {header.services} */}
               </button>
               <DropdownMenu open={openMenu} setOpen={setOpenMenu} lang={lang} />
               <a className="cursor-pointer" href={`/${lang}#showcase`}>
                 {header.work}
               </a>
               <Link href={`/${lang}/about-us`}>{header.about}</Link>
-              <p>{header.blog}</p>
-              <p>{header.contact}</p>
+              {/* <p>{header.blog}</p> */}
+              <Link
+                href="https://www.linkedin.com/company/codenation-studio/"
+                rel="noopener no referrer"
+                target="_blank"
+              >
+                {header.contact}
+              </Link>
             </section>
           )}
 
@@ -129,11 +135,17 @@ export const Header = () => {
           </section>
         </div>
         <section className="dropdown-menu mt-10 hidden flex-col items-start gap-y-4 text-4xl">
-          <Link href={`/${lang}/services/webpage`}>{header.services}</Link>
+          {/* <Link href={`/${lang}/services/webpage`}>{header.services}</Link> */}
           <Link href={`/${lang}/#showcase`}>{header.work}</Link>
           <Link href={`/${lang}/about-us`}>{header.about}</Link>
-          <p>{header.blog}</p>
-          <p>{header.contact}</p>
+          {/* <p>{header.blog}</p> */}
+          <Link
+            href="https://www.linkedin.com/company/codenation-studio/"
+            rel="noopener no referrer"
+            target="_blank"
+          >
+            {header.contact}
+          </Link>
 
           <Link
             target="_blank"
