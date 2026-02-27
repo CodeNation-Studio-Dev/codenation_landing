@@ -28,7 +28,7 @@ const trophys: trophysProps[] = [
   },
   {
     name: "codelaunch",
-    title: "Code Launch",
+    title: "CodeLaunch",
     image: "/assets/codelaunch.png",
     awards: ["2024 - Finalist"],
   },
@@ -64,7 +64,7 @@ const trophys: trophysProps[] = [
   },
   {
     name: "codelaunch",
-    title: "Code Launch",
+    title: "CodeLaunch",
     image: "/assets/codelaunch.png",
     awards: ["2024 - Finalist"],
   },

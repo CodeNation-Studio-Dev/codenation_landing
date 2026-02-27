@@ -40,7 +40,7 @@ export const ShowUsGallery = () => {
           </div>
           <div className="relative h-[40vw] w-[calc(50%-5px)] self-end overflow-hidden rounded-2xl lg:h-[400px]">
             <Image
-              src="/assets/activities.jpeg"
+              src="/assets/ana-sandra-friends.png"
               alt="team"
               fill
               className="object-cover"

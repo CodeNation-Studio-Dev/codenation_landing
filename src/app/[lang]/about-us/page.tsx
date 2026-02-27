@@ -45,7 +45,7 @@ const AboutUs = async ({
               muted
               playsInline
               className="h-full w-full object-cover"
-              src="https://servd-made-byshape.b-cdn.net/production/uploads/videos/shape-showreel-2024_looping-v3.mp4"
+              src="/assets/our-work.mp4"
             ></video>,
             <Image
               key="first-image"
