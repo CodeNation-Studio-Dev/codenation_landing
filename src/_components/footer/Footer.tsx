@@ -40,23 +40,20 @@ export const Footer = () => {
           </h2>
           <ul className="grid gap-y-2">
             <li>
-              <Link href="/services/mvp">{footer.services.mvp}</Link>
+              <Link href="">{footer.services.mvp}</Link>
             </li>
             <li>
-              <Link href="/services/webpage">{footer.services.web}</Link>
+              <Link href="">{footer.services.web}</Link>
             </li>
             <li>
-              <Link href="/services/design">{footer.services.design}</Link>
+              <Link href="">{footer.services.design}</Link>
             </li>
             <li>
-              <Link href="/services/automatization">
-                {footer.services.automatization}
-              </Link>
+              <Link href="">{footer.services.automatization}</Link>
             </li>
             <li>
-              <Link href="/services/cloud">{footer.services.cloud}</Link>
+              <Link href="">{footer.services.cloud}</Link>
             </li>
-            <li>{footer.services.mobile}</li>
           </ul>
         </section>
         <section>
