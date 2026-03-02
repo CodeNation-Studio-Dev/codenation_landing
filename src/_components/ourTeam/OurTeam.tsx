@@ -10,7 +10,6 @@ import gsap from "gsap";
 
 interface member {
   name: string;
-  position: string;
   profile: string;
   gallery: string[];
   linkedin: string;
@@ -18,8 +17,13 @@ interface member {
 
 const team: member[] = [
   {
+    name: "Aldair González",
+    profile: "/assets/aldair-1.jpeg",
+    gallery: [],
+    linkedin: "https://www.linkedin.com/in/aldair-gonzalez-conde-3441b21a9/",
+  },
+  {
     name: "Anna Durán",
-    position: "Junior Developer",
     profile: "/assets/ana-1.jpeg",
     gallery: [
       "/assets/ana-2.jpeg",
@@ -32,7 +36,6 @@ const team: member[] = [
   },
   {
     name: "Ángel Morán",
-    position: "Junior Developer",
     profile: "/assets/angel-1.jpeg",
     gallery: [
       "/assets/angel-2.jpeg",
@@ -43,15 +46,7 @@ const team: member[] = [
     linkedin: "https://www.linkedin.com/in/angel-moran-342840264/",
   },
   {
-    name: "Antonio Cabrera",
-    position: "Senior Developer",
-    profile: "/assets/antonio-1.jpeg",
-    gallery: ["/assets/antonio-2.jpg", "/assets/antonio-1.jpeg"],
-    linkedin: "https://www.linkedin.com/in/arafael-cabrera/",
-  },
-  {
     name: "Francisco Marmolejo",
-    position: "Senior Developer",
     profile: "/assets/francisco-1.jpg",
     gallery: [
       "/assets/francisco-2.jpeg",
@@ -62,18 +57,18 @@ const team: member[] = [
   },
   {
     name: "Joel Martínez",
-    position: "Director General",
     profile: "/assets/joel-1.jpeg",
     gallery: [
       "/assets/joel-2.jpg",
       "/assets/joel-3.jpeg",
+      "/assets/joel-4.jpeg",
+      "/assets/joel-5.jpeg",
       "/assets/joel-1.jpeg",
     ],
     linkedin: "https://www.linkedin.com/in/joel-martinez-palacios/",
   },
   {
     name: "Joshua Torres",
-    position: "Co-Director",
     profile: "/assets/joshua-1.jpeg",
     gallery: [
       "/assets/joshua-2.jpeg",
@@ -84,14 +79,12 @@ const team: member[] = [
   },
   {
     name: "Mario Gómez",
-    position: "Junior Developer",
     profile: "/assets/mario-1.jpeg",
     gallery: ["/assets/mario-2.jpeg", "/assets/mario-1.jpeg"],
     linkedin: "https://www.linkedin.com/in/mariogomezseguame/",
   },
   {
     name: "Paco Luna",
-    position: "Senior Developer",
     profile: "/assets/paco-1.jpeg",
     gallery: [
       "/assets/paco-2.jpeg",
@@ -103,8 +96,13 @@ const team: member[] = [
   },
 
   {
+    name: "Rafael Cabrera",
+    profile: "/assets/antonio-1.jpeg",
+    gallery: ["/assets/antonio-2.jpg", "/assets/antonio-1.jpeg"],
+    linkedin: "https://www.linkedin.com/in/arafael-cabrera/",
+  },
+  {
     name: "Sandra Delgado",
-    position: "Junior Developer",
     profile: "/assets/sandra-1.jpeg",
     gallery: [
       "/assets/sandra-2.jpeg",
@@ -117,7 +115,6 @@ const team: member[] = [
   },
   {
     name: "Víctor Zamora",
-    position: "Senior Developer",
     profile: "/assets/victor-1.jpeg",
     gallery: [
       "/assets/victor-2.jpeg",
@@ -180,6 +177,7 @@ export const OurTeam = () => {
 };
 
 export const ImageElement = ({ member }: { member: member }) => {
+  const { our_team } = useTranslations();
   const galleryRef = useRef<HTMLDivElement | null>(null);
   const profileRef = useRef<HTMLDivElement | null>(null);
   const tlRef = useRef<gsap.core.Timeline | null>(null);
@@ -337,7 +335,7 @@ export const ImageElement = ({ member }: { member: member }) => {
           <div className="">
             <div className="text-on-surface">{member.name}</div>
             <div className="4xl:text-base text-on-surface text-sm leading-tight font-light">
-              {member.position}
+              {our_team.allpositions[member.name]}
             </div>
           </div>
         </div>

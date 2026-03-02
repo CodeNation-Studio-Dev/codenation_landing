@@ -21,7 +21,7 @@ export async function generateMetadata({
   params,
 }: {
   params: Promise<{ lang: string }>;
-}) {
+}): Promise<Metadata> {
   const { lang } = await params;
 
   const isSpanish = lang === "es-MX";
