@@ -2,123 +2,109 @@
   "webpage": {
     "name": "webpage",
     "main": {
-      "title": "Un estudio de diseño web en Manchester",
-      "description": "En MadeByShape ofrecemos asesoramiento honesto, experiencia en la industria y un gran portafolio de trabajos.\n\nUI/UX, wireframes, investigación y desarrollo: entendemos todas las áreas del diseño web. Podemos llevar a una startup desde cero hasta una marca totalmente funcional en línea y fuera de ella. Podemos renovar un sitio web existente o llevar una marca exitosa al siguiente nivel. Nuestro talentoso y creativo equipo interno de diseño web en Manchester trabajará contigo de manera colaborativa para crear un sitio que refleje tu marca, se comunique con tu audiencia con significado y personalidad, y ofrezca una excelente funcionalidad en los dispositivos más recientes."
+      "title": "Construimos Cualquier Producto Digital",
+      "description": "En CodeNation Studio no solo desarrollamos software: co-creamos soluciones tecnológicas que resuelven problemas reales y generan impacto. Como una verdadera fábrica de software a la medida, trabajamos con empresas y startups para transformar sus ideas en productos digitales robustos, escalables y listos para el mercado.\n\nYa sea que necesites una tienda online, una aplicación móvil, una plataforma SaaS o un sistema interno de gestión, nuestro equipo de desarrolladores, diseñadores y arquitectos de software te acompaña en todo el proceso: desde la definición de requisitos hasta el lanzamiento y evolución del producto."
     },
     "explanation": {
-      "fewWords": "Abordamos cada proyecto con una visión clara.",
-      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
-      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
-      "startProject": "Inicia un proyecto hoy"
+      "fewWords": "Tecnología a la medida, resultados a gran escala.",
+      "title": "Fábrica de Software a la Medida",
+      "description": "Desarrollamos soluciones digitales completas, desde la idea hasta el producto escalable. Aplicaciones web, móviles, e-commerce y plataformas empresariales construidas con calidad, velocidad y enfoque ágil.\n\nImplementamos buenas prácticas de ingeniería y tecnologías modernas para garantizar entregas rápidas, código limpio y una experiencia de usuario excepcional.",
+      "startProject": "Evaluación gratuita"
     },
     "inhouse": {
-      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
-      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+      "title": "Por qué desarrollar con nosotros",
+      "description": "• Soluciones 100% personalizadas – Diseñamos y desarrollamos cada producto según tus objetivos.\n\n • Entregas ágiles y continuas – Trabajamos en sprints con avances visibles desde el inicio.\n\n• Tecnologías modernas y escalables – Usamos stacks actuales y arquitecturas limpias.\n\n• Equipo multidisciplinario – Desarrollo, UX/UI y QA trabajando en conjunto.\n\n• Enfoque en resultados – Creamos soluciones que generan valor real."
     },
     "bigText": "Lets work together.",
     "subcategories": {
-      "fewWords": "En qué podemos ayudarte",
-      "title": "Un equipo de expertos en diseño web que puede ayudarte a diseñar y construir un sitio web del que te sientas orgulloso",
-      "getInTouch": "Ponte en contacto hoy",
+      "fewWords": "Todo lo que tu Producto Digital Necesita",
+      "title": "Desarrollamos soluciones digitales que impulsan eficiencia, crecimiento y ventaja competitiva.",
+      "getInTouch": "Ponte en contacto",
       "allsubcategories": [
         {
-          "title": "Diseño Web",
-          "description": "Diseño web a medida, perfecto para tu marca y tu público objetivo."
+          "title": "Desarrollo de Sitios Web",
+          "description": "Sitios modernos, responsivos y optimizados para SEO, con contenido dinámico y administrable."
         },
         {
-          "title": "Comercio Electrónico",
-          "description": "Vende productos en línea las 24/7 a través de un sitio web de comercio electrónico bien diseñado y fácil de usar."
+          "title": "Desarrollo de E-Commerce",
+          "description": "Tiendas online personalizadas con integración de pasarelas de pago, gestión de inventario, logística y marketing digital."
         },
         {
-          "title": "Diseño UX",
-          "description": "Ofrece experiencias significativas y relevantes a los usuarios mediante el diseño de experiencia de usuario (UX)."
+          "title": "Aplicaciones Móviles",
+          "description": "Apps nativas (iOS/Android) o multiplataforma (Flutter/React Native) con interfaces intuitivas y alto rendimiento."
         },
         {
-          "title": "Diseño Responsivo",
-          "description": "Diseñado para todos los dispositivos más recientes, incluidos iPhone y iPad."
+          "title": "Plataformas y Sistemas a Medida",
+          "description": "Soluciones B2B, dashboards, CRMs internos, marketplaces o sistemas de gestión empresarial (ERP ligero).."
         },
         {
-          "title": "Wireframes",
-          "description": "Una herramienta de visualización para presentar la estructura, funciones y contenido propuestos de un sitio web."
+          "title": "Modernización de Software",
+          "description": "Transformamos sistemas heredados (legacy) en aplicaciones modernas, seguras y fáciles de mantener."
         },
         {
-          "title": "Estrategia",
-          "description": "No solo enfocada en el presente, sino también en el futuro para identificar oportunidades de crecimiento."
+          "title": "APIs e Integraciones",
+          "description": "Desarrollamos APIs robustas para conectar tu producto con terceros (pagos, mensajería, ERP, etc.)."
         }
       ]
     },
+
+    "technologies": {
+      "title": "Tecnologías actual para soluciones que perduran."
+    },
     "testimonials": {
-      "title": "Why our clients love Craft CMS",
-      "subtitle": "Testimonials",
+      "title": "¿Qué dicen nuestros clientes?",
+      "subtitle": "Confianza que se construye",
+      "contact": "¡Hablemos!",
       "alltestimonials": [
         {
-          "user": "Emily Schweitzer",
-          "company": "Inside Out Contracts",
-          "message": "Our website just blows our competitors out the water. It's so much easier to navigate than before and is just a cut above the rest. If I went back in time I would definitely choose Shape again, I just wouldn't bother with anyone else. The team at Shape are very friendly, very responsive and they are great value for money."
+          "user": "Director General",
+          "company": "Startup de Logística",
+          "message": "Desde el inicio sentimos que realmente escuchaban nuestras ideas. No nos ofrecieron una solución genérica, sino algo pensado específicamente para nuestro modelo de negocio. El proceso fue claro, colaborativo y siempre nos hicieron sentir parte del desarrollo. Hoy el sistema nos ahorra tiempo todos los días."
         },
         {
-          "user": "Suzie Steel",
-          "company": "The Plough",
-          "message": "Our website smashes our competitors websites out the park. We've had lots of comments about how good it is, how easy it is to navigate through and how beautiful it is. Benefits of working with Shape are that they really engross themselves in your brand &amp; put that across in your website."
+          "user": "Director de Operaciones",
+          "company": "Empresa Comercial",
+          "message": "Habíamos trabajado antes con herramientas que prometían mucho y se adaptaban poco. Esta vez fue diferente. Entendieron cómo funciona nuestro equipo y construyeron una plataforma que realmente refleja nuestra forma de trabajar. Se nota cuando el software está hecho a la medida."
         },
         {
-          "user": "Rachel Bates",
-          "company": "Rachel Bates",
-          "message": "If I went back in time I would definitely work with Shape again. Our website would stand up as being totally unique against all our competitors. Shape are so hip &amp; so different and their approach is so fresh. Andy really goes above and beyond with everything you ask him to do."
-        },
-        {
-          "user": "Nicola Wellard",
-          "company": "Silver Sixpence",
-          "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
+          "user": "Fundador",
+          "company": "Empresa de Servicios Digitales",
+          "message": "Más que un proveedor, sentimos que encontramos un aliado tecnológico. Siempre estuvieron disponibles para resolver dudas y proponer mejoras. El resultado fue un producto intuitivo, estable y listo para crecer con nosotros. Nos dio mucha tranquilidad trabajar con un equipo tan comprometido."
         }
       ]
     },
     "favorites": {
       "fewWords": "Nuestro trabajo",
-      "title": "Nuestros proyectos favoritos de diseño web",
-      "viewWork": "Ver nuestro trabajo",
+      "title": "Proyectos favoritos de desarrollo",
+      "viewWork": "¡Sé el siguiente!",
       "allprojects": [
         {
-          "title": "Renovando la presencia digital de Gary Neville",
-          "client": "Gary Neville",
-          "date": 2023,
+          "title": "Plataforma web para buscar y filtrar casinos por ubicación.",
+          "client": "Casino Radar",
+          "date": 2026,
           "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+          "asset": "/assets/favs-casinoradar.mp4"
         },
         {
-          "title": "Transformando el sector de la donación de plasma",
-          "client": "Olgam Life",
-          "date": 2023,
+          "title": "App móvil que conecta usuarios con servicios para el hogar.",
+          "client": "Mercadomi",
+          "date": 2025,
           "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
+          "asset": "/assets/favs-mercadomi.mp4"
         },
         {
-          "title": "Renovación integral de una agencia de marketing centrada en las personas",
-          "client": "Natterjack",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
+          "title": "Plataforma SaaS para administrar negocios en un solo lugar.",
+          "client": "Keskinube",
+          "date": 2025,
+          "mediaType": "video",
+          "asset": "/assets/favs-keskinube.mp4"
         },
         {
-          "title": "Renovación completa de marca para una agencia de rendimiento digital",
-          "client": "This is digital",
-          "date": 2023,
+          "title": "Plataforma web de recompensas y reconocimiento para empleados.",
+          "client": "Joypack",
+          "date": 2026,
           "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Reimaginando la identidad visual del cuidado en la etapa adulta",
-          "client": "Millennium Care",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Mostrando una pasión compartida por el entorno laboral",
-          "client": "Area",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
+          "asset": "/assets/favs-joypack.png"
         }
       ]
     }

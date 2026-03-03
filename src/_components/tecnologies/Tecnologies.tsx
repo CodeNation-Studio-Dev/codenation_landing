@@ -4,6 +4,7 @@ import { Autoplay, FreeMode } from "swiper/modules";
 import "./Tecnologies.css";
 import "swiper/css";
 import Image from "next/image";
+import { useTranslations } from "@/src/_providers/translationProvider";
 
 const TecnologiesList = [
   { name: "javascript", image: "/assets/logo-javascript.png" },
@@ -17,6 +18,7 @@ const TecnologiesList = [
 ];
 
 export const Tecnologies = () => {
+  const { webpage } = useTranslations();
   return (
     <section className="4xl:pb-40 mt-20 w-full px-2 pb-20 lg:px-3 lg:pb-24 xl:px-4 2xl:pb-32">
       <div className="3xl:px-40 4xl:px-60 px-2 sm:px-6 xl:px-12 2xl:px-20">
@@ -24,8 +26,7 @@ export const Tecnologies = () => {
           <header className="3xl:px-40 4xl:px-60 font-inter flex w-full flex-wrap px-2 sm:px-6 xl:px-12 2xl:px-20">
             <div className="flex w-auto flex-col items-start space-y-3 px-2 lg:space-y-5 lg:px-3 xl:px-4">
               <h2 className="4xl:text-6xl max-w-2xl text-2xl leading-none tracking-tight text-balance text-white md:text-4xl xl:max-w-3xl xl:text-5xl">
-                We use the latest technologies available to create timeless
-                designs.
+                {webpage.technologies.title}
               </h2>
             </div>
           </header>

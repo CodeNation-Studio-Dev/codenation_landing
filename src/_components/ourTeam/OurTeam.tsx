@@ -7,6 +7,7 @@ import { PlayButton } from "@lib/components/playButton/PlayButton";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
+import Link from "next/link";
 
 interface member {
   name: string;
@@ -16,6 +17,67 @@ interface member {
 }
 
 const team: member[] = [
+  {
+    name: "Joel Martínez",
+    profile: "/assets/joel-1.jpeg",
+    gallery: [
+      "/assets/joel-2.jpg",
+      "/assets/joel-3.jpeg",
+      "/assets/joel-4.jpeg",
+      "/assets/joel-5.jpeg",
+      "/assets/joel-1.jpeg",
+    ],
+    linkedin: "https://www.linkedin.com/in/joel-martinez-palacios/",
+  },
+  {
+    name: "Joshua Torres",
+    profile: "/assets/joshua-1.jpeg",
+    gallery: [
+      "/assets/joshua-2.jpeg",
+      "/assets/joshua-3.jpeg",
+      "/assets/joshua-1.jpeg",
+    ],
+    linkedin: "",
+  },
+  {
+    name: "Francisco Marmolejo",
+    profile: "/assets/francisco-1.jpg",
+    gallery: [
+      "/assets/francisco-2.jpeg",
+      "/assets/francisco-3.jpeg",
+      "/assets/francisco-1.jpg",
+    ],
+    linkedin: "https://www.linkedin.com/in/francisco-marmolejo-martinez/",
+  },
+  {
+    name: "Paco Luna",
+    profile: "/assets/paco-1.jpeg",
+    gallery: [
+      "/assets/paco-2.jpeg",
+      "/assets/paco-3.jpeg",
+      "/assets/paco-4.jpeg",
+      "/assets/paco-1.jpeg",
+    ],
+    linkedin: "https://www.linkedin.com/in/francisco-javier-luna-figueroa/",
+  },
+  {
+    name: "Rafael Cabrera",
+    profile: "/assets/antonio-1.jpeg",
+    gallery: ["/assets/antonio-2.jpg", "/assets/antonio-1.jpeg"],
+    linkedin: "https://www.linkedin.com/in/arafael-cabrera/",
+  },
+  {
+    name: "Víctor Zamora",
+    profile: "/assets/victor-1.jpeg",
+    gallery: [
+      "/assets/victor-2.jpeg",
+      "/assets/victor-3.jpeg",
+      "/assets/victor-4.jpeg",
+      "/assets/victor-1.jpeg",
+    ],
+    linkedin:
+      "https://www.linkedin.com/in/victor-martin-zamora-casta%C3%B1eda/",
+  },
   {
     name: "Aldair González",
     profile: "/assets/aldair-1.jpeg",
@@ -46,60 +108,10 @@ const team: member[] = [
     linkedin: "https://www.linkedin.com/in/angel-moran-342840264/",
   },
   {
-    name: "Francisco Marmolejo",
-    profile: "/assets/francisco-1.jpg",
-    gallery: [
-      "/assets/francisco-2.jpeg",
-      "/assets/francisco-3.jpeg",
-      "/assets/francisco-1.jpg",
-    ],
-    linkedin: "https://www.linkedin.com/in/francisco-marmolejo-martinez/",
-  },
-  {
-    name: "Joel Martínez",
-    profile: "/assets/joel-1.jpeg",
-    gallery: [
-      "/assets/joel-2.jpg",
-      "/assets/joel-3.jpeg",
-      "/assets/joel-4.jpeg",
-      "/assets/joel-5.jpeg",
-      "/assets/joel-1.jpeg",
-    ],
-    linkedin: "https://www.linkedin.com/in/joel-martinez-palacios/",
-  },
-  {
-    name: "Joshua Torres",
-    profile: "/assets/joshua-1.jpeg",
-    gallery: [
-      "/assets/joshua-2.jpeg",
-      "/assets/joshua-3.jpeg",
-      "/assets/joshua-1.jpeg",
-    ],
-    linkedin: "",
-  },
-  {
     name: "Mario Gómez",
     profile: "/assets/mario-1.jpeg",
     gallery: ["/assets/mario-2.jpeg", "/assets/mario-1.jpeg"],
     linkedin: "https://www.linkedin.com/in/mariogomezseguame/",
-  },
-  {
-    name: "Paco Luna",
-    profile: "/assets/paco-1.jpeg",
-    gallery: [
-      "/assets/paco-2.jpeg",
-      "/assets/paco-3.jpeg",
-      "/assets/paco-4.jpeg",
-      "/assets/paco-1.jpeg",
-    ],
-    linkedin: "https://www.linkedin.com/in/francisco-javier-luna-figueroa/",
-  },
-
-  {
-    name: "Rafael Cabrera",
-    profile: "/assets/antonio-1.jpeg",
-    gallery: ["/assets/antonio-2.jpg", "/assets/antonio-1.jpeg"],
-    linkedin: "https://www.linkedin.com/in/arafael-cabrera/",
   },
   {
     name: "Sandra Delgado",
@@ -112,18 +124,6 @@ const team: member[] = [
       "/assets/sandra-1.jpeg",
     ],
     linkedin: "https://www.linkedin.com/in/sandra-cdt15/",
-  },
-  {
-    name: "Víctor Zamora",
-    profile: "/assets/victor-1.jpeg",
-    gallery: [
-      "/assets/victor-2.jpeg",
-      "/assets/victor-3.jpeg",
-      "/assets/victor-4.jpeg",
-      "/assets/victor-1.jpeg",
-    ],
-    linkedin:
-      "https://www.linkedin.com/in/victor-martin-zamora-casta%C3%B1eda/",
   },
 ];
 
@@ -165,12 +165,18 @@ export const OurTeam = () => {
         ))}
       </Swiper>
       <footer className="font-inter self-center text-center">
-        <PlayButton
-          content={our_team.meet}
-          width={185}
-          color={{ text: "text-background", bg: "bg-secondary" }}
-          className="mt-5 h-[36px]"
-        />
+        <Link
+          href="https://www.linkedin.com/company/codenation-studio/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <PlayButton
+            content={our_team.meet}
+            width={185}
+            color={{ text: "text-background", bg: "bg-secondary" }}
+            className="mt-5 h-[36px]"
+          />
+        </Link>
       </footer>
     </section>
   );

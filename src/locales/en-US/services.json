@@ -2,123 +2,108 @@
   "webpage": {
     "name": "webpage",
     "main": {
-      "title": "A web design studio in manchester",
-      "description": "Here at MadeByShape, we offer honest advice, industry experience, and a great portfolio of work. \n\n UI/UX, wireframes, research and development — we understand all areas of web design. We can take a start-up business with nothing to a fully functioning brand online and offline. We can revamp an existing website or take a successful brand to the next level. Our talented and creative in-house web design team in Manchester will work alongside you in collaboration to create a site that reflects your brand, talks to your audience with meaning and personality, and has great functionality across the latest devices."
+      "title": "We Build Any Digital Product",
+      "description": "At CodeNation Studio, we don’t just develop software, we co-create technology solutions that solve real problems and drive meaningful impact. As a true custom software factory, we partner with companies and startups to turn their ideas into robust, scalable, market-ready digital products.\n\nWhether you need an e-commerce platform, a mobile application, a SaaS product, or an internal management system, our team of developers, designers, and software architects supports you at every stage — from requirements definition to launch and continuous product evolution."
     },
     "explanation": {
-      "fewWords": "We approach every project with a clear vision.",
-      "title": "We like to remove the 'waffle' and design beautiful, easy to use websites that are functional.",
-      "description": "We don't just build pretty websites. Here at MadeByShape, we understand all aspects of a successful site, from design through web development and testing, to SEO and Hosting. We tailor our service to the client and the project requirements.",
-      "startProject": "Start a project today"
+      "fewWords": "Tailored Technology, Scalable Results",
+      "title": "Custom Software Factory",
+      "description": "We build end-to-end digital solutions, from concept to scalable product. Web applications, mobile apps, e-commerce platforms, and enterprise systems developed with quality, speed, and an agile mindset.\n\nWe apply engineering best practices and modern technologies to ensure fast delivery, clean code, and an exceptional user experience.",
+      "startProject": "Free Consultation"
     },
     "inhouse": {
-      "title": "We handle every project in-house, we don't outsource.",
-      "description": "We're a strong team of 16, we know how much work we can take on, and we let clients know if there will be a delay. Every website project we take on is produced in-house, with no outsourcing involved. If we feel we're not the right fit for your project, we will use our digital industry experience to recommend a suitable agency for you. Our team of brand designers, web designers, and content writers work together to give you the perfect solution."
+      "title": "Why Develop With Us",
+      "description": "• 100% Custom Solutions – Every product is designed and built around your business goals.\n\n• Agile & Continuous Delivery – We work in sprints with visible progress from day one.\n\n• Modern & Scalable Technologies – We use up-to-date tech stacks and clean architectures.\n\n• Multidisciplinary Team – Development, UX/UI, and QA working together seamlessly.\n\n• Results-Driven Approach – We create solutions that deliver real business value."
     },
     "bigText": "Lets work together.",
     "subcategories": {
-      "fewWords": "What we can help you with",
-      "title": "A team of web design experts that can help you design and build a website you´re proud of",
-      "getInTouch": "Start your project",
+      "fewWords": "Everything Your Digital Product Needs",
+      "title": "We build digital solutions that drive efficiency, growth, and competitive advantage.",
+      "getInTouch": "Contact Us",
       "allsubcategories": [
         {
-          "title": "Web Design",
-          "description": "Bespoke web design perfect for your brand and target audience."
+          "title": "Web Development",
+          "description": "Modern, responsive, and SEO-optimized websites with dynamic, manageable content."
         },
         {
-          "title": "eCommerce",
-          "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
+          "title": "E-Commerce Development",
+          "description": "Custom online stores with payment gateway integration, inventory management, logistics, and digital marketing tools.."
         },
         {
-          "title": "UX Design",
-          "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+          "title": "Mobile Applications",
+          "description": "Native (iOS/Android) or cross-platform (Flutter/React Native) apps with intuitive interfaces and high performance."
         },
         {
-          "title": "Responsive Design",
-          "description": "Designed for all the latest devices, including iPhone and iPad."
+          "title": "Custom Platforms & Systems",
+          "description": "B2B solutions, dashboards, internal CRMs, marketplaces, and lightweight ERP systems tailored to your business."
         },
         {
-          "title": "Wireframes",
-          "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+          "title": "Software Modernization",
+          "description": "We transform legacy systems into modern, secure, and maintainable applications."
         },
         {
-          "title": "Strategy",
-          "description": "Not only looking at the now, but also to the future to see potential growth."
+          "title": "APIs & Integrations",
+          "description": "We build robust APIs to connect your product with third-party services (payments, messaging, ERP, and more)."
         }
       ]
     },
+    "technologies": {
+      "title": "Modern Technology for Long-Lasting Solutions"
+    },
     "testimonials": {
-      "title": "Why our clients love Craft CMS",
-      "subtitle": "Testimonials",
+      "title": "What Our Clients Say",
+      "subtitle": "Trust Build Over Time",
+      "contact": "Let´s Talk!",
       "alltestimonials": [
         {
-          "user": "Emily Schweitzer",
-          "company": "Inside Out Contracts",
-          "message": "Our website just blows our competitors out the water. It's so much easier to navigate than before and is just a cut above the rest. If I went back in time I would definitely choose Shape again, I just wouldn't bother with anyone else. The team at Shape are very friendly, very responsive and they are great value for money."
+          "user": "CEO",
+          "company": "Logistics Startup",
+          "message": "From the very beginning, we felt they truly listened to our ideas. They didn’t offer a generic solution, but something specifically designed for our business model. The process was clear, collaborative, and they always made us feel part of the development. Today, the system saves us time every single day."
         },
         {
-          "user": "Suzie Steel",
-          "company": "The Plough",
-          "message": "Our website smashes our competitors websites out the park. We've had lots of comments about how good it is, how easy it is to navigate through and how beautiful it is. Benefits of working with Shape are that they really engross themselves in your brand &amp; put that across in your website."
+          "user": "Operations Director",
+          "company": "Commercial Company",
+          "message": "We had previously worked with tools that promised a lot but adapted very little. This time was different. They understood how our team operates and built a platform that truly reflects the way we work. You can tell when software is genuinely custom-built."
         },
         {
-          "user": "Rachel Bates",
-          "company": "Rachel Bates",
-          "message": "If I went back in time I would definitely work with Shape again. Our website would stand up as being totally unique against all our competitors. Shape are so hip &amp; so different and their approach is so fresh. Andy really goes above and beyond with everything you ask him to do."
-        },
-        {
-          "user": "Nicola Wellard",
-          "company": "Silver Sixpence",
-          "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
+          "user": "Founder",
+          "company": "Digital Services Company",
+          "message": "More than a vendor, we found a true technology partner. They were always available to answer questions and suggest improvements. The result was an intuitive, stable product ready to scale with us. Working with such a committed team gave us real peace of mind."
         }
       ]
     },
     "favorites": {
       "fewWords": "Our work",
-      "title": "Our favourite Web design Projects",
-      "viewWork": "View our work",
+      "title": "Our Favourite Development Projects",
+      "viewWork": "Be the Next!",
       "allprojects": [
         {
-          "title": "Refreshin Gary Nevill'es digital presence",
-          "client": "Gary Neville",
-          "date": 2023,
+          "title": "Web platform to search and filter casinos by location.",
+          "client": "Casino Radar",
+          "date": 2026,
           "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+          "asset": "/assets/favs-casinoradar.mp4"
         },
         {
-          "title": "Disrupting the plasma donation space",
-          "client": "Olgam Life",
-          "date": 2023,
+          "title": "Mobile app that connects users with home service providers.",
+          "client": "Mercadomi",
+          "date": 2025,
           "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
+          "asset": "/assets/favs-mercadomi.mp4"
         },
         {
-          "title": "Overhauling a people-first marketing agency",
-          "client": "Natterjack",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
+          "title": "SaaS platform to manage businesses in one place.",
+          "client": "Keskinube",
+          "date": 2025,
+          "mediaType": "video",
+          "asset": "/assets/favs-keskinube.mp4"
         },
         {
-          "title": "Complete brand overhaul for a digital performance agency",
-          "client": "This is digital",
-          "date": 2023,
+          "title": "Web platform for employee rewards and recognition.",
+          "client": "Joypack",
+          "date": 2025,
           "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Re-imagining the visual face of later life care",
-          "client": "Millennium Care",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Showcasing a common passion for the workplace",
-          "client": "Area",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
+          "asset": "/assets/favs-joypack.png"
         }
       ]
     }

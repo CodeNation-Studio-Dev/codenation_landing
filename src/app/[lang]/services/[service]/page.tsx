@@ -6,6 +6,35 @@ import { TwoColumnText } from "@lib/components/twoColumnText/TwoColumnText";
 import { getDictionary } from "@lib/helpers/getDictionary";
 import { TranslationProvider } from "@providers/translationProvider";
 import { servicesStructure } from "@/src/config/servicesStructure";
+import Link from "next/link";
+
+const images = {
+  webpage: {
+    main: "/assets/webpage-main.png",
+    secondary: "/assets/webpage-secondary.png",
+    tertiary: "/assets/webpage-tertiary.png",
+  },
+  mvp: {
+    main: "/assets",
+    secondary: "/",
+    tertiary: "/",
+  },
+  design: {
+    main: "/assets",
+    secondary: "/",
+    tertiary: "/",
+  },
+  automatization: {
+    main: "/assets",
+    secondary: "/",
+    tertiary: "/",
+  },
+  cloud: {
+    main: "/assets",
+    secondary: "/",
+    tertiary: "/",
+  },
+};
 
 const Page = async ({
   params,
@@ -30,10 +59,10 @@ const Page = async ({
           rightClassName="text-lg font-thin"
           topHidden={false}
         />
-        <CompleteImage src="/assets/complete-image.webp" />
-        <BigText text={dict.bigText} />
+        <CompleteImage src={images[service].main} />
+        <BigText text={dict[service].bigText} />
         <TwoColumnImageContent
-          rightImage="/assets/complete-image.webp"
+          rightImage={images[service].secondary}
           leftText={
             <div className="flex flex-col justify-center gap-9 pb-5 lg:px-[50px] lg:pb-0">
               <span className="text-sm">
@@ -42,26 +71,32 @@ const Page = async ({
               <p className="text-3xl font-bold">
                 {dict[service].explanation.title}
               </p>
-              <p className="text-lg font-extralight">
+              <p className="text-lg font-extralight whitespace-pre-line">
                 {dict[service].explanation.description}
               </p>
-              <PlayButton
-                content={dict[service].explanation.startProject}
-                width={180}
-                color={{ text: "text-background", bg: "bg-secondary" }}
-                className="font-inter"
-              />
+              <Link
+                href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <PlayButton
+                  content={dict[service].explanation.startProject}
+                  width={180}
+                  color={{ text: "text-background", bg: "bg-secondary" }}
+                  className="font-inter"
+                />
+              </Link>
             </div>
           }
         />
         <TwoColumnImageContent
-          rightImage="/assets/talk.webp"
+          rightImage={images[service].tertiary}
           leftText={
             <div className="flex flex-col justify-center gap-9 pb-5 lg:px-[50px] lg:pb-0">
               <p className="text-3xl font-bold">
                 {dict[service].inhouse.title}
               </p>
-              <p className="text-lg font-extralight">
+              <p className="text-lg font-extralight whitespace-pre-line">
                 {dict[service].inhouse.description}
               </p>
             </div>
