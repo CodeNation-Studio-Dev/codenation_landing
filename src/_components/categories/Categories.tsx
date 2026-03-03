@@ -8,6 +8,7 @@ import { useRef } from "react";
 import { useWindowSize } from "@/src/_hooks/windowSize";
 import { useTranslations } from "@/src/_providers/translationProvider";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -24,6 +25,7 @@ export const Categories = () => {
   const panelRef = useRef<HTMLDivElement>(null);
   const windowSize = useWindowSize();
   const { categories } = useTranslations();
+  const { lang } = useParams();
 
   useGSAP(
     () => {
@@ -96,7 +98,7 @@ export const Categories = () => {
                     <p className="text-lg">{data.subtitle}</p>
                     <p className="text-md">{data.description}</p>
                     <a
-                      href={`/services/${data.url}`}
+                      href={`${lang}/services/${data.url}`}
                       className="bg-secondary flex h-[50px] w-[50px] items-center justify-center rounded-full group-hover:scale-110 lg:scale-0 lg:self-end lg:transition-transform lg:duration-300 lg:ease-[cubic-bezier(0.215,0.61,0.355,1)]"
                     >
                       <GoArrowUpRight className="text-background h-6 w-6" />

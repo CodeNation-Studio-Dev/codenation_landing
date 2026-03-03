@@ -2,48 +2,49 @@ import { TranslationDict } from "@providers/translationProvider";
 import { PlayButton } from "@lib/components/playButton/PlayButton";
 import { TiPointOfInterest } from "react-icons/ti";
 import { RiShoppingBag4Fill } from "react-icons/ri";
-import { MdDesignServices } from "react-icons/md";
+import { MdInstallMobile } from "react-icons/md";
 import { HiArrowsExpand } from "react-icons/hi";
-import { RiLayout3Line } from "react-icons/ri";
+import { GrCycle } from "react-icons/gr";
 import { PiStrategyBold } from "react-icons/pi";
+import Link from "next/link";
 
 const icons = {
   webpage: [
     TiPointOfInterest,
     RiShoppingBag4Fill,
-    MdDesignServices,
+    MdInstallMobile,
     HiArrowsExpand,
-    RiLayout3Line,
+    GrCycle,
     PiStrategyBold,
   ],
   mvp: [
     PiStrategyBold,
     TiPointOfInterest,
     RiShoppingBag4Fill,
-    MdDesignServices,
+    MdInstallMobile,
     HiArrowsExpand,
-    RiLayout3Line,
+    GrCycle,
   ],
   design: [
-    RiLayout3Line,
+    GrCycle,
     PiStrategyBold,
     TiPointOfInterest,
     RiShoppingBag4Fill,
-    MdDesignServices,
+    MdInstallMobile,
     HiArrowsExpand,
   ],
   automatization: [
     HiArrowsExpand,
-    RiLayout3Line,
+    GrCycle,
     PiStrategyBold,
     TiPointOfInterest,
     RiShoppingBag4Fill,
-    MdDesignServices,
+    MdInstallMobile,
   ],
   cloud: [
-    MdDesignServices,
+    MdInstallMobile,
     HiArrowsExpand,
-    RiLayout3Line,
+    GrCycle,
     PiStrategyBold,
     TiPointOfInterest,
     RiShoppingBag4Fill,
@@ -73,12 +74,18 @@ export const Subcategories = ({ service }: TranslationDict) => {
             {service.subcategories.title}
           </h2>
         </div>
-        <PlayButton
-          content={service.subcategories.getInTouch}
-          width={200}
-          color={{ text: "text-background", bg: "bg-secondary" }}
-          className="font-inter mt-6 font-semibold lg:my-0 lg:px-6"
-        />
+        <Link
+          href="https://www.linkedin.com/company/codenation-studio/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <PlayButton
+            content={service.subcategories.getInTouch}
+            width={200}
+            color={{ text: "text-background", bg: "bg-secondary" }}
+            className="font-inter mt-6 font-semibold lg:my-0 lg:px-6"
+          />
+        </Link>
       </div>
       <div className="grid w-full grid-cols-1 grid-rows-6 gap-x-8 px-2 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:px-3 xl:px-4">
         {service.subcategories.allsubcategories.map(

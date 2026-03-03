@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { Navigation } from "swiper/modules";
+import Link from "next/link";
 
 interface Project {
   title: string;
@@ -30,12 +31,18 @@ export const FavoriteProducts = ({ service }: TranslationDict) => {
                 </h2>
               </div>
             </div>
-            <PlayButton
-              content={service.favorites.viewWork}
-              width={150}
-              color={{ text: "text-background", bg: "bg-secondary" }}
-              className="font-inter my-4 lg:my-0"
-            />
+            <Link
+              href="https://www.linkedin.com/company/codenation-studio/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <PlayButton
+                content={service.favorites.viewWork}
+                width={150}
+                color={{ text: "text-background", bg: "bg-secondary" }}
+                className="font-inter my-4 lg:my-0"
+              />
+            </Link>
           </div>
           <div className="flex w-full flex-col">
             <Swiper

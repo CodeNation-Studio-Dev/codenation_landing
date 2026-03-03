@@ -5,6 +5,7 @@ import "swiper/css";
 import { Navigation } from "swiper/modules";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { TranslationDict } from "@/src/_providers/translationProvider";
+import Link from "next/link";
 
 export const Testimonials = ({ service }: TranslationDict) => {
   return (
@@ -23,12 +24,18 @@ export const Testimonials = ({ service }: TranslationDict) => {
                 {service.testimonials.title}
               </h2>
               <div className="group relative inline-flex items-center">
-                <PlayButton
-                  content={"Let's Chat"}
-                  width={120}
-                  color={{ text: "text-background", bg: "bg-secondary" }}
-                  className="font-inter"
-                />
+                <Link
+                  href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <PlayButton
+                    content={service.testimonials.contact}
+                    width={120}
+                    color={{ text: "text-background", bg: "bg-secondary" }}
+                    className="font-inter"
+                  />
+                </Link>
                 <div className="absolute top-0 right-0 z-20 flex h-9 w-9 transform items-center justify-center transition-transform xl:group-hover:translate-x-3 xl:group-hover:rotate-45">
                   <div className="relative overflow-hidden text-gray-600">
                     <div className="relative top-0 left-0 transform transition-transform">
