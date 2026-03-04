@@ -52,17 +52,17 @@
       {
         "title": "UX/UI Design",
         "description": "User-centered interfaces",
-        "url": "design"
+        "url": ""
       },
       {
         "title": "AI & Automation",
         "description": "Integration of intelligent features",
-        "url": "automatization"
+        "url": ""
       },
       {
         "title": "Cloud-Native Architecture",
         "description": "Systems built on modern cloud platforms",
-        "url": "cloud"
+        "url": ""
       }
     ]
   },
@@ -131,21 +131,21 @@
         "subtitle": "User-first design with purpose",
         "description": "User-centered interfaces backed by research, usability testing, and seamless handoff to development.",
         "img": "/assets/categories-bg-uxui.png",
-        "url": "design"
+        "url": ""
       },
       {
         "title": "AI & Automation Integration",
         "subtitle": "AI-powered business workflows",
         "description": "Embed intelligent features into your workflows — from data analysis to predictive tools and process automation.",
         "img": "/assets/categories-bg-automation.png",
-        "url": "automatization"
+        "url": ""
       },
       {
         "title": "Cloud-Native Architecture",
         "subtitle": "Infrastructure that scales with you",
         "description": "Scalable, resilient systems built on modern cloud platforms (AWS, Azure, GCP) with DevOps best practices.",
         "img": "/assets/categories-bg-cloud.png",
-        "url": "cloud"
+        "url": ""
       }
     ]
   }

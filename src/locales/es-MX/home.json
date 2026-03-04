@@ -52,17 +52,17 @@
       {
         "title": "Diseño UX/UI",
         "description": "Interfaces centradas en el usuario",
-        "url": "design"
+        "url": ""
       },
       {
         "title": "IA y automatización",
         "description": "Integración de funciones inteligentes",
-        "url": "automatization"
+        "url": ""
       },
       {
         "title": "Arquitectura nativa de nube",
         "description": "Sistemas basados en plataformas de nube modernas",
-        "url": "cloud"
+        "url": ""
       }
     ]
   },
@@ -131,21 +131,21 @@
         "subtitle": "Diseño con propósito",
         "description": "Interfaces centradas en el usuario, respaldadas por investigación, pruebas de usabilidad y una entrega fluida al desarrollo.",
         "img": "/assets/categories-bg-uxui.png",
-        "url": "design"
+        "url": ""
       },
       {
         "title": "Integración de IA y automatización",
         "subtitle": "Flujos de trabajo impulsados por IA",
         "description": "Integre funciones inteligentes en sus flujos de trabajo, desde análisis de datos hasta herramientas predictivas y automatización de procesos",
         "img": "/assets/categories-bg-automation.png",
-        "url": "automatization"
+        "url": ""
       },
       {
         "title": "Arquitectura Nativa de Nube",
         "subtitle": "Infraestructura que escala contigo",
         "description": "Sistemas escalables y resilientes basados ​​en plataformas de nube modernas (AWS, Azure, GCP) con las mejores prácticas de DevOps.",
         "img": "/assets/categories-bg-cloud.png",
-        "url": "cloud"
+        "url": ""
       }
     ]
   }

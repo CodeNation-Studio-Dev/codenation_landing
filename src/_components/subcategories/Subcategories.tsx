@@ -1,11 +1,15 @@
 import { TranslationDict } from "@providers/translationProvider";
 import { PlayButton } from "@lib/components/playButton/PlayButton";
-import { TiPointOfInterest } from "react-icons/ti";
-import { RiShoppingBag4Fill } from "react-icons/ri";
-import { MdInstallMobile } from "react-icons/md";
-import { HiArrowsExpand } from "react-icons/hi";
+import { MdDesignServices, MdInstallMobile } from "react-icons/md";
+import { BiSupport } from "react-icons/bi";
 import { GrCycle } from "react-icons/gr";
-import { PiStrategyBold } from "react-icons/pi";
+import { HiArrowsExpand } from "react-icons/hi";
+import { HiRocketLaunch } from "react-icons/hi2";
+import { IoMdAnalytics } from "react-icons/io";
+import { IoLayers } from "react-icons/io5";
+import { PiIntersectFill, PiStrategyBold } from "react-icons/pi";
+import { RiShoppingBag4Fill } from "react-icons/ri";
+import { TiPointOfInterest } from "react-icons/ti";
 import Link from "next/link";
 
 const icons = {
@@ -18,12 +22,12 @@ const icons = {
     PiStrategyBold,
   ],
   mvp: [
-    PiStrategyBold,
-    TiPointOfInterest,
-    RiShoppingBag4Fill,
-    MdInstallMobile,
-    HiArrowsExpand,
-    GrCycle,
+    PiIntersectFill,
+    MdDesignServices,
+    IoLayers,
+    HiRocketLaunch,
+    IoMdAnalytics,
+    BiSupport,
   ],
   design: [
     GrCycle,

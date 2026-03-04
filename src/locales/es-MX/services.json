@@ -15,7 +15,7 @@
       "title": "Por qué desarrollar con nosotros",
       "description": "• Soluciones 100% personalizadas – Diseñamos y desarrollamos cada producto según tus objetivos.\n\n • Entregas ágiles y continuas – Trabajamos en sprints con avances visibles desde el inicio.\n\n• Tecnologías modernas y escalables – Usamos stacks actuales y arquitecturas limpias.\n\n• Equipo multidisciplinario – Desarrollo, UX/UI y QA trabajando en conjunto.\n\n• Enfoque en resultados – Creamos soluciones que generan valor real."
     },
-    "bigText": "Lets work together.",
+    "bigText": "Hecho a tu Medida.",
     "subcategories": {
       "fewWords": "Todo lo que tu Producto Digital Necesita",
       "title": "Desarrollamos soluciones digitales que impulsan eficiencia, crecimiento y ventaja competitiva.",
@@ -112,48 +112,48 @@
   "mvp": {
     "name": "mvp",
     "main": {
-      "title": "Producto mínimo variable",
-      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio. Desarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+      "title": "Acelera tu startup desde el primer día",
+      "description": "En CodeNation Studio entendemos que el éxito de una startup no depende de tener un producto perfecto desde el inicio, sino de validar rápidamente su propuesta de valor. Por eso, especializamos en el desarrollo ágil de MVPs (Productos Mínimos Viables) que te permiten probar tu modelo de negocio con el menor esfuerzo y costo posible.\n\nTrabajamos contigo para identificar las funcionalidades clave, diseñar una experiencia de usuario atractiva y desarrollar una versión funcional de tu producto en semanas. Así puedes comenzar a recoger feedback real, iterar rápido y tomar decisiones estratégicas basadas en datos, no en suposiciones."
     },
     "explanation": {
-      "fewWords": "Abordamos cada proyecto con una visión clara.",
-      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
-      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
-      "startProject": "Inicia un proyecto hoy"
+      "fewWords": "Convierte tu idea en realidad.",
+      "title": "Lanza, Valida y Escala con Inteligencia",
+      "description": "Válida tu idea en semanas, no en meses. Transformamos tu concepto en un Producto Mínimo Viable funcional, listo para probar en el mercado, captar usuarios y atraer inversión. Todo con enfoque Lean Startup y tecnología de vanguardia.\n\nComo parte de nuestro trabajo en la incubadora de startups y por nuestra propia experiencia siendo acelerados en programas como Endeavor, Emprelatam, Reto Zapopan y Codelaunch, sabemos qué elementos son esenciales para un MVP que realmente atraiga usuarios e inversionistas.",
+      "startProject": "Inicia un proyecto"
     },
     "inhouse": {
-      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
-      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+      "title": "Por qué desarrollar tu MVP con nosotros",
+      "description": "• Lanzamiento rápido (4–8 semanas) – MVP funcional, sin comprometer calidad.\n\n• Enfoque Lean – Solo lo esencial para validar tu hipótesis.\n\n• Experiencia startup – Hemos vivido el proceso y sus retos.\n\n• Arquitectura escalable – Construido para crecer desde el día uno.\n\n• Métricas integradas – Mide uso, retención y conversión desde el inicio."
     },
-    "bigText": "Lets work together.",
+    "bigText": "¿Listo para lanzar?",
     "subcategories": {
-      "fewWords": "En qué podemos ayudarte",
-      "title": "Un equipo de expertos en diseño web que puede ayudarte a diseñar y construir un sitio web del que te sientas orgulloso",
-      "getInTouch": "Ponte en contacto hoy",
+      "fewWords": "Lanzamiento Inteligente",
+      "title": "Así construimos tu MVP: con lo esencial para competir desde el primer día",
+      "getInTouch": "Cuentanos tu idea",
       "allsubcategories": [
         {
-          "title": "Diseño Web",
-          "description": "Diseño web a medida, perfecto para tu marca y tu público objetivo."
+          "title": "Definición del Alcance",
+          "description": "Identificamos las funcionalidades mínimas necesarias para validar tu idea."
         },
         {
-          "title": "Comercio Electrónico",
-          "description": "Vende productos en línea las 24/7 a través de un sitio web de comercio electrónico bien diseñado y fácil de usar."
+          "title": "Diseño UX/UI",
+          "description": "Creamos interfaces intuitivas y atractivas que generen engagement desde el primer uso."
         },
         {
-          "title": "Diseño UX",
-          "description": "Ofrece experiencias significativas y relevantes a los usuarios mediante el diseño de experiencia de usuario (UX)."
+          "title": "Desarrollo Full-Stack",
+          "description": "Construimos la versión funcional completa (frontend, backend, base de datos)."
         },
         {
-          "title": "Diseño Responsivo",
-          "description": "Diseñado para todos los dispositivos más recientes, incluidos iPhone y iPad."
+          "title": "Pruebas y Lanzamiento",
+          "description": "Realizamos testing riguroso y te ayudamos a lanzar tu MVP al mercado."
         },
         {
-          "title": "Wireframes",
-          "description": "Una herramienta de visualización para presentar la estructura, funciones y contenido propuestos de un sitio web."
+          "title": "Integración de Análitica",
+          "description": "Google Analytics, eventos personalizados, métricas de conversión y retención."
         },
         {
-          "title": "Estrategia",
-          "description": "No solo enfocada en el presente, sino también en el futuro para identificar oportunidades de crecimiento."
+          "title": "Acompañamiento Post-Lanzamiento",
+          "description": "Te apoyamos con iteraciones basadas en feedback y preparación para la siguiente ronda."
         }
       ]
     },
