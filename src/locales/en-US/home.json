@@ -57,7 +57,7 @@
       {
         "title": "AI & Automation",
         "description": "Integration of intelligent features",
-        "url": ""
+        "url": "automatization"
       },
       {
         "title": "Cloud-Native Architecture",
@@ -138,7 +138,7 @@
         "subtitle": "AI-powered business workflows",
         "description": "Embed intelligent features into your workflows — from data analysis to predictive tools and process automation.",
         "img": "/assets/categories-bg-automation.png",
-        "url": ""
+        "url": "automatization"
       },
       {
         "title": "Cloud-Native Architecture",

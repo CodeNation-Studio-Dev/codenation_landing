@@ -53,7 +53,9 @@ export const Footer = () => {
               <Link href="">{footer.services.design}</Link>
             </li>
             <li>
-              <Link href="">{footer.services.automatization}</Link>
+              <Link href={`/${lang}/services/automatization`}>
+                {footer.services.automatization}
+              </Link>
             </li>
             <li>
               <Link href="">{footer.services.cloud}</Link>

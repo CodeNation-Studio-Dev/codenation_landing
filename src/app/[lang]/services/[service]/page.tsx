@@ -20,14 +20,14 @@ const images = {
     tertiary: "/assets/mvp-tertiary.png",
   },
   design: {
-    main: "/assets",
+    main: "/assets/automatization-main-v1.png",
     secondary: "/",
     tertiary: "/",
   },
   automatization: {
-    main: "/assets",
-    secondary: "/",
-    tertiary: "/",
+    main: "/assets/automatization-main-v4.png",
+    secondary: "/assets/automatization-secondary-v4.png",
+    tertiary: "/assets/automatization-tertiary-v2.png",
   },
   cloud: {
     main: "/assets",

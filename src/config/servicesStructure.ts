@@ -44,10 +44,6 @@ export const servicesStructure = {
       component: Testimonials,
       key: "autoTestimonials",
     },
-    {
-      component: Subcategories,
-      key: "autoSubcategories",
-    },
   ],
   cloud: [
     {

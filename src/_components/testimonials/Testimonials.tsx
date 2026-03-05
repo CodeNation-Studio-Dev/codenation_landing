@@ -6,8 +6,26 @@ import { Navigation } from "swiper/modules";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { TranslationDict } from "@/src/_providers/translationProvider";
 import Link from "next/link";
+import { BsRobot } from "react-icons/bs";
+import { FaBrain } from "react-icons/fa6";
+import { GiProcessor } from "react-icons/gi";
+import { GrOptimize } from "react-icons/gr";
+import { TbMessageChatbotFilled } from "react-icons/tb";
+import { RiAiGenerate2 } from "react-icons/ri";
+
+const icons = {
+  automatization: [
+    TbMessageChatbotFilled,
+    BsRobot,
+    GiProcessor,
+    GrOptimize,
+    FaBrain,
+    RiAiGenerate2,
+  ],
+};
 
 export const Testimonials = ({ service }: TranslationDict) => {
+  const iconKey = service.name as "automatization";
   return (
     <div className="4xl:pb-40 mt-20 w-full pb-20 lg:pb-24 2xl:pb-32">
       <div className="3xl:pl-40 4xl:pl-60 pl-2 sm:pl-6 xl:pl-12 2xl:pl-20">
@@ -82,44 +100,79 @@ export const Testimonials = ({ service }: TranslationDict) => {
                 loop
                 className="w-full"
               >
-                {service.testimonials.alltestimonials.map(
-                  (
-                    testimonial: {
-                      message: string;
-                      user: string;
-                      company: string;
+                {service.testimonials.alltestimonials &&
+                  service.testimonials.alltestimonials.map(
+                    (
+                      testimonial: {
+                        message: string;
+                        user: string;
+                        company: string;
+                      },
+                      index: number,
+                    ) => (
+                      <SwiperSlide
+                        key={index}
+                        className="flex !h-[440px] !w-[350px] px-2 md:!h-[400px] md:!w-[570px] lg:px-3 xl:px-4"
+                      >
+                        <div className="bg-surface-container flex h-full flex-col items-start justify-between rounded-2xl p-6 lg:rounded-3xl lg:p-10">
+                          <div className="w-full">
+                            <div className="leading-relaxed">
+                              {testimonial.message}
+                            </div>
+                          </div>
+                          <div className="flex items-end space-x-2 lg:space-x-3">
+                            <div className="bg-secondary relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-md lg:h-12 lg:w-12 lg:rounded-lg">
+                              <div className="text-background mt-px text-xl">
+                                {testimonial.user.charAt(0).toUpperCase()}
+                              </div>
+                            </div>
+                            <div className="leading-tight tracking-tight">
+                              <div className="dark:text-grayDark-100 text-gray-600">
+                                {testimonial.user}
+                              </div>
+                              <div className="dark:text-grayDark-200 text-xs font-light text-gray-400 lg:text-sm">
+                                {testimonial.company}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    ),
+                  )}
+                {service.testimonials.alltexts &&
+                  service.testimonials.alltexts.map(
+                    (
+                      text: {
+                        title: string;
+                        description: string;
+                      },
+                      index: number,
+                    ) => {
+                      const Icon = icons[iconKey][index];
+                      return (
+                        <SwiperSlide
+                          key={index}
+                          className="flex !h-[440px] !w-[350px] px-2 md:!h-[400px] md:!w-[570px] lg:px-3 xl:px-4"
+                        >
+                          <div className="bg-surface-container border-outline-variant shadow-shadow/40 flex h-full flex-col items-start rounded-2xl border p-6 shadow-lg backdrop-blur-xl transition-all duration-300 ease-out lg:rounded-3xl lg:p-10">
+                            <div className="flex w-full items-center pb-10">
+                              <div className="bg-secondary 4xl:w-15 4xl:h-15 inline-flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl">
+                                <Icon className="text-background 4xl:text-4xl flex-shrink-0 fill-current text-3xl" />
+                              </div>
+                              <div className="w-full text-center text-2xl font-semibold">
+                                {text.title}
+                              </div>
+                            </div>
+                            <div className="w-full">
+                              <div className="leading-[1.7]">
+                                {text.description}
+                              </div>
+                            </div>
+                          </div>
+                        </SwiperSlide>
+                      );
                     },
-                    index: number,
-                  ) => (
-                    <SwiperSlide
-                      key={index}
-                      className="flex !h-[440px] !w-[350px] px-2 md:!h-[400px] md:!w-[570px] lg:px-3 xl:px-4"
-                    >
-                      <div className="bg-surface-container flex h-full flex-col items-start justify-between rounded-2xl p-6 lg:rounded-3xl lg:p-10">
-                        <div className="w-full">
-                          <div className="leading-relaxed">
-                            {testimonial.message}
-                          </div>
-                        </div>
-                        <div className="flex items-end space-x-2 lg:space-x-3">
-                          <div className="bg-secondary relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-md lg:h-12 lg:w-12 lg:rounded-lg">
-                            <div className="text-background mt-px text-xl">
-                              {testimonial.user.charAt(0).toUpperCase()}
-                            </div>
-                          </div>
-                          <div className="leading-tight tracking-tight">
-                            <div className="dark:text-grayDark-100 text-gray-600">
-                              {testimonial.user}
-                            </div>
-                            <div className="dark:text-grayDark-200 text-xs font-light text-gray-400 lg:text-sm">
-                              {testimonial.company}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                  ),
-                )}
+                  )}
               </Swiper>
             </div>
           </div>
