@@ -81,7 +81,7 @@ export const DropdownMenu = ({
               <div className="relative w-full">
                 <picture className="h-full w-full">
                   <img
-                    src={"/assets/menu-v2.png"}
+                    src={"/assets/menu.png"}
                     sizes="100vw"
                     alt="Shape April 2022 HR 219"
                     className="relative w-full rounded-2xl"

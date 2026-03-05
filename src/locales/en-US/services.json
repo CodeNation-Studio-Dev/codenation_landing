@@ -155,81 +155,6 @@
           "description": "We help you iterate based on real user feedback and prepare for your next growth stage or funding round."
         }
       ]
-    },
-    "testimonials": {
-      "title": "Dynamic Layout",
-      "subtitle": "Testimonials",
-      "alltestimonials": [
-        {
-          "user": "Emily Schweitzer",
-          "company": "Inside Out Contracts",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "user": "Suzie Steel",
-          "company": "The Plough",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "user": "Rachel Bates",
-          "company": "Rachel Bates",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "user": "Nicola Wellard",
-          "company": "Silver Sixpence",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      ]
-    },
-    "favorites": {
-      "fewWords": "Our work",
-      "title": "Dynamic Layout",
-      "viewWork": "View our work",
-      "allprojects": [
-        {
-          "title": "Dynamic Layout",
-          "client": "Gary Neville",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Olgam Life",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Natterjack",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "This is digital",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Millennium Care",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Area",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        }
-      ]
     }
   },
   "design": {
@@ -359,123 +284,48 @@
   "automatization": {
     "name": "automatization",
     "main": {
-      "title": "MVP listo para escalar",
-      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio.\n\nDesarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+      "title": "Unlock the Power of AI for Your Business",
+      "description": "Artificial intelligence is no longer science fiction it’s a strategic tool to scale, automate, and personalize your products. At CodeNation Studio, we don’t apply AI just because it’s trendy; we implement it with purpose. Integrating AI into your product means delivering smarter experiences, reducing operational costs, and making proactive decisions powered by data.\n\nFrom intelligent chatbots to advanced automation and predictive analytics, we build AI solutions that enhance user experience, streamline processes, and create a real competitive advantage."
     },
     "explanation": {
-      "fewWords": "Abordamos cada proyecto con una visión clara.",
-      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
-      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
-      "startProject": "Inicia un proyecto hoy"
+      "fewWords": "Real Results",
+      "title": "The Impact of AI on Your Business",
+      "description": "• Intelligent Automation – Bots that reduce manual work and make context-aware decisions.\n\n• Advanced Personalization – Accurate recommendations that create unique user experiences.\n\n• Predictive Decisions – Anticipate behaviors, failures, and trends using machine learning.\n\n• Seamless Integration – We implement AI without rebuilding your entire product.\n\n• Ethical and Secure AI – Privacy, transparency, and human oversight built in.",
+      "startProject": "Let´s Do It!"
     },
     "inhouse": {
-      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
-      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+      "title": "Transform Your Product with Strategic Intelligence",
+      "description": "We work with pre-trained models (such as LLMs) and custom models, integrating them securely and efficiently into your technology stack while ensuring system privacy and scalability.\n\nFrom chatbots and recommendation engines to predictive platforms, we turn real business needs into robust, scalable, and sustainable technology."
     },
-    "bigText": "Lets work together.",
-    "subcategories": {
-      "fewWords": "What we can help you with",
-      "title": "A team of web design experts that can help you design and build a website you´re proud of",
-      "getInTouch": "Start your project",
-      "allsubcategories": [
-        {
-          "title": "Web Design",
-          "description": "Bespoke web design perfect for your brand and target audience."
-        },
-        {
-          "title": "eCommerce",
-          "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
-        },
-        {
-          "title": "UX Design",
-          "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
-        },
-        {
-          "title": "Responsive Design",
-          "description": "Designed for all the latest devices, including iPhone and iPad."
-        },
-        {
-          "title": "Wireframes",
-          "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
-        },
-        {
-          "title": "Strategy",
-          "description": "Not only looking at the now, but also to the future to see potential growth."
-        }
-      ]
-    },
+    "bigText": "AI Powered Systems.",
     "testimonials": {
-      "title": "Dynamic Layout",
-      "subtitle": "Testimonials",
-      "alltestimonials": [
+      "title": "Our AI Services Include:",
+      "subtitle": "Take a look",
+      "contact": "Let's Get Started",
+      "alltexts": [
         {
-          "user": "Emily Schweitzer",
-          "company": "Inside Out Contracts",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "title": "LLM-Powered Chatbots & Virtual Assistants",
+          "description": "Conversational assistants that understand complex queries, maintain context, and solve real problems. They integrate easily into websites, apps, or WhatsApp, connecting with your internal systems to provide useful and actionable responses."
         },
         {
-          "user": "Suzie Steel",
-          "company": "The Plough",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "title": "Intelligent Recommendation Systems",
+          "description": "Personalized recommendation engines that analyze user behavior, preferences, and historical data to suggest products, content, or services with high accuracy across e-commerce, digital platforms, and B2B environments."
         },
         {
-          "user": "Rachel Bates",
-          "company": "Rachel Bates",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "title": "AI-Powered Process Automation (Hybrid AI)",
+          "description": "We combine RPA with AI models to automate entire workflows such as customer support, document classification, data validation, or onboarding—reducing operational time and minimizing manual errors."
         },
         {
-          "user": "Nicola Wellard",
-          "company": "Silver Sixpence",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      ]
-    },
-    "favorites": {
-      "fewWords": "Our work",
-      "title": "Dynamic Layout",
-      "viewWork": "View our work",
-      "allprojects": [
-        {
-          "title": "Dynamic Layout",
-          "client": "Gary Neville",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+          "title": "Predictive Analytics & Forecasting",
+          "description": "We build models that anticipate sales trends, churn, preventive maintenance, and user behavior—helping you make data-driven decisions instead of relying only on intuition."
         },
         {
-          "title": "Dynamic Layout",
-          "client": "Olgam Life",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
+          "title": "Natural Language Processing (NLP)",
+          "description": "We apply NLP techniques to extract insights from large volumes of text, analyze sentiment, categorize information, and generate automatic summaries that support faster and smarter decision-making."
         },
         {
-          "title": "Dynamic Layout",
-          "client": "Natterjack",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "This is digital",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Millennium Care",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Area",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
+          "title": "Applied Generative AI",
+          "description": "We implement generative models for text, images, or code to optimize internal processes, accelerate content creation, and enhance user experiences with innovative and scalable solutions."
         }
       ]
     }

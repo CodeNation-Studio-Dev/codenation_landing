@@ -156,81 +156,6 @@
           "description": "Te apoyamos con iteraciones basadas en feedback y preparación para la siguiente ronda."
         }
       ]
-    },
-    "testimonials": {
-      "title": "Why our clients love Craft CMS",
-      "subtitle": "Testimonials",
-      "alltestimonials": [
-        {
-          "user": "Emily Schweitzer",
-          "company": "Inside Out Contracts",
-          "message": "Our website just blows our competitors out the water. It's so much easier to navigate than before and is just a cut above the rest. If I went back in time I would definitely choose Shape again, I just wouldn't bother with anyone else. The team at Shape are very friendly, very responsive and they are great value for money."
-        },
-        {
-          "user": "Suzie Steel",
-          "company": "The Plough",
-          "message": "Our website smashes our competitors websites out the park. We've had lots of comments about how good it is, how easy it is to navigate through and how beautiful it is. Benefits of working with Shape are that they really engross themselves in your brand &amp; put that across in your website."
-        },
-        {
-          "user": "Rachel Bates",
-          "company": "Rachel Bates",
-          "message": "If I went back in time I would definitely work with Shape again. Our website would stand up as being totally unique against all our competitors. Shape are so hip &amp; so different and their approach is so fresh. Andy really goes above and beyond with everything you ask him to do."
-        },
-        {
-          "user": "Nicola Wellard",
-          "company": "Silver Sixpence",
-          "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
-        }
-      ]
-    },
-    "favorites": {
-      "fewWords": "Nuestro trabajo",
-      "title": "Nuestros proyectos favoritos de diseño web",
-      "viewWork": "Ver nuestro trabajo",
-      "allprojects": [
-        {
-          "title": "Renovando la presencia digital de Gary Neville",
-          "client": "Gary Neville",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
-        },
-        {
-          "title": "Transformando el sector de la donación de plasma",
-          "client": "Olgam Life",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
-        },
-        {
-          "title": "Renovación integral de una agencia de marketing centrada en las personas",
-          "client": "Natterjack",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Renovación completa de marca para una agencia de rendimiento digital",
-          "client": "This is digital",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Reimaginando la identidad visual del cuidado en la etapa adulta",
-          "client": "Millennium Care",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Mostrando una pasión compartida por el entorno laboral",
-          "client": "Area",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        }
-      ]
     }
   },
   "design": {
@@ -360,123 +285,48 @@
   "automatization": {
     "name": "automatization",
     "main": {
-      "title": "Producto mínimo variable",
-      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio. Desarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+      "title": "Integración de Inteligencia Artificial",
+      "description": "La inteligencia artificial ya no es ciencia ficción: es una herramienta estratégica para escalar, automatizar y personalizar. En CodeNation Studio, no aplicamos IA por moda, sino con propósito. Integrar inteligencia artificial en tu producto significa ofrecer experiencias más inteligentes, reducir costos operativos y tomar decisiones anticipadas basadas en datos.\n\nDesde chatbots inteligentes hasta automatización avanzada y análisis predictivo, implementamos soluciones de IA que mejoran la experiencia del usuario, optimizan procesos y generan ventaja competitiva."
     },
     "explanation": {
-      "fewWords": "Abordamos cada proyecto con una visión clara.",
-      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
-      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
-      "startProject": "Inicia un proyecto hoy"
+      "fewWords": "Resultados reales",
+      "title": "Impacto de la IA en tu negocio",
+      "description": "• Automatización inteligente – Bots que reducen tareas manuales y toman decisiones con contexto.\n\n• Personalización avanzada – Recomendaciones precisas para experiencias únicas.\n\n• Decisiones predictivas – Anticipa comportamientos, fallos y tendencias con ML.\n\n• Integración ágil – Implementamos IA sin rehacer tu producto.\n\n• IA ética y segura – Privacidad, transparencia y control humano garantizados.",
+      "startProject": "¡Hágamoslo!"
     },
     "inhouse": {
-      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
-      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+      "title": "Transforma tu producto con inteligencia estratégica",
+      "description": "Trabajamos con modelos pre-entrenados (como LLMs) y modelos personalizados, integrándolos de forma segura y eficiente en tu stack tecnológico, siempre respetando la privacidad y escalabilidad del sistema.\n\nDesde chatbots y motores de recomendación hasta plataformas predictivas, transformamos necesidades reales en tecnología robusta, escalable y sostenible."
     },
-    "bigText": "Lets work together.",
-    "subcategories": {
-      "fewWords": "En qué podemos ayudarte",
-      "title": "Un equipo de expertos en diseño web que puede ayudarte a diseñar y construir un sitio web del que te sientas orgulloso",
-      "getInTouch": "Ponte en contacto hoy",
-      "allsubcategories": [
-        {
-          "title": "Diseño Web",
-          "description": "Diseño web a medida, perfecto para tu marca y tu público objetivo."
-        },
-        {
-          "title": "Comercio Electrónico",
-          "description": "Vende productos en línea las 24/7 a través de un sitio web de comercio electrónico bien diseñado y fácil de usar."
-        },
-        {
-          "title": "Diseño UX",
-          "description": "Ofrece experiencias significativas y relevantes a los usuarios mediante el diseño de experiencia de usuario (UX)."
-        },
-        {
-          "title": "Diseño Responsivo",
-          "description": "Diseñado para todos los dispositivos más recientes, incluidos iPhone y iPad."
-        },
-        {
-          "title": "Wireframes",
-          "description": "Una herramienta de visualización para presentar la estructura, funciones y contenido propuestos de un sitio web."
-        },
-        {
-          "title": "Estrategia",
-          "description": "No solo enfocada en el presente, sino también en el futuro para identificar oportunidades de crecimiento."
-        }
-      ]
-    },
+    "bigText": "Potenciado con IA.",
     "testimonials": {
-      "title": "Why our clients love Craft CMS",
-      "subtitle": "Testimonials",
-      "alltestimonials": [
+      "title": "Nuestros servicios de IA incluyen:",
+      "subtitle": "Da un vistazo",
+      "contact": "Comencemos",
+      "alltexts": [
         {
-          "user": "Emily Schweitzer",
-          "company": "Inside Out Contracts",
-          "message": "Our website just blows our competitors out the water. It's so much easier to navigate than before and is just a cut above the rest. If I went back in time I would definitely choose Shape again, I just wouldn't bother with anyone else. The team at Shape are very friendly, very responsive and they are great value for money."
+          "title": "Chatbots y Asistentes Virtuales con LLMs",
+          "description": "Asistentes conversacionales que comprenden consultas complejas, mantienen contexto y resuelven problemas reales. Se integran fácilmente en web, apps o WhatsApp, conectándose con tus sistemas internos para ofrecer respuestas útiles y accionables."
         },
         {
-          "user": "Suzie Steel",
-          "company": "The Plough",
-          "message": "Our website smashes our competitors websites out the park. We've had lots of comments about how good it is, how easy it is to navigate through and how beautiful it is. Benefits of working with Shape are that they really engross themselves in your brand &amp; put that across in your website."
+          "title": " Sistemas de Recomendación Inteligente",
+          "description": "Motores de recomendación personalizados que analizan comportamiento, preferencias y datos históricos para sugerir productos, contenidos o servicios con alta precisión en e-commerce, plataformas digitales o entornos B2B."
         },
         {
-          "user": "Rachel Bates",
-          "company": "Rachel Bates",
-          "message": "If I went back in time I would definitely work with Shape again. Our website would stand up as being totally unique against all our competitors. Shape are so hip &amp; so different and their approach is so fresh. Andy really goes above and beyond with everything you ask him to do."
+          "title": "Automatización de Procesos con IA (IA híbrida)",
+          "description": "Combinamos RPA con modelos de IA para automatizar procesos completos como atención al cliente, clasificación de documentos, validación de datos u onboarding, reduciendo tiempos operativos y errores manuales."
         },
         {
-          "user": "Nicola Wellard",
-          "company": "Silver Sixpence",
-          "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
-        }
-      ]
-    },
-    "favorites": {
-      "fewWords": "Nuestro trabajo",
-      "title": "Nuestros proyectos favoritos de diseño web",
-      "viewWork": "Ver nuestro trabajo",
-      "allprojects": [
-        {
-          "title": "Renovando la presencia digital de Gary Neville",
-          "client": "Gary Neville",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+          "title": "Análisis Predictivo y Forecasting",
+          "description": "Desarrollamos modelos que anticipan ventas, churn, mantenimiento preventivo o comportamiento del usuario, ayudándote a tomar decisiones basadas en datos y no solo en intuición."
         },
         {
-          "title": "Transformando el sector de la donación de plasma",
-          "client": "Olgam Life",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
+          "title": "Procesamiento de Lenguaje Natural (NLP)",
+          "description": "Aplicamos técnicas de NLP para extraer insights de grandes volúmenes de texto, analizar sentimientos, categorizar información y generar resúmenes automáticos que facilitan la toma de decisiones."
         },
         {
-          "title": "Renovación integral de una agencia de marketing centrada en las personas",
-          "client": "Natterjack",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Renovación completa de marca para una agencia de rendimiento digital",
-          "client": "This is digital",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Reimaginando la identidad visual del cuidado en la etapa adulta",
-          "client": "Millennium Care",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Mostrando una pasión compartida por el entorno laboral",
-          "client": "Area",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
+          "title": "IA Generativa aplicada",
+          "description": "Implementamos modelos generativos de texto, imágenes o código para optimizar procesos internos, acelerar la creación de contenido y mejorar la experiencia del usuario con soluciones innovadoras y escalables."
         }
       ]
     }

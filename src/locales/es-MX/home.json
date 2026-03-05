@@ -57,7 +57,7 @@
       {
         "title": "IA y automatización",
         "description": "Integración de funciones inteligentes",
-        "url": ""
+        "url": "automatization"
       },
       {
         "title": "Arquitectura nativa de nube",
@@ -138,7 +138,7 @@
         "subtitle": "Flujos de trabajo impulsados por IA",
         "description": "Integre funciones inteligentes en sus flujos de trabajo, desde análisis de datos hasta herramientas predictivas y automatización de procesos",
         "img": "/assets/categories-bg-automation.png",
-        "url": ""
+        "url": "automatization"
       },
       {
         "title": "Arquitectura Nativa de Nube",
