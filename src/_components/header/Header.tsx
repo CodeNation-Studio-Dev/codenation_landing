@@ -78,7 +78,7 @@ export const Header = () => {
                 onClick={() => setOpenMenu(true)}
                 className="cursor-pointer"
               >
-                {/* {header.services} */}
+                {header.services}
               </button>
               <DropdownMenu open={openMenu} setOpen={setOpenMenu} lang={lang} />
               <a className="cursor-pointer" href={`/${lang}#showcase`}>
@@ -135,7 +135,7 @@ export const Header = () => {
           </section>
         </div>
         <section className="dropdown-menu mt-10 hidden flex-col items-start gap-y-4 text-4xl">
-          {/* <Link href={`/${lang}/services/webpage`}>{header.services}</Link> */}
+          <Link href={`/${lang}/services/webpage`}>{header.services}</Link>
           <Link href={`/${lang}/#showcase`}>{header.work}</Link>
           <Link href={`/${lang}/about-us`}>{header.about}</Link>
           {/* <p>{header.blog}</p> */}

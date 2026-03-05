@@ -30,7 +30,7 @@ export const DropdownMenu = ({
           {dropdown.menuItems.map((menuItem: MenuItem, i: number) => (
             <Link
               key={i}
-              href={`/${lang}/services/${menuItem.url}/`}
+              href={menuItem.url ? `/${lang}/services/${menuItem.url}/` : ""}
               className="group bg-opacity-0 dark:bg-grayDark-600 dark:bg-opacity-0 xl:hover:bg-opacity-100 bg-surface-container w-full flex-1 flex-col items-start justify-center rounded-2xl px-4 py-2.5 dark:text-white"
             >
               <div className="flex h-full flex-col justify-center">
@@ -81,7 +81,7 @@ export const DropdownMenu = ({
               <div className="relative w-full">
                 <picture className="h-full w-full">
                   <img
-                    src={"/assets/menu.webp"}
+                    src={"/assets/menu-v2.png"}
                     sizes="100vw"
                     alt="Shape April 2022 HR 219"
                     className="relative w-full rounded-2xl"

@@ -15,9 +15,9 @@ const images = {
     tertiary: "/assets/webpage-tertiary.png",
   },
   mvp: {
-    main: "/assets",
-    secondary: "/",
-    tertiary: "/",
+    main: "/assets/mvp-main.png",
+    secondary: "/assets/mvp-secondary.png",
+    tertiary: "/assets/mvp-tertiary.png",
   },
   design: {
     main: "/assets",

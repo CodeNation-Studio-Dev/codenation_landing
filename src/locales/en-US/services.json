@@ -15,7 +15,7 @@
       "title": "Why Develop With Us",
       "description": "• 100% Custom Solutions – Every product is designed and built around your business goals.\n\n• Agile & Continuous Delivery – We work in sprints with visible progress from day one.\n\n• Modern & Scalable Technologies – We use up-to-date tech stacks and clean architectures.\n\n• Multidisciplinary Team – Development, UX/UI, and QA working together seamlessly.\n\n• Results-Driven Approach – We create solutions that deliver real business value."
     },
-    "bigText": "Lets work together.",
+    "bigText": "Tailored For You.",
     "subcategories": {
       "fewWords": "Everything Your Digital Product Needs",
       "title": "We build digital solutions that drive efficiency, growth, and competitive advantage.",
@@ -111,48 +111,48 @@
   "mvp": {
     "name": "mvp",
     "main": {
-      "title": "MVP listo para escalar",
-      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio.\n\nDesarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+      "title": "Accelerate Your Startup from Day One",
+      "description": "At CodeNation Studio, we know startup success doesn’t come from launching a perfect product, it comes from validating your value proposition fast. That’s why we specialize in agile MVP (Minimum Viable Product) development, helping you test your business model with minimal time, cost, and risk.\n\nWe work closely with you to define the core features, craft a compelling user experience, and build a functional version of your product in just weeks. This allows you to gather real user feedback, iterate quickly, and make strategic decisions based on data not assumptions."
     },
     "explanation": {
-      "fewWords": "Abordamos cada proyecto con una visión clara.",
-      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
-      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
-      "startProject": "Inicia un proyecto hoy"
+      "fewWords": "Turn your idea into reality",
+      "title": "Launch, Validate, and Scale with Intelligence",
+      "description": "Validate your idea in weeks not months. We transform your concept into a functional Minimum Viable Product, ready to test in the market, attract early users, and capture investor attention. All built with a Lean Startup mindset and cutting-edge technology.\n\nThrough our work inside startup incubators and from our own experience being accelerated by programs like Endeavor, Emprelatam, Reto Zapopan, and CodeLaunch — we understand what truly makes an MVP stand out. We know which elements are essential to attract both users and investors.",
+      "startProject": "Start a project today"
     },
     "inhouse": {
-      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
-      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+      "title": "Why Build Your MVP With Us",
+      "description": "• Fast Launch (4–8 Weeks) – A fully functional MVP delivered quickly, without compromising quality.\n\n• Lean Approach – We focus only on what’s essential to validate your core hypothesis.\n\n• Startup Experience – We’ve been through the journey ourselves. We understand the challenges.\n\n• Scalable Architecture – Built to grow from day one.\n\n• Integrated Metrics – Track usage, retention, and conversion from the very beginning."
     },
-    "bigText": "Lets work together.",
+    "bigText": "Ready To Launch?.",
     "subcategories": {
-      "fewWords": "What we can help you with",
-      "title": "A team of web design experts that can help you design and build a website you´re proud of",
-      "getInTouch": "Start your project",
+      "fewWords": "Smart Lauch",
+      "title": "How We Build Your MVP: With What It Takes to Compete from Day One",
+      "getInTouch": "Share your idea",
       "allsubcategories": [
         {
-          "title": "Web Design",
-          "description": "Bespoke web design perfect for your brand and target audience."
+          "title": "Scope Definition",
+          "description": "We identify the minimum set of features required to properly validate your idea."
         },
         {
-          "title": "eCommerce",
-          "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
+          "title": "UX/UI Design",
+          "description": "We craft intuitive, engaging interfaces designed to create impact from the very first interaction."
         },
         {
-          "title": "UX Design",
-          "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+          "title": "Full-Stack Development",
+          "description": "We build a fully functional product: frontend, backend, and database included."
         },
         {
-          "title": "Responsive Design",
-          "description": "Designed for all the latest devices, including iPhone and iPad."
+          "title": "Testing & Launch",
+          "description": "We conduct rigorous testing and support you through a smooth market launch."
         },
         {
-          "title": "Wireframes",
-          "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+          "title": "Analytics Integration",
+          "description": "Google Analytics setup, custom events, and conversion and retention tracking from day one."
         },
         {
-          "title": "Strategy",
-          "description": "Not only looking at the now, but also to the future to see potential growth."
+          "title": "Post-Launch Support",
+          "description": "We help you iterate based on real user feedback and prepare for your next growth stage or funding round."
         }
       ]
     },

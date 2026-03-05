@@ -5,9 +5,11 @@ import { FaSquareFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
 import Image from "next/image";
+import { useParams } from "next/navigation";
 
 export const Footer = () => {
   const { footer } = useTranslations();
+  const { lang } = useParams();
 
   return (
     <footer className="bg-background grid w-full px-5 py-24 sm:px-15 lg:place-content-center">
@@ -40,10 +42,12 @@ export const Footer = () => {
           </h2>
           <ul className="grid gap-y-2">
             <li>
-              <Link href="">{footer.services.mvp}</Link>
+              <Link href={`/${lang}/services/mvp`}>{footer.services.mvp}</Link>
             </li>
             <li>
-              <Link href="">{footer.services.web}</Link>
+              <Link href={`/${lang}/services/webpage`}>
+                {footer.services.web}
+              </Link>
             </li>
             <li>
               <Link href="">{footer.services.design}</Link>
