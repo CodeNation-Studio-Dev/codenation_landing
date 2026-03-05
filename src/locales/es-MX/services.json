@@ -334,123 +334,75 @@
   "cloud": {
     "name": "cloud",
     "main": {
-      "title": "Producto mínimo variable",
-      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio. Desarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+      "title": "Arquitectura lista para escalar",
+      "description": "Un gran producto digital necesita una infraestructura detrás que no falle. En CodeNation Studio, no solo desarrollamos software: diseñamos arquitecturas en la nube robustas, eficientes y automatizadas que permiten a tus aplicaciones escalar bajo demanda, mantenerse seguras y operar con mínima intervención.\n\nImplementamos soluciones en AWS, Google Cloud Platform o Microsoft Azure, utilizando prácticas de DevOps, contenedores (Docker, Kubernetes), CI/CD y monitoreo proactivo. Todo con el objetivo de que tu equipo se enfoque en innovar, mientras nosotros garantizamos que la infraestructura funcione perfectamente."
     },
     "explanation": {
-      "fewWords": "Abordamos cada proyecto con una visión clara.",
-      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
-      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
-      "startProject": "Inicia un proyecto hoy"
+      "fewWords": "La base para tu crecimiento digital",
+      "title": "Infraestructura que impulsa tu producto",
+      "description": "Una arquitectura cloud bien diseñada permite que tu producto crezca sin comprometer estabilidad ni rendimiento. Diseñamos sistemas pensados para escalar y adaptarse fácilmente a nuevas funcionalidades o mayor tráfico.\n\nImplementamos automatización, monitoreo continuo y prácticas DevOps para mantener tu infraestructura segura, eficiente y siempre disponible, mientras tu equipo se enfoca en construir el producto.",
+      "startProject": "¡Escríbenos!"
     },
     "inhouse": {
-      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
-      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+      "title": "Cloud optimizado para tu presupuesto",
+      "description": "Ya sea que estés lanzando un MVP o escalando una plataforma con miles de usuarios, nuestra experiencia en startups aceleradas nos ha enseñado que una buena arquitectura desde el inicio evita costos altos, tiempos de inactividad y tech debt en el futuro.\n\nDiseñamos y gestionamos tu entorno cloud (AWS, Google Cloud, Azure) con enfoque DevOps, garantizando alto rendimiento, disponibilidad y seguridad para tu producto digital. Infraestructura ágil, segura y lista para escalar. "
     },
-    "bigText": "Lets work together.",
+    "bigText": "Siempre Disponible.",
     "subcategories": {
-      "fewWords": "En qué podemos ayudarte",
-      "title": "Un equipo de expertos en diseño web que puede ayudarte a diseñar y construir un sitio web del que te sientas orgulloso",
-      "getInTouch": "Ponte en contacto hoy",
+      "fewWords": "Escalable, segura, eficiente.",
+      "title": "Nuestros Servicios de Infraestructura Cloud",
+      "getInTouch": "Ponte en contacto",
       "allsubcategories": [
         {
-          "title": "Diseño Web",
-          "description": "Diseño web a medida, perfecto para tu marca y tu público objetivo."
+          "title": "Diseño de Arquitectura",
+          "description": "Definimos la estructura técnica ideal (microservicios, serverless, etc.) según tu producto y presupuesto."
         },
         {
-          "title": "Comercio Electrónico",
-          "description": "Vende productos en línea las 24/7 a través de un sitio web de comercio electrónico bien diseñado y fácil de usar."
+          "title": "Migración a la Nube",
+          "description": "Movemos tus sistemas o aplicaciones legacy a entornos cloud con cero interrupciones."
         },
         {
-          "title": "Diseño UX",
-          "description": "Ofrece experiencias significativas y relevantes a los usuarios mediante el diseño de experiencia de usuario (UX)."
+          "title": "DevOps y CI/CD",
+          "description": "Automatizamos integración, pruebas y despliegue para mayor velocidad y calidad."
         },
         {
-          "title": "Diseño Responsivo",
-          "description": "Diseñado para todos los dispositivos más recientes, incluidos iPhone y iPad."
+          "title": "Gestión de Contenedores",
+          "description": "Orquestación de aplicaciones para mayor eficiencia, portabilidad y escalabilidad."
         },
         {
-          "title": "Wireframes",
-          "description": "Una herramienta de visualización para presentar la estructura, funciones y contenido propuestos de un sitio web."
+          "title": "Bases de Datos en la Nube",
+          "description": "Configuración y optimización de bases de datos (SQL y NoSQL) en cloud con réplicas y backups."
         },
         {
-          "title": "Estrategia",
-          "description": "No solo enfocada en el presente, sino también en el futuro para identificar oportunidades de crecimiento."
+          "title": "Seguridad y Cumplimiento",
+          "description": "Protegemos tu entorno con políticas de acceso, redes privadas y defensa contra amenazas."
         }
       ]
     },
     "testimonials": {
-      "title": "Why our clients love Craft CMS",
-      "subtitle": "Testimonials",
-      "alltestimonials": [
+      "title": "Beneficios de la nube",
+      "subtitle": "Más rápido, más seguro",
+      "contact": "¡Contáctanos!",
+      "alltexts": [
         {
-          "user": "Emily Schweitzer",
-          "company": "Inside Out Contracts",
-          "message": "Our website just blows our competitors out the water. It's so much easier to navigate than before and is just a cut above the rest. If I went back in time I would definitely choose Shape again, I just wouldn't bother with anyone else. The team at Shape are very friendly, very responsive and they are great value for money."
+          "title": "Escalabilidad automática",
+          "description": "Tu aplicación crece junto con tu audiencia sin que tengas que preocuparte por la infraestructura. La plataforma se adapta automáticamente a más usuarios, más tráfico y nuevas funcionalidades, manteniendo siempre un rendimiento estable incluso en momentos de alta demanda."
         },
         {
-          "user": "Suzie Steel",
-          "company": "The Plough",
-          "message": "Our website smashes our competitors websites out the park. We've had lots of comments about how good it is, how easy it is to navigate through and how beautiful it is. Benefits of working with Shape are that they really engross themselves in your brand &amp; put that across in your website."
+          "title": "Alta seguridad y cumplimiento",
+          "description": "Protegemos tu producto y los datos de tus usuarios con prácticas modernas de seguridad en la nube. Implementamos cifrado, control de accesos, firewalls y configuraciones seguras que reducen riesgos y ayudan a cumplir con estándares de seguridad desde el inicio."
         },
         {
-          "user": "Rachel Bates",
-          "company": "Rachel Bates",
-          "message": "If I went back in time I would definitely work with Shape again. Our website would stand up as being totally unique against all our competitors. Shape are so hip &amp; so different and their approach is so fresh. Andy really goes above and beyond with everything you ask him to do."
+          "title": "Automatización DevOps",
+          "description": "Automatizamos procesos clave como integración, pruebas y despliegues para que tu equipo pueda lanzar mejoras más rápido y con menos errores. Esto se traduce en actualizaciones constantes, menor tiempo de inactividad y una evolución más ágil de tu producto."
         },
         {
-          "user": "Nicola Wellard",
-          "company": "Silver Sixpence",
-          "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
-        }
-      ]
-    },
-    "favorites": {
-      "fewWords": "Nuestro trabajo",
-      "title": "Nuestros proyectos favoritos de diseño web",
-      "viewWork": "Ver nuestro trabajo",
-      "allprojects": [
-        {
-          "title": "Renovando la presencia digital de Gary Neville",
-          "client": "Gary Neville",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+          "title": "Optimización de costos",
+          "description": "Diseñamos la infraestructura para que pagues solo por lo que realmente utilizas. Optimizamos recursos, configuraciones y escalamiento para evitar gastos innecesarios, ayudando a que tu inversión en cloud sea eficiente y sostenible a largo plazo."
         },
         {
-          "title": "Transformando el sector de la donación de plasma",
-          "client": "Olgam Life",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
-        },
-        {
-          "title": "Renovación integral de una agencia de marketing centrada en las personas",
-          "client": "Natterjack",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Renovación completa de marca para una agencia de rendimiento digital",
-          "client": "This is digital",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Reimaginando la identidad visual del cuidado en la etapa adulta",
-          "client": "Millennium Care",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Mostrando una pasión compartida por el entorno laboral",
-          "client": "Area",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
+          "title": "Monitoreo y soporte proactivo",
+          "description": "Supervisamos continuamente el estado de tu infraestructura para detectar problemas antes de que afecten a tus usuarios. Con monitoreo en tiempo real, alertas y respuesta proactiva, garantizamos que tu plataforma se mantenga disponible, estable y funcionando sin interrupciones."
         }
       ]
     }

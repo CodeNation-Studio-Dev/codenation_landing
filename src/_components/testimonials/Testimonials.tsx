@@ -7,9 +7,15 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { TranslationDict } from "@/src/_providers/translationProvider";
 import Link from "next/link";
 import { BsRobot } from "react-icons/bs";
+import { FaSortAmountUp } from "react-icons/fa";
 import { FaBrain } from "react-icons/fa6";
 import { GiProcessor } from "react-icons/gi";
-import { GrOptimize } from "react-icons/gr";
+import { GrOptimize, GrSecure } from "react-icons/gr";
+import {
+  MdCloudSync,
+  MdOutlineSavings,
+  MdScreenSearchDesktop,
+} from "react-icons/md";
 import { TbMessageChatbotFilled } from "react-icons/tb";
 import { RiAiGenerate2 } from "react-icons/ri";
 
@@ -22,10 +28,17 @@ const icons = {
     FaBrain,
     RiAiGenerate2,
   ],
+  cloud: [
+    FaSortAmountUp,
+    GrSecure,
+    MdCloudSync,
+    MdOutlineSavings,
+    MdScreenSearchDesktop,
+  ],
 };
 
 export const Testimonials = ({ service }: TranslationDict) => {
-  const iconKey = service.name as "automatization";
+  const iconKey = service.name as "automatization" | "cloud";
   return (
     <div className="4xl:pb-40 mt-20 w-full pb-20 lg:pb-24 2xl:pb-32">
       <div className="3xl:pl-40 4xl:pl-60 pl-2 sm:pl-6 xl:pl-12 2xl:pl-20">
@@ -156,7 +169,7 @@ export const Testimonials = ({ service }: TranslationDict) => {
                         >
                           <div className="bg-surface-container border-outline-variant shadow-shadow/40 flex h-full flex-col items-start rounded-2xl border p-6 shadow-lg backdrop-blur-xl transition-all duration-300 ease-out lg:rounded-3xl lg:p-10">
                             <div className="flex w-full items-center pb-10">
-                              <div className="bg-secondary 4xl:w-15 4xl:h-15 inline-flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl">
+                              <div className="bg-secondary 4xl:w-15 4xl:h-15 mr-2 inline-flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl">
                                 <Icon className="text-background 4xl:text-4xl flex-shrink-0 fill-current text-3xl" />
                               </div>
                               <div className="w-full text-center text-2xl font-semibold">

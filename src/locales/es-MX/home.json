@@ -62,7 +62,7 @@
       {
         "title": "Arquitectura nativa de nube",
         "description": "Sistemas basados en plataformas de nube modernas",
-        "url": ""
+        "url": "cloud"
       }
     ]
   },
@@ -145,7 +145,7 @@
         "subtitle": "Infraestructura que escala contigo",
         "description": "Sistemas escalables y resilientes basados ​​en plataformas de nube modernas (AWS, Azure, GCP) con las mejores prácticas de DevOps.",
         "img": "/assets/categories-bg-cloud.png",
-        "url": ""
+        "url": "cloud"
       }
     ]
   }
