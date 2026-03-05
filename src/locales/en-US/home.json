@@ -62,7 +62,7 @@
       {
         "title": "Cloud-Native Architecture",
         "description": "Systems built on modern cloud platforms",
-        "url": ""
+        "url": "cloud"
       }
     ]
   },
@@ -145,7 +145,7 @@
         "subtitle": "Infrastructure that scales with you",
         "description": "Scalable, resilient systems built on modern cloud platforms (AWS, Azure, GCP) with DevOps best practices.",
         "img": "/assets/categories-bg-cloud.png",
-        "url": ""
+        "url": "cloud"
       }
     ]
   }

@@ -2,11 +2,15 @@ import { TranslationDict } from "@providers/translationProvider";
 import { PlayButton } from "@lib/components/playButton/PlayButton";
 import { MdDesignServices, MdInstallMobile } from "react-icons/md";
 import { BiSupport } from "react-icons/bi";
-import { GrCycle } from "react-icons/gr";
+import { BsDatabaseFillUp } from "react-icons/bs";
+import { FaDocker } from "react-icons/fa";
+import { GrCloudComputer, GrCycle } from "react-icons/gr";
 import { HiArrowsExpand } from "react-icons/hi";
 import { HiRocketLaunch } from "react-icons/hi2";
+import { ImCloudCheck, ImSoundcloud } from "react-icons/im";
 import { IoMdAnalytics } from "react-icons/io";
 import { IoLayers } from "react-icons/io5";
+import { MdSecurity } from "react-icons/md";
 import { PiIntersectFill, PiStrategyBold } from "react-icons/pi";
 import { RiShoppingBag4Fill } from "react-icons/ri";
 import { TiPointOfInterest } from "react-icons/ti";
@@ -38,12 +42,12 @@ const icons = {
     HiArrowsExpand,
   ],
   cloud: [
-    MdInstallMobile,
-    HiArrowsExpand,
-    GrCycle,
-    PiStrategyBold,
-    TiPointOfInterest,
-    RiShoppingBag4Fill,
+    ImSoundcloud,
+    GrCloudComputer,
+    ImCloudCheck,
+    FaDocker,
+    BsDatabaseFillUp,
+    MdSecurity,
   ],
 };
 

@@ -58,7 +58,9 @@ export const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="">{footer.services.cloud}</Link>
+              <Link href={`/${lang}/services/cloud`}>
+                {footer.services.cloud}
+              </Link>
             </li>
           </ul>
         </section>

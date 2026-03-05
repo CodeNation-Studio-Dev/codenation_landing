@@ -10,8 +10,8 @@ import Link from "next/link";
 
 const images = {
   webpage: {
-    main: "/assets/webpage-main.png",
-    secondary: "/assets/webpage-secondary.png",
+    main: "/assets/software-main.png",
+    secondary: "/assets/software-secondary.png",
     tertiary: "/assets/webpage-tertiary.png",
   },
   mvp: {
@@ -20,19 +20,19 @@ const images = {
     tertiary: "/assets/mvp-tertiary.png",
   },
   design: {
-    main: "/assets/automatization-main-v1.png",
+    main: "/assets/automatization-main.png",
     secondary: "/",
     tertiary: "/",
   },
   automatization: {
-    main: "/assets/automatization-main-v4.png",
-    secondary: "/assets/automatization-secondary-v4.png",
-    tertiary: "/assets/automatization-tertiary-v2.png",
+    main: "/assets/automatization-main.png",
+    secondary: "/assets/automatization-secondary.png",
+    tertiary: "/assets/automatization-tertiary.png",
   },
   cloud: {
-    main: "/assets",
-    secondary: "/",
-    tertiary: "/",
+    main: "/assets/cloud-main.png",
+    secondary: "/assets/cloud-secondary.png",
+    tertiary: "/assets/cloud-tertiary.png",
   },
 };
 

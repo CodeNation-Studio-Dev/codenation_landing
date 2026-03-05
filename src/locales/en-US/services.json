@@ -333,123 +333,75 @@
   "cloud": {
     "name": "cloud",
     "main": {
-      "title": "MVP listo para escalar",
-      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio.\n\nDesarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+      "title": "Architecture Ready to Scale",
+      "description": "A great digital product needs a reliable infrastructure behind it. At CodeNation Studio, we don’t just develop software: we design robust, efficient, and automated cloud architectures that allow your applications to scale on demand, stay secure, and operate with minimal intervention.\n\nWe implement solutions on AWS, Google Cloud Platform, or Microsoft Azure, using DevOps practices, containers (Docker, Kubernetes), CI/CD, and proactive monitoring. All with the goal of letting your team focus on innovation while we ensure your infrastructure runs flawlessly."
     },
     "explanation": {
-      "fewWords": "Abordamos cada proyecto con una visión clara.",
-      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
-      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
-      "startProject": "Inicia un proyecto hoy"
+      "fewWords": "Infrastructure that drives your product",
+      "title": "The Foundation for Your Digital Growth",
+      "description": "A well-designed cloud architecture lets your product grow without sacrificing stability or performance. We build systems that scale seamlessly and adapt easily to new features or increased traffic.\n\nWe implement automation, continuous monitoring, and modern DevOps practices to keep your infrastructure secure, efficient, and always available so your team can focus on building your product.",
+      "startProject": "Reach Out"
     },
     "inhouse": {
-      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
-      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+      "title": "Cloud Optimized for Your Budget",
+      "description": "Whether you’re launching an MVP or scaling a platform with thousands of users, our experience with fast-moving startups has taught us that a well-planned architecture from the start prevents high costs, downtime, and tech debt in the future.\n\nWe design and manage your cloud environment (AWS, Google Cloud, Azure) with a DevOps approach, ensuring high performance, availability, and security for your digital product. Agile, secure infrastructure that’s ready to scale with your business."
     },
-    "bigText": "Lets work together.",
+    "bigText": "Always Available",
     "subcategories": {
-      "fewWords": "What we can help you with",
-      "title": "A team of web design experts that can help you design and build a website you´re proud of",
-      "getInTouch": "Start your project",
+      "fewWords": "Scalable, secure, efficient.",
+      "title": "Our Cloud Infrastructure Services",
+      "getInTouch": "Get in Touch",
       "allsubcategories": [
         {
-          "title": "Web Design",
-          "description": "Bespoke web design perfect for your brand and target audience."
+          "title": "Architecture Design",
+          "description": "We define the ideal technical structure (microservices, serverless, etc.) based on your product and budget."
         },
         {
-          "title": "eCommerce",
-          "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
+          "title": "Cloud Migration",
+          "description": "We move your legacy systems or applications to cloud environments with zero downtime."
         },
         {
-          "title": "UX Design",
-          "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+          "title": "DevOps & CI/CD",
+          "description": "We automate integration, testing, and deployment to deliver faster, higher-quality releases."
         },
         {
-          "title": "Responsive Design",
-          "description": "Designed for all the latest devices, including iPhone and iPad."
+          "title": "Container Management",
+          "description": "We orchestrate applications for greater efficiency, portability, and scalability."
         },
         {
-          "title": "Wireframes",
-          "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+          "title": "Cloud Databases",
+          "description": "We configure and optimize SQL and NoSQL databases in the cloud with replication and backups."
         },
         {
-          "title": "Strategy",
-          "description": "Not only looking at the now, but also to the future to see potential growth."
+          "title": "Security & Compliance",
+          "description": "We protect your environment with access policies, private networks, and threat defense measures."
         }
       ]
     },
     "testimonials": {
-      "title": "Dynamic Layout",
-      "subtitle": "Testimonials",
-      "alltestimonials": [
+      "title": "Cloud Benefits",
+      "subtitle": "Faster, Safer",
+      "contact": "Let´s Talk!",
+      "alltexts": [
         {
-          "user": "Emily Schweitzer",
-          "company": "Inside Out Contracts",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "title": "Automatic Scalability",
+          "description": "Your application grows with your audience without you having to worry about infrastructure. The platform automatically adapts to more users, higher traffic, and new features, maintaining stable performance even during peak demand."
         },
         {
-          "user": "Suzie Steel",
-          "company": "The Plough",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "title": "High Security & Compliance",
+          "description": "We protect your product and user data with modern cloud security practices. Encryption, access control, firewalls, and secure configurations minimize risks and ensure compliance from day one."
         },
         {
-          "user": "Rachel Bates",
-          "company": "Rachel Bates",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "title": "DevOps Automation",
+          "description": "We automate key processes like integration, testing, and deployment so your team can release improvements faster and with fewer errors. This results in continuous updates, reduced downtime, and a more agile product evolution."
         },
         {
-          "user": "Nicola Wellard",
-          "company": "Silver Sixpence",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      ]
-    },
-    "favorites": {
-      "fewWords": "Our work",
-      "title": "Dynamic Layout",
-      "viewWork": "View our work",
-      "allprojects": [
-        {
-          "title": "Dynamic Layout",
-          "client": "Gary Neville",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
+          "title": "Cost Optimization",
+          "description": "We design your infrastructure so you only pay for what you actually use. Resources, configurations, and scaling are optimized to avoid unnecessary expenses, making your cloud investment efficient and sustainable in the long run."
         },
         {
-          "title": "Dynamic Layout",
-          "client": "Olgam Life",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Natterjack",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "This is digital",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Millennium Care",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Area",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
+          "title": "Proactive Monitoring & Support",
+          "description": "We continuously monitor your infrastructure to detect issues before they affect your users. With real-time monitoring, alerts, and proactive responses, we ensure your platform remains available, stable, and running without interruptions."
         }
       ]
     }
