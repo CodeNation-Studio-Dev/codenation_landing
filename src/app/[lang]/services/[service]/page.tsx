@@ -12,7 +12,7 @@ const images = {
   webpage: {
     main: "/assets/software-main.png",
     secondary: "/assets/software-secondary.png",
-    tertiary: "/assets/webpage-tertiary.png",
+    tertiary: "/assets/software-tertiary.png",
   },
   mvp: {
     main: "/assets/mvp-main.png",
