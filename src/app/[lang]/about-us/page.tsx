@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { StoryCard } from "@lib/components/storyCard/StoryCard";
 import { ShowUsGallery } from "@components/showUsGallery/ShowUsGallery";
 import { TwoColumnText } from "@lib/components/twoColumnText/TwoColumnText";
@@ -6,6 +7,24 @@ import { TranslationProvider } from "@providers/translationProvider";
 import Image from "next/image";
 import { TrophyShelf } from "@components/trophyShelf/TrophyShelf";
 import { OurTeam } from "@components/ourTeam/OurTeam";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+
+  return {
+    alternates: {
+      canonical: `/${lang}/about-us`,
+      languages: {
+        "en-US": "/en-US/about-us",
+        "es-MX": "/es-MX/about-us",
+      },
+    },
+  };
+}
 
 const AboutUs = async ({
   params,

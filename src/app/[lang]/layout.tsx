@@ -37,13 +37,6 @@ export async function generateMetadata({
     metadataBase: new URL("https://codenation-studio.com"),
     title,
     description,
-    alternates: {
-      languages: {
-        "en-US": "/en-US",
-        "es-MX": "/es-MX",
-      },
-    },
-
     openGraph: {
       title,
       description,
@@ -60,7 +53,6 @@ export async function generateMetadata({
         },
       ],
     },
-
     twitter: {
       card: "summary_large_image",
       title,

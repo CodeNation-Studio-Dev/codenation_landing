@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { PlayButton } from "@lib/components/playButton/PlayButton";
 import { TwoColumnImageContent } from "@lib/components/twoColumnImageContent/TwoColumnImageContent";
 import { BigText } from "@lib/components/bigText/BigText";
@@ -36,13 +37,33 @@ const images = {
   },
 };
 
+type ServiceKey = "webpage" | "mvp" | "design" | "automatization" | "cloud";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string; service: ServiceKey }>;
+}): Promise<Metadata> {
+  const { lang, service } = await params;
+
+  return {
+    alternates: {
+      canonical: `/${lang}/services/${service}`,
+      languages: {
+        "en-US": `/en-US/services/${service}`,
+        "es-MX": `/es-MX/services/${service}`,
+      },
+    },
+  };
+}
+
 const Page = async ({
   params,
 }: Readonly<{
   children: React.ReactNode;
   params: Promise<{
     lang: string;
-    service: "webpage" | "mvp" | "design" | "automatization" | "cloud";
+    service: ServiceKey;
   }>;
 }>) => {
   const { lang, service } = await params;
