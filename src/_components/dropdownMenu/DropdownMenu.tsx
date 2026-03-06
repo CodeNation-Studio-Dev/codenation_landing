@@ -55,7 +55,7 @@ export const DropdownMenu = ({
         </div>
         <div className="inline-flex w-5/12 pl-3">
           <Link
-            href="/services/webpage/"
+            href={`/${lang}/services/webpage`}
             className="group dark:bg-grayDark-600 bg-background inline-flex w-full flex-col items-start justify-between rounded-2xl p-5"
           >
             <div className="flex w-full flex-wrap">

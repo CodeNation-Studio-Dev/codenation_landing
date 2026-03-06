@@ -5,10 +5,12 @@ import { PlayButton } from "@lib/components/playButton/PlayButton";
 import Image from "next/image";
 import { useTranslations } from "@providers/translationProvider";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
 export const Banner = () => {
   const { banner } = useTranslations();
   const windowSize = useWindowSize();
+  const { lang } = useParams<{ lang: string }>();
 
   return (
     <main className="w-full pt-10 pb-10 lg:pt-22 lg:pb-16 xl:pt-20">
@@ -41,7 +43,7 @@ export const Banner = () => {
               <PlayButton content={banner.viewOurWork} width={160} />
             </Link>
             {windowSize > 1024 && (
-              <Link href="/about-us">
+              <Link href={`/${lang}/about-us`}>
                 <PinButton content={banner.meetTeam} />
               </Link>
             )}
