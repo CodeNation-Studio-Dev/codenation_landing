@@ -50,7 +50,9 @@ export const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="">{footer.services.design}</Link>
+              <Link href={`/${lang}/services/design`}>
+                {footer.services.design}
+              </Link>
             </li>
             <li>
               <Link href={`/${lang}/services/automatization`}>
