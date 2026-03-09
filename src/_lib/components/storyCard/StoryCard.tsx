@@ -38,11 +38,11 @@ export const StoryCard = ({
       }
     >
       <div
-        className={`${rotate && "order-2"} bg-inverse-surface text-background flex h-[708px] flex-col justify-between rounded-3xl px-[36px] py-[54px] lg:w-1/2 lg:justify-start lg:gap-y-20 xl:h-[800px] xl:p-[72px] 2xl:p-[108px]`}
+        className={`${rotate && "order-2"} bg-inverse-surface text-background flex h-[708px] flex-col justify-center gap-y-20 rounded-3xl px-[36px] py-[54px] lg:w-1/2 lg:justify-start xl:h-[800px] xl:p-[72px] 2xl:p-[108px]`}
       >
         <h3 className="text-3xl font-bold md:text-4xl xl:text-6xl">{title}</h3>
         <footer className="flex flex-col gap-y-5 xl:gap-y-20">
-          <p className="lg:text-2xl xl:text-2xl">{description}</p>
+          <p className="md:text-lg lg:text-2xl xl:text-2xl">{description}</p>
           <p className="w-fit border-b-1 pb-5">{button}</p>
         </footer>
       </div>

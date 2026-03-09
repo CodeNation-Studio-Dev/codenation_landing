@@ -96,8 +96,14 @@ export const Footer = () => {
             </a>
           </footer>
         </section>
-        <section className="relative h-20 w-60">
-          <Image src="/assets/new-logo.png" alt="Logo" fill sizes="10x30" />
+        <section className="relative h-25 w-75 sm:h-17 sm:w-54 xl:h-25 xl:w-75">
+          <Image
+            src="/assets/white-logo.png"
+            alt="Logo"
+            fill
+            sizes="20x60"
+            className="rounded-4xl"
+          />
         </section>
       </article>
     </footer>
