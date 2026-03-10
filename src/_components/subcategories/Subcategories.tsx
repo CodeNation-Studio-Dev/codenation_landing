@@ -4,15 +4,18 @@ import { MdDesignServices, MdInstallMobile } from "react-icons/md";
 import { BiSupport } from "react-icons/bi";
 import { BsDatabaseFillUp } from "react-icons/bs";
 import { FaDocker } from "react-icons/fa";
+import { FaUsersRays, FaWandMagicSparkles } from "react-icons/fa6";
+import { GoCodescan } from "react-icons/go";
 import { GrCloudComputer, GrCycle } from "react-icons/gr";
 import { HiArrowsExpand } from "react-icons/hi";
 import { HiRocketLaunch } from "react-icons/hi2";
+import { LuImageUpscale } from "react-icons/lu";
 import { ImCloudCheck, ImSoundcloud } from "react-icons/im";
 import { IoMdAnalytics } from "react-icons/io";
-import { IoLayers } from "react-icons/io5";
+import { IoColorPaletteOutline, IoLayers } from "react-icons/io5";
 import { MdSecurity } from "react-icons/md";
 import { PiIntersectFill, PiStrategyBold } from "react-icons/pi";
-import { RiShoppingBag4Fill } from "react-icons/ri";
+import { RiLayout5Fill, RiShoppingBag4Fill } from "react-icons/ri";
 import { TiPointOfInterest } from "react-icons/ti";
 import Link from "next/link";
 
@@ -34,12 +37,12 @@ const icons = {
     BiSupport,
   ],
   design: [
-    GrCycle,
-    PiStrategyBold,
-    TiPointOfInterest,
-    RiShoppingBag4Fill,
-    MdInstallMobile,
-    HiArrowsExpand,
+    IoColorPaletteOutline,
+    LuImageUpscale,
+    FaUsersRays,
+    GoCodescan,
+    FaWandMagicSparkles,
+    RiLayout5Fill,
   ],
   cloud: [
     ImSoundcloud,

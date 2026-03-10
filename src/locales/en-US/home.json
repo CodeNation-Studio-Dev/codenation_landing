@@ -52,7 +52,7 @@
       {
         "title": "UX/UI Design",
         "description": "User-centered interfaces",
-        "url": ""
+        "url": "design"
       },
       {
         "title": "AI & Automation",
@@ -131,7 +131,7 @@
         "subtitle": "User-first design with purpose",
         "description": "User-centered interfaces backed by research, usability testing, and seamless handoff to development.",
         "img": "/assets/categories-bg-uxui.png",
-        "url": ""
+        "url": "design"
       },
       {
         "title": "AI & Automation Integration",

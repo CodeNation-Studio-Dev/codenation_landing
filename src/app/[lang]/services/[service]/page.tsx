@@ -21,9 +21,9 @@ const images = {
     tertiary: "/assets/mvp-tertiary.png",
   },
   design: {
-    main: "/assets/automatization-main.png",
-    secondary: "/",
-    tertiary: "/",
+    main: "/assets/design-main.png",
+    secondary: "/assets/design-secondary.png",
+    tertiary: "/assets/design-tertiary.png",
   },
   automatization: {
     main: "/assets/automatization-main.png",

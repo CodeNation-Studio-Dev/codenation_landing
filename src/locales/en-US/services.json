@@ -160,123 +160,48 @@
   "design": {
     "name": "design",
     "main": {
-      "title": "MVP listo para escalar",
-      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio.\n\nDesarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+      "title": "Intuitive designs people enjoy using",
+      "description": "Great digital products don't just work well, they should also be intuitive, engaging, and visually consistent. Our UX/UI design process focuses on understanding your users, your brand, and your business goals to create interfaces that feel natural and easy to use.\n\nWe combine research, usability principles, and modern visual design to create experiences that guide users smoothly through your product while reinforcing your brand identity. The result is a product that not only looks great but also performs better."
     },
     "explanation": {
-      "fewWords": "Abordamos cada proyecto con una visión clara.",
-      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
-      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
-      "startProject": "Inicia un proyecto hoy"
+      "fewWords": "We turn your vision into effective digital experiences.",
+      "title": "A process focused on clarity and results",
+      "description": "Our UX/UI approach is strategic and collaborative. We work closely with you to understand your vision and translate it into designs that are both visually compelling and highly functional.\n\nFrom wireframes and user flows to final interfaces, every decision is made with the user experience in mind. This ensures your product not only meets expectations but exceeds them by delivering a clear, seamless, and memorable experience.",
+      "startProject": "Start your design"
     },
     "inhouse": {
-      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
-      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+      "title": "Why work with us for UX/UI?",
+      "description": "• User-centered design – Interfaces built around the real needs of your users.\n\n• Consistent brand experience – Your brand identity clearly reflected across every screen.\n\n• Improved usability – Simple navigation and intuitive interactions.\n\n• Conversion-focused design – Experiences that guide users toward key actions.\n\n• Collaborative process – We work with you at every stage of the design."
     },
-    "bigText": "Lets work together.",
+    "bigText": "Digital Experiences.",
     "subcategories": {
-      "fewWords": "What we can help you with",
-      "title": "A team of web design experts that can help you design and build a website you´re proud of",
-      "getInTouch": "Start your project",
+      "fewWords": "Our services",
+      "title": "Strategic design to create intuitive digital experiences.",
+      "getInTouch": "Share your project",
       "allsubcategories": [
         {
-          "title": "Web Design",
-          "description": "Bespoke web design perfect for your brand and target audience."
-        },
-        {
-          "title": "eCommerce",
-          "description": "Sell products online 24/7 through a well-designed, easy to use eCommerce website."
-        },
-        {
-          "title": "UX Design",
-          "description": "Provide meaningful and relevant experiences to users through user experience (UX) design."
+          "title": "Brand Identity",
+          "description": "Creation of a visual system that defines how your brand should be presented consistently across digital platforms."
         },
         {
           "title": "Responsive Design",
-          "description": "Designed for all the latest devices, including iPhone and iPad."
+          "description": "Interfaces designed to work seamlessly across desktop, tablet, and mobile devices."
         },
         {
-          "title": "Wireframes",
-          "description": "A visualization tool for presenting a website´s proposed structure, functions, and content."
+          "title": "User Experience",
+          "description": "Definition of user flows, wireframes, and interaction structures to create clear and intuitive experiences."
         },
         {
-          "title": "Strategy",
-          "description": "Not only looking at the now, but also to the future to see potential growth."
-        }
-      ]
-    },
-    "testimonials": {
-      "title": "Dynamic Layout",
-      "subtitle": "Testimonials",
-      "alltestimonials": [
-        {
-          "user": "Emily Schweitzer",
-          "company": "Inside Out Contracts",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "title": "UX/UI Audit",
+          "description": "Analysis of existing digital products to identify usability issues, inconsistencies, and improvement opportunities."
         },
         {
-          "user": "Suzie Steel",
-          "company": "The Plough",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "title": "Website Redesign",
+          "description": "Modernizing websites to improve user experience, visual design, and performance."
         },
         {
-          "user": "Rachel Bates",
-          "company": "Rachel Bates",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "user": "Nicola Wellard",
-          "company": "Silver Sixpence",
-          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      ]
-    },
-    "favorites": {
-      "fewWords": "Our work",
-      "title": "Dynamic Layout",
-      "viewWork": "View our work",
-      "allprojects": [
-        {
-          "title": "Dynamic Layout",
-          "client": "Gary Neville",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Olgam Life",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Natterjack",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "This is digital",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Millennium Care",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Dynamic Layout",
-          "client": "Area",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
+          "title": "Interface Design",
+          "description": "Creation of scalable design systems that ensure consistency and efficiency across digital products."
         }
       ]
     }

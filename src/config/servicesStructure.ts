@@ -29,11 +29,6 @@ export const servicesStructure = {
     },
   ],
   design: [
-    { component: FavoriteProducts, key: "designFavorite" },
-    {
-      component: Testimonials,
-      key: "designTestimonials",
-    },
     {
       component: Subcategories,
       key: "designSubcategories",

@@ -129,7 +129,7 @@
     "subcategories": {
       "fewWords": "Lanzamiento Inteligente",
       "title": "Así construimos tu MVP: con lo esencial para competir desde el primer día",
-      "getInTouch": "Cuentanos tu idea",
+      "getInTouch": "Cuéntanos tu idea",
       "allsubcategories": [
         {
           "title": "Definición del Alcance",
@@ -161,123 +161,48 @@
   "design": {
     "name": "design",
     "main": {
-      "title": "Producto mínimo variable",
-      "description": "Construimos tu Producto Mínimo Viable (MVP) sobre una arquitectura sólida y bien pensada, enfocado en validar tu idea con usuarios reales desde el inicio. Desarrollamos solo lo esencial, pero con bases técnicas robustas que permiten iterar rápido, escalar sin fricciones y evolucionar el producto conforme crece tu negocio."
+      "title": "Diseños que las personas disfrutan usar",
+      "description": "Los grandes productos digitales no solo deben funcionar bien, también deben ser intuitivos, atractivos y consistentes visualmente. Nuestro proceso de diseño UX/UI se enfoca en comprender a tus usuarios, tu marca y tus objetivos de negocio para crear interfaces que se sientan naturales y fáciles de usar.\n\nCombinamos investigación, principios de usabilidad y diseño visual moderno para crear experiencias que guían a los usuarios de manera fluida dentro de tu producto mientras refuerzan la identidad de tu marca. El resultado es un producto que no solo se ve bien, sino que también funciona mejor."
     },
     "explanation": {
-      "fewWords": "Abordamos cada proyecto con una visión clara.",
-      "title": "Nos gusta eliminar el “relleno” y diseñar sitios web hermosos, fáciles de usar y funcionales.",
-      "description": "No solo construimos sitios web bonitos. En MadeByShape entendemos todos los aspectos de un sitio exitoso, desde el diseño, el desarrollo web y las pruebas, hasta el SEO y el hosting. Adaptamos nuestro servicio al cliente y a los requerimientos del proyecto.",
-      "startProject": "Inicia un proyecto hoy"
+      "fewWords": "Convertimos tu visión en experiencias digitales efectivas.",
+      "title": "Procesos enfocado en claridad y resultados",
+      "description": "Nuestro enfoque de UX/UI es estratégico y colaborativo. Trabajamos de cerca contigo para entender tu visión y traducirla en diseños que sean tanto visualmente atractivos como altamente funcionales.\n\nDesde wireframes y flujos de usuario hasta interfaces finales, cada decisión se toma pensando en la experiencia del usuario. Esto asegura que tu producto no solo cumpla con las expectativas, sino que las supere ofreciendo una experiencia clara, fluida y memorable.",
+      "startProject": "Inicia tu diseño"
     },
     "inhouse": {
-      "title": "Manejamos cada proyecto internamente, no subcontratamos.",
-      "description": "Somos un equipo sólido de 16 personas, sabemos cuánta carga de trabajo podemos asumir y avisamos a los clientes si habrá algún retraso. Cada proyecto web que realizamos se produce internamente, sin subcontratación. Si sentimos que no somos la opción adecuada para tu proyecto, utilizaremos nuestra experiencia en la industria digital para recomendarte una agencia adecuada. Nuestro equipo de diseñadores de marca, diseñadores web y redactores de contenido trabaja en conjunto para ofrecerte la solución perfecta."
+      "title": "¿Por qué trabajar con nosotros en UX/UI?",
+      "description": "• Diseño centrado en el usuario – Interfaces pensadas para las necesidades reales de tus usuarios.\n\n• Experiencia de marca consistente – Tu identidad reflejada de forma clara en cada pantalla.\n\n• Mejor usabilidad – Navegación simple e interacciones intuitivas.\n\n• Diseño orientado a conversión – Experiencias que guían al usuario hacia acciones clave.\n\n• Proceso colaborativo – Trabajamos contigo en cada etapa del diseño."
     },
-    "bigText": "Lets work together.",
+    "bigText": "Diseño Estrátegico.",
     "subcategories": {
-      "fewWords": "En qué podemos ayudarte",
-      "title": "Un equipo de expertos en diseño web que puede ayudarte a diseñar y construir un sitio web del que te sientas orgulloso",
-      "getInTouch": "Ponte en contacto hoy",
+      "fewWords": "Nuestros servicios",
+      "title": "Diseño estratégico para crear experiencias digitales intuitivas.",
+      "getInTouch": "Cuéntanos tu caso",
       "allsubcategories": [
         {
-          "title": "Diseño Web",
-          "description": "Diseño web a medida, perfecto para tu marca y tu público objetivo."
+          "title": "Identidad de marca",
+          "description": "Creación de un sistema visual que define cómo tu marca debe presentarse de forma consistente en plataformas digitales."
         },
         {
-          "title": "Comercio Electrónico",
-          "description": "Vende productos en línea las 24/7 a través de un sitio web de comercio electrónico bien diseñado y fácil de usar."
+          "title": "Diseño responsivo",
+          "description": "Interfaces diseñadas para funcionar correctamente en computadoras, tablets y dispositivos móviles."
         },
         {
-          "title": "Diseño UX",
-          "description": "Ofrece experiencias significativas y relevantes a los usuarios mediante el diseño de experiencia de usuario (UX)."
+          "title": "Experiencia de usuario",
+          "description": "Definición de flujos de usuario, wireframes y estructura de interacción para crear experiencias claras e intuitivas."
         },
         {
-          "title": "Diseño Responsivo",
-          "description": "Diseñado para todos los dispositivos más recientes, incluidos iPhone y iPad."
+          "title": "Auditoría UX/UI",
+          "description": "Análisis de productos digitales existentes para detectar problemas de usabilidad, inconsistencias y oportunidades de mejora."
         },
         {
-          "title": "Wireframes",
-          "description": "Una herramienta de visualización para presentar la estructura, funciones y contenido propuestos de un sitio web."
+          "title": "Rediseño de sitios",
+          "description": "Modernización de sitios web para mejorar la experiencia del usuario, la estética y el rendimiento."
         },
         {
-          "title": "Estrategia",
-          "description": "No solo enfocada en el presente, sino también en el futuro para identificar oportunidades de crecimiento."
-        }
-      ]
-    },
-    "testimonials": {
-      "title": "Why our clients love Craft CMS",
-      "subtitle": "Testimonials",
-      "alltestimonials": [
-        {
-          "user": "Emily Schweitzer",
-          "company": "Inside Out Contracts",
-          "message": "Our website just blows our competitors out the water. It's so much easier to navigate than before and is just a cut above the rest. If I went back in time I would definitely choose Shape again, I just wouldn't bother with anyone else. The team at Shape are very friendly, very responsive and they are great value for money."
-        },
-        {
-          "user": "Suzie Steel",
-          "company": "The Plough",
-          "message": "Our website smashes our competitors websites out the park. We've had lots of comments about how good it is, how easy it is to navigate through and how beautiful it is. Benefits of working with Shape are that they really engross themselves in your brand &amp; put that across in your website."
-        },
-        {
-          "user": "Rachel Bates",
-          "company": "Rachel Bates",
-          "message": "If I went back in time I would definitely work with Shape again. Our website would stand up as being totally unique against all our competitors. Shape are so hip &amp; so different and their approach is so fresh. Andy really goes above and beyond with everything you ask him to do."
-        },
-        {
-          "user": "Nicola Wellard",
-          "company": "Silver Sixpence",
-          "message": "I don't think I understood just how good a website could be until I saw the drafts from Shape. Shape have worked with massive companies like Blackberry, but they also make time for smaller local businesses as well and I think that is really good in a company. The team is young &amp; it's current, with unbelievable designs and they're nice guys as well."
-        }
-      ]
-    },
-    "favorites": {
-      "fewWords": "Nuestro trabajo",
-      "title": "Nuestros proyectos favoritos de diseño web",
-      "viewWork": "Ver nuestro trabajo",
-      "allprojects": [
-        {
-          "title": "Renovando la presencia digital de Gary Neville",
-          "client": "Gary Neville",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/gary-neville-thumbnail_2024-06-03-125526_bljp.mp4"
-        },
-        {
-          "title": "Transformando el sector de la donación de plasma",
-          "client": "Olgam Life",
-          "date": 2023,
-          "mediaType": "video",
-          "asset": "https://servd-made-byshape.b-cdn.net/production/uploads/videos/olgam-thumbnail.mp4"
-        },
-        {
-          "title": "Renovación integral de una agencia de marketing centrada en las personas",
-          "client": "Natterjack",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Renovación completa de marca para una agencia de rendimiento digital",
-          "client": "This is digital",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Reimaginando la identidad visual del cuidado en la etapa adulta",
-          "client": "Millennium Care",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
-        },
-        {
-          "title": "Mostrando una pasión compartida por el entorno laboral",
-          "client": "Area",
-          "date": 2023,
-          "mediaType": "img",
-          "asset": "/assets/talk.webp"
+          "title": "Diseño de interfaces",
+          "description": "Creación de design systems escalables que aseguran consistencia y eficiencia en el desarrollo de productos digitales."
         }
       ]
     }

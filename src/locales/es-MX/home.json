@@ -52,7 +52,7 @@
       {
         "title": "Diseño UX/UI",
         "description": "Interfaces centradas en el usuario",
-        "url": ""
+        "url": "design"
       },
       {
         "title": "IA y automatización",
@@ -131,7 +131,7 @@
         "subtitle": "Diseño con propósito",
         "description": "Interfaces centradas en el usuario, respaldadas por investigación, pruebas de usabilidad y una entrega fluida al desarrollo.",
         "img": "/assets/categories-bg-uxui.png",
-        "url": ""
+        "url": "design"
       },
       {
         "title": "Integración de IA y automatización",
