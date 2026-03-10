@@ -98,7 +98,7 @@ export const Footer = () => {
             </a>
           </footer>
         </section>
-        <section className="relative h-19 w-75 sm:h-14 sm:w-54 xl:h-19 xl:w-75">
+        <section className="relative h-19 w-75 sm:h-14 sm:w-54 xl:h-16 xl:w-65 2xl:h-19 2xl:w-75">
           <Image
             src="/assets/white-logo.png"
             alt="Logo"
