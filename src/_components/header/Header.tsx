@@ -59,7 +59,7 @@ export const Header = () => {
         className="font-inter absolute top-3 left-[50%] flex w-full translate-x-[-50%] justify-between px-8 py-4 transition-[width] duration-500"
       >
         <div className="flex w-full items-center justify-between">
-          <section className="relative h-12 w-36">
+          <section className="relative h-9 w-36">
             <Link href={`/${lang}`}>
               <Image
                 src="/assets/white-logo.png"
