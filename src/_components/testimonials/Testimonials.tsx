@@ -125,11 +125,11 @@ export const Testimonials = ({ service }: TranslationDict) => {
                     ) => (
                       <SwiperSlide
                         key={index}
-                        className="flex !h-[440px] !w-[350px] px-2 md:!h-[400px] md:!w-[570px] lg:px-3 xl:px-4"
+                        className="flex !h-[620px] !w-[350px] px-2 md:!h-[400px] md:!w-[570px] lg:!h-[500px] lg:px-3 xl:px-4"
                       >
                         <div className="bg-surface-container flex h-full flex-col items-start justify-between rounded-2xl p-6 lg:rounded-3xl lg:p-10">
-                          <div className="w-full">
-                            <div className="leading-relaxed">
+                          <div className="w-full truncate">
+                            <div className="leading-relaxed whitespace-pre-line">
                               {testimonial.message}
                             </div>
                           </div>
