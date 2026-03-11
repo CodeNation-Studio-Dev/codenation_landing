@@ -1,0 +1,30 @@
+{
+  "francisco-luna": {
+    "name": "Francisco Luna",
+    "position": "Developer"
+  },
+  "francisco-marmolejo": {
+    "name": "Francisco Marmolejo",
+    "position": "Designer"
+  },
+  "rafael-cabrera": {
+    "name": "Rafael Cabrera",
+    "position": "Project Manager"
+  },
+  "joel-martinez": {
+    "name": "Joel Martínez",
+    "position": "Developer"
+  },
+  "aldair-gonzalez": {
+    "name": "Aldair González",
+    "position": "Developer"
+  },
+  "victor-zamora": {
+    "name": "Victor Zamora",
+    "position": "Sales Associate"
+  },
+  "joshua-torres": {
+    "name": "Joshua Torres",
+    "position": "Support Specialist"
+  }
+}
