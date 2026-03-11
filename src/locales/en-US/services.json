@@ -104,24 +104,6 @@
           "date": 2025,
           "mediaType": "img",
           "asset": "/assets/favs-joypack.png"
-        },
-        {
-          "client": "Casino Radar",
-          "date": 2026,
-          "mediaType": "video",
-          "asset": "/assets/favs-casinoradar.mp4"
-        },
-        {
-          "client": "Mercadomi",
-          "date": 2025,
-          "mediaType": "video",
-          "asset": "/assets/favs-mercadomi.mp4"
-        },
-        {
-          "client": "Keskinube",
-          "date": 2025,
-          "mediaType": "video",
-          "asset": "/assets/favs-keskinube.mp4"
         }
       ]
     }

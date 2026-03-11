@@ -7,7 +7,6 @@ import { Navigation } from "swiper/modules";
 import "swiper/swiper.css";
 
 interface Project {
-  title: string;
   client: string;
   date: number;
   mediaType: string;
@@ -55,7 +54,7 @@ export const ProjectsCarousel = ({ user }: { user: string }) => {
                       {project.mediaType === "img" ? (
                         <Image
                           src={`${project.asset}`}
-                          alt={`Image for ${project.title}`}
+                          alt={`Image for ${user}'s project`}
                           fill
                         />
                       ) : (
