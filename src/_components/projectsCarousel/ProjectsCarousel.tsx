@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { Navigation } from "swiper/modules";
+import "./ProjectsCarousel.css";
 
 interface Project {
   client: string;
@@ -12,11 +13,10 @@ interface Project {
   asset: string;
 }
 
-export const ProjectsCarousel = () => {
-  const { projects } = useTranslations();
-  console.log(projects);
+export const ProjectsCarousel = ({ user }: { user: string }) => {
+  const members = useTranslations();
   return (
-    <section className="4xl:pb-40 w-full pb-20 lg:pb-24 2xl:pb-32">
+    <section className="4xl:pb-40 my-10 w-full pb-20 lg:pb-24 2xl:pb-32">
       <div className="px-0">
         <div className="flex w-full flex-wrap">
           <div className="flex w-full flex-col">
@@ -44,10 +44,10 @@ export const ProjectsCarousel = () => {
                 },
               }}
             >
-              {projects.map((project: Project, i: number) => (
+              {members[user].projects.map((project: Project, i: number) => (
                 <SwiperSlide
                   key={i}
-                  className="3xl:max-w-xl 4xl:max-w-3xl flex w-xs flex-col items-start px-2 md:max-w-sm lg:max-w-md lg:px-3 xl:max-w-lg xl:px-4 2xl:max-w-xl"
+                  className="3xl:max-w-xl 4xl:max-w-3xl w-xs flex-col items-start px-2 md:max-w-sm lg:max-w-md lg:px-3 xl:max-w-lg xl:px-4 2xl:max-w-xl"
                 >
                   <div>
                     <div className="relative mb-6 aspect-[4/3] w-full overflow-hidden rounded-2xl lg:rounded-3xl">
