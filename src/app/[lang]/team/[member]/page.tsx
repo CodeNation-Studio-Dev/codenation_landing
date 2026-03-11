@@ -1,3 +1,4 @@
+import { MoreMembers } from "@/src/_components/moreMembers/MoreMembers";
 import { Profile } from "@/src/_components/profile/Profile";
 import { ProjectsCarousel } from "@/src/_components/projectsCarousel/ProjectsCarousel";
 import { getDictionary } from "@/src/_lib/helpers/getDictionary";
@@ -28,6 +29,7 @@ const Page = async ({
     <TranslationProvider dict={dict}>
       <Profile user={member} />
       <ProjectsCarousel user={member} />
+      <MoreMembers user={member} />
     </TranslationProvider>
   );
 };

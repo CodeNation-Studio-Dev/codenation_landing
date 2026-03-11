@@ -5,7 +5,6 @@ import { ShowCase } from "@components/showCase/ShowCase";
 import { Clients } from "@components/clients/Clients";
 import { Categories } from "@components/categories/Categories";
 import { FloatingWidget } from "@/src/_components/floatingWidget/FloatingWidget";
-import { MoreMembers } from "@components/moreMembers/MoreMembers";
 
 export async function generateMetadata({
   params,
@@ -32,7 +31,6 @@ export default async function Home() {
       <Banner />
       <Motto />
       <Categories />
-      <MoreMembers />
       <Clients />
       <ShowCase />
       <FloatingWidget />

@@ -3,12 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
 import "swiper/css";
 import { useTranslations } from "@providers/translationProvider";
-import { PlayButton } from "@lib/components/playButton/PlayButton";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Link from "next/link";
-import "./MoreMembers.css";
 
 interface member {
   name: string;
@@ -85,52 +83,41 @@ const team: member[] = [
     gallery: [],
     linkedin: "https://www.linkedin.com/in/aldair-gonzalez-conde-3441b21a9/",
   },
-  {
-    name: "Anna Durán",
-    profile: "/assets/ana-1.jpeg",
-    gallery: [
-      "/assets/ana-2.jpeg",
-      "/assets/ana-3.jpeg",
-      "/assets/ana-4.jpeg",
-      "/assets/ana-5.jpeg",
-      "/assets/ana-1.jpeg",
-    ],
-    linkedin: "",
-  },
-  {
-    name: "Ángel Morán",
-    profile: "/assets/angel-1.jpeg",
-    gallery: [
-      "/assets/angel-2.jpeg",
-      "/assets/angel-3.jpeg",
-      "/assets/angel-4.jpeg",
-      "/assets/angel-1.jpeg",
-    ],
-    linkedin: "https://www.linkedin.com/in/angel-moran-342840264/",
-  },
-  {
-    name: "Mario Gómez",
-    profile: "/assets/mario-1.jpeg",
-    gallery: ["/assets/mario-2.jpeg", "/assets/mario-1.jpeg"],
-    linkedin: "https://www.linkedin.com/in/mariogomezseguame/",
-  },
-  {
-    name: "Sandra Delgado",
-    profile: "/assets/sandra-1.jpeg",
-    gallery: [
-      "/assets/sandra-2.jpeg",
-      "/assets/sandra-3.jpeg",
-      "/assets/sandra-4.jpeg",
-      "/assets/sandra-5.jpeg",
-      "/assets/sandra-1.jpeg",
-    ],
-    linkedin: "https://www.linkedin.com/in/sandra-cdt15/",
-  },
 ];
 
-export const MoreMembers = () => {
+export const MoreMembers = ({ user }: { user: string }) => {
+  const members = useTranslations();
   return (
-    <section className="flex h-[500px] md:h-[600px] lg:h-[800px] xl:h-[1000px]">
+    <section className="flex h-[540px] justify-center gap-x-1 px-5 sm:justify-end md:h-[630px] lg:h-[760px] xl:h-[840px]">
+      <Swiper
+        modules={[FreeMode, Autoplay]}
+        loop={true}
+        freeMode={true}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+          reverseDirection: true,
+        }}
+        allowTouchMove={true}
+        speed={20000}
+        direction="vertical"
+        slidesPerView={2}
+        spaceBetween={0}
+        className="relative !mx-0 my-10 flex w-[170px] md:w-[200px] lg:w-[250px] xl:w-[280px]"
+      >
+        {team.map(
+          (member, index) =>
+            members[user].name !== member.name && (
+              <SwiperSlide
+                className="!w-[170px] self-end md:!w-[200] lg:!w-[250px] xl:!w-[280px]"
+                key={index}
+              >
+                <ImageElement member={member} />
+              </SwiperSlide>
+            ),
+        )}
+      </Swiper>
       <Swiper
         modules={[FreeMode, Autoplay]}
         loop={true}
@@ -143,26 +130,22 @@ export const MoreMembers = () => {
         allowTouchMove={true}
         speed={20000}
         direction="vertical"
-        breakpoints={{
-          320: {
-            slidesPerView: 2,
-            spaceBetween: 0,
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 0,
-          },
-        }}
-        className="relative my-10 flex w-full"
+        slidesPerView={2}
+        spaceBetween={0}
+        initialSlide={2}
+        className="relative !mx-0 my-10 flex w-[170px] md:w-[200px] lg:w-[250px] xl:w-[280px]"
       >
-        {team.map((member, index) => (
-          <SwiperSlide
-            className="!w-[165px] self-end px-2 md:!w-[200px] lg:px-3 xl:!w-[250px]"
-            key={index}
-          >
-            <ImageElement member={member} />
-          </SwiperSlide>
-        ))}
+        {team.toReversed().map(
+          (member, index) =>
+            members[user].name !== member.name && (
+              <SwiperSlide
+                className="!w-[170px] self-end md:!w-[200] lg:!w-[250px] xl:!w-[280px]"
+                key={index}
+              >
+                <ImageElement member={member} />
+              </SwiperSlide>
+            ),
+        )}
       </Swiper>
     </section>
   );
