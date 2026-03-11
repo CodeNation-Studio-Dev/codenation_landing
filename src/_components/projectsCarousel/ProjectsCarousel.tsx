@@ -4,9 +4,10 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { Navigation } from "swiper/modules";
-import "./ProjectsCarousel.css";
+import "swiper/swiper.css";
 
 interface Project {
+  title: string;
   client: string;
   date: number;
   mediaType: string;
@@ -47,14 +48,14 @@ export const ProjectsCarousel = ({ user }: { user: string }) => {
               {members[user].projects.map((project: Project, i: number) => (
                 <SwiperSlide
                   key={i}
-                  className="3xl:max-w-xl 4xl:max-w-3xl w-xs flex-col items-start px-2 md:max-w-sm lg:max-w-md lg:px-3 xl:max-w-lg xl:px-4 2xl:max-w-xl"
+                  className="3xl:max-w-xl 4xl:max-w-3xl flex w-xs flex-col items-start px-2 md:max-w-sm lg:max-w-md lg:px-3 xl:max-w-lg xl:px-4 2xl:max-w-xl"
                 >
                   <div>
                     <div className="relative mb-6 aspect-[4/3] w-full overflow-hidden rounded-2xl lg:rounded-3xl">
                       {project.mediaType === "img" ? (
                         <Image
                           src={`${project.asset}`}
-                          alt={`Project for ${project.client}`}
+                          alt={`Image for ${project.title}`}
                           fill
                         />
                       ) : (
@@ -85,9 +86,6 @@ export const ProjectsCarousel = ({ user }: { user: string }) => {
               </button>
             </div>
           </div>
-        </div>
-        <div className="mt-10 flex w-full justify-center">
-          <div className="flex items-center space-x-2"></div>
         </div>
       </div>
     </section>
