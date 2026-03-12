@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation } from "swiper/modules";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
-import { TranslationDict } from "@/src/_providers/translationProvider";
+import { TranslationDict } from "@providers/translationProvider";
 import Link from "next/link";
 import { BsRobot } from "react-icons/bs";
 import { FaSortAmountUp } from "react-icons/fa";

@@ -1,5 +1,5 @@
 "use client";
-import { TranslationDict } from "@/src/_providers/translationProvider";
+import { TranslationDict } from "@providers/translationProvider";
 import { PlayButton } from "@lib/components/playButton/PlayButton";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";

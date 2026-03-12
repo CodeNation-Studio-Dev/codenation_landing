@@ -1,8 +1,8 @@
-import { MoreMembers } from "@/src/_components/moreMembers/MoreMembers";
-import { Profile } from "@/src/_components/profile/Profile";
-import { ProjectsCarousel } from "@/src/_components/projectsCarousel/ProjectsCarousel";
-import { getDictionary } from "@/src/_lib/helpers/getDictionary";
-import { TranslationProvider } from "@/src/_providers/translationProvider";
+import { MoreMembers } from "@components/moreMembers/MoreMembers";
+import { Profile } from "@components/profile/Profile";
+import { ProjectsCarousel } from "@components/projectsCarousel/ProjectsCarousel";
+import { getDictionary } from "@lib/helpers/getDictionary";
+import { TranslationProvider } from "@providers/translationProvider";
 
 type Members =
   | "francisco-luna"

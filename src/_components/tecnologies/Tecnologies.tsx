@@ -4,7 +4,7 @@ import { Autoplay, FreeMode } from "swiper/modules";
 import "./Tecnologies.css";
 import "swiper/css";
 import Image from "next/image";
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useTranslations } from "@providers/translationProvider";
 
 const TecnologiesList = [
   { name: "javascript", image: "/assets/logo-javascript.png" },
