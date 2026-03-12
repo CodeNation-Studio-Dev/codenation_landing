@@ -15,6 +15,7 @@ interface member {
   profile: string;
   gallery: string[];
   linkedin: string;
+  pathname: string;
 }
 
 const team: member[] = [
@@ -29,6 +30,7 @@ const team: member[] = [
       "/assets/joel-1.jpeg",
     ],
     linkedin: "https://www.linkedin.com/in/joel-martinez-palacios/",
+    pathname: "joel-martinez",
   },
   {
     name: "Joshua Torres",
@@ -39,6 +41,7 @@ const team: member[] = [
       "/assets/joshua-1.jpeg",
     ],
     linkedin: "",
+    pathname: "joshua-torres",
   },
   {
     name: "Francisco Marmolejo",
@@ -49,6 +52,7 @@ const team: member[] = [
       "/assets/francisco-1.jpg",
     ],
     linkedin: "https://www.linkedin.com/in/francisco-marmolejo-martinez/",
+    pathname: "francisco-marmolejo",
   },
   {
     name: "Francisco Luna",
@@ -60,12 +64,14 @@ const team: member[] = [
       "/assets/paco-1.jpeg",
     ],
     linkedin: "https://www.linkedin.com/in/francisco-javier-luna-figueroa/",
+    pathname: "francisco-luna",
   },
   {
     name: "Rafael Cabrera",
     profile: "/assets/rafa-profile.png",
     gallery: ["/assets/rafa-1.png", "/assets/rafa-2.jpg"],
     linkedin: "https://www.linkedin.com/in/arafael-cabrera/",
+    pathname: "rafael-cabrera",
   },
   {
     name: "Víctor Zamora",
@@ -78,19 +84,20 @@ const team: member[] = [
     ],
     linkedin:
       "https://www.linkedin.com/in/victor-martin-zamora-casta%C3%B1eda/",
+    pathname: "victor-zamora",
   },
   {
     name: "Aldair González",
     profile: "/assets/aldair-profile.png",
     gallery: [],
     linkedin: "https://www.linkedin.com/in/aldair-gonzalez-conde-3441b21a9/",
+    pathname: "aldair-gonzalez",
   },
 ];
 
 export const MoreMembers = ({ user }: { user: string }) => {
   const members = useTranslations();
   const { lang } = useParams<{ lang: string }>();
-
   return (
     <section className="flex flex-col px-5 sm:flex-row">
       <div className="flex w-full flex-col justify-end gap-y-2 sm:my-10 lg:gap-y-4">
@@ -136,7 +143,9 @@ export const MoreMembers = ({ user }: { user: string }) => {
                   className="!w-[170px] self-end md:!w-[200] lg:!w-[250px] xl:!w-[280px]"
                   key={index}
                 >
-                  <ImageElement member={member} />
+                  <Link href={`/${lang}/team/${member.pathname}`}>
+                    <ImageElement member={member} />
+                  </Link>
                 </SwiperSlide>
               ),
           )}
@@ -165,7 +174,9 @@ export const MoreMembers = ({ user }: { user: string }) => {
                   className="!w-[170px] self-end md:!w-[200] lg:!w-[250px] xl:!w-[280px]"
                   key={index}
                 >
-                  <ImageElement member={member} />
+                  <Link href={`/${lang}/team/${member.pathname}`}>
+                    <ImageElement member={member} />
+                  </Link>
                 </SwiperSlide>
               ),
           )}
