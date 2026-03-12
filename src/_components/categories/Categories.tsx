@@ -5,8 +5,8 @@ import { GoArrowUpRight } from "react-icons/go";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
-import { useWindowSize } from "@/src/_hooks/windowSize";
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useWindowSize } from "@hooks/windowSize";
+import { useTranslations } from "@providers/translationProvider";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 

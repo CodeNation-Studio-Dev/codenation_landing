@@ -1,4 +1,8 @@
 {
+  "our": "Our",
+  "other": "Other",
+  "temmates": "Temmates",
+  "button": "Our whole team",
   "francisco-luna": {
     "name": "Francisco Luna",
     "position": "COO",
@@ -168,7 +172,7 @@
     ]
   },
   "victor-zamora": {
-    "name": "Victor Zamora",
+    "name": "Víctor Zamora",
     "position": "Lead Mobile Developer",
     "projects": [
       {

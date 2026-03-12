@@ -1,5 +1,5 @@
 "use client";
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useTranslations } from "@providers/translationProvider";
 
 export const Profile = ({ user }: { user: string }) => {
   const member = useTranslations();

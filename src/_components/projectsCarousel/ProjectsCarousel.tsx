@@ -1,5 +1,5 @@
 "use client";
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useTranslations } from "@providers/translationProvider";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";

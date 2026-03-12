@@ -1,5 +1,5 @@
 "use client";
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useTranslations } from "@providers/translationProvider";
 import { ParamValue } from "next/dist/server/request/params";
 import Link from "next/link";
 

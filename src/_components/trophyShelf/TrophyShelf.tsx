@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode } from "swiper/modules";
 import { useWindowSize } from "@hooks/windowSize";
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useTranslations } from "@providers/translationProvider";
 import "./TrophyShelf.css";
 import "swiper/css";
 import Image from "next/image";

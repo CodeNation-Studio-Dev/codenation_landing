@@ -4,7 +4,7 @@ import { Banner } from "@components/banner/Banner";
 import { ShowCase } from "@components/showCase/ShowCase";
 import { Clients } from "@components/clients/Clients";
 import { Categories } from "@components/categories/Categories";
-import { FloatingWidget } from "@/src/_components/floatingWidget/FloatingWidget";
+import { FloatingWidget } from "@components/floatingWidget/FloatingWidget";
 
 export async function generateMetadata({
   params,

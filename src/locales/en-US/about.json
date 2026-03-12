@@ -39,16 +39,16 @@
   "our_team": {
     "caption": "• Our Team",
     "title": "Multiple personalities,\n No egos.",
-    "meet": "Meet the whole Team",
+    "meet": "Talk with us",
     "allpositions": {
       "Aldair González": "QA",
       "Anna Durán": "Jr Frontend Developer",
       "Ángel Morán": "Jr Frontend Developer",
+      "Francisco Luna": "COO",
       "Francisco Marmolejo": "CTO",
       "Joel Martínez": "CEO",
       "Joshua Torres": "Co-CEO",
       "Mario Gómez": "Jr Backend Developer",
-      "Paco Luna": "COO",
       "Rafael Cabrera": "CFO",
       "Sandra Delgado": "Jr Frontend Developer",
       "Víctor Zamora": "Lead Mobile Developer"
