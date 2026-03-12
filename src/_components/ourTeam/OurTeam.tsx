@@ -40,17 +40,7 @@ const team: member[] = [
     linkedin: "",
   },
   {
-    name: "Francisco Marmolejo",
-    profile: "/assets/francisco-1.jpg",
-    gallery: [
-      "/assets/francisco-2.jpeg",
-      "/assets/francisco-3.jpeg",
-      "/assets/francisco-1.jpg",
-    ],
-    linkedin: "https://www.linkedin.com/in/francisco-marmolejo-martinez/",
-  },
-  {
-    name: "Paco Luna",
+    name: "Francisco Luna",
     profile: "/assets/paco-1.jpeg",
     gallery: [
       "/assets/paco-2.jpeg",
@@ -61,19 +51,29 @@ const team: member[] = [
     linkedin: "https://www.linkedin.com/in/francisco-javier-luna-figueroa/",
   },
   {
+    name: "Francisco Marmolejo",
+    profile: "/assets/francisco-1.jpg",
+    gallery: [
+      "/assets/francisco-2.jpeg",
+      "/assets/francisco-3.jpeg",
+      "/assets/francisco-1.jpg",
+    ],
+    linkedin: "https://www.linkedin.com/in/francisco-marmolejo-martinez/",
+  },
+  {
     name: "Rafael Cabrera",
-    profile: "/assets/antonio-1.jpeg",
-    gallery: ["/assets/antonio-2.jpg", "/assets/antonio-1.jpeg"],
+    profile: "/assets/rafa-1.png",
+    gallery: ["/assets/rafa-2.jpg", "/assets/rafa-1.png"],
     linkedin: "https://www.linkedin.com/in/arafael-cabrera/",
   },
   {
     name: "Víctor Zamora",
-    profile: "/assets/victor-1.jpeg",
+    profile: "/assets/victor-1.png",
     gallery: [
       "/assets/victor-2.jpeg",
       "/assets/victor-3.jpeg",
       "/assets/victor-4.jpeg",
-      "/assets/victor-1.jpeg",
+      "/assets/victor-1.png",
     ],
     linkedin:
       "https://www.linkedin.com/in/victor-martin-zamora-casta%C3%B1eda/",
@@ -115,13 +115,13 @@ const team: member[] = [
   },
   {
     name: "Sandra Delgado",
-    profile: "/assets/sandra-1.jpeg",
+    profile: "/assets/sandra-1.png",
     gallery: [
       "/assets/sandra-2.jpeg",
       "/assets/sandra-3.jpeg",
       "/assets/sandra-4.jpeg",
       "/assets/sandra-5.jpeg",
-      "/assets/sandra-1.jpeg",
+      "/assets/sandra-1.png",
     ],
     linkedin: "https://www.linkedin.com/in/sandra-cdt15/",
   },
@@ -131,7 +131,10 @@ export const OurTeam = () => {
   const { our_team } = useTranslations();
 
   return (
-    <section className="flex w-full max-w-[1540px] flex-col py-10 xl:mx-auto">
+    <section
+      className="flex w-full max-w-[1540px] flex-col py-10 xl:mx-auto"
+      id="our-team"
+    >
       <header className="font-inter self-center text-center">
         <span className="relative text-sm lg:text-base">
           {our_team.caption}
