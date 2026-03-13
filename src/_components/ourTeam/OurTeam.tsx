@@ -293,6 +293,7 @@ export const ImageElement = ({ member }: { member: member }) => {
               key={index}
               src={image}
               fill
+              sizes="447x670"
               className="absolute top-0 left-0 h-full w-full object-cover object-center"
               alt="F30 DDB5 B 0050 440 E B4 CE DC86871 BEE31"
               loading="lazy"
