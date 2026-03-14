@@ -68,6 +68,7 @@
   --color-surface-container-lowest: rgb(12 15 9);
   --color-surface-container-low: rgb(25 29 22);
   --color-surface-container: rgb(29 33 26);
+  --color-surface-container-low-opacity: rgba(29 33 26, 0.8);
   --color-surface-container-high: rgb(39 43 36);
   --color-surface-container-highest: rgb(50 54 47);
 
