@@ -28,7 +28,7 @@ const icons = {
 
 export const Profile = ({ user }: { user: string }) => {
   const member = useTranslations();
-  const [info, setInfo] = useState<"about" | "socials">("about");
+  const [info, setInfo] = useState<"about" | "socials">("socials");
 
   const animation = useRef<gsap.core.Animation | null>(null);
   const iconsAnimated = useRef<HTMLSpanElement[]>([]);
@@ -99,7 +99,7 @@ export const Profile = ({ user }: { user: string }) => {
               <button className="bg-surface-container/60 w-fit p-1.5 font-mono text-[12px] sm:p-2 sm:text-[1rem] lg:p-1.5 lg:text-[15px]">
                 POSITION - {member[user].position.toUpperCase()}
               </button>
-              <button className="bg-surface-container/60 w-fit p-1.5 font-mono text-[12px] sm:p-2 sm:text-[1rem] lg:p-1.5 lg:text-[15px]">
+              <button className="bg-surface-container/60 w-fit p-1.5 text-left font-mono text-[12px] sm:p-2 sm:text-[1rem] lg:p-1.5 lg:text-[15px]">
                 CAREER - {member[user].career.toUpperCase()}
               </button>
               <button className="bg-surface-container/60 w-fit p-1.5 font-mono text-[12px] sm:p-2 sm:text-[1rem] lg:p-1.5 lg:text-[15px]">
@@ -127,19 +127,19 @@ export const Profile = ({ user }: { user: string }) => {
               <FancyButton
                 className="px-4 py-2 text-sm"
                 onClick={() => {
+                  setInfo("socials");
+                }}
+              >
+                <span className="flex items-center gap-2">Socials</span>
+              </FancyButton>
+              <FancyButton
+                className="px-4 py-2 text-sm"
+                onClick={() => {
                   setInfo("about");
                   handleClick();
                 }}
               >
                 <span className="flex items-center gap-2">About</span>
-              </FancyButton>
-              <FancyButton
-                className="px-4 py-2 text-sm"
-                onClick={() => {
-                  setInfo("socials");
-                }}
-              >
-                <span className="flex items-center gap-2">Socials</span>
               </FancyButton>
             </div>
             <div className="bg-surface-container/60 mt-5 h-auto p-3">
