@@ -32,11 +32,11 @@
         "asset": "/assets/favs-joypack.png"
       }
     ],
-    "career": "Computer Engineer",
-    "location": "Guadalajara, Jalisco, México",
+    "career": "Computer Systems Engineer",
+    "location": "Colima, Colima, Mexico",
     "zone": "GMT-6",
     "languages": ["English", "Spanish"],
-    "about": "Baptiste began working as a Character TD & Animator at studios such as Mac Guff Ligne, Sparc and Partizan. \n\n He will be taking on more responsibility at Brunch Studio as Character Animation Supervisor & Character Rigging Supervisor. \n\n These specialized skills opened the doors to DreamWorks Animation as FX Animation, and now Head of Look.",
+    "about": "I am the Chief Operating Officer at Codenation, where I turn ideas into functional, scalable, and well-executed digital products. \n\n I focus on optimizing processes, coordinating teams, and ensuring that every project is delivered with quality, efficiency, and a focus on real business results. \n\n I work closely with our clients to transform their needs into technological solutions that truly generate impact.",
     "socials": [
       {
         "platform": "Phone",
@@ -89,21 +89,31 @@
         "asset": "/assets/favs-joypack.png"
       }
     ],
-    "career": "Computer Engineer",
-    "location": "Guadalajara, Jalisco, México",
+    "career": "BSc in Computer Systems Engineering, MSc in Applied Artificial Intelligence",
+    "location": "Zapopan, Jalisco, Mexico",
     "zone": "GMT-6",
     "languages": ["English", "Spanish"],
-    "about": "Baptiste began working as a Character TD & Animator at studios such as Mac Guff Ligne, Sparc and Partizan. He will be taking on more responsibility at Brunch Studio as Character Animation Supervisor & Character Rigging Supervisor. These specialized skills opened the doors to DreamWorks Animation as FX Animation, and now Head of Look.",
+    "about": "Passionate about technology. My driving force is curiosity to unravel the logic behind every object and process. \n\n This passion for understanding fundamental mechanisms leads me to develop my own ideas to bring unique concepts to life, challenging the status quo and building products that not only work, but inspire and improve the user experience.",
     "socials": [
       {
+        "platform": "Phone",
+        "name": "+523318067594",
+        "url": "tel:+523318067594"
+      },
+      {
         "platform": "LinkedIn",
-        "name": "@francisco-luna",
-        "url": "https://www.linkedin.com/in/francisco-luna-123456789/"
+        "name": "francisco-marmolejo-martinez",
+        "url": "https://www.linkedin.com/in/francisco-marmolejo-martinez"
+      },
+      {
+        "platform": "Email",
+        "name": "rancisco.marmolejo.martinez@gmail.com",
+        "url": "mailto:rancisco.marmolejo.martinez@gmail.com"
       },
       {
         "platform": "GitHub",
-        "name": "@francisco-luna",
-        "url": ""
+        "name": "DevPacoLuna",
+        "url": "https://github.com/fran-dev-front"
       }
     ]
   },
@@ -136,21 +146,26 @@
         "asset": "/assets/favs-joypack.png"
       }
     ],
-    "career": "Computer Engineer",
-    "location": "Guadalajara, Jalisco, México",
-    "zone": "GMT-6",
+    "career": "Electronic Engineering, specialization in Embedded Systems",
+    "location": "Michigan, United States",
+    "zone": "UTC-4",
     "languages": ["English", "Spanish"],
-    "about": "Baptiste began working as a Character TD & Animator at studios such as Mac Guff Ligne, Sparc and Partizan. He will be taking on more responsibility at Brunch Studio as Character Animation Supervisor & Character Rigging Supervisor. These specialized skills opened the doors to DreamWorks Animation as FX Animation, and now Head of Look.",
+    "about": "I am someone who enjoys technical challenges and likes to apply my experience across different disciplines to gain a comprehensive perspective when solving problems and challenges. \n\n I also have a passion for music and playing the guitar.",
     "socials": [
       {
         "platform": "LinkedIn",
-        "name": "@francisco-luna",
-        "url": "https://www.linkedin.com/in/francisco-luna-123456789/"
+        "name": "arafael-cabrera",
+        "url": "https://www.linkedin.com/in/arafael-cabrera/"
       },
       {
-        "platform": "GitHub",
-        "name": "@francisco-luna",
-        "url": ""
+        "platform": "Phone",
+        "name": "947-201-4558",
+        "url": "tel:947-201-4558"
+      },
+      {
+        "platform": "Email",
+        "name": "Arbp.cabrera@gmail.com",
+        "url": "mailto:Arbp.cabrera@gmail.com"
       }
     ]
   },
@@ -181,40 +196,33 @@
         "date": 2025,
         "mediaType": "video",
         "asset": "/assets/favs-keskinube.mp4"
-      },
-      {
-        "client": "Casino Radar",
-        "date": 2026,
-        "mediaType": "video",
-        "asset": "/assets/favs-casinoradar.mp4"
-      },
-      {
-        "client": "Mercadomi",
-        "date": 2025,
-        "mediaType": "video",
-        "asset": "/assets/favs-mercadomi.mp4"
-      },
-      {
-        "client": "Keskinube",
-        "date": 2025,
-        "mediaType": "video",
-        "asset": "/assets/favs-keskinube.mp4"
       }
     ],
-    "career": "Computer Engineer",
-    "location": "Guadalajara, Jalisco, México",
+    "career": "Electronics Engineer | Specialization in Embedded Systems | Master's in Digital Design",
+    "location": "Guadalajara, Jalisco, Mexico",
     "zone": "GMT-6",
     "languages": ["English", "Spanish"],
-    "about": "Baptiste began working as a Character TD & Animator at studios such as Mac Guff Ligne, Sparc and Partizan. He will be taking on more responsibility at Brunch Studio as Character Animation Supervisor & Character Rigging Supervisor. These specialized skills opened the doors to DreamWorks Animation as FX Animation, and now Head of Look.",
+    "about": "I have always believed that technology works best when it is built by people and for people. As an Electronics Engineer specialized in Embedded Systems with a Master's in Digital Design, my world is full of circuits, code, and logic. However, my true passion goes beyond the technical: I am driven to solve complex problems that truly impact users' lives.",
     "socials": [
       {
+        "platform": "Phone",
+        "name": "+523339556808",
+        "url": "tel:+523339556808"
+      },
+      {
         "platform": "LinkedIn",
-        "url": "https://www.linkedin.com/in/francisco-luna-123456789/"
+        "name": "joel-martinez-palacios",
+        "url": "https://www.linkedin.com/in/joel-martinez-palacios/"
+      },
+      {
+        "platform": "Email",
+        "name": "joel.martinez@codenation-studio.com",
+        "url": "mailto:joel.martinez@codenation-studio.com"
       },
       {
         "platform": "GitHub",
-        "name": "@francisco-luna",
-        "url": ""
+        "name": "DevPacoLuna",
+        "url": "https://github.com/joelmart14"
       }
     ]
   },
@@ -247,21 +255,31 @@
         "asset": "/assets/favs-joypack.png"
       }
     ],
-    "career": "Computer Engineer",
-    "location": "Guadalajara, Jalisco, México",
+    "career": "Bachelor’s Degree in Software Development and Management Engineering",
+    "location": "Puebla, Mexico",
     "zone": "GMT-6",
-    "languages": ["English", "Spanish"],
-    "about": "Baptiste began working as a Character TD & Animator at studios such as Mac Guff Ligne, Sparc and Partizan. He will be taking on more responsibility at Brunch Studio as Character Animation Supervisor & Character Rigging Supervisor. These specialized skills opened the doors to DreamWorks Animation as FX Animation, and now Head of Look.",
+    "languages": ["English", "Spanish", "French"],
+    "about": "Software Development and Management Engineer with a solid technical background and a focus on building efficient digital solutions. \n\n I stand out for my analytical skills, adaptability, and strong interest in the software development lifecycle, from planning to implementation. \n\n I am results-oriented and committed to continuous learning of new technologies and methodologies that optimize processes and add value in collaborative environments.",
     "socials": [
       {
+        "platform": "Phone",
+        "name": "+522227727939",
+        "url": "tel:+522227727939"
+      },
+      {
         "platform": "LinkedIn",
-        "name": "@francisco-luna",
-        "url": "https://www.linkedin.com/in/francisco-luna-123456789/"
+        "name": "francisco-javier-luna-figueroa",
+        "url": "linkedin.com/in/aldair-gonzalez-conde-3441b21a9/"
+      },
+      {
+        "platform": "Email",
+        "name": "aldebran.g@hotmail.com",
+        "url": "mailto:aldebran.g@hotmail.com"
       },
       {
         "platform": "GitHub",
-        "name": "@francisco-luna",
-        "url": ""
+        "name": "AldairGC",
+        "url": "https://github.com/AldairGC"
       }
     ]
   },
@@ -295,20 +313,30 @@
       }
     ],
     "career": "Computer Engineer",
-    "location": "Guadalajara, Jalisco, México",
+    "location": "Guadalajara, Jalisco, Mexico",
     "zone": "GMT-6",
     "languages": ["English", "Spanish"],
-    "about": "Baptiste began working as a Character TD & Animator at studios such as Mac Guff Ligne, Sparc and Partizan. He will be taking on more responsibility at Brunch Studio as Character Animation Supervisor & Character Rigging Supervisor. These specialized skills opened the doors to DreamWorks Animation as FX Animation, and now Head of Look.",
+    "about": "Lead Mobile Developer focused on building scalable, efficient, and user-centered mobile applications. Skilled in turning ideas into solid digital products using best practices and clean architecture. \n\n Passionate about innovation, collaborates with cross-functional teams to deliver high-impact solutions and continuously improve processes.",
     "socials": [
       {
+        "platform": "Phone",
+        "name": "+5213112255475",
+        "url": "tel:+5213112255475"
+      },
+      {
         "platform": "LinkedIn",
-        "name": "@francisco-luna",
-        "url": "https://www.linkedin.com/in/francisco-luna-123456789/"
+        "name": "victor-martin-zamora-castañeda",
+        "url": "www.linkedin.com/in/victor-martin-zamora-castañeda"
+      },
+      {
+        "platform": "Email",
+        "name": "victorzcas@hotmail.com",
+        "url": "mailto:victorzcas@hotmail.com"
       },
       {
         "platform": "GitHub",
-        "name": "@francisco-luna",
-        "url": ""
+        "name": "Yosidey",
+        "url": "https://github.com/Yosidey"
       }
     ]
   },
@@ -341,21 +369,21 @@
         "asset": "/assets/favs-joypack.png"
       }
     ],
-    "career": "Computer Engineer",
-    "location": "Guadalajara, Jalisco, México",
+    "career": "Business Management Engineering",
+    "location": "Guadalajara, Jalisco, Mexico",
     "zone": "GMT-6",
     "languages": ["English", "Spanish"],
-    "about": "Baptiste began working as a Character TD & Animator at studios such as Mac Guff Ligne, Sparc and Partizan. He will be taking on more responsibility at Brunch Studio as Character Animation Supervisor & Character Rigging Supervisor. These specialized skills opened the doors to DreamWorks Animation as FX Animation, and now Head of Look.",
+    "about": "I am a Co-Director focused on growth and effective execution. I combine operational leadership and creative vision to deliver clear, measurable results. \n\n I work with cross-functional teams to turn ideas into action, optimize processes, and identify new opportunities. I value direct communication and continuous improvement.",
     "socials": [
       {
-        "platform": "LinkedIn",
-        "name": "@francisco-luna",
-        "url": "https://www.linkedin.com/in/francisco-luna-123456789/"
+        "platform": "Phone",
+        "name": "+523328104821",
+        "url": "tel:+523328104821"
       },
       {
-        "platform": "GitHub",
-        "name": "@francisco-luna",
-        "url": ""
+        "platform": "Email",
+        "name": "jjtpelyo32@gmail.com",
+        "url": "mailto:jjtpelyo32@gmail.com"
       }
     ]
   }

@@ -99,17 +99,19 @@ export const MoreMembers = ({ user }: { user: string }) => {
   const members = useTranslations();
   const { lang } = useParams<{ lang: string }>();
   return (
-    <section className="4xl:justify-self-center flex w-full max-w-[2200px] flex-col px-5 sm:flex-row">
-      <div className="my-10 flex w-full flex-col justify-end gap-y-2 sm:my-0 lg:gap-y-4">
-        <h3 className="font-inter 3xl:text-8xl text-5xl font-light uppercase sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-          {members.our}
-        </h3>
-        <h3 className="font-inter 3xl:text-8xl text-5xl font-bold uppercase sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-          {members.other}
-        </h3>
-        <h3 className="font-inter 3xl:text-8xl text-5xl font-bold uppercase sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-          {members.temmates}
-        </h3>
+    <section className="bg-surface-container 4xl:justify-self-center mb-10 flex w-full max-w-[2200px] flex-col px-5 sm:flex-row">
+      <div className="my-10 flex w-full flex-col justify-end gap-y-2 py-10 sm:my-0 lg:gap-y-4">
+        <div>
+          <h3 className="font-inter 3xl:text-8xl text-5xl font-light uppercase sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+            {members.our}
+          </h3>
+          <h3 className="font-inter 3xl:text-8xl text-5xl font-bold uppercase sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+            {members.other}
+          </h3>
+          <h3 className="font-inter 3xl:text-8xl text-5xl font-bold uppercase sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+            {members.temmates}
+          </h3>
+        </div>
         <Link href={`/${lang}/about-us#our-team`}>
           <PlayButton
             content={members.button}
