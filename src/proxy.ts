@@ -15,6 +15,11 @@ function getLocale(request: NextRequest) {
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  if (pathname.endsWith("/index.html")) {
+    return NextResponse.redirect(new URL(`/`, request.url), 301);
+  }
+
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );
