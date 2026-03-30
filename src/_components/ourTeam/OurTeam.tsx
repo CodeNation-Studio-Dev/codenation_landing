@@ -257,7 +257,7 @@ export const ImageElement = ({ member }: { member: member }) => {
         href={member.linkedin}
         className="absolute top-0 left-0 z-10 h-full w-full"
       >
-        <div className="sr-only bg-blue-500">{member.name}</div>
+        <div className="sr-only">{member.name}</div>
       </a>
       <div className="absolute top-3 right-3 z-20 inline-flex items-center space-x-1.5">
         <div className="flex items-center space-x-1.5">
