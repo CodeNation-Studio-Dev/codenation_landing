@@ -14,6 +14,7 @@ interface member {
   profile: string;
   gallery: string[];
   linkedin: string;
+  page: string;
 }
 
 const team: member[] = [
@@ -28,6 +29,7 @@ const team: member[] = [
       "/assets/joel-1.jpeg",
     ],
     linkedin: "https://www.linkedin.com/in/joel-martinez-palacios/",
+    page: "joel-martinez",
   },
   {
     name: "Joshua Torres",
@@ -38,6 +40,7 @@ const team: member[] = [
       "/assets/joshua-1.jpeg",
     ],
     linkedin: "",
+    page: "joshua-torres",
   },
   {
     name: "Francisco Luna",
@@ -49,6 +52,7 @@ const team: member[] = [
       "/assets/paco-1.jpeg",
     ],
     linkedin: "https://www.linkedin.com/in/francisco-javier-luna-figueroa/",
+    page: "francisco-luna",
   },
   {
     name: "Francisco Marmolejo",
@@ -59,12 +63,14 @@ const team: member[] = [
       "/assets/francisco-1.jpg",
     ],
     linkedin: "https://www.linkedin.com/in/francisco-marmolejo-martinez/",
+    page: "francisco-marmolejo",
   },
   {
     name: "Rafael Cabrera",
     profile: "/assets/rafa-1.png",
     gallery: ["/assets/rafa-2.jpg", "/assets/rafa-1.png"],
     linkedin: "https://www.linkedin.com/in/arafael-cabrera/",
+    page: "rafael-cabrera",
   },
   {
     name: "Víctor Zamora",
@@ -77,12 +83,14 @@ const team: member[] = [
     ],
     linkedin:
       "https://www.linkedin.com/in/victor-martin-zamora-casta%C3%B1eda/",
+    page: "victor-zamora",
   },
   {
     name: "Aldair González",
     profile: "/assets/aldair-1.jpeg",
     gallery: [],
     linkedin: "https://www.linkedin.com/in/aldair-gonzalez-conde-3441b21a9/",
+    page: "aldair-gonzalez",
   },
   {
     name: "Anna Durán",
@@ -95,6 +103,7 @@ const team: member[] = [
       "/assets/ana-1.jpeg",
     ],
     linkedin: "",
+    page: "",
   },
   {
     name: "Ángel Morán",
@@ -106,12 +115,14 @@ const team: member[] = [
       "/assets/angel-1.jpeg",
     ],
     linkedin: "https://www.linkedin.com/in/angel-moran-342840264/",
+    page: "",
   },
   {
     name: "Mario Gómez",
     profile: "/assets/mario-1.jpeg",
     gallery: ["/assets/mario-2.jpeg", "/assets/mario-1.jpeg"],
     linkedin: "https://www.linkedin.com/in/mariogomezseguame/",
+    page: "",
   },
   {
     name: "Sandra Delgado",
@@ -124,6 +135,7 @@ const team: member[] = [
       "/assets/sandra-1.png",
     ],
     linkedin: "https://www.linkedin.com/in/sandra-cdt15/",
+    page: "",
   },
 ];
 
@@ -245,7 +257,7 @@ export const ImageElement = ({ member }: { member: member }) => {
         href={member.linkedin}
         className="absolute top-0 left-0 z-10 h-full w-full"
       >
-        <div className="sr-only">{member.name}</div>
+        <div className="sr-only bg-blue-500">{member.name}</div>
       </a>
       <div className="absolute top-3 right-3 z-20 inline-flex items-center space-x-1.5">
         <div className="flex items-center space-x-1.5">
@@ -267,21 +279,23 @@ export const ImageElement = ({ member }: { member: member }) => {
             </a>
           )}
         </div>
-        <a
-          href={member.linkedin}
-          className="bg-secondary inline-flex h-8 w-8 transform items-center justify-center rounded-full transition-transform xl:group-hover:rotate-90"
-        >
-          <div className="sr-only">{member.name} profile</div>
-          <svg
-            className="h-4 w-4 fill-current text-gray-600"
-            width="14"
-            height="16"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 448 512"
+        {member.page && (
+          <a
+            href={`/team/${member.page}`}
+            className="bg-secondary inline-flex h-8 w-8 transform items-center justify-center rounded-full transition-transform xl:group-hover:rotate-90"
           >
-            <path d="M240 64V48h-32v192H16v32h192v192h32V272h192v-32H240V64z"></path>
-          </svg>
-        </a>
+            <div className="sr-only">{member.name} profile</div>
+            <svg
+              className="h-4 w-4 fill-current text-gray-600"
+              width="14"
+              height="16"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path d="M240 64V48h-32v192H16v32h192v192h32V272h192v-32H240V64z"></path>
+            </svg>
+          </a>
+        )}
       </div>
       <div className="relative w-full">
         <div
