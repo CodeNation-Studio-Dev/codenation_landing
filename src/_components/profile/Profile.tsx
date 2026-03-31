@@ -39,7 +39,7 @@ export const Profile = ({ user }: { user: string }) => {
     }
 
     const split = SplitText.create(".text", {
-      type: "chars,words,lines",
+      type: "words",
       reduceWhiteSpace: false,
     });
 
@@ -148,7 +148,7 @@ export const Profile = ({ user }: { user: string }) => {
               </div>
               <div className="bg-surface-container/60 mt-5 h-auto p-3">
                 <div
-                  className={`text font-mono whitespace-pre-line lg:text-[15px] ${info === "about" ? "block" : "hidden"}`}
+                  className={`text w-full font-mono whitespace-pre-line lg:text-[15px] ${info === "about" ? "block" : "hidden"}`}
                 >
                   {member[user].about}
                 </div>
