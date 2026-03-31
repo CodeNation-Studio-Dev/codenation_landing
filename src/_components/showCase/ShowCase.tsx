@@ -18,7 +18,7 @@ const videos: VideoProps[] = [
   {
     videoId: "lwEFX89iciM",
     title: "Casino Radar",
-    link: "https://www.flowfest.co.uk/",
+    link: "https://casinoradar.mx/",
     subtitle: "Datos en tiempo real con búsqueda por ubicación",
     subtitleLink: "",
     features: "ScrollTrigger, DrawSVG, Draggable, Text, CustomEase",
@@ -26,7 +26,7 @@ const videos: VideoProps[] = [
   {
     videoId: "J4HPaBDWVLs",
     title: "Keskinube",
-    link: "https://www.mbrown.work/",
+    link: "https://keskinube.com/",
     subtitle: "Plataforma SaaS full-stack para retail y e-commerce",
     subtitleLink: "",
     features: "ScrollTrigger, Flip, SplitText",
@@ -34,7 +34,7 @@ const videos: VideoProps[] = [
   {
     videoId: "PTLOJ23gTLE",
     title: "Mercadomi",
-    link: "https://nvg8.io/",
+    link: "",
     subtitle: "Plataforma para contratación de servicios",
     subtitleLink: "",
     features: "ScrollTrigger, SplitText",
@@ -42,7 +42,7 @@ const videos: VideoProps[] = [
   {
     videoId: "dLSPu9wpnHw",
     title: "Joypack for Business",
-    link: "https://www.phantom.land/",
+    link: "https://rewards.joypack.com.mx/",
     subtitle: "Recompensas B2B con enfoque API-first",
     subtitleLink: "",
     features: "CustomEase, useGSAP",
@@ -194,9 +194,14 @@ export const ShowCase = () => {
           <div className="mr-24 mb-0.5 grid overflow-hidden text-xl">
             {videos.map((data, index) => (
               <p className={getTitleClass(index)} key={index}>
-                <a href={data.link} aria-hidden="true">
+                <Link
+                  href={data.link}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-hidden="true"
+                >
                   {data.title}
-                </a>
+                </Link>
               </p>
             ))}
           </div>
