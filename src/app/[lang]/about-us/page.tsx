@@ -69,21 +69,21 @@ const AboutUs = async ({
             <Image
               key="first-image"
               src="/assets/boses.png"
-              alt=""
+              alt="Bosses planning together"
               fill
               className="object-cover"
             />,
             <Image
               key="second-image"
               src="/assets/meeting.png"
-              alt=""
+              alt="team meeting"
               fill
               className="object-cover"
             />,
             <Image
               key="third-image"
               src="/assets/juniors.png"
-              alt=""
+              alt="junior teammates working together"
               fill
               className="object-cover"
             />,
@@ -104,7 +104,7 @@ const AboutUs = async ({
           gallery={
             <Image
               src="/assets/build-ideas.png"
-              alt=""
+              alt="development tools as gears aligned"
               fill
               className="object-cover"
             />

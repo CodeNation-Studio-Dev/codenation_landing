@@ -83,7 +83,7 @@ export const Profile = ({ user }: { user: string }) => {
           >
             <img
               src={`/assets/${user}-profile.jpg`}
-              alt=""
+              alt={`${user} profile picture`}
               className="absolute top-0 left-0 z-10 h-full w-full object-cover object-bottom opacity-95"
               width="2500"
               height="1667"

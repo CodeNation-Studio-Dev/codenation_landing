@@ -27,7 +27,7 @@ export const TwoColumnText = ({
       <div
         className={`${topHidden && "hidden"} max-w-[765px] md:flex ${rotate && "lg:order-2 lg:justify-end"} lg:w-1/2`}
       >
-        <p className={"font-bold " + leftClassName}>{leftText}</p>
+        <h1 className={"font-bold " + leftClassName}>{leftText}</h1>
       </div>
       <div
         className={`max-w-[765px] text-justify ${rotate && "lg:order-1"} lg:w-1/2`}

@@ -15,7 +15,7 @@ export const ShowUsGallery = () => {
           <div className="relative h-[50vw] w-[70%] overflow-hidden rounded-2xl lg:h-[500px]">
             <Image
               src="/assets/team.png"
-              alt="team"
+              alt="team picture"
               fill
               className="object-cover"
             />
@@ -23,7 +23,7 @@ export const ShowUsGallery = () => {
           <div className="relative h-[40vw] w-[25%] self-end overflow-hidden rounded-2xl lg:h-[400px]">
             <Image
               src="/assets/working.png"
-              alt="team"
+              alt="teamwork picture"
               fill
               className="object-cover"
             />
@@ -33,7 +33,7 @@ export const ShowUsGallery = () => {
           <div className="relative h-[40vw] w-[calc(50%-5px)] overflow-hidden rounded-2xl lg:h-[400px]">
             <Image
               src="/assets/teammates.png"
-              alt="team"
+              alt="happy teammates"
               fill
               className="object-cover"
             />
@@ -41,7 +41,7 @@ export const ShowUsGallery = () => {
           <div className="relative h-[40vw] w-[calc(50%-5px)] self-end overflow-hidden rounded-2xl lg:h-[400px]">
             <Image
               src="/assets/exited.png"
-              alt="team"
+              alt="exited teammates"
               fill
               className="object-cover"
             />

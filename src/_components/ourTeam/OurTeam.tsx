@@ -8,6 +8,7 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
 interface member {
   name: string;
@@ -202,6 +203,7 @@ export const ImageElement = ({ member }: { member: member }) => {
   const galleryRef = useRef<HTMLDivElement | null>(null);
   const profileRef = useRef<HTMLDivElement | null>(null);
   const tlRef = useRef<gsap.core.Timeline | null>(null);
+  const { lang } = useParams<{ lang: string }>();
 
   useEffect(() => {
     const gallery = galleryRef.current;
@@ -281,7 +283,7 @@ export const ImageElement = ({ member }: { member: member }) => {
         </div>
         {member.page && (
           <a
-            href={`/team/${member.page}`}
+            href={`${lang}/team/${member.page}`}
             className="bg-secondary inline-flex h-8 w-8 transform items-center justify-center rounded-full transition-transform xl:group-hover:rotate-90"
           >
             <div className="sr-only">{member.name} profile</div>
@@ -309,7 +311,7 @@ export const ImageElement = ({ member }: { member: member }) => {
               fill
               sizes="447x670"
               className="absolute top-0 left-0 h-full w-full object-cover object-center"
-              alt="F30 DDB5 B 0050 440 E B4 CE DC86871 BEE31"
+              alt={`Image from ${member.name}'s gallery`}
               loading="lazy"
             />
           ))}
