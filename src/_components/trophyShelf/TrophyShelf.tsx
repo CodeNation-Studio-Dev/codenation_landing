@@ -107,9 +107,7 @@ export const TrophyShelf = () => {
             <p className="max-w-[300px] text-[11px]">
               {trophy_shelf.description}
             </p>
-            <a href="" className="text-lg font-bold">
-              {trophy_shelf.link}
-            </a>
+            <p className="text-lg font-bold">{trophy_shelf.link}</p>
           </div>
         )}
       </div>
@@ -162,9 +160,7 @@ export const TrophyShelf = () => {
           <p className="max-w-[300px] text-[11px]">
             {trophy_shelf.description}
           </p>
-          <a href="" className="text-lg font-bold">
-            {trophy_shelf.link}
-          </a>
+          <p className="text-lg font-bold">{trophy_shelf.link}</p>
         </div>
       )}
     </section>
