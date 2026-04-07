@@ -8,7 +8,6 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Link from "next/link";
-import { useParams } from "next/navigation";
 
 interface member {
   name: string;
@@ -203,7 +202,6 @@ export const ImageElement = ({ member }: { member: member }) => {
   const galleryRef = useRef<HTMLDivElement | null>(null);
   const profileRef = useRef<HTMLDivElement | null>(null);
   const tlRef = useRef<gsap.core.Timeline | null>(null);
-  const { lang } = useParams<{ lang: string }>();
 
   useEffect(() => {
     const gallery = galleryRef.current;
@@ -255,12 +253,16 @@ export const ImageElement = ({ member }: { member: member }) => {
       onMouseLeave={() => HandleMouseLeave()}
       className="group relative flex w-full flex-wrap pl-px"
     >
-      <a
-        href={member.linkedin}
-        className="absolute top-0 left-0 z-10 h-full w-full"
-      >
+      {member.linkedin ? (
+        <a
+          href={member.linkedin}
+          className="absolute top-0 left-0 z-10 h-full w-full"
+        >
+          <div className="sr-only">{member.name}</div>
+        </a>
+      ) : (
         <div className="sr-only">{member.name}</div>
-      </a>
+      )}
       <div className="absolute top-3 right-3 z-20 inline-flex items-center space-x-1.5">
         <div className="flex items-center space-x-1.5">
           {!!member.linkedin && (
@@ -283,7 +285,7 @@ export const ImageElement = ({ member }: { member: member }) => {
         </div>
         {member.page && (
           <a
-            href={`${lang}/team/${member.page}`}
+            href={`/team/${member.page}`}
             className="bg-secondary inline-flex h-8 w-8 transform items-center justify-center rounded-full transition-transform xl:group-hover:rotate-90"
           >
             <div className="sr-only">{member.name} profile</div>
@@ -337,7 +339,6 @@ export const ImageElement = ({ member }: { member: member }) => {
       <div className="absolute bottom-0 left-0 z-20 w-full pr-14">
         <div className="bg-background pointer-events-none relative inline-flex w-auto flex-wrap rounded-tr-2xl pt-3 pr-5 lg:rounded-tr-3xl lg:pr-8">
           <svg
-            id="Layer_1"
             className="dark:text-grayDark-600 text-background absolute right-px -bottom-px h-10 w-10 translate-x-full rotate-180 transform fill-current lg:h-12 lg:w-12"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -348,7 +349,6 @@ export const ImageElement = ({ member }: { member: member }) => {
             <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
           </svg>
           <svg
-            id="Layer_1"
             className="text-background absolute top-px left-0 h-10 w-10 -translate-y-full rotate-180 transform fill-current lg:h-12 lg:w-12"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"

@@ -27,6 +27,7 @@ export async function generateMetadata({
       languages: {
         "en-US": `/en-US/team/${member}`,
         "es-MX": `/es-MX/team/${member}`,
+        "x-default": "https://codenation-studio.com/es-MX",
       },
     },
   };

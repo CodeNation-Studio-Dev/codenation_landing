@@ -54,7 +54,6 @@ export const Clients = () => {
         <div className="swipper-clients bg-surface-container-low 4xl:py-40 relative w-full transform-gpu overflow-hidden rounded-2xl rounded-tl-none py-20 lg:rounded-3xl lg:rounded-tl-none lg:py-24 2xl:py-32">
           <figure className="bg-background absolute top-0 left-0 h-12 w-5/16 rounded-br-2xl lg:h-20 lg:w-3/16 lg:rounded-br-3xl">
             <svg
-              id="Layer_1"
               className="text-background absolute -top-px right-px h-10 w-10 translate-x-full transform fill-current lg:h-12 lg:w-12"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +64,6 @@ export const Clients = () => {
               <path d="M51.9 0v1.9c-27.6 0-50 22.4-50 50H0V0h51.9z"></path>
             </svg>
             <svg
-              id="Layer_1"
               className="text-background absolute bottom-px -left-px h-10 w-10 translate-y-full transform fill-current lg:h-12 lg:w-12"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
