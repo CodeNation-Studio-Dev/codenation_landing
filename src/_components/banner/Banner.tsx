@@ -32,12 +32,12 @@ export const Banner = () => {
           <h1 className="bg-background w-fit rounded-br-2xl pr-7 pb-3 pl-5 md:py-2">
             {banner.title}
           </h1>
-          <h1 className="bg-background w-fit rounded-br-2xl pr-4 pb-3 pl-5 md:py-2">
+          <p className="bg-background w-fit rounded-br-2xl pr-4 pb-3 pl-5 md:py-2">
             {banner.title2}
-          </h1>
-          <h1 className="bg-background w-fit rounded-br-2xl pr-4 pb-3 pl-5 md:py-2">
+          </p>
+          <p className="bg-background w-fit rounded-br-2xl pr-4 pb-3 pl-5 md:py-2">
             {banner.title3}
-          </h1>
+          </p>
           <div className="bg-background flex w-fit gap-x-6 rounded-b-2xl pr-6 pb-5 pl-5 md:pt-4">
             <Link href="#showcase">
               <PlayButton content={banner.viewOurWork} width={160} />

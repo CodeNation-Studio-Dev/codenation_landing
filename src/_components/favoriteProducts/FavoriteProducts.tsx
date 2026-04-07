@@ -96,7 +96,7 @@ export const FavoriteProducts = ({ service }: TranslationDict) => {
                       <div className="font-inter mb-2 flex items-center gap-x-2 text-sm lg:text-base">
                         <span>{project.date}</span>
                         <span>•</span>
-                        <h4>{project.client}</h4>
+                        <p>{project.client}</p>
                       </div>
                       <div>
                         <h2 className="4xl:text-4xl font-inter pr-10 text-xl leading-6 font-medium tracking-tight text-balance xl:text-3xl xl:leading-9">

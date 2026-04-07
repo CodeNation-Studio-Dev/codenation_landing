@@ -52,6 +52,7 @@ export async function generateMetadata({
       languages: {
         "en-US": `/en-US/services/${service}`,
         "es-MX": `/es-MX/services/${service}`,
+        "x-default": "https://codenation-studio.com/es-MX",
       },
     },
   };
@@ -80,10 +81,14 @@ const Page = async ({
           rightClassName="text-lg font-thin"
           topHidden={false}
         />
-        <CompleteImage src={images[service].main} />
+        <CompleteImage
+          src={images[service].main}
+          altImg={`${service} main image`}
+        />
         <BigText text={dict[service].bigText} />
         <TwoColumnImageContent
           rightImage={images[service].secondary}
+          altImg={`${service} secondary image`}
           leftText={
             <div className="flex flex-col justify-center gap-9 pb-5 lg:px-[50px] lg:pb-0">
               <span className="text-sm">
@@ -112,6 +117,7 @@ const Page = async ({
         />
         <TwoColumnImageContent
           rightImage={images[service].tertiary}
+          altImg={`${service} tertiary image`}
           leftText={
             <div className="flex flex-col justify-center gap-9 pb-5 lg:px-[50px] lg:pb-0">
               <p className="text-3xl font-bold">

@@ -8,6 +8,7 @@ interface TwoColumnImageContentProps {
   rotate?: boolean;
   leftClassName?: string;
   topHidden?: boolean;
+  altImg: string;
 }
 
 export const TwoColumnImageContent = ({
@@ -17,6 +18,7 @@ export const TwoColumnImageContent = ({
   rightImage,
   rotate = false,
   topHidden = false,
+  altImg = "",
 }: TwoColumnImageContentProps) => {
   return (
     <section
@@ -34,7 +36,7 @@ export const TwoColumnImageContent = ({
         className={`max-w-[765px] text-justify ${rotate && "lg:order-1"} lg:w-1/2`}
       >
         <div className="relative h-[550px] w-full overflow-hidden rounded-xl">
-          <Image src={rightImage} alt="" fill className="object-cover" />
+          <Image src={rightImage} alt={altImg} fill className="object-cover" />
         </div>
       </div>
     </section>

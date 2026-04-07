@@ -63,7 +63,7 @@ export const Header = () => {
             <Link href={`/${lang}`}>
               <Image
                 src="/assets/white-logo.png"
-                alt="Logo"
+                alt="CodeNation Studio logo"
                 fill
                 sizes="15x35"
                 priority
