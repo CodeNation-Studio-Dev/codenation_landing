@@ -89,7 +89,13 @@ const team: member[] = [
   {
     name: "Aldair González",
     profile: "/assets/aldair-profile.jpeg",
-    gallery: [],
+    gallery: [
+      "/assets/aldair-2.jpeg",
+      "/assets/aldair-3.jpeg",
+      "/assets/aldair-4.jpeg",
+      "/assets/aldair-5.jpeg",
+      "/assets/aldair-1.jpeg",
+    ],
     linkedin: "https://www.linkedin.com/in/aldair-gonzalez-conde-3441b21a9/",
     pathname: "aldair-gonzalez",
   },
