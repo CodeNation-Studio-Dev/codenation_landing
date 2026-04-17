@@ -5,7 +5,7 @@ import { Header } from "@components/header/Header";
 import { Footer } from "@components/footer/Footer";
 import { getDictionary } from "@lib/helpers/getDictionary";
 import { TranslationProvider } from "@providers/translationProvider";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -76,6 +76,7 @@ export default async function RootLayout({
   return (
     <html lang={lang}>
       <GoogleTagManager gtmId="GTM-TGPDWTMM" />
+      <GoogleAnalytics gaId="G-YMLLMLEKZ8" />
       <body className={`${spaceMono.variable} ${inter.variable}`}>
         <TranslationProvider dict={dict}>
           <Header />
