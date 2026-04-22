@@ -43,11 +43,11 @@ export async function generateMetadata({
       description,
       url: `https://codenation-studio.com/${lang}`,
       siteName: "CodeNation Studio",
-      locale: isSpanish ? "es_MX" : "en_US",
+      locale: isSpanish ? "es-MX" : "en-US",
       type: "website",
       images: [
         {
-          url: "https://codenation-studio.com/en-US/opengraph-image.png",
+          url: "https://codenation-studio.com/assets/opengraph-image.png",
           width: 512,
           height: 512,
           alt: "CodeNation Studio isotipo",
@@ -58,7 +58,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: ["/opengraph-image.png"],
+      images:["https://codenation-studio.com/assets/opengraph-image.png"],
     },
   };
 }
