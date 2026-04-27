@@ -278,7 +278,7 @@ export const ImageElement = ({ member }: { member: member }) => {
               rel="noreferrer"
               className="bg-secondary inline-flex h-8 w-8 translate-z-0 items-center justify-center rounded-full text-gray-600 duration-400 xl:hover:bg-gray-600 xl:hover:text-white"
             >
-              <div className="sr-only">Codenation</div>
+              <div className="sr-only">CodeNation</div>
               <svg
                 className="h-3.5 w-3.5 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
