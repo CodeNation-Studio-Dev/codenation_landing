@@ -75,7 +75,7 @@ export const Banner = () => {
                 className="object-cover"
               />
             </div>
-            <div className="font-inter relative z-10 w-[166px] transform leading-tight tracking-tight transition duration-500 lg:group-hover:-translate-x-12">
+            <div className="font-inter relative z-10 w-[168px] transform leading-tight tracking-tight transition duration-500 lg:group-hover:-translate-x-12">
               <p className="text-md">{banner.contact.hear}</p>
               <span className="text-on-surface text-sm font-light">
                 {banner.contact.co_founder}
