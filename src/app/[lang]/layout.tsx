@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Space_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@components/header/Header";
-import { Footer } from "@components/footer/Footer";
 import { getDictionary } from "@lib/helpers/getDictionary";
 import { TranslationProvider } from "@providers/translationProvider";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
@@ -58,7 +57,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images:["https://codenation-studio.com/assets/opengraph-image.png"],
+      images: ["https://codenation-studio.com/assets/opengraph-image.png"],
     },
   };
 }
@@ -81,7 +80,6 @@ export default async function RootLayout({
         <TranslationProvider dict={dict}>
           <Header />
           {children}
-          <Footer />
         </TranslationProvider>
       </body>
     </html>
