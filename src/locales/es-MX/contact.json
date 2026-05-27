@@ -1,0 +1,19 @@
+{
+  "bigButton": {
+    "catch": "Let´s see if we´re a good fit",
+    "phrases": ["Book a Call", "Share Your Project", "Let´s Talk"]
+  },
+  "contactMethod": {
+    "title": "Pongamos tu proyecto en marcha",
+    "call": {
+      "title": "Hablemos de tu proyecto",
+      "description": "Agenda una llamada con nuestro equipo para conocer tus objetivos, resolver dudas y explorar la mejor solución para tu proyecto.",
+      "button": "Agendar llamada"
+    },
+    "email": {
+      "title": "Cuéntanos sobre tu proyecto",
+      "description": "¿Prefieres escribir primero? Completa un breve formulario y nos pondremos en contacto contigo con una propuesta o los siguientes pasos.",
+      "button": "Completar formulario"
+    }
+  }
+}

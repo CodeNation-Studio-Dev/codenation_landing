@@ -9,27 +9,23 @@ import {
 } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { useRouter } from "next/navigation";
+import { useTranslations } from "@/src/_providers/translationProvider";
 
 const SwiperButton = () => {
+  const { bigButton } = useTranslations();
   const router = useRouter();
   return (
     <div
       className="bigtext-container gap-6 self-center justify-self-center"
       onClick={() => router.push("/contact-method")}
     >
-      <h2 className="text-center text-2xl">
-        Let&apos;s see if we&apos;re a good fit
-      </h2>
+      <h2 className="text-center text-2xl">{bigButton.catch}</h2>
       <div className="bigtext-wrapper font-inter">
         <div className="marquee">
           <div className="marquee-content px-2 py-4 text-5xl sm:text-7xl md:text-8xl lg:px-3 lg:py-6 lg:text-9xl xl:px-4">
-            <p>Book a Call •</p>
-            <p>Share Your Project •</p>
-            <p>Let&apos;s Talk •</p>
-
-            <p>Book a Call •</p>
-            <p>Share Your Project •</p>
-            <p>Let&apos;s Talk •</p>
+            {bigButton.phrases.map((phrase: string, i: number) => (
+              <p key={i}>{phrase} • </p>
+            ))}
           </div>
         </div>
       </div>
