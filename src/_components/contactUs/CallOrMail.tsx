@@ -1,8 +1,10 @@
 "use client";
+import { useTranslations } from "@/src/_providers/translationProvider";
 import Link from "next/link";
 import { useState } from "react";
 
 const CallOrMail = () => {
+  const { contactMethod } = useTranslations();
   const [active, setActive] = useState("call");
 
   const activeClassName =
@@ -11,7 +13,7 @@ const CallOrMail = () => {
   return (
     <div className="font-inter border-outline/50 from-background to-primary/5 my-8 h-[80%] w-[70%] max-w-[1200px] items-center rounded-xl border-[1px] bg-gradient-to-tr px-6 py-8 sm:p-12 lg:my-0 xl:w-2/3">
       <h1 className="text-on-surface-variant pb-10 text-4xl font-semibold xl:pb-14 xl:text-5xl">
-        What&apos;s this about
+        {contactMethod.title}
       </h1>
       <div className="flex h-full w-full flex-col gap-8 lg:flex-row lg:gap-12">
         <div
@@ -19,17 +21,16 @@ const CallOrMail = () => {
           onClick={() => setActive("call")}
         >
           <h2 className="text-center text-xl xl:text-3xl">
-            I want to make a project enquiry
+            {contactMethod.call.title}
           </h2>
           <p className="text-on-surface-variant text-md pb-6 text-center xl:text-xl">
-            Perfect if you already have an idea and want us to take a look.
-            Share some details and we&apos;ll get back to you with a plan.
+            {contactMethod.call.description}
           </p>
           <Link
             href=""
             className={`text-center ${active === "call" ? "text-primary text-lg font-bold underline xl:text-2xl" : "text-md no-underline xl:text-xl"}`}
           >
-            Let&apos;s book it!
+            {contactMethod.call.button}
           </Link>
         </div>
         <div
@@ -37,17 +38,16 @@ const CallOrMail = () => {
           onClick={() => setActive("mail")}
         >
           <h2 className="text-center text-xl xl:text-3xl">
-            I want to write to you
+            {contactMethod.email.title}
           </h2>
           <p className="text-on-surface-variant text-md pb-6 text-center xl:text-xl">
-            Have a quick question or just want to say hi? You&apos;re in the
-            right place.
+            {contactMethod.email.description}
           </p>
           <Link
             href=""
             className={`text-center ${active === "mail" ? "text-primary text-lg font-bold underline xl:text-2xl" : "text-md no-underline xl:text-xl"}`}
           >
-            Write to us!
+            {contactMethod.email.button}
           </Link>
         </div>
       </div>
