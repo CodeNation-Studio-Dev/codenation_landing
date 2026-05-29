@@ -86,7 +86,7 @@ export const Header = () => {
                 {header.work}
               </a>
               <Link href={`/${lang}/about-us`}>{header.about}</Link>
-              {/* <p>{header.blog}</p> */}
+              <Link href={`/${lang}/blog`}>{header.blog}</Link>
               <Link
                 href="https://www.linkedin.com/company/codenation-studio/"
                 rel="noopener no referrer"

@@ -74,6 +74,9 @@ export const Footer = () => {
             <Link href={`/${lang}/about-us`}>
               <li>{footer.company.aboutUs}</li>
             </Link>
+            <Link href={`/${lang}/about-us`}>
+              <li>{footer.company.blog}</li>
+            </Link>
           </ul>
           <footer className="grid grid-cols-4 text-2xl">
             <a href="https://www.facebook.com/CodenationStudio">

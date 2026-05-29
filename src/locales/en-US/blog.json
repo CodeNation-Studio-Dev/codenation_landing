@@ -1,0 +1,29 @@
+{
+  "title": "The Blog",
+  "articles": {
+    "software": [
+      {
+        "title": "Meet MadeByShape: A Web Design & Branding Agency in Manchester",
+        "image": "/assets/software-main.png",
+        "readTime": "18 min read"
+      },
+      {
+        "title": "Meet MadeByShape: A Web Design & Branding Agency in Manchester",
+        "image": "/assets/software-main.png",
+        "readTime": "18 min read"
+      }
+    ],
+    "culture": [
+      {
+        "title": "Meet MadeByShape: A Web Design & Branding Agency in Manchester",
+        "image": "/assets/software-main.png",
+        "readTime": "18 min read"
+      },
+      {
+        "title": "Meet MadeByShape: A Web Design & Branding Agency in Manchester",
+        "image": "/assets/software-main.png",
+        "readTime": "18 min read"
+      }
+    ]
+  }
+}

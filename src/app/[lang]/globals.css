@@ -73,6 +73,7 @@
   --color-surface-container-highest: rgb(50 54 47);
 
   /* Breakpoints */
+  --breakpoint-xs: 35rem;
   --breakpoint-3xl: 120rem;
   --breakpoint-4xl: 140rem;
 }

@@ -24,7 +24,8 @@
     },
     "company": {
       "title": "Company",
-      "aboutUs": "About Us"
+      "aboutUs": "About Us",
+      "blog": "Blog"
     }
   },
   "header": {
