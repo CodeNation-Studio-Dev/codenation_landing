@@ -8,12 +8,35 @@
     "call": {
       "title": "Let’s talk about your project",
       "description": "Schedule a call with our team to discuss your goals, answer questions, and explore the best solution for your project.",
-      "button": "Schedule a Call"
+      "button": "Schedule a Call!"
     },
     "email": {
       "title": "Tell us about your project",
       "description": "Prefer to start by writing? Fill out a short form and we’ll get back to you with ideas, recommendations, or next steps.",
-      "button": "Fill Out the Form"
+      "button": "Write to Us!"
     }
+  },
+  "form": {
+    "back": "Go back",
+    "name": "Name",
+    "email": "Email",
+    "company": "Company",
+    "brief": "Project Brief",
+    "budget": "Budget",
+    "budgetOptions": ["0-3k", "3k-6k", "6k-12k", "12k+"],
+    "hear": "How did ou hear about us?",
+    "hearDefault": "Select an option",
+    "hearOptions": [
+      { "value": "google", "name": "Google" },
+      { "value": "linkedin", "name": "Linkedin" },
+      { "value": "instagram", "name": "Instagram" },
+      { "value": "tiktok", "name": "TikTok" },
+      { "value": "youtube", "name": "Youtube" },
+      { "value": "referral", "name": "Referral" },
+      { "value": "previous", "name": "Previous client" },
+      { "value": "gpt", "name": "Chat GPT" },
+      { "value": "other", "name": "Other" }
+    ],
+    "button": "Submit"
   }
 }
