@@ -13,7 +13,30 @@
     "email": {
       "title": "Cuéntanos sobre tu proyecto",
       "description": "¿Prefieres escribir primero? Completa un breve formulario y nos pondremos en contacto contigo con una propuesta o los siguientes pasos.",
-      "button": "Completar formulario"
+      "button": "Escríbenos!"
     }
+  },
+  "form": {
+    "back": "Regresar",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "company": "Empresa",
+    "brief": "Descripción del projecto",
+    "budget": "Presupuesto",
+    "budgetOptions": ["0-50k", "50k-100k", "100k-200k", "200k+"],
+    "hear": "¿Cómo te enteraste de nosotros?",
+    "hearDefault": "Elige una opción",
+    "hearOptions": [
+      { "value": "google", "name": "Google" },
+      { "value": "linkedin", "name": "Linkedin" },
+      { "value": "instagram", "name": "Instagram" },
+      { "value": "tiktok", "name": "TikTok" },
+      { "value": "youtube", "name": "Youtube" },
+      { "value": "referral", "name": "Referido" },
+      { "value": "previous", "name": "Cliente anterior" },
+      { "value": "gpt", "name": "Chat GPT" },
+      { "value": "other", "name": "Otro" }
+    ],
+    "button": "Enviar"
   }
 }
