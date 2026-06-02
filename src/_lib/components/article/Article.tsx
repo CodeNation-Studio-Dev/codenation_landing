@@ -6,7 +6,12 @@ export const Article = ({ article }: { article: ArticleProps }) => {
   const ref = useRef<HTMLDivElement>(null);
 
   return (
-    <div className="flex w-full flex-col gap-2 sm:w-[49%] lg:w-[32%]">
+    <div
+      className="flex w-full cursor-pointer flex-col gap-2 sm:w-[49%] lg:w-[32%]"
+      onClick={() => {
+        window.open(article.link);
+      }}
+    >
       <div className="relative flex w-full overflow-hidden">
         <img
           src={article.image}
@@ -61,10 +66,10 @@ export const Article = ({ article }: { article: ArticleProps }) => {
           <div className="relative h-12 w-12 transform-gpu overflow-hidden rounded-xl lg:h-16 lg:w-16 lg:rounded-2xl">
             <div className="relative h-full w-full overflow-hidden">
               <img
-                src="/assets/aldair-1.jpeg"
+                src={article.author_image}
                 sizes="100vw"
-                alt="Kerry Made By Shape"
-                className="absolute top-0 left-0 h-full w-full object-cover"
+                alt="Author"
+                className="absolute top-0 left-0 h-full w-full object-cover object-top"
                 loading="lazy"
                 width="200"
                 height="200"
@@ -76,7 +81,7 @@ export const Article = ({ article }: { article: ArticleProps }) => {
       <div className="flex flex-col gap-2">
         <span className="flex items-center gap-1 text-sm font-light text-gray-600 lg:text-base">
           <div className="h-1.5 w-1.5 rounded-full bg-gray-600"></div>
-          {article.readTime}
+          {article.read_time}
         </span>
         <p className="text-2xl sm:text-xl">{article.title}</p>
       </div>

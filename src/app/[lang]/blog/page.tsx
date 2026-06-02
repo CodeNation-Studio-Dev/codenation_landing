@@ -6,7 +6,9 @@ import Link from "next/link";
 export interface ArticleProps {
   title: string;
   image: string;
-  readTime: string;
+  read_time: string;
+  link: string;
+  author_image: string;
 }
 
 const Blog = async ({

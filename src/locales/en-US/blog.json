@@ -3,31 +3,15 @@
   "articles": {
     "software": [
       {
-        "title": "Meet MadeByShape: A Web Design & Branding Agency in Manchester",
-        "image": "/assets/software-main.png",
-        "readTime": "18 min read"
-      },
-      {
-        "title": "Meet MadeByShape: A Web Design & Branding Agency in Manchester",
-        "image": "/assets/software-main.png",
-        "readTime": "18 min read"
-      }
-    ],
-    "culture": [
-      {
-        "title": "Meet MadeByShape: A Web Design & Branding Agency in Manchester",
-        "image": "/assets/software-main.png",
-        "readTime": "18 min read"
-      },
-      {
-        "title": "Meet MadeByShape: A Web Design & Branding Agency in Manchester",
-        "image": "/assets/software-main.png",
-        "readTime": "18 min read"
-      },
-      {
         "title": "How Much Does a Website Cost in Mexico in 2026?",
         "image": "/assets/software-main.png",
-        "readTime": "10 min read"
+        "author": {
+          "role": "COO",
+          "name": "Paco Luna",
+          "image": "/assets/paco-1.jpeg"
+        },
+        "read_time": "10 min read",
+        "link": "/blog/software/pagina-web-2026"
       }
     ]
   }

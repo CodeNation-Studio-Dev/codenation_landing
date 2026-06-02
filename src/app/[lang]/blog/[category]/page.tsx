@@ -2,12 +2,7 @@ import { Article } from "@lib/components/article/Article";
 import { getDictionary } from "@lib/helpers/getDictionary";
 import { TranslationProvider } from "@providers/translationProvider";
 import Link from "next/link";
-
-export interface ArticleProps {
-  title: string;
-  image: string;
-  readTime: string;
-}
+import { ArticleProps } from "../page";
 
 const BlogCategory = async ({
   params,

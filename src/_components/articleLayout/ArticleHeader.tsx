@@ -1,4 +1,17 @@
-export const ArticleHeader = () => {
+"use client";
+
+import { useTranslations } from "@/src/_providers/translationProvider";
+import { ArticleProps } from "@/src/app/[lang]/blog/page";
+import { useParams, usePathname } from "next/navigation";
+
+export const ArticleHeader = ({ category }: { category: string }) => {
+  const pathname = usePathname();
+  const slug = "/" + pathname.split("/").slice(-3).join("/");
+  const { articles } = useTranslations();
+  const article = articles[category].find(
+    (article: ArticleProps) => article.link === slug,
+  );
+
   return (
     <div className="font-inter relative flex flex-col pl-2 sm:pl-6 md:mt-20 xl:pl-12 2xl:pl-20">
       <div className="xs:h-96 4xl:min-h-200 flex h-64 md:min-h-140 md:pl-[31.2%] xl:min-h-160 2xl:pl-[31.2%]">
@@ -63,12 +76,11 @@ export const ArticleHeader = () => {
               <div className="inline-flex items-center space-x-2 md:relative md:left-2 lg:absolute lg:top-10 lg:left-3">
                 <div className="h-1.5 w-1.5 rounded-full bg-white"></div>
                 <div className="text-sm font-light lg:text-base">
-                  18 min read
+                  {article.read_time}
                 </div>
               </div>
               <h1 className="4xl:text-6xl mt-5 text-5xl leading-none tracking-tight md:pl-2 md:text-4xl lg:indent-32 lg:text-5xl xl:text-6xl">
-                Meet MadeByShape: A Web Design &amp; Branding Agency in
-                Manchester
+                {article.title}
               </h1>
             </div>
           </div>
@@ -83,10 +95,10 @@ export const ArticleHeader = () => {
                 <picture className="absolute top-0 left-0 h-full w-full">
                   <source type="image/webp" sizes="100vw" />
                   <img
-                    src="https://made-byshape.transforms.svdcdn.com/production/uploads/images/profile-images-2024/square/Andy-MadeByShape.jpg?w=200&amp;h=200&amp;q=80&amp;fm=webp&amp;fit=crop&amp;crop=focalpoint&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1704887838&amp;s=ae4d9ca6a39b5c1b2fab75687820c86f"
+                    src={article.author.image}
                     sizes="100vw"
-                    alt="Andy Made By Shape"
-                    className="absolute top-0 left-0 h-full w-full object-cover object-center"
+                    alt={article.author.name}
+                    className="absolute top-0 left-0 h-full w-full object-cover object-top"
                     loading="lazy"
                     width="200"
                     height="200"
@@ -98,9 +110,11 @@ export const ArticleHeader = () => {
               <div className="dark:text-grayDark-100 mb-1 text-xs font-light">
                 Written by
               </div>
-              <div className="dark:text-grayDark-100">Andy Golpys</div>
+              <div className="dark:text-grayDark-100">
+                {article.author.name}
+              </div>
               <div className="dark:text-grayDark-200 text-xs font-light lg:text-sm">
-                Co-Founder
+                {article.author.role}
               </div>
             </div>
           </a>
@@ -111,11 +125,11 @@ export const ArticleHeader = () => {
           <div className="flex items-center gap-2">
             <div className="dark:bg-grayDark-100 h-1.5 w-1.5 rounded-full bg-white"></div>
             <div className="dark:text-grayDark-100 text-sm font-light lg:text-base">
-              18 min read
+              {article.read_time}
             </div>
           </div>
           <h1 className="4xl:text-6xl dark:text-grayDark-100 text-4xl leading-none tracking-tight md:pl-2 md:text-3xl lg:indent-32 lg:text-4xl xl:indent-40 2xl:text-5xl">
-            Meet MadeByShape: A Web Design &amp; Branding Agency in Manchester
+            {article.title}
           </h1>
         </div>
         <div className="">
@@ -128,10 +142,10 @@ export const ArticleHeader = () => {
                 <picture className="absolute top-0 left-0 h-full w-full">
                   <source type="image/webp" sizes="100vw" />
                   <img
-                    src="https://made-byshape.transforms.svdcdn.com/production/uploads/images/profile-images-2024/square/Andy-MadeByShape.jpg?w=200&amp;h=200&amp;q=80&amp;fm=webp&amp;fit=crop&amp;crop=focalpoint&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1704887838&amp;s=ae4d9ca6a39b5c1b2fab75687820c86f"
+                    src={article.author.image}
                     sizes="100vw"
-                    alt="Andy Made By Shape"
-                    className="absolute top-0 left-0 h-full w-full object-cover object-center"
+                    alt={article.author.name}
+                    className="absolute top-0 left-0 h-full w-full object-cover object-top"
                     loading="lazy"
                     width="200"
                     height="200"
@@ -143,9 +157,11 @@ export const ArticleHeader = () => {
               <div className="dark:text-grayDark-100 mb-1 text-xs font-light">
                 Written by
               </div>
-              <div className="dark:text-grayDark-100">Andy Golpys</div>
+              <div className="dark:text-grayDark-100">
+                {article.author.name}
+              </div>
               <div className="dark:text-grayDark-200 text-xs font-light lg:text-sm">
-                Co-Founder
+                {article.author.role}
               </div>
             </div>
           </a>
