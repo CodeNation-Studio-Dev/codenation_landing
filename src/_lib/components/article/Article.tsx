@@ -1,5 +1,5 @@
 "use client";
-import { ArticleProps } from "@/src/app/[lang]/blog/[[type]]/page";
+import { ArticleProps } from "@/src/app/[lang]/blog/page";
 import { useRef } from "react";
 
 export const Article = ({ article }: { article: ArticleProps }) => {
