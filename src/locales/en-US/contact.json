@@ -1,7 +1,7 @@
 {
   "bigButton": {
-    "catch": "Let´s see if we´re a good fit json",
-    "phrases": ["Book a Call", "Share Your Project", "Let´s Talk", "JSON"]
+    "catch": "Let´s see if we´re a good fit",
+    "phrases": ["Book a Call", "Share Your Project", "Let´s Talk"]
   },
   "contactMethod": {
     "title": "Let’s Make It Happen",
@@ -18,25 +18,59 @@
   },
   "form": {
     "back": "Go back",
+    "title": "Start your project",
+    "subtitle1": "Let us know how we can help ",
+    "subtitle2": "bring your idea to life",
     "name": "Name",
     "email": "Email",
     "company": "Company",
-    "brief": "Project Brief",
+    "phone": "Phone",
     "budget": "Budget",
     "budgetOptions": ["0-3k", "3k-6k", "6k-12k", "12k+"],
-    "hear": "How did ou hear about us?",
+    "brief": "Project brief",
+    "hear": "How did you hear about us?",
     "hearDefault": "Select an option",
     "hearOptions": [
-      { "value": "google", "name": "Google" },
-      { "value": "linkedin", "name": "Linkedin" },
-      { "value": "instagram", "name": "Instagram" },
-      { "value": "tiktok", "name": "TikTok" },
-      { "value": "youtube", "name": "Youtube" },
-      { "value": "referral", "name": "Referral" },
-      { "value": "previous", "name": "Previous client" },
-      { "value": "gpt", "name": "Chat GPT" },
-      { "value": "other", "name": "Other" }
+      { "value": "Google", "name": "Google" },
+      { "value": "Linkedin", "name": "Linkedin" },
+      { "value": "Instagram", "name": "Instagram" },
+      { "value": "Tiktok", "name": "TikTok" },
+      { "value": "Youtube", "name": "Youtube" },
+      { "value": "Referral", "name": "Referral" },
+      { "value": "Previous Client", "name": "Previous client" },
+      { "value": "ChatGPT", "name": "Chat GPT" },
+      { "value": "Other", "name": "Other" }
     ],
-    "button": "Submit"
+    "projectType": "Project type",
+    "projectTypeDefault": "Select an option",
+    "projectTypeOptions": [
+      { "value": "New Website", "name": "New Website" },
+      { "value": "Website Redesign", "name": "Website Redesign" },
+      { "value": "Ecommerce Website", "name": "Ecommerce Website" },
+      { "value": "UX/UI Design", "name": "UX/UI Design" },
+      { "value": "MVP", "name": "MVP" },
+      { "value": "Cloud Architecture", "name": "Cloud Architecture" },
+      { "value": "AI & Automation", "name": "AI & Automation" },
+      { "value": "somethingElse", "name": "Something Else" }
+    ],
+    "button": "Submit",
+    "validation": {
+      "name": {
+        "required": "Please write your name",
+        "specialChars": "Numbers and special characters not allowed"
+      },
+      "email": {
+        "invalid": "Input a valid email address"
+      },
+      "brief": {
+        "required": "Tell us more about your project"
+      },
+      "budget": {
+        "required": "This field is required"
+      },
+      "hear": {
+        "required": "Select an option"
+      }
+    }
   }
 }

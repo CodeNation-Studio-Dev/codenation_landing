@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useParams, usePathname } from "next/navigation";
+import { useParams, usePathname, useSearchParams } from "next/navigation";
 import { useTranslations } from "@providers/translationProvider";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -24,6 +24,8 @@ export const Header = () => {
   const headerRef = useRef<HTMLHeadElement>(null);
   const windowSize = useWindowSize();
   const [openMenu, setOpenMenu] = useState(false);
+  const searchParams = useSearchParams();
+  const query = searchParams.toString();
 
   useGSAP(() => {
     if (!headerRef.current) return;
@@ -100,14 +102,14 @@ export const Header = () => {
           <section className="flex items-center gap-x-5">
             {lang === "es-MX" ? (
               <Link
-                href={pathname.replace(/^\/es-MX/, "/en-US")}
+                href={`${pathname.replace(/^\/es-MX/, "/en-US")}${query ? `?${query}` : ""}`}
                 className="text-xs"
               >
                 EN
               </Link>
             ) : (
               <Link
-                href={pathname.replace(/^\/en-US/, "/es-MX")}
+                href={`${pathname.replace(/^\/en-US/, "/es-MX")}${query ? `?${query}` : ""}`}
                 className="text-xs"
               >
                 ES
