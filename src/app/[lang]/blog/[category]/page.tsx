@@ -40,7 +40,7 @@ const BlogCategory = async ({
               <div className="flex gap-1">
                 <Link
                   className="text-3xl text-gray-400 transition-colors duration-200 hover:text-white md:text-4xl xl:text-5xl"
-                  href="/blog"
+                  href={`/${lang}/blog`}
                 >
                   {dict.categories.explore}
                 </Link>
@@ -54,7 +54,7 @@ const BlogCategory = async ({
                 className={`text-3xl text-gray-400 transition-colors duration-200 hover:text-white md:text-4xl xl:text-5xl ${
                   category === "software" ? "text-white" : ""
                 }`}
-                href="/blog/software"
+                href={`/${lang}/blog/software`}
               >
                 {dict.categories.software}
               </Link>
@@ -65,7 +65,7 @@ const BlogCategory = async ({
                 className={`text-3xl text-gray-400 transition-colors duration-200 hover:text-white md:text-4xl xl:text-5xl ${
                   category === "design" ? "text-white" : ""
                 }`}
-                href="/blog/design"
+                href={`/${lang}/blog/design`}
               >
                 {dict.categories.design}
               </Link>
@@ -76,7 +76,7 @@ const BlogCategory = async ({
                 className={`text-3xl text-gray-400 transition-colors duration-200 hover:text-white md:text-4xl xl:text-5xl ${
                   category === "branding" ? "text-white" : ""
                 }`}
-                href="/blog/branding"
+                href={`/${lang}/blog/branding`}
               >
                 {dict.categories.branding}
               </Link>
@@ -87,7 +87,7 @@ const BlogCategory = async ({
                 className={`text-3xl text-gray-400 transition-colors duration-200 hover:text-white md:text-4xl xl:text-5xl ${
                   category === "culture" ? "text-white" : ""
                 }`}
-                href="/blog/culture"
+                href={`/${lang}/blog/culture`}
               >
                 {dict.categories.culture}
               </Link>
