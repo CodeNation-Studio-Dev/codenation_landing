@@ -37,7 +37,13 @@ const icons = {
   ],
 };
 
-export const Testimonials = ({ service }: TranslationDict) => {
+export const Testimonials = ({
+  service,
+  lang,
+}: {
+  service: TranslationDict;
+  lang: string;
+}) => {
   const iconKey = service.name as "automatization" | "cloud";
   return (
     <div className="4xl:pb-40 mt-20 w-full pb-20 lg:pb-24 2xl:pb-32">
@@ -55,11 +61,7 @@ export const Testimonials = ({ service }: TranslationDict) => {
                 {service.testimonials.title}
               </h2>
               <div className="group relative inline-flex items-center">
-                <Link
-                  href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
+                <Link href={`/${lang}/contact-us`}>
                   <PlayButton
                     content={service.testimonials.contact}
                     width={120}

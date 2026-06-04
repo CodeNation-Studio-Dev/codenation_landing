@@ -15,7 +15,13 @@ interface Project {
   asset: string;
 }
 
-export const FavoriteProducts = ({ service }: TranslationDict) => {
+export const FavoriteProducts = ({
+  service,
+  lang,
+}: {
+  service: TranslationDict;
+  lang: string;
+}) => {
   return (
     <section className="4xl:pb-40 w-full pb-20 lg:pb-24 2xl:pb-32">
       <div className="px-0">
@@ -31,11 +37,7 @@ export const FavoriteProducts = ({ service }: TranslationDict) => {
                 </h2>
               </div>
             </div>
-            <Link
-              href="https://www.linkedin.com/company/codenation-studio/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
+            <Link href={`/${lang}/contact-us`}>
               <PlayButton
                 content={service.favorites.viewWork}
                 width={150}

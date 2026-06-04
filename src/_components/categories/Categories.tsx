@@ -66,12 +66,7 @@ export const Categories = () => {
             <span className="text-md flex indent-[50px] font-light lg:w-[400px] lg:self-end">
               {categories.description}
             </span>
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://www.linkedin.com/company/codenation-studio/"}
-              className="mt-5 lg:self-end"
-            >
+            <Link href={`${lang}/contact-us`} className="mt-5 lg:self-end">
               <PlayButton
                 content={categories.contact}
                 width={155}

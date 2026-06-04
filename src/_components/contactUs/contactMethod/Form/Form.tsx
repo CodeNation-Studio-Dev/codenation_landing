@@ -66,12 +66,10 @@ const ContactForm = () => {
   useEffect(() => {
     if (state.errors?.general && !state.success && !pending) {
       setSnackBar("error");
-      console.log("error");
       setTimeout(() => setSnackBar(""), 4000);
     }
     if (!state.errors?.general && state.success && !pending) {
       setSnackBar("success");
-      console.log("success");
       setTimeout(() => setSnackBar(""), 4000);
     }
   }, [state.errors?.general, state.success, pending]);
