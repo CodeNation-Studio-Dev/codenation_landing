@@ -1,7 +1,11 @@
 "use client";
 import { useTranslations } from "@providers/translationProvider";
 import { GoArrowUpRight } from "react-icons/go";
-import { FaSquareFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa6";
+import {
+  FaSquareFacebook,
+  FaLinkedin,
+  FaSquareWhatsapp,
+} from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
 import Image from "next/image";
@@ -21,9 +25,7 @@ export const Footer = () => {
           <p className="max-w-[350px]">{footer.contactUs.address}</p>
           <p>{footer.contactUs.phone}</p>
           <Link
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+            href={`${lang}/contact-us`}
             className="bg-primary-container text-tertiary group grid w-[300px] cursor-pointer grid-flow-col items-center justify-between gap-4 rounded-full px-7 py-4 backdrop-blur-2xl"
           >
             <div>
@@ -94,7 +96,7 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaWhatsapp />
+              <FaSquareWhatsapp />
             </a>
             <a href="mailto:info@codenation-studio.com">
               <MdEmail />

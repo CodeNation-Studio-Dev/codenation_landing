@@ -7,6 +7,7 @@ import "swiper/css";
 import { useTranslations } from "@providers/translationProvider";
 import Link from "next/link";
 import Image from "next/image";
+import { useParams } from "next/navigation";
 
 const brands = [
   {
@@ -47,6 +48,7 @@ const brands = [
 
 export const Clients = () => {
   const { clients } = useTranslations();
+  const { lang } = useParams();
 
   return (
     <section className="4xl:pb-40 mt-20 w-full px-2 pb-20 lg:px-3 lg:pb-24 xl:px-4 2xl:pb-32">
@@ -85,13 +87,7 @@ export const Clients = () => {
               <h2 className="4xl:text-6xl max-w-2xl text-2xl leading-none tracking-tight text-balance text-white md:text-4xl xl:max-w-3xl xl:text-5xl">
                 {clients.title}
               </h2>
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href={
-                  "https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
-                }
-              >
+              <Link href={`${lang}/contact-us`}>
                 <PlayButton
                   content={clients.contact}
                   width={175}
