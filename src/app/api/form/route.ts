@@ -13,7 +13,6 @@ export async function POST(request: Request) {
     projectType,
   } = await request.json();
 
-  console.log("inside route");
   try {
     const req = await fetch(`${process.env.NEXT_PUBLIC_CONTACT_FORM_URL}`, {
       method: "POST",
@@ -28,7 +27,6 @@ export async function POST(request: Request) {
 
     if (!req.ok) {
       const data = await req.json();
-      console.log("route error", data);
       return NextResponse.json({ data }, { status: req.status });
     }
     return NextResponse.json("Form submitted successfully", { status: 200 });

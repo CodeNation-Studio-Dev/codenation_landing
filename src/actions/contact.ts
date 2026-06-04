@@ -45,6 +45,7 @@ const client = z.object({
 
 interface FormState {
   errors: {
+    general: boolean;
     name?: string[];
     email?: string[];
     brief?: string[];
@@ -52,6 +53,7 @@ interface FormState {
     hear?: string[];
     company?: string[];
   };
+  success: boolean;
 }
 
 export async function manageForm(state: FormState, formData: FormData) {
@@ -75,13 +77,14 @@ export async function manageForm(state: FormState, formData: FormData) {
   });
 
   if (!validateFields.success) {
-    console.log("Form error");
     return {
-      errors: validateFields.error.flatten().fieldErrors,
+      errors: {
+        ...validateFields.error.flatten().fieldErrors,
+        general: true,
+      },
+      success: false,
     };
   }
-
-  console.log("Form success");
 
   const req = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/form`, {
     method: "POST",
@@ -99,7 +102,10 @@ export async function manageForm(state: FormState, formData: FormData) {
     }),
   });
   if (!req.ok) {
-    console.log("Error", req);
+    return {
+      errors: { general: true },
+      success: false,
+    };
   }
-  return { errors: {} };
+  return { errors: { general: false }, success: true };
 }
