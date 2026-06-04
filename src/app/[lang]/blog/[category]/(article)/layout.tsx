@@ -1,15 +1,13 @@
-import { ArticleSocials } from "@/src/_components/articleLayout/ArticleSocials";
-import { getDictionary } from "@/src/_lib/helpers/getDictionary";
-import { TranslationProvider } from "@/src/_providers/translationProvider";
+import { getDictionary } from "@lib/helpers/getDictionary";
+import { TranslationProvider } from "@providers/translationProvider";
 import { ArticleHeader } from "@components/articleLayout/ArticleHeader";
-import { ArticleSidebar } from "@components/articleLayout/ArticleSidebar";
 
-export const Layout = async ({
+const Layout = async ({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { category: string; lang: string };
+  params: Promise<{ category: string; lang: string }>;
 }) => {
   const { lang, category } = await params;
   const dict = await getDictionary(lang, "blog");
