@@ -42,7 +42,7 @@ const BlogCategory = async ({
                   className="text-3xl text-gray-400 transition-colors duration-200 hover:text-white md:text-4xl xl:text-5xl"
                   href="/blog"
                 >
-                  explore all
+                  {dict.categories.explore}
                 </Link>
                 <span className="text-sm">
                   {Object.values(articles).flat().length}
@@ -56,7 +56,7 @@ const BlogCategory = async ({
                 }`}
                 href="/blog/software"
               >
-                Software Development
+                {dict.categories.software}
               </Link>
               <span className="text-sm">{articles.software?.length || 0}</span>
             </div>
@@ -67,7 +67,7 @@ const BlogCategory = async ({
                 }`}
                 href="/blog/design"
               >
-                Design
+                {dict.categories.design}
               </Link>
               <span className="text-sm">{articles.design?.length || 0}</span>
             </div>
@@ -78,7 +78,7 @@ const BlogCategory = async ({
                 }`}
                 href="/blog/branding"
               >
-                Branding
+                {dict.categories.branding}
               </Link>
               <span className="text-sm">{articles.branding?.length || 0}</span>
             </div>
@@ -89,7 +89,7 @@ const BlogCategory = async ({
                 }`}
                 href="/blog/culture"
               >
-                News & Culture
+                {dict.categories.culture}
               </Link>
               <span className="text-sm">{articles.culture?.length || 0}</span>
             </div>

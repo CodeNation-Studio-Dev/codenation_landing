@@ -1,9 +1,13 @@
-export const ArticleSocials = () => {
+"use client";
+
+import { TranslationDict } from "@/src/_providers/translationProvider";
+
+export const ArticleSocials = ({ article }: { article: TranslationDict }) => {
   return (
     <div className="hidden w-auto px-2 lg:flex lg:px-3 xl:px-4">
       <div className="sticky top-18 left-0 flex h-fit w-full flex-col items-center">
         <div className="mb-2 text-sm text-gray-400 dark:text-gray-200">
-          Share
+          {article.share.title}
         </div>
         <div className="inline-flex flex-col items-start space-y-2">
           <a
@@ -12,7 +16,6 @@ export const ArticleSocials = () => {
             rel="noopener noreferrer"
             className="bg-secondary text-background inline-flex h-8 w-8 translate-z-0 items-center justify-center rounded-full duration-400 xl:hover:bg-gray-600 xl:hover:text-white"
           >
-            <div className="sr-only">Share on LinkedIn</div>
             <svg
               className="h-3.5 w-3.5 fill-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +31,7 @@ export const ArticleSocials = () => {
             rel="noopener noreferrer"
             className="bg-secondary text-background inline-flex h-8 w-8 translate-z-0 items-center justify-center rounded-full duration-400 xl:hover:bg-gray-600 xl:hover:text-white"
           >
-            <div className="sr-only">Share on Twitter</div>
+            <div className="sr-only">{article.share.twitter}</div>
             <svg
               className="h-3.5 w-3.5 fill-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +47,7 @@ export const ArticleSocials = () => {
             rel="noopener noreferrer"
             className="bg-secondary text-background inline-flex h-8 w-8 translate-z-0 items-center justify-center rounded-full duration-400 xl:hover:bg-gray-600 xl:hover:text-white"
           >
-            <div className="sr-only">Share on Facebook</div>
+            <div className="sr-only">{article.share.facebook}</div>
             <svg
               className="h-3.5 w-3.5 fill-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +63,7 @@ export const ArticleSocials = () => {
             rel="noopener noreferrer"
             className="bg-secondary text-background inline-flex h-8 w-8 translate-z-0 items-center justify-center rounded-full duration-400 xl:hover:bg-gray-600 xl:hover:text-white"
           >
-            <div className="sr-only">Share on Email</div>
+            <div className="sr-only">{article.share.email}</div>
             <svg
               className="h-3.5 w-3.5 fill-current"
               width="20"

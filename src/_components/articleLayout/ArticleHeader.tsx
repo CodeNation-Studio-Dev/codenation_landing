@@ -2,7 +2,7 @@
 
 import { useTranslations } from "@/src/_providers/translationProvider";
 import { ArticleProps } from "@/src/app/[lang]/blog/page";
-import { useParams, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 export const ArticleHeader = ({ category }: { category: string }) => {
   const pathname = usePathname();

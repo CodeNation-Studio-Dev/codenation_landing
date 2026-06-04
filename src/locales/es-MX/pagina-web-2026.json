@@ -1,6 +1,17 @@
 {
   "title": "¿Cuánto cuesta una página web en México en 2026?",
   "updatedAt": "06 May 2026",
+  "share": {
+    "title": "Compartir",
+    "linkedin": "Compartir en LinkedIn",
+    "twitter": "Compartir en Twitter",
+    "facebook": "Compartir en Facebook",
+    "email": "Compartir por Correo"
+  },
+  "sidebar": {
+    "content": "Contenido",
+    "read_time": "18 min de lectura"
+  },
   "heroImage": "/assets/build-ideas.png",
   "heroImageAlt": "Ideas para una página web moderna",
   "heroDescription": "Un diseño inteligente no es el costo más alto; es el que convierte visitantes en clientes. Descubre las cifras reales, los factores clave y cómo construir una presencia digital rentable este 2026.",
@@ -49,8 +60,14 @@
         "El retorno real es mayor cuando la web ayuda a cerrar más clientes, reduce preguntas básicas y amplía tu presencia sin que debas invertir horas extra en atención manual.",
         "En 2026, una página web eficaz es la que se siente viva: se actualiza, refleja novedades y se ajusta a tu crecimiento comercial."
       ]
+    },
+    {
+      "heading": "Conclusiones finales",
+
+      "paragraphs": [
+        "Si buscas una página web que funcione como una herramienta de negocio y no como un gasto fijo, el camino ideal combina diseño estratégico, tecnología moderna y un plan de crecimiento gradual. Con la ruta correcta, 2026 puede ser el año en el que tu sitio web empiece a generar resultados reales."
+      ]
     }
   ],
-  "conclusion": "Si buscas una página web que funcione como una herramienta de negocio y no como un gasto fijo, el camino ideal combina diseño estratégico, tecnología moderna y un plan de crecimiento gradual. Con la ruta correcta, 2026 puede ser el año en el que tu sitio web empiece a generar resultados reales.",
   "callToAction": "¿Listo para construir tu primera página web sólida en México? Empieza con un plan que priorice resultados y no solo estética."
 }

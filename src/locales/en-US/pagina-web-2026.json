@@ -1,6 +1,17 @@
 {
   "title": "How Much Does a Website Cost in Mexico in 2026?",
   "updatedAt": "06 May 2026",
+  "share": {
+    "title": "Share",
+    "linkedin": "Share on LinkedIn",
+    "twitter": "Share on Twitter",
+    "facebook": "Share on Facebook",
+    "email": "Share on Email"
+  },
+  "sidebar": {
+    "content": "Content",
+    "read_time": "18 min read"
+  },
   "heroImage": "/assets/build-ideas.png",
   "heroImageAlt": "Ideas for a modern website",
   "heroDescription": "A smart website is not the most expensive one; it is the one that converts visitors into customers. Discover real figures, key drivers, and how to build a profitable digital presence in 2026.",
@@ -49,8 +60,13 @@
         "The real return is higher when the website helps close more clients, reduces basic questions, and expands your presence without extra manual effort.",
         "In 2026, an effective website is one that feels alive: it gets updated, reflects new developments, and adapts as your business grows."
       ]
+    },
+    {
+      "heading": "Final Thoughts",
+      "paragraphs": [
+        "If you want a website that works as a business tool instead of a fixed expense, the ideal path combines strategic design, modern technology, and a gradual growth plan. With the right route, 2026 can be the year your website starts delivering real results."
+      ]
     }
   ],
-  "conclusion": "If you want a website that works as a business tool instead of a fixed expense, the ideal path combines strategic design, modern technology, and a gradual growth plan. With the right route, 2026 can be the year your website starts delivering real results.",
   "callToAction": "Ready to build your first solid website in Mexico? Start with a plan that prioritizes results, not just aesthetics."
 }

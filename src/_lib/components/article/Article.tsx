@@ -1,15 +1,17 @@
 "use client";
 import { ArticleProps } from "@/src/app/[lang]/blog/page";
 import { useRef } from "react";
+import { useRouter } from "next/navigation";
 
 export const Article = ({ article }: { article: ArticleProps }) => {
   const ref = useRef<HTMLDivElement>(null);
+  const router = useRouter();
 
   return (
     <div
       className="flex w-full cursor-pointer flex-col gap-2 sm:w-[49%] lg:w-[32%]"
       onClick={() => {
-        window.open(article.link);
+        router.push(article.link);
       }}
     >
       <div className="relative flex w-full overflow-hidden">
@@ -66,7 +68,7 @@ export const Article = ({ article }: { article: ArticleProps }) => {
           <div className="relative h-12 w-12 transform-gpu overflow-hidden rounded-xl lg:h-16 lg:w-16 lg:rounded-2xl">
             <div className="relative h-full w-full overflow-hidden">
               <img
-                src={article.author_image}
+                src={article.author.image}
                 sizes="100vw"
                 alt="Author"
                 className="absolute top-0 left-0 h-full w-full object-cover object-top"

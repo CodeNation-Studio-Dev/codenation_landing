@@ -1,5 +1,12 @@
 {
-  "title": "El Blog",
+  "title": "Nuestro Blog",
+  "categories": {
+    "explore": "explora todo",
+    "software": "Desarrollo de Software",
+    "design": "Diseño",
+    "branding": "Branding",
+    "culture": "Noticias & Cultura"
+  },
   "articles": {
     "software": [
       {

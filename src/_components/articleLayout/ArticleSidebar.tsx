@@ -3,13 +3,35 @@
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import { TranslationDict } from "@/src/_providers/translationProvider";
+import { getLinkOfText } from "@/src/_lib/helpers/textHandler";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export const ArticleSidebar = () => {
+interface Section {
+  heading: string;
+  image: string;
+  imageAlt: string;
+  paragraphs: string[];
+}
+
+export const ArticleSidebar = ({ article }: { article: TranslationDict }) => {
   const progressRef = useRef<HTMLDivElement>(null);
   const ref = useRef<HTMLDivElement>(null);
+  const [activeSection, setActiveSection] = useState("");
+
+  useGSAP(() => {
+    article.sections.forEach((section: Section) => {
+      ScrollTrigger.create({
+        trigger: `#${getLinkOfText(section.heading)}`,
+        start: "top center",
+        end: "bottom center",
+        onEnter: () => setActiveSection(getLinkOfText(section.heading)),
+        onEnterBack: () => setActiveSection(getLinkOfText(section.heading)),
+      });
+    });
+  });
 
   useGSAP(
     () => {
@@ -37,91 +59,20 @@ export const ArticleSidebar = () => {
       <div className="sticky top-18 left-0 space-y-5">
         <div className="bg-surface-container w-full overflow-hidden rounded-2xl">
           <div className="flex flex-col items-start space-y-3">
-            <div className="mt-5 px-5 text-sm">Contents</div>
+            <div className="mt-5 px-5 text-sm">{article.sidebar.content}</div>
             <div className="px-5 pb-5">
               <ul className="">
-                <li className="relative mb-1 w-full translate-x-3 transform py-0.5 leading-tight transition-transform duration-500">
-                  <div className="absolute top-0 -left-8 h-full w-1 bg-gray-600"></div>
-                  <a
-                    href="#about-madebyshape-1"
-                    className="underline transition-none xl:hover:underline"
+                {article.sections.map((section: Section, index: number) => (
+                  <li
+                    key={section.heading + index}
+                    className={`relative mb-1 w-full ${activeSection === getLinkOfText(section.heading) ? "translate-x-3" : ""} transform py-0.5 leading-tight transition-transform duration-500`}
                   >
-                    About MadeByShape
-                  </a>
-                </li>
-                <li className="relative mb-1 w-full transform py-0.5 leading-tight transition-transform duration-500">
-                  <div className="absolute top-0 -left-8 h-full w-1 bg-gray-600"></div>
-                  <a
-                    href='#&lt;strong-className="font-medium"&gt;what-we-actually-do&lt;/strong&gt;-2'
-                    className="transition-none xl:hover:underline"
-                  >
-                    <strong className="font-medium">What we actually do</strong>
-                  </a>
-                </li>
-                <li className="relative mb-1 w-full transform py-0.5 leading-tight transition-transform duration-500">
-                  <div className="absolute top-0 -left-8 h-full w-1 bg-gray-600"></div>
-                  <a
-                    href="#branding:-more-than-a-logo-3"
-                    className="transition-none xl:hover:underline"
-                  >
-                    Branding: more than a logo
-                  </a>
-                </li>
-                <li className="relative mb-1 w-full transform py-0.5 leading-tight transition-transform duration-500">
-                  <div className="absolute top-0 -left-8 h-full w-1 bg-gray-600"></div>
-                  <a
-                    href="#websites:-development,-design,-build-and-launch-properly-4"
-                    className="transition-none xl:hover:underline"
-                  >
-                    Websites: development, design, build and launch properly
-                  </a>
-                </li>
-                <li className="relative mb-1 w-full transform py-0.5 leading-tight transition-transform duration-500">
-                  <div className="absolute top-0 -left-8 h-full w-1 bg-gray-600"></div>
-                  <a
-                    href="#organic-seo-and-content-writing-5"
-                    className="transition-none xl:hover:underline"
-                  >
-                    Organic SEO and content writing
-                  </a>
-                </li>
-                <li className="relative mb-1 w-full transform py-0.5 leading-tight transition-transform duration-500">
-                  <div className="absolute top-0 -left-8 h-full w-1 bg-gray-600"></div>
-                  <a
-                    href="#hosting,-support-and-the-technical-bits-clients-don’t-want-to-worry-about-6"
-                    className="transition-none xl:hover:underline"
-                  >
-                    Hosting, support and the technical bits clients don’t want
-                    to worry about
-                  </a>
-                </li>
-                <li className="relative mb-1 w-full transform py-0.5 leading-tight transition-transform duration-500">
-                  <div className="absolute top-0 -left-8 h-full w-1 bg-gray-600"></div>
-                  <a
-                    href="#our-culture:-no-egos,-multiple-personalities-7"
-                    className="transition-none xl:hover:underline"
-                  >
-                    Our culture: no egos, multiple personalities
-                  </a>
-                </li>
-                <li className="relative mb-1 w-full transform py-0.5 leading-tight transition-transform duration-500">
-                  <div className="absolute top-0 -left-8 h-full w-1 bg-gray-600"></div>
-                  <a
-                    href="#who-we-work-with-and-why-clients-refer-us-8"
-                    className="transition-none xl:hover:underline"
-                  >
-                    Who we work with and why clients refer us
-                  </a>
-                </li>
-                <li className="relative mb-1 w-full transform py-0.5 leading-tight transition-transform duration-500">
-                  <div className="absolute top-0 -left-8 h-full w-1 bg-gray-600"></div>
-                  <a
-                    href="#so,-that’s-shape-in-a-nutshell-9"
-                    className="transition-none xl:hover:underline"
-                  >
-                    So, that’s Shape in a nutshell
-                  </a>
-                </li>
+                    <div className="absolute top-0 -left-8 h-full w-1 bg-gray-600"></div>
+                    <a href={`#${getLinkOfText(section.heading)}`}>
+                      {section.heading}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
@@ -144,7 +95,7 @@ export const ArticleSidebar = () => {
             >
               <path d="M256 0a256 256 0 110 512 256 256 0 110-512zm-24 120v148.8l10.7 7.1 96 64 20 13.3 26.6-39.9-20-13.3-85.3-56.8V96h-48v24z"></path>
             </svg>
-            <div className="">18 min read</div>
+            <div className="">{article.sidebar.read_time}</div>
           </div>
         </div>
       </div>
