@@ -191,9 +191,9 @@ const Page = async ({
         </section>
 
         <section className="px-6 pb-24">
-          <div className="mx-auto max-w-5xl rounded-3xl border border-blue-500/30 bg-gradient-to-r from-blue-600/20 to-cyan-600/20 p-10 text-center md:p-14">
+          <div className="mx-auto max-w-5xl rounded-3xl border border-blue-500/30 bg-linear-to-r from-blue-600/20 to-cyan-600/20 p-10 text-center md:p-14">
             <h3 className="mb-6 text-3xl font-bold md:text-4xl">
-              Ready to Start?
+              {dict.ready}
             </h3>
 
             <p className="mx-auto mb-8 max-w-3xl text-lg text-gray-300">
@@ -204,7 +204,7 @@ const Page = async ({
               href="/contact"
               className="inline-flex items-center rounded-xl bg-white px-8 py-4 font-semibold text-black transition hover:scale-105"
             >
-              Get a Free Consultation
+              {dict.free_consultation}
             </a>
           </div>
         </section>

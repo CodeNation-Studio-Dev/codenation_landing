@@ -1,8 +1,15 @@
 "use client";
 
 import { TranslationDict } from "@/src/_providers/translationProvider";
+import { useEffect, useState } from "react";
 
 export const ArticleSocials = ({ article }: { article: TranslationDict }) => {
+  const [url, setUrl] = useState("");
+
+  useEffect(() => {
+    setUrl(window.location.href);
+  }, []);
+
   return (
     <div className="hidden w-auto px-2 lg:flex lg:px-3 xl:px-4">
       <div className="sticky top-18 left-0 flex h-fit w-full flex-col items-center">
@@ -11,7 +18,7 @@ export const ArticleSocials = ({ article }: { article: TranslationDict }) => {
         </div>
         <div className="inline-flex flex-col items-start space-y-2">
           <a
-            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fmadebyshape.co.uk%2Fweb-design-blog%2Fmeet-madebyshape-a-web-design-branding-agency-in-manchester%2F%3Ftoken%3Dfv6X_NMzLueskeATg239ClVNUroRmsVn&amp;title=Meet MadeByShape: A Web Design &amp; Branding Agency in Manchester"
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=${url}`}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-secondary text-background inline-flex h-8 w-8 translate-z-0 items-center justify-center rounded-full duration-400 xl:hover:bg-gray-600 xl:hover:text-white"
@@ -26,7 +33,7 @@ export const ArticleSocials = ({ article }: { article: TranslationDict }) => {
           </a>
 
           <a
-            href="https://twitter.com/intent/tweet?text=Meet MadeByShape: A Web Design &amp; Branding Agency in Manchester - https%3A%2F%2Fmadebyshape.co.uk%2Fweb-design-blog%2Fmeet-madebyshape-a-web-design-branding-agency-in-manchester%2F%3Ftoken%3Dfv6X_NMzLueskeATg239ClVNUroRmsVn"
+            href={`https://twitter.com/intent/tweet?url=${url}`}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-secondary text-background inline-flex h-8 w-8 translate-z-0 items-center justify-center rounded-full duration-400 xl:hover:bg-gray-600 xl:hover:text-white"
@@ -42,7 +49,7 @@ export const ArticleSocials = ({ article }: { article: TranslationDict }) => {
           </a>
 
           <a
-            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmadebyshape.co.uk%2Fweb-design-blog%2Fmeet-madebyshape-a-web-design-branding-agency-in-manchester%2F%3Ftoken%3Dfv6X_NMzLueskeATg239ClVNUroRmsVn"
+            href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-secondary text-background inline-flex h-8 w-8 translate-z-0 items-center justify-center rounded-full duration-400 xl:hover:bg-gray-600 xl:hover:text-white"
@@ -58,12 +65,11 @@ export const ArticleSocials = ({ article }: { article: TranslationDict }) => {
           </a>
 
           <a
-            href=""
-            target="_blank"
+            onClick={() => navigator.clipboard.writeText(url)}
             rel="noopener noreferrer"
             className="bg-secondary text-background inline-flex h-8 w-8 translate-z-0 items-center justify-center rounded-full duration-400 xl:hover:bg-gray-600 xl:hover:text-white"
           >
-            <div className="sr-only">{article.share.email}</div>
+            <div className="sr-only">{article.share.link}</div>
             <svg
               className="h-3.5 w-3.5 fill-current"
               width="20"

@@ -6,11 +6,11 @@
     "linkedin": "Compartir en LinkedIn",
     "twitter": "Compartir en Twitter",
     "facebook": "Compartir en Facebook",
-    "email": "Compartir por Correo"
+    "link": "Compartir enlace"
   },
   "sidebar": {
     "content": "Contenido",
-    "read_time": "18 min de lectura"
+    "read_time": "10 min de lectura"
   },
   "heroImage": "/assets/build-ideas.png",
   "heroImageAlt": "Ideas para una página web moderna",
@@ -69,5 +69,7 @@
       ]
     }
   ],
-  "callToAction": "¿Listo para construir tu primera página web sólida en México? Empieza con un plan que priorice resultados y no solo estética."
+  "ready": "¿Listo para empezar?",
+  "callToAction": "¿Listo para construir tu primera página web sólida en México? Empieza con un plan que priorice resultados y no solo estética.",
+  "free_consultation": "Obtén una consulta gratuita"
 }

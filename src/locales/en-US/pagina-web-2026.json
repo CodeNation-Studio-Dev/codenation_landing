@@ -6,11 +6,11 @@
     "linkedin": "Share on LinkedIn",
     "twitter": "Share on Twitter",
     "facebook": "Share on Facebook",
-    "email": "Share on Email"
+    "link": "Share link"
   },
   "sidebar": {
     "content": "Content",
-    "read_time": "18 min read"
+    "read_time": "10 min read"
   },
   "heroImage": "/assets/build-ideas.png",
   "heroImageAlt": "Ideas for a modern website",
@@ -68,5 +68,7 @@
       ]
     }
   ],
-  "callToAction": "Ready to build your first solid website in Mexico? Start with a plan that prioritizes results, not just aesthetics."
+  "ready": "Ready to Start?",
+  "callToAction": "Ready to build your first solid website in Mexico? Start with a plan that prioritizes results, not just aesthetics.",
+  "free_consultation": "Get a free consultation"
 }

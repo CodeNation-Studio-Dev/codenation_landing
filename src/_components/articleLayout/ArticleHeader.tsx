@@ -18,9 +18,7 @@ export const ArticleHeader = ({ category }: { category: string }) => {
         <div className="relative h-full w-full self-end md:top-0 md:right-0 md:order-2 md:inline-flex md:h-full md:pr-0">
           <div className="bg-background absolute top-0 left-0 z-20 h-14 w-28 rounded-br-2xl md:hidden">
             <svg
-              id="Layer_1"
-              className="dark:text-grayDark-600 text-background absolute bottom-px -left-px z-30 h-10 w-10 translate-y-full transform fill-current"
-              version="1.1"
+              className="text-background absolute bottom-px -left-px z-30 h-10 w-10 translate-y-full transform fill-current"
               xmlns="http://www.w3.org/2000/svg"
               x="0"
               y="0"
@@ -29,9 +27,7 @@ export const ArticleHeader = ({ category }: { category: string }) => {
               <path d="M51.9 0v1.9c-27.6 0-50 22.4-50 50H0V0h51.9z"></path>
             </svg>
             <svg
-              id="Layer_1"
-              className="dark:text-grayDark-600 text-background absolute -top-px right-px z-30 h-10 w-10 translate-x-full transform fill-current"
-              version="1.1"
+              className="text-background absolute -top-px right-px z-30 h-10 w-10 translate-x-full transform fill-current"
               xmlns="http://www.w3.org/2000/svg"
               x="0"
               y="0"
@@ -50,9 +46,7 @@ export const ArticleHeader = ({ category }: { category: string }) => {
       <div className="absolute z-20 order-2 hidden h-full flex-col items-start justify-between md:order-1 md:flex lg:w-[calc(100%-24px)] xl:w-[calc(100%-48px)] 2xl:w-[calc(100%-80px)]">
         <div className="relative mt-5 mb-5 md:mt-28">
           <svg
-            id="Layer_1"
-            className="3xl:left-4/16 dark:text-grayDark-600 text-background absolute top-1 left-5/16 z-30 mt-px -ml-px hidden h-8 w-8 -translate-y-20 rotate-180 transform fill-current md:block md:h-12 md:w-12"
-            version="1.1"
+            className="3xl:left-4/16 text-background absolute top-1 left-5/16 z-30 mt-px -ml-px hidden h-8 w-8 -translate-y-20 rotate-180 transform fill-current md:block md:h-12 md:w-12"
             xmlns="http://www.w3.org/2000/svg"
             x="0"
             y="0"
@@ -61,9 +55,7 @@ export const ArticleHeader = ({ category }: { category: string }) => {
             <path d="M98.1 0h1.9v51.9h-1.9c0-27.6-22.4-50-50-50V0h50z"></path>
           </svg>
           <svg
-            id="Layer_1"
-            className="3xl:left-4/16 dark:text-grayDark-600 text-background absolute bottom-0 left-5/16 z-30 mb-px -ml-px hidden h-8 w-8 translate-y-12 transform fill-current md:block md:h-12 md:w-12"
-            version="1.1"
+            className="3xl:left-4/16 text-background absolute bottom-0 left-5/16 z-30 mb-px -ml-px hidden h-8 w-8 translate-y-12 transform fill-current md:block md:h-12 md:w-12"
             xmlns="http://www.w3.org/2000/svg"
             x="0"
             y="0"
@@ -87,7 +79,7 @@ export const ArticleHeader = ({ category }: { category: string }) => {
         </div>
         <div className="pl-4 md:pl-2">
           <a
-            href="https://madebyshape.co.uk/about/andy-golpys/"
+            href={article.author.social}
             className="flex items-end space-x-3 lg:space-x-5"
           >
             <div className="relative inline-flex h-16 w-16 overflow-hidden rounded-lg lg:rounded-xl">
@@ -134,7 +126,7 @@ export const ArticleHeader = ({ category }: { category: string }) => {
         </div>
         <div className="">
           <a
-            href="https://madebyshape.co.uk/about/andy-golpys/"
+            href={article.author.social}
             className="flex items-end space-x-3 lg:space-x-5"
           >
             <div className="relative inline-flex h-16 w-16 overflow-hidden rounded-lg lg:rounded-xl">
