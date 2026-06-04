@@ -129,20 +129,9 @@ export const Header = () => {
           <Link href={`/${lang}/services/webpage`}>{header.services}</Link>
           <Link href={`/${lang}/#showcase`}>{header.work}</Link>
           <Link href={`/${lang}/about-us`}>{header.about}</Link>
-          {/* <p>{header.blog}</p> */}
-          <Link
-            href="https://www.linkedin.com/company/codenation-studio/"
-            rel="noopener no referrer"
-            target="_blank"
-          >
-            {header.contact}
-          </Link>
-
-          <Link
-            target="_blank"
-            rel="noopener noreferrer"
-            href={"https://www.linkedin.com/in/francisco-javier-luna-figueroa/"}
-          >
+          <Link href={`/${lang}/blog`}>{header.blog}</Link>
+          <Link href={`/${lang}/contact-us`}>{header.contact}</Link>
+          <Link href={`/${lang}/contact-us`}>
             <PlayButton content={header.start_project} width={150} />
           </Link>
         </section>
