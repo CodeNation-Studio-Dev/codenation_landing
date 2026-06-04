@@ -4,8 +4,8 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef, useState } from "react";
-import { TranslationDict } from "@/src/_providers/translationProvider";
-import { getLinkOfText } from "@/src/_lib/helpers/textHandler";
+import { TranslationDict } from "@providers/translationProvider";
+import { getLinkOfText } from "@lib/helpers/textHandler";
 
 gsap.registerPlugin(ScrollTrigger);
 

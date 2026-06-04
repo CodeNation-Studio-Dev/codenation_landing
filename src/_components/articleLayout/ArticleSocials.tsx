@@ -1,6 +1,6 @@
 "use client";
 
-import { TranslationDict } from "@/src/_providers/translationProvider";
+import { TranslationDict } from "@providers/translationProvider";
 import { useEffect, useState } from "react";
 
 export const ArticleSocials = ({ article }: { article: TranslationDict }) => {

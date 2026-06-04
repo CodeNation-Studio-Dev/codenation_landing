@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useTranslations } from "@providers/translationProvider";
 import { ArticleProps } from "@/src/app/[lang]/blog/page";
 import { usePathname } from "next/navigation";
 

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { getDictionary } from "@lib/helpers/getDictionary";
-import { ArticleSidebar } from "@/src/_components/articleLayout/ArticleSidebar";
-import { ArticleSocials } from "@/src/_components/articleLayout/ArticleSocials";
-import { getLinkOfText } from "@/src/_lib/helpers/textHandler";
+import { ArticleSidebar } from "@components/articleLayout/ArticleSidebar";
+import { ArticleSocials } from "@components/articleLayout/ArticleSocials";
+import { getLinkOfText } from "@lib/helpers/textHandler";
 
 const Page = async ({
   params,
