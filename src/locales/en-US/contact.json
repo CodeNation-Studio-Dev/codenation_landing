@@ -18,6 +18,10 @@
   },
   "form": {
     "back": "Go back",
+    "errorTitle": "Unable to send information",
+    "errorDescription": "Please try again in a moment.",
+    "successTitle": "Message sent successfully",
+    "successDescription": "We'll get back to you soon.",
     "title": "Start your project",
     "subtitle1": "Let us know how we can help ",
     "subtitle2": "bring your idea to life",

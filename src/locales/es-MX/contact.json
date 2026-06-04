@@ -18,6 +18,10 @@
   },
   "form": {
     "back": "Regresar",
+    "errorTitle": "Ocurrió un error al enviar la información",
+    "errorDescription": "Por favor intentalo de nuevo.",
+    "successTitle": "Mensaje enviado con éxito",
+    "successDescription": "Te contactaremos pronto.",
     "title": "Inicia tu proyecto",
     "subtitle1": "Háznos saber cómo podemos ",
     "subtitle2": "ayudarte a dar vida a tu idea",

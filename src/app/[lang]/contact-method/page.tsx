@@ -13,7 +13,7 @@ const Page = async ({
 }>) => {
   const { lang } = await params;
   const { election } = await searchParams;
-  console.log(election);
+
   const dict = await getDictionary(lang, "contact");
   return (
     <TranslationProvider dict={dict}>
