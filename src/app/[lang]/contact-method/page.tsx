@@ -1,8 +1,8 @@
-import Calendar from "@/src/_components/contactUs/contactMethod/Calendar";
-import CallOrMail from "@/src/_components/contactUs/contactMethod/CallOrMail";
-import ContactForm from "@/src/_components/contactUs/contactMethod/Form/Form";
-import { getDictionary } from "@/src/_lib/helpers/getDictionary";
-import { TranslationProvider } from "@/src/_providers/translationProvider";
+import Calendar from "@components/contactUs/contactMethod/Calendar";
+import CallOrMail from "@components/contactUs/contactMethod/CallOrMail";
+import ContactForm from "@components/contactUs/contactMethod/Form/Form";
+import { getDictionary } from "@lib/helpers/getDictionary";
+import { TranslationProvider } from "@providers/translationProvider";
 
 const Page = async ({
   params,

@@ -1,10 +1,10 @@
 "use client";
 
-import { PlayButton } from "@/src/_lib/components/playButton/PlayButton";
+import { PlayButton } from "@lib/components/playButton/PlayButton";
 import { useActionState, useEffect, useRef, useState } from "react";
 import { IoArrowBack } from "react-icons/io5";
 import "./Form.css";
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useTranslations } from "@providers/translationProvider";
 import { manageForm } from "@/src/actions/contact";
 import Link from "next/link";
 import {

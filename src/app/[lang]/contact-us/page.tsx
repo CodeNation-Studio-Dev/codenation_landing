@@ -1,6 +1,6 @@
-import SwiperButton from "@/src/_components/contactUs/swiperButton/SwiperButton";
-import { getDictionary } from "@/src/_lib/helpers/getDictionary";
-import { TranslationProvider } from "@/src/_providers/translationProvider";
+import SwiperButton from "@components/contactUs/swiperButton/SwiperButton";
+import { getDictionary } from "@lib/helpers/getDictionary";
+import { TranslationProvider } from "@providers/translationProvider";
 
 const Page = async ({
   params,

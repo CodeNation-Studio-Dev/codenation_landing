@@ -7,11 +7,14 @@ import Link from "next/link";
 
 const Calendar = () => {
   useEffect(() => {
-    (async function () {
+    const setCalendar = async () => {
       const cal = await getCalApi({ namespace: "30min" });
       cal("ui", { hideEventTypeDetails: false, layout: "month_view" });
-    })();
+    };
+
+    setCalendar();
   }, []);
+
   return (
     <div className="flex max-w-[1440px] flex-col items-center justify-center gap-4 lg:h-full lg:w-full lg:gap-2">
       <div className="flex w-full items-end justify-end text-lg">

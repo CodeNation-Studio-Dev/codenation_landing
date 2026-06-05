@@ -1,6 +1,6 @@
 "use client";
-import { useWindowSize } from "@/src/_hooks/windowSize";
-import { useTranslations } from "@/src/_providers/translationProvider";
+import { useWindowSize } from "@hooks/windowSize";
+import { useTranslations } from "@providers/translationProvider";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
