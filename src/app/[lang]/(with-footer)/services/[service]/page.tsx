@@ -100,11 +100,7 @@ const Page = async ({
               <p className="text-lg font-extralight whitespace-pre-line">
                 {dict[service].explanation.description}
               </p>
-              <Link
-                href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <Link href={`/${lang}/contact-us`}>
                 <PlayButton
                   content={dict[service].explanation.startProject}
                   width={180}
@@ -132,7 +128,9 @@ const Page = async ({
         />
         {sections.map((section) => {
           const Component = section.component;
-          return <Component key={section.key} service={dict[service]} />;
+          return (
+            <Component key={section.key} service={dict[service]} lang={lang} />
+          );
         })}
       </div>
     </TranslationProvider>

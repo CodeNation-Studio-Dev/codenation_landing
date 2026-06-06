@@ -4,6 +4,7 @@ import "./ShowCase.css";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { useTranslations } from "@providers/translationProvider";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
 interface VideoProps {
   videoId: string;
@@ -51,6 +52,7 @@ const videos: VideoProps[] = [
 export const ShowCase = () => {
   const [activeIndex, setActiveIndex] = useState(1);
   const { showCase } = useTranslations();
+  const { lang } = useParams();
 
   const handlePrev = () => {
     setActiveIndex((prev) => (prev - 1 + videos.length) % videos.length);
@@ -251,9 +253,7 @@ export const ShowCase = () => {
           </div>
 
           <Link
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/company/codenation-studio/"
+            href={`${lang}/contact-us`}
             className="inline-flex w-full items-center justify-center rounded-full border-2 border-amber-50 px-6 py-3.5 sm:w-fit"
           >
             <span className="button__label">{showCase.explore}</span>

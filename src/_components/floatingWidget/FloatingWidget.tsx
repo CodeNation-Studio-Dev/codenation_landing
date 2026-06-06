@@ -4,11 +4,13 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 
 gsap.registerPlugin(ScrollTrigger);
 
 export const FloatingWidget = () => {
   const widget = useRef(null);
+  const { lang } = useParams();
 
   useGSAP(() => {
     gsap.to(widget.current, {
@@ -26,9 +28,7 @@ export const FloatingWidget = () => {
   return (
     <div className="group pointer-events-auto fixed right-0 bottom-0 z-50 mx-8 my-6 hidden opacity-100 transition md:block">
       <Link
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+        href={`/${lang}/contact-us`}
         className="bg-primary group relative flex h-28 w-28 items-center justify-center rounded-full"
       >
         <div className="relative top-0.5 text-2xl">🚀</div>

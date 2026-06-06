@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useParams, usePathname } from "next/navigation";
+import { useParams, usePathname, useSearchParams } from "next/navigation";
 import { useTranslations } from "@providers/translationProvider";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -24,6 +24,8 @@ export const Header = () => {
   const headerRef = useRef<HTMLHeadElement>(null);
   const windowSize = useWindowSize();
   const [openMenu, setOpenMenu] = useState(false);
+  const searchParams = useSearchParams();
+  const query = searchParams.toString();
 
   useGSAP(() => {
     if (!headerRef.current) return;
@@ -87,27 +89,21 @@ export const Header = () => {
               </a>
               <Link href={`/${lang}/about-us`}>{header.about}</Link>
               <Link href={`/${lang}/blog`}>{header.blog}</Link>
-              <Link
-                href="https://www.linkedin.com/company/codenation-studio/"
-                rel="noopener no referrer"
-                target="_blank"
-              >
-                {header.contact}
-              </Link>
+              <Link href={`/${lang}/contact-us`}>{header.contact}</Link>
             </section>
           )}
 
           <section className="flex items-center gap-x-5">
             {lang === "es-MX" ? (
               <Link
-                href={pathname.replace(/^\/es-MX/, "/en-US")}
+                href={`${pathname.replace(/^\/es-MX/, "/en-US")}${query ? `?${query}` : ""}`}
                 className="text-xs"
               >
                 EN
               </Link>
             ) : (
               <Link
-                href={pathname.replace(/^\/en-US/, "/es-MX")}
+                href={`${pathname.replace(/^\/en-US/, "/es-MX")}${query ? `?${query}` : ""}`}
                 className="text-xs"
               >
                 ES
@@ -115,13 +111,7 @@ export const Header = () => {
             )}
 
             {windowSize > 1024 ? (
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                href={
-                  "https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
-                }
-              >
+              <Link href={`/${lang}/contact-us`}>
                 <PlayButton content={header.start_project} width={150} />
               </Link>
             ) : (
@@ -139,20 +129,9 @@ export const Header = () => {
           <Link href={`/${lang}/services/webpage`}>{header.services}</Link>
           <Link href={`/${lang}/#showcase`}>{header.work}</Link>
           <Link href={`/${lang}/about-us`}>{header.about}</Link>
-          {/* <p>{header.blog}</p> */}
-          <Link
-            href="https://www.linkedin.com/company/codenation-studio/"
-            rel="noopener no referrer"
-            target="_blank"
-          >
-            {header.contact}
-          </Link>
-
-          <Link
-            target="_blank"
-            rel="noopener noreferrer"
-            href={"https://www.linkedin.com/in/francisco-javier-luna-figueroa/"}
-          >
+          <Link href={`/${lang}/blog`}>{header.blog}</Link>
+          <Link href={`/${lang}/contact-us`}>{header.contact}</Link>
+          <Link href={`/${lang}/contact-us`}>
             <PlayButton content={header.start_project} width={150} />
           </Link>
         </section>

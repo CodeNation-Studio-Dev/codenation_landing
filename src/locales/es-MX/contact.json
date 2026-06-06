@@ -1,0 +1,83 @@
+{
+  "bigButton": {
+    "catch": "Veamos si somos compatibles",
+    "phrases": ["Agenda una llamada", "Compartenos tu proyecto", "Hablemos"]
+  },
+  "contactMethod": {
+    "title": "Pongamos tu proyecto en marcha",
+    "call": {
+      "title": "Hablemos de tu proyecto",
+      "description": "Agenda una llamada con nuestro equipo para conocer tus objetivos, resolver dudas y explorar la mejor solución para tu proyecto.",
+      "button": "Agendar llamada"
+    },
+    "email": {
+      "title": "Cuéntanos sobre tu proyecto",
+      "description": "¿Prefieres escribir primero? Completa un breve formulario y nos pondremos en contacto contigo con una propuesta o los siguientes pasos.",
+      "button": "Escríbenos!"
+    }
+  },
+  "form": {
+    "back": "Regresar",
+    "errorTitle": "Ocurrió un error al enviar la información",
+    "errorDescription": "Por favor intentalo de nuevo.",
+    "successTitle": "Mensaje enviado con éxito",
+    "successDescription": "Te contactaremos pronto.",
+    "title": "Inicia tu proyecto",
+    "subtitle1": "Háznos saber cómo podemos ",
+    "subtitle2": "ayudarte a dar vida a tu idea",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "company": "Empresa",
+    "phone": "Teléfono",
+    "budget": "Presupuesto",
+    "budgetOptions": ["0-50k", "50k-100k", "100k-200k", "200k+"],
+    "brief": "Descripción del proyecto",
+    "hear": "¿Cómo te enteraste de nosotros?",
+    "hearDefault": "Elige una opción",
+    "hearOptions": [
+      { "value": "Google", "name": "Google" },
+      { "value": "Linkedin", "name": "Linkedin" },
+      { "value": "Instagram", "name": "Instagram" },
+      { "value": "Tiktok", "name": "TikTok" },
+      { "value": "Youtube", "name": "Youtube" },
+      { "value": "Referral", "name": "Referido" },
+      { "value": "Previous Client", "name": "Cliente anterior" },
+      { "value": "ChatGPT", "name": "Chat GPT" },
+      { "value": "Other", "name": "Otro" }
+    ],
+    "projectType": "Tipo de proyecto",
+    "projectTypeDefault": "Selecciona una opción",
+    "projectTypeOptions": [
+      { "value": "New Website", "name": "Nuevo Sitio Web" },
+      { "value": "Website Redesign", "name": "Rediseño de Sitio Web" },
+      {
+        "value": "Ecommerce Website",
+        "name": "Sitio Web de Comercio Electrónico"
+      },
+      { "value": "UX/UI Design", "name": "Diseño UX/UI" },
+      { "value": "MVP", "name": "MVP" },
+      { "value": "Cloud Architecture", "name": "Arquitectura de Nube" },
+      { "value": "AI & Automation", "name": "IA y Automatización" },
+      { "value": "Something Else", "name": "Algo más" }
+    ],
+    "button": "Enviar",
+    "validation": {
+      "name": {
+        "required": "Por favor ingresa tu nombre",
+        "specialChars": "Números y caracteres especiales no permitidos"
+      },
+      "email": {
+        "invalid": "Ingresa una dirección de correo válida"
+      },
+      "brief": {
+        "required": "Cuéntanos más acerca de tu proyecto"
+      },
+      "budget": {
+        "required": "Este campo es requerido"
+      },
+      "hear": {
+        "required": "Selecciona una opción"
+      }
+    }
+  }
+}

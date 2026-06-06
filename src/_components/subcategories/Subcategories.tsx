@@ -59,8 +59,15 @@ interface Category {
   description: string;
 }
 
-export const Subcategories = ({ service }: TranslationDict) => {
+export const Subcategories = async ({
+  service,
+  lang,
+}: {
+  service: TranslationDict;
+  lang: string;
+}) => {
   const iconKey = service.name as "webpage" | "mvp" | "cloud";
+
   return (
     <section className="3xl:px-40 4xl:px-60 bg-surface-container-low w-full px-2 py-10 sm:px-6 lg:py-16 xl:px-12 2xl:px-20 2xl:py-24">
       <div className="mt-10 mb-8 flex w-full flex-col items-start px-2 lg:mt-0 lg:mb-16 lg:flex-row lg:items-end lg:justify-between lg:px-3 xl:px-4">
@@ -72,11 +79,7 @@ export const Subcategories = ({ service }: TranslationDict) => {
             {service.subcategories.title}
           </h2>
         </div>
-        <Link
-          href="https://www.linkedin.com/company/codenation-studio/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
+        <Link href={`/${lang}/contact-us`}>
           <PlayButton
             content={service.subcategories.getInTouch}
             width={200}
