@@ -27,7 +27,7 @@ const ContactForm = () => {
   const [phone, setPhone] = useState("");
   const [touched, setTouched] = useState(false);
   const defaultCountry =
-    countries.find((country) => country.code === "52") ?? countries[0];
+    countries.find((country) => country.code === "+52") ?? countries[0];
   const [countrySearch, setCountrySearch] = useState(defaultCountry.code);
   const [selectedCountry, setSelectedCountry] = useState(defaultCountry);
   const [isCountryOpen, setIsCountryOpen] = useState(false);
