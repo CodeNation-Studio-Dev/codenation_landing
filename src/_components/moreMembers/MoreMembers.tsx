@@ -33,17 +33,6 @@ const team: member[] = [
     pathname: "joel-martinez",
   },
   {
-    name: "Joshua Torres",
-    profile: "/assets/joshua-profile.jpeg",
-    gallery: [
-      "/assets/joshua-2.jpeg",
-      "/assets/joshua-3.jpeg",
-      "/assets/joshua-1.jpeg",
-    ],
-    linkedin: "",
-    pathname: "joshua-torres",
-  },
-  {
     name: "Francisco Marmolejo",
     profile: "/assets/francisco-profile.jpeg",
     gallery: [
