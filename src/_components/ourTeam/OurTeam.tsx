@@ -32,17 +32,6 @@ const team: member[] = [
     page: "joel-martinez",
   },
   {
-    name: "Joshua Torres",
-    profile: "/assets/joshua-1.jpeg",
-    gallery: [
-      "/assets/joshua-2.jpeg",
-      "/assets/joshua-3.jpeg",
-      "/assets/joshua-1.jpeg",
-    ],
-    linkedin: "",
-    page: "joshua-torres",
-  },
-  {
     name: "Francisco Luna",
     profile: "/assets/paco-1.jpeg",
     gallery: [

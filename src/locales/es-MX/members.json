@@ -339,52 +339,5 @@
         "url": "https://github.com/Yosidey"
       }
     ]
-  },
-  "joshua-torres": {
-    "name": "Joshua Torres",
-    "position": "Co-Director General",
-    "projects": [
-      {
-        "client": "Keskinube",
-        "date": 2025,
-        "mediaType": "video",
-        "asset": "/assets/favs-keskinube.mp4"
-      },
-      {
-        "client": "Casino Radar",
-        "date": 2026,
-        "mediaType": "video",
-        "asset": "/assets/favs-casinoradar.mp4"
-      },
-      {
-        "client": "Mercadomi",
-        "date": 2025,
-        "mediaType": "video",
-        "asset": "/assets/favs-mercadomi.mp4"
-      },
-      {
-        "client": "Joypack",
-        "date": 2025,
-        "mediaType": "img",
-        "asset": "/assets/favs-joypack.png"
-      }
-    ],
-    "career": "Ingeniería en Gestión Empresarial",
-    "location": "Guadalajara, Jalisco, México",
-    "zone": "GMT-6",
-    "languages": ["Ingles", "Español"],
-    "about": "Soy co-director con un enfoque estratégico en crecimiento y ejecución efectiva. Combino liderazgo operativo y visión creativa para asegurar resultados claros y medibles. \n\n Trabajo con distintos equipos para convertir ideas en acciones, optimizar procesos y encontrar nuevas oportunidades. Creo en la comunicación directa y la mejora continua. \n\n",
-    "socials": [
-      {
-        "platform": "Phone",
-        "name": "+523328104821",
-        "url": "tel:+523328104821"
-      },
-      {
-        "platform": "Email",
-        "name": "jjtpelayo32@gmail.com",
-        "url": "mailto:jjtpelayo32@gmail.com"
-      }
-    ]
   }
 }

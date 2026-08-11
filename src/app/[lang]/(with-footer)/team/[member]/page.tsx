@@ -11,8 +11,7 @@ type Members =
   | "rafael-cabrera"
   | "joel-martinez"
   | "aldair-gonzalez"
-  | "victor-zamora"
-  | "joshua-torres";
+  | "victor-zamora";
 
 export async function generateMetadata({
   params,
