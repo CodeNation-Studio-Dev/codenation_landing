@@ -1,0 +1,56 @@
+{
+  "title": "Hola.",
+  "title_extra": "Somos CodeNation Studio",
+  "show_us": {
+    "title": "En CodeNation Studio construimos software con propósito, gente y calidad, no solo con código."
+  },
+  "purpose": {
+    "title": "Te acompañamos en toda la travesía",
+    "description": "Nuestro propósito: poner la innovación y la tecnología digital al servicio de los objetivos de negocio de startups y empresas consolidadas. \n \n ¿Cómo? Desarrollando sus nuevos productos y servicios, optimizando sus operativas y comunicaciones e incluso asociándonos para lanzar nuevas marcas juntos.  \n\n Gestionamos procesos desde el concepto hasta la implantación y el seguimiento. Y hasta te ayudamos a acceder a financiación para hacer realidad tu idea de negocio."
+  },
+  "solutions": {
+    "title": "Lo que nos mueve",
+    "description": "No trabajamos solo por código que compila. Trabajamos por lo que ese código hace posible:\n\n • Ver cómo un MVP que construimos ayuda a una startup a levantar su primera ronda.\n\n • Recibir un mensaje que dice: “Esto transformó mi negocio”.\n\n • Ver a un estudiante de una universidad aliada convertirse en ingeniero full-stack en nuestro equipo.\n\n • Saber que las soluciones que diseñamos son usadas —y amadas— por personas reales, todos los días."
+  },
+  "contact": {
+    "title": "¿Tienes una idea que vale la pena construir?",
+    "description": "Colaboramos con fundadores y equipos que quieren hacer bien las cosas. Desde validar un MVP hasta desarrollar sistemas complejos, aportamos ingeniería sólida y visión estratégica. Cuéntanos en qué estás trabajando.",
+    "link": "Comparte tu proyecto"
+  },
+  "story": {
+    "title": "“Más que clientes, compañeros de expedición”",
+    "description": "El software es solo el medio. Nos importa quién está del otro lado: ¿Tienes una idea que desafía lo establecido? Aportamos ingeniería rigurosa, talento formado desde cero y años construyendo sistemas. Si tu misión requiere más que un proveedor, estás en el lugar correcto.",
+    "link": "— El equipo de CodeNation Studio"
+  },
+  "trophy_shelf": {
+    "count": "Más que trofeos: validación de impacto",
+    "title": "Celebración y validación. Lo esencial: generar valor — juntos.",
+    "description": "Nuestra trayectoria ha sido respaldada por programas de alto impacto como Endeavor, EmpreLatam, Reto Zapopan y Codelaunch",
+    "link": "Echa un vistazo a algunos de estos hitos",
+    "alltrophies": {
+      "retozapopan": "2021 - Finalista",
+      "endeavor": "2023 - Egresados",
+      "codelaunch": "2024 - Finalista",
+      "emprelatam": "2025 - Egresados",
+      "itjalisco": "Convenio desde 20XX",
+      "itcolima": "Convenio desde 20XX"
+    }
+  },
+  "our_team": {
+    "caption": "• Nuestro equipo",
+    "title": "Personalidades múltiples,\n sin egos.",
+    "meet": "Habla con Nosotros",
+    "allpositions": {
+      "Aldair González": "Líder de Cálidad",
+      "Anna Durán": "Desarrolladora Frontend Junior",
+      "Ángel Morán": "Desarrollador Frontend Junior",
+      "Francisco Luna": "Director de Operaciones",
+      "Francisco Marmolejo": "Director de Tecnología",
+      "Joel Martínez": "Director Ejecutivo",
+      "Mario Gómez": "Desarrollador Backend Junior",
+      "Rafael Cabrera": "Director de Finanzas",
+      "Sandra Delgado": "Desarrolladora Frontend Junior",
+      "Víctor Zamora": "Líder de Desarrollo Móvil"
+    }
+  }
+}

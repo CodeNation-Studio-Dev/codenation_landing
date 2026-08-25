@@ -1,0 +1,26 @@
+{
+  "title": "The Blog",
+  "categories": {
+    "explore": "explore all",
+    "software": "Software Development",
+    "design": "Design",
+    "branding": "Branding",
+    "culture": "News & Culture"
+  },
+  "articles": {
+    "software": [
+      {
+        "title": "How Much Does a Website Cost in Mexico in 2026?",
+        "image": "/assets/software-main.png",
+        "author": {
+          "role": "COO",
+          "name": "Paco Luna",
+          "image": "/assets/paco-1.jpeg",
+          "social": "https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+        },
+        "read_time": "10 min read",
+        "link": "/blog/software/pagina-web-2026"
+      }
+    ]
+  }
+}

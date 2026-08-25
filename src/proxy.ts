@@ -13,8 +13,13 @@ function getLocale(request: NextRequest) {
   return match || locales[0];
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  if (pathname.endsWith("/index.html")) {
+    return NextResponse.redirect(new URL(`/`, request.url), 301);
+  }
+
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`,
   );
@@ -28,5 +33,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next).*)"],
+  matcher: ["/((?!api|_next|assets|robots.txt|sitemap.xml|favicon.ico).*)"],
 };

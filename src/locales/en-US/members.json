@@ -1,0 +1,343 @@
+{
+  "our": "Our",
+  "other": "Other",
+  "temmates": "Temmates",
+  "button": "Our whole team",
+  "francisco-luna": {
+    "name": "Francisco Luna",
+    "position": "COO",
+    "projects": [
+      {
+        "client": "Casino Radar",
+        "date": 2026,
+        "mediaType": "video",
+        "asset": "/assets/favs-casinoradar.mp4"
+      },
+      {
+        "client": "Mercadomi",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-mercadomi.mp4"
+      },
+      {
+        "client": "Keskinube",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-keskinube.mp4"
+      },
+      {
+        "client": "Joypack",
+        "date": 2025,
+        "mediaType": "img",
+        "asset": "/assets/favs-joypack.png"
+      }
+    ],
+    "career": "Computer Systems Engineer",
+    "location": "Colima, Colima, Mexico",
+    "zone": "GMT-6",
+    "languages": ["English", "Spanish"],
+    "about": "I am the Chief Operating Officer at CodeNation, where I turn ideas into functional, scalable, and well-executed digital products. \n\n I focus on optimizing processes, coordinating teams, and ensuring that every project is delivered with quality, efficiency, and a focus on real business results. \n\n I work closely with our clients to transform their needs into technological solutions that truly generate impact. \n\n",
+    "socials": [
+      {
+        "platform": "Phone",
+        "name": "+523121694030",
+        "url": "tel:+523121694030"
+      },
+      {
+        "platform": "LinkedIn",
+        "name": "francisco-javier-luna-figueroa",
+        "url": "https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+      },
+      {
+        "platform": "Email",
+        "name": "francisco.luna@codenation-studio.com",
+        "url": "mailto:francisco.luna@codenation-studio.com"
+      },
+      {
+        "platform": "GitHub",
+        "name": "DevPacoLuna",
+        "url": "https://github.com/DevPacoLuna"
+      }
+    ]
+  },
+  "francisco-marmolejo": {
+    "name": "Francisco Marmolejo",
+    "position": "CTO",
+    "projects": [
+      {
+        "client": "Mercadomi",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-mercadomi.mp4"
+      },
+      {
+        "client": "Casino Radar",
+        "date": 2026,
+        "mediaType": "video",
+        "asset": "/assets/favs-casinoradar.mp4"
+      },
+      {
+        "client": "Keskinube",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-keskinube.mp4"
+      },
+      {
+        "client": "Joypack",
+        "date": 2025,
+        "mediaType": "img",
+        "asset": "/assets/favs-joypack.png"
+      }
+    ],
+    "career": "BSc in Computer Systems Engineering, MSc in Applied Artificial Intelligence",
+    "location": "Zapopan, Jalisco, Mexico",
+    "zone": "GMT-6",
+    "languages": ["English", "Spanish"],
+    "about": "Passionate about technology. My driving force is curiosity to unravel the logic behind every object and process. \n\n This passion for understanding fundamental mechanisms leads me to develop my own ideas to bring unique concepts to life, challenging the status quo and building products that not only work, but inspire and improve the user experience. \n\n",
+    "socials": [
+      {
+        "platform": "Phone",
+        "name": "+523318067594",
+        "url": "tel:+523318067594"
+      },
+      {
+        "platform": "LinkedIn",
+        "name": "francisco-marmolejo-martinez",
+        "url": "https://www.linkedin.com/in/francisco-marmolejo-martinez"
+      },
+      {
+        "platform": "Email",
+        "name": "rancisco.marmolejo.martinez@gmail.com",
+        "url": "mailto:rancisco.marmolejo.martinez@gmail.com"
+      },
+      {
+        "platform": "GitHub",
+        "name": "fran-dev-front",
+        "url": "https://github.com/fran-dev-front"
+      }
+    ]
+  },
+  "rafael-cabrera": {
+    "name": "Rafael Cabrera",
+    "position": "CFO",
+    "projects": [
+      {
+        "client": "Keskinube",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-keskinube.mp4"
+      },
+      {
+        "client": "Casino Radar",
+        "date": 2026,
+        "mediaType": "video",
+        "asset": "/assets/favs-casinoradar.mp4"
+      },
+      {
+        "client": "Mercadomi",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-mercadomi.mp4"
+      },
+      {
+        "client": "Joypack",
+        "date": 2025,
+        "mediaType": "img",
+        "asset": "/assets/favs-joypack.png"
+      }
+    ],
+    "career": "Electronic Engineering, specialization in Embedded Systems",
+    "location": "Michigan, United States",
+    "zone": "UTC-4",
+    "languages": ["English", "Spanish"],
+    "about": "I am someone who enjoys technical challenges and likes to apply my experience across different disciplines to gain a comprehensive perspective when solving problems and challenges. \n\n I also have a passion for music and playing the guitar. \n\n",
+    "socials": [
+      {
+        "platform": "LinkedIn",
+        "name": "arafael-cabrera",
+        "url": "https://www.linkedin.com/in/arafael-cabrera/"
+      },
+      {
+        "platform": "Phone",
+        "name": "947-201-4558",
+        "url": "tel:947-201-4558"
+      },
+      {
+        "platform": "Email",
+        "name": "Arbp.cabrera@gmail.com",
+        "url": "mailto:Arbp.cabrera@gmail.com"
+      }
+    ]
+  },
+  "joel-martinez": {
+    "name": "Joel Martínez",
+    "position": "CEO",
+    "projects": [
+      {
+        "client": "Joypack",
+        "date": 2025,
+        "mediaType": "img",
+        "asset": "/assets/favs-joypack.png"
+      },
+      {
+        "client": "Casino Radar",
+        "date": 2026,
+        "mediaType": "video",
+        "asset": "/assets/favs-casinoradar.mp4"
+      },
+      {
+        "client": "Mercadomi",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-mercadomi.mp4"
+      },
+      {
+        "client": "Keskinube",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-keskinube.mp4"
+      }
+    ],
+    "career": "Electronics Engineer | Specialization in Embedded Systems | Master's in Digital Design",
+    "location": "Guadalajara, Jalisco, Mexico",
+    "zone": "GMT-6",
+    "languages": ["English", "Spanish"],
+    "about": "I have always believed that technology works best when it is built by people and for people. \n\n As an Electronics Engineer specialized in Embedded Systems with a Master's in Digital Design, my world is full of circuits, code, and logic. \n\n However, my true passion goes beyond the technical: I am driven to solve complex problems that truly impact users' lives. \n\n",
+    "socials": [
+      {
+        "platform": "Phone",
+        "name": "+523339556808",
+        "url": "tel:+523339556808"
+      },
+      {
+        "platform": "LinkedIn",
+        "name": "joel-martinez-palacios",
+        "url": "https://www.linkedin.com/in/joel-martinez-palacios/"
+      },
+      {
+        "platform": "Email",
+        "name": "joel.martinez@codenation-studio.com",
+        "url": "mailto:joel.martinez@codenation-studio.com"
+      },
+      {
+        "platform": "GitHub",
+        "name": "joelmart14",
+        "url": "https://github.com/joelmart14"
+      }
+    ]
+  },
+  "aldair-gonzalez": {
+    "name": "Aldair González",
+    "position": "QA",
+    "projects": [
+      {
+        "client": "Casino Radar",
+        "date": 2026,
+        "mediaType": "video",
+        "asset": "/assets/favs-casinoradar.mp4"
+      },
+      {
+        "client": "Mercadomi",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-mercadomi.mp4"
+      },
+      {
+        "client": "Keskinube",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-keskinube.mp4"
+      },
+      {
+        "client": "Joypack",
+        "date": 2025,
+        "mediaType": "img",
+        "asset": "/assets/favs-joypack.png"
+      }
+    ],
+    "career": "Bachelor’s Degree in Software Development and Management Engineering",
+    "location": "Puebla, Mexico",
+    "zone": "GMT-6",
+    "languages": ["English", "Spanish", "French"],
+    "about": "Software Development and Management Engineer with a solid technical background and a focus on building efficient digital solutions. \n\n I stand out for my analytical skills, adaptability, and strong interest in the software development lifecycle, from planning to implementation. \n\n I am results-oriented and committed to continuous learning of new technologies and methodologies that optimize processes and add value in collaborative environments. \n\n",
+    "socials": [
+      {
+        "platform": "Phone",
+        "name": "+522227727939",
+        "url": "tel:+522227727939"
+      },
+      {
+        "platform": "LinkedIn",
+        "name": "aldair-gonzalez-conde",
+        "url": "https://www.linkedin.com/in/aldair-gonzalez-conde-3441b21a9/"
+      },
+      {
+        "platform": "Email",
+        "name": "aldebran.g@hotmail.com",
+        "url": "mailto:aldebran.g@hotmail.com"
+      },
+      {
+        "platform": "GitHub",
+        "name": "AldairGC",
+        "url": "https://github.com/AldairGC"
+      }
+    ]
+  },
+  "victor-zamora": {
+    "name": "Víctor Zamora",
+    "position": "Lead Mobile Developer",
+    "projects": [
+      {
+        "client": "Mercadomi",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-mercadomi.mp4"
+      },
+      {
+        "client": "Casino Radar",
+        "date": 2026,
+        "mediaType": "video",
+        "asset": "/assets/favs-casinoradar.mp4"
+      },
+      {
+        "client": "Keskinube",
+        "date": 2025,
+        "mediaType": "video",
+        "asset": "/assets/favs-keskinube.mp4"
+      },
+      {
+        "client": "Joypack",
+        "date": 2025,
+        "mediaType": "img",
+        "asset": "/assets/favs-joypack.png"
+      }
+    ],
+    "career": "Computer Engineer",
+    "location": "Guadalajara, Jalisco, Mexico",
+    "zone": "GMT-6",
+    "languages": ["English", "Spanish"],
+    "about": "Lead Mobile Developer focused on building scalable, efficient, and user-centered mobile applications. Skilled in turning ideas into solid digital products using best practices and clean architecture. \n\n Passionate about innovation, collaborates with cross-functional teams to deliver high-impact solutions and continuously improve processes. \n\n",
+    "socials": [
+      {
+        "platform": "Phone",
+        "name": "+5213112255475",
+        "url": "tel:+5213112255475"
+      },
+      {
+        "platform": "LinkedIn",
+        "name": "victor-martin-zamora-castañeda",
+        "url": "www.linkedin.com/in/victor-martin-zamora-castañeda"
+      },
+      {
+        "platform": "Email",
+        "name": "victorzcas@hotmail.com",
+        "url": "mailto:victorzcas@hotmail.com"
+      },
+      {
+        "platform": "GitHub",
+        "name": "Yosidey",
+        "url": "https://github.com/Yosidey"
+      }
+    ]
+  }
+}

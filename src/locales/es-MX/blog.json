@@ -1,0 +1,26 @@
+{
+  "title": "Nuestro Blog",
+  "categories": {
+    "explore": "explora todo",
+    "software": "Desarrollo de Software",
+    "design": "Diseño",
+    "branding": "Branding",
+    "culture": "Noticias & Cultura"
+  },
+  "articles": {
+    "software": [
+      {
+        "title": "¿Cuánto cuesta una página web en México en 2026?",
+        "image": "/assets/software-main.png",
+        "author": {
+          "role": "COO",
+          "name": "Paco Luna",
+          "image": "/assets/paco-1.jpeg",
+          "social": "https://www.linkedin.com/in/francisco-javier-luna-figueroa/"
+        },
+        "read_time": "10 min read",
+        "link": "/blog/software/pagina-web-2026"
+      }
+    ]
+  }
+}

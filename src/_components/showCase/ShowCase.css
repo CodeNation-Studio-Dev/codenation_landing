@@ -1,0 +1,4 @@
+.showcase__item--active div {
+  opacity: 1;
+  transform: scale(0.875);
+}

@@ -1,0 +1,335 @@
+{
+  "webpage": {
+    "name": "webpage",
+    "main": {
+      "title": "Construimos Cualquier Producto Digital",
+      "description": "En CodeNation Studio no solo desarrollamos software: co-creamos soluciones tecnológicas que resuelven problemas reales y generan impacto. Como una verdadera fábrica de software a la medida, trabajamos con empresas y startups para transformar sus ideas en productos digitales robustos, escalables y listos para el mercado.\n\nYa sea que necesites una tienda online, una aplicación móvil, una plataforma SaaS o un sistema interno de gestión, nuestro equipo de desarrolladores, diseñadores y arquitectos de software te acompaña en todo el proceso: desde la definición de requisitos hasta el lanzamiento y evolución del producto."
+    },
+    "explanation": {
+      "fewWords": "Tecnología a la medida, resultados a gran escala.",
+      "title": "Fábrica de Software a la Medida",
+      "description": "Desarrollamos soluciones digitales completas, desde la idea hasta el producto escalable. Aplicaciones web, móviles, e-commerce y plataformas empresariales construidas con calidad, velocidad y enfoque ágil.\n\nImplementamos buenas prácticas de ingeniería y tecnologías modernas para garantizar entregas rápidas, código limpio y una experiencia de usuario excepcional.",
+      "startProject": "Evaluación gratuita"
+    },
+    "inhouse": {
+      "title": "Por qué desarrollar con nosotros",
+      "description": "• Soluciones 100% personalizadas – Diseñamos y desarrollamos cada producto según tus objetivos.\n\n • Entregas ágiles y continuas – Trabajamos en sprints con avances visibles desde el inicio.\n\n• Tecnologías modernas y escalables – Usamos stacks actuales y arquitecturas limpias.\n\n• Equipo multidisciplinario – Desarrollo, UX/UI y QA trabajando en conjunto.\n\n• Enfoque en resultados – Creamos soluciones que generan valor real."
+    },
+    "bigText": "Hecho a tu Medida.",
+    "subcategories": {
+      "fewWords": "Todo lo que tu Producto Digital Necesita",
+      "title": "Desarrollamos soluciones digitales que impulsan eficiencia, crecimiento y ventaja competitiva.",
+      "getInTouch": "Ponte en contacto",
+      "allsubcategories": [
+        {
+          "title": "Desarrollo de Sitios Web",
+          "description": "Sitios modernos, responsivos y optimizados para SEO, con contenido dinámico y administrable."
+        },
+        {
+          "title": "Desarrollo de E-Commerce",
+          "description": "Tiendas online personalizadas con integración de pasarelas de pago, gestión de inventario, logística y marketing digital."
+        },
+        {
+          "title": "Aplicaciones Móviles",
+          "description": "Apps nativas (iOS/Android) o multiplataforma (Flutter/React Native) con interfaces intuitivas y alto rendimiento."
+        },
+        {
+          "title": "Plataformas y Sistemas a Medida",
+          "description": "Soluciones B2B, dashboards, CRMs internos, marketplaces o sistemas de gestión empresarial (ERP ligero).."
+        },
+        {
+          "title": "Modernización de Software",
+          "description": "Transformamos sistemas heredados (legacy) en aplicaciones modernas, seguras y fáciles de mantener."
+        },
+        {
+          "title": "APIs e Integraciones",
+          "description": "Desarrollamos APIs robustas para conectar tu producto con terceros (pagos, mensajería, ERP, etc.)."
+        }
+      ]
+    },
+
+    "technologies": {
+      "title": "Tecnologías actual para soluciones que perduran."
+    },
+    "testimonials": {
+      "title": "¿Qué dicen nuestros clientes?",
+      "subtitle": "Confianza que se construye",
+      "contact": "¡Hablemos!",
+      "alltestimonials": [
+        {
+          "user": "Leonardo Figueroa",
+          "company": "CEO de Casino Radar",
+          "message": "\"Lo que más valoré fue que se tomaron el proyecto como si fuera suyo. No solo construyeron un dominio web; nos ayudaron a aterrizar la identidad y a convertirla en algo real. Siempre estuvieron presentes, atentos, disponibles y con una escucha que se agradece.\n\nCada etapa fue clara y nunca hubo un momento en el que nos sintiéramos solos. El resultado es un dominio novedoso que antes no existía y que hoy nos permite dar un paso importante en nuestra estrategia digital.\""
+        },
+        {
+          "user": "Director de Operaciones",
+          "company": "Empresa Comercial",
+          "message": "\"Habíamos trabajado antes con herramientas que prometían mucho y se adaptaban poco. Esta vez fue diferente. Entendieron cómo funciona nuestro equipo y construyeron una plataforma que realmente refleja nuestra forma de trabajar. Se nota cuando el software está hecho a la medida.\""
+        },
+        {
+          "user": "Fundador",
+          "company": "Empresa de Servicios Digitales",
+          "message": "\"Más que un proveedor, sentimos que encontramos un aliado tecnológico. Siempre estuvieron disponibles para resolver dudas y proponer mejoras. El resultado fue un producto intuitivo, estable y listo para crecer con nosotros. Nos dio mucha tranquilidad trabajar con un equipo tan comprometido.\""
+        }
+      ]
+    },
+    "favorites": {
+      "fewWords": "Nuestro trabajo",
+      "title": "Proyectos favoritos de desarrollo",
+      "viewWork": "¡Sé el siguiente!",
+      "allprojects": [
+        {
+          "title": "Plataforma web para buscar y filtrar casinos por ubicación.",
+          "client": "Casino Radar",
+          "date": 2026,
+          "mediaType": "video",
+          "asset": "/assets/favs-casinoradar.mp4"
+        },
+        {
+          "title": "App móvil que conecta usuarios con servicios para el hogar.",
+          "client": "Mercadomi",
+          "date": 2025,
+          "mediaType": "video",
+          "asset": "/assets/favs-mercadomi.mp4"
+        },
+        {
+          "title": "Plataforma SaaS para administrar negocios en un solo lugar.",
+          "client": "Keskinube",
+          "date": 2025,
+          "mediaType": "video",
+          "asset": "/assets/favs-keskinube.mp4"
+        },
+        {
+          "title": "Plataforma web de recompensas y reconocimiento para empleados.",
+          "client": "Joypack",
+          "date": 2026,
+          "mediaType": "img",
+          "asset": "/assets/favs-joypack.png"
+        }
+      ]
+    }
+  },
+  "mvp": {
+    "name": "mvp",
+    "main": {
+      "title": "Acelera tu startup desde el primer día",
+      "description": "En CodeNation Studio entendemos que el éxito de una startup no depende de tener un producto perfecto desde el inicio, sino de validar rápidamente su propuesta de valor. Por eso, especializamos en el desarrollo ágil de MVPs (Productos Mínimos Viables) que te permiten probar tu modelo de negocio con el menor esfuerzo y costo posible.\n\nTrabajamos contigo para identificar las funcionalidades clave, diseñar una experiencia de usuario atractiva y desarrollar una versión funcional de tu producto en semanas. Así puedes comenzar a recoger feedback real, iterar rápido y tomar decisiones estratégicas basadas en datos, no en suposiciones."
+    },
+    "explanation": {
+      "fewWords": "Convierte tu idea en realidad.",
+      "title": "Lanza, Valida y Escala con Inteligencia",
+      "description": "Válida tu idea en semanas, no en meses. Transformamos tu concepto en un Producto Mínimo Viable funcional, listo para probar en el mercado, captar usuarios y atraer inversión. Todo con enfoque Lean Startup y tecnología de vanguardia.\n\nComo parte de nuestro trabajo en la incubadora de startups y por nuestra propia experiencia siendo acelerados en programas como Endeavor, Emprelatam, Reto Zapopan y Codelaunch, sabemos qué elementos son esenciales para un MVP que realmente atraiga usuarios e inversionistas.",
+      "startProject": "Inicia un proyecto"
+    },
+    "inhouse": {
+      "title": "Por qué desarrollar tu MVP con nosotros",
+      "description": "• Lanzamiento rápido (4–8 semanas) – MVP funcional, sin comprometer calidad.\n\n• Enfoque Lean – Solo lo esencial para validar tu hipótesis.\n\n• Experiencia startup – Hemos vivido el proceso y sus retos.\n\n• Arquitectura escalable – Construido para crecer desde el día uno.\n\n• Métricas integradas – Mide uso, retención y conversión desde el inicio."
+    },
+    "bigText": "¿Listo para lanzar?",
+    "subcategories": {
+      "fewWords": "Lanzamiento Inteligente",
+      "title": "Así construimos tu MVP: con lo esencial para competir desde el primer día",
+      "getInTouch": "Cuéntanos tu idea",
+      "allsubcategories": [
+        {
+          "title": "Definición del Alcance",
+          "description": "Identificamos las funcionalidades mínimas necesarias para validar tu idea."
+        },
+        {
+          "title": "Diseño UX/UI",
+          "description": "Creamos interfaces intuitivas y atractivas que generen engagement desde el primer uso."
+        },
+        {
+          "title": "Desarrollo Full-Stack",
+          "description": "Construimos la versión funcional completa (frontend, backend, base de datos)."
+        },
+        {
+          "title": "Pruebas y Lanzamiento",
+          "description": "Realizamos testing riguroso y te ayudamos a lanzar tu MVP al mercado."
+        },
+        {
+          "title": "Integración de Análitica",
+          "description": "Google Analytics, eventos personalizados, métricas de conversión y retención."
+        },
+        {
+          "title": "Acompañamiento Post-Lanzamiento",
+          "description": "Te apoyamos con iteraciones basadas en feedback y preparación para la siguiente ronda."
+        }
+      ]
+    }
+  },
+  "design": {
+    "name": "design",
+    "main": {
+      "title": "Diseños que las personas disfrutan usar",
+      "description": "Los grandes productos digitales no solo deben funcionar bien, también deben ser intuitivos, atractivos y consistentes visualmente. Nuestro proceso de diseño UX/UI se enfoca en comprender a tus usuarios, tu marca y tus objetivos de negocio para crear interfaces que se sientan naturales y fáciles de usar.\n\nCombinamos investigación, principios de usabilidad y diseño visual moderno para crear experiencias que guían a los usuarios de manera fluida dentro de tu producto mientras refuerzan la identidad de tu marca. El resultado es un producto que no solo se ve bien, sino que también funciona mejor."
+    },
+    "explanation": {
+      "fewWords": "Convertimos tu visión en experiencias digitales efectivas.",
+      "title": "Procesos enfocado en claridad y resultados",
+      "description": "Nuestro enfoque de UX/UI es estratégico y colaborativo. Trabajamos de cerca contigo para entender tu visión y traducirla en diseños que sean tanto visualmente atractivos como altamente funcionales.\n\nDesde wireframes y flujos de usuario hasta interfaces finales, cada decisión se toma pensando en la experiencia del usuario. Esto asegura que tu producto no solo cumpla con las expectativas, sino que las supere ofreciendo una experiencia clara, fluida y memorable.",
+      "startProject": "Inicia tu diseño"
+    },
+    "inhouse": {
+      "title": "¿Por qué trabajar con nosotros en UX/UI?",
+      "description": "• Diseño centrado en el usuario – Interfaces pensadas para las necesidades reales de tus usuarios.\n\n• Experiencia de marca consistente – Tu identidad reflejada de forma clara en cada pantalla.\n\n• Mejor usabilidad – Navegación simple e interacciones intuitivas.\n\n• Diseño orientado a conversión – Experiencias que guían al usuario hacia acciones clave.\n\n• Proceso colaborativo – Trabajamos contigo en cada etapa del diseño."
+    },
+    "bigText": "Diseño Estrátegico.",
+    "subcategories": {
+      "fewWords": "Nuestros servicios",
+      "title": "Diseño estratégico para crear experiencias digitales intuitivas.",
+      "getInTouch": "Cuéntanos tu caso",
+      "allsubcategories": [
+        {
+          "title": "Identidad de marca",
+          "description": "Creación de un sistema visual que define cómo tu marca debe presentarse de forma consistente en plataformas digitales."
+        },
+        {
+          "title": "Diseño responsivo",
+          "description": "Interfaces diseñadas para funcionar correctamente en computadoras, tablets y dispositivos móviles."
+        },
+        {
+          "title": "Experiencia de usuario",
+          "description": "Definición de flujos de usuario, wireframes y estructura de interacción para crear experiencias claras e intuitivas."
+        },
+        {
+          "title": "Auditoría UX/UI",
+          "description": "Análisis de productos digitales existentes para detectar problemas de usabilidad, inconsistencias y oportunidades de mejora."
+        },
+        {
+          "title": "Rediseño de sitios",
+          "description": "Modernización de sitios web para mejorar la experiencia del usuario, la estética y el rendimiento."
+        },
+        {
+          "title": "Diseño de interfaces",
+          "description": "Creación de design systems escalables que aseguran consistencia y eficiencia en el desarrollo de productos digitales."
+        }
+      ]
+    }
+  },
+  "automatization": {
+    "name": "automatization",
+    "main": {
+      "title": "Integración de Inteligencia Artificial",
+      "description": "La inteligencia artificial ya no es ciencia ficción: es una herramienta estratégica para escalar, automatizar y personalizar. En CodeNation Studio, no aplicamos IA por moda, sino con propósito. Integrar inteligencia artificial en tu producto significa ofrecer experiencias más inteligentes, reducir costos operativos y tomar decisiones anticipadas basadas en datos.\n\nDesde chatbots inteligentes hasta automatización avanzada y análisis predictivo, implementamos soluciones de IA que mejoran la experiencia del usuario, optimizan procesos y generan ventaja competitiva."
+    },
+    "explanation": {
+      "fewWords": "Resultados reales",
+      "title": "Impacto de la IA en tu negocio",
+      "description": "• Automatización inteligente – Bots que reducen tareas manuales y toman decisiones con contexto.\n\n• Personalización avanzada – Recomendaciones precisas para experiencias únicas.\n\n• Decisiones predictivas – Anticipa comportamientos, fallos y tendencias con ML.\n\n• Integración ágil – Implementamos IA sin rehacer tu producto.\n\n• IA ética y segura – Privacidad, transparencia y control humano garantizados.",
+      "startProject": "¡Hágamoslo!"
+    },
+    "inhouse": {
+      "title": "Transforma tu producto con inteligencia estratégica",
+      "description": "Trabajamos con modelos pre-entrenados (como LLMs) y modelos personalizados, integrándolos de forma segura y eficiente en tu stack tecnológico, siempre respetando la privacidad y escalabilidad del sistema.\n\nDesde chatbots y motores de recomendación hasta plataformas predictivas, transformamos necesidades reales en tecnología robusta, escalable y sostenible."
+    },
+    "bigText": "Potenciado con IA.",
+    "testimonials": {
+      "title": "Nuestros servicios de IA incluyen:",
+      "subtitle": "Da un vistazo",
+      "contact": "Comencemos",
+      "alltexts": [
+        {
+          "title": "Chatbots y Asistentes Virtuales con LLMs",
+          "description": "Asistentes conversacionales que comprenden consultas complejas, mantienen contexto y resuelven problemas reales. Se integran fácilmente en web, apps o WhatsApp, conectándose con tus sistemas internos para ofrecer respuestas útiles y accionables."
+        },
+        {
+          "title": " Sistemas de Recomendación Inteligente",
+          "description": "Motores de recomendación personalizados que analizan comportamiento, preferencias y datos históricos para sugerir productos, contenidos o servicios con alta precisión en e-commerce, plataformas digitales o entornos B2B."
+        },
+        {
+          "title": "Automatización de Procesos con IA (IA híbrida)",
+          "description": "Combinamos RPA con modelos de IA para automatizar procesos completos como atención al cliente, clasificación de documentos, validación de datos u onboarding, reduciendo tiempos operativos y errores manuales."
+        },
+        {
+          "title": "Análisis Predictivo y Forecasting",
+          "description": "Desarrollamos modelos que anticipan ventas, churn, mantenimiento preventivo o comportamiento del usuario, ayudándote a tomar decisiones basadas en datos y no solo en intuición."
+        },
+        {
+          "title": "Procesamiento de Lenguaje Natural (NLP)",
+          "description": "Aplicamos técnicas de NLP para extraer insights de grandes volúmenes de texto, analizar sentimientos, categorizar información y generar resúmenes automáticos que facilitan la toma de decisiones."
+        },
+        {
+          "title": "IA Generativa aplicada",
+          "description": "Implementamos modelos generativos de texto, imágenes o código para optimizar procesos internos, acelerar la creación de contenido y mejorar la experiencia del usuario con soluciones innovadoras y escalables."
+        }
+      ]
+    }
+  },
+  "cloud": {
+    "name": "cloud",
+    "main": {
+      "title": "Arquitectura lista para escalar",
+      "description": "Un gran producto digital necesita una infraestructura detrás que no falle. En CodeNation Studio, no solo desarrollamos software: diseñamos arquitecturas en la nube robustas, eficientes y automatizadas que permiten a tus aplicaciones escalar bajo demanda, mantenerse seguras y operar con mínima intervención.\n\nImplementamos soluciones en AWS, Google Cloud Platform o Microsoft Azure, utilizando prácticas de DevOps, contenedores (Docker, Kubernetes), CI/CD y monitoreo proactivo. Todo con el objetivo de que tu equipo se enfoque en innovar, mientras nosotros garantizamos que la infraestructura funcione perfectamente."
+    },
+    "explanation": {
+      "fewWords": "La base para tu crecimiento digital",
+      "title": "Infraestructura que impulsa tu producto",
+      "description": "Una arquitectura cloud bien diseñada permite que tu producto crezca sin comprometer estabilidad ni rendimiento. Diseñamos sistemas pensados para escalar y adaptarse fácilmente a nuevas funcionalidades o mayor tráfico.\n\nImplementamos automatización, monitoreo continuo y prácticas DevOps para mantener tu infraestructura segura, eficiente y siempre disponible, mientras tu equipo se enfoca en construir el producto.",
+      "startProject": "¡Escríbenos!"
+    },
+    "inhouse": {
+      "title": "Cloud optimizado para tu presupuesto",
+      "description": "Ya sea que estés lanzando un MVP o escalando una plataforma con miles de usuarios, nuestra experiencia en startups aceleradas nos ha enseñado que una buena arquitectura desde el inicio evita costos altos, tiempos de inactividad y tech debt en el futuro.\n\nDiseñamos y gestionamos tu entorno cloud (AWS, Google Cloud, Azure) con enfoque DevOps, garantizando alto rendimiento, disponibilidad y seguridad para tu producto digital. Infraestructura ágil, segura y lista para escalar. "
+    },
+    "bigText": "Siempre Disponible.",
+    "subcategories": {
+      "fewWords": "Escalable, segura, eficiente.",
+      "title": "Nuestros Servicios de Infraestructura Cloud",
+      "getInTouch": "Ponte en contacto",
+      "allsubcategories": [
+        {
+          "title": "Diseño de Arquitectura",
+          "description": "Definimos la estructura técnica ideal (microservicios, serverless, etc.) según tu producto y presupuesto."
+        },
+        {
+          "title": "Migración a la Nube",
+          "description": "Movemos tus sistemas o aplicaciones legacy a entornos cloud con cero interrupciones."
+        },
+        {
+          "title": "DevOps y CI/CD",
+          "description": "Automatizamos integración, pruebas y despliegue para mayor velocidad y calidad."
+        },
+        {
+          "title": "Gestión de Contenedores",
+          "description": "Orquestación de aplicaciones para mayor eficiencia, portabilidad y escalabilidad."
+        },
+        {
+          "title": "Bases de Datos en la Nube",
+          "description": "Configuración y optimización de bases de datos (SQL y NoSQL) en cloud con réplicas y backups."
+        },
+        {
+          "title": "Seguridad y Cumplimiento",
+          "description": "Protegemos tu entorno con políticas de acceso, redes privadas y defensa contra amenazas."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Beneficios de la nube",
+      "subtitle": "Más rápido, más seguro",
+      "contact": "¡Contáctanos!",
+      "alltexts": [
+        {
+          "title": "Escalabilidad automática",
+          "description": "Tu aplicación crece junto con tu audiencia sin que tengas que preocuparte por la infraestructura. La plataforma se adapta automáticamente a más usuarios, más tráfico y nuevas funcionalidades, manteniendo siempre un rendimiento estable incluso en momentos de alta demanda."
+        },
+        {
+          "title": "Alta seguridad y cumplimiento",
+          "description": "Protegemos tu producto y los datos de tus usuarios con prácticas modernas de seguridad en la nube. Implementamos cifrado, control de accesos, firewalls y configuraciones seguras que reducen riesgos y ayudan a cumplir con estándares de seguridad desde el inicio."
+        },
+        {
+          "title": "Automatización DevOps",
+          "description": "Automatizamos procesos clave como integración, pruebas y despliegues para que tu equipo pueda lanzar mejoras más rápido y con menos errores. Esto se traduce en actualizaciones constantes, menor tiempo de inactividad y una evolución más ágil de tu producto."
+        },
+        {
+          "title": "Optimización de costos",
+          "description": "Diseñamos la infraestructura para que pagues solo por lo que realmente utilizas. Optimizamos recursos, configuraciones y escalamiento para evitar gastos innecesarios, ayudando a que tu inversión en cloud sea eficiente y sostenible a largo plazo."
+        },
+        {
+          "title": "Monitoreo y soporte proactivo",
+          "description": "Supervisamos continuamente el estado de tu infraestructura para detectar problemas antes de que afecten a tus usuarios. Con monitoreo en tiempo real, alertas y respuesta proactiva, garantizamos que tu plataforma se mantenga disponible, estable y funcionando sin interrupciones."
+        }
+      ]
+    }
+  }
+}

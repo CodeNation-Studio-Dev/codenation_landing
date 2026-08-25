@@ -1,0 +1,56 @@
+{
+  "title": "Hi.",
+  "title_extra": "We are CodeNation Studio",
+  "show_us": {
+    "title": "At CodeNation Studio, we build software with purpose, people, and quality, not just code."
+  },
+  "purpose": {
+    "title": "Technology rooted locally, built for global impact",
+    "description": "We’re proudly from Guadalajara, Jalisco — Mexico’s tech capital.\n\nWe think big: our products and partnerships span borders. We collaborate with local universities to discover emerging talent, train from the ground up, and bridge the gap between academia and industry.\n\nMany of our engineers started as interns. Today, they lead technical projects. Here, you don’t just work. You grow."
+  },
+  "solutions": {
+    "title": "What drives us",
+    "description": "We don’t build software just to make it run. We build it for what it makes possible:\n\n • Watching an MVP we built help a startup secure its first funding round.\n\n • Receiving a message that says: “This transformed my business.”\n\n • Seeing a student from a partner university grow into a full-stack engineer on our team.\n\n • Knowing the solutions we design are used—and loved—by real people, every day."
+  },
+  "contact": {
+    "title": "Have an idea worth building?",
+    "description": "We partner with founders and teams who care about doing things right. From validating an MVP to developing complex systems, we bring solid engineering and strategic thinking. We focus on building solutions that are reliable, scalable, and thoughtfully designed. Tell us what you're working on.",
+    "link": "Share your project"
+  },
+  "story": {
+    "title": "“More than clients, we look for expedition partners”",
+    "description": "Software is just the vehicle. What matters is who’s on the other side: Do you have an idea that challenges the status quo? We bring rigorous engineering, homegrown talent, and years of experience building systems. If your mission demands more than a vendor… you’re in the right place.",
+    "link": "— The CodeNation Studio team"
+  },
+  "trophy_shelf": {
+    "count": "More than trophies: validation of impact",
+    "title": "Awards celebrate. Accelerators test. We create value — together.",
+    "description": "Our journey has been validated by high-impact programs like Endeavor, EmpreLatam, Reto Zapopan, and Codelaunch",
+    "link": "Take a look at  these milestones.",
+    "alltrophies": {
+      "retozapopan": "2021 - Finalist",
+      "endeavor": "2023 - Graduates",
+      "codelaunch": "2024 - Finalist",
+      "emprelatam": "2025 - Graduates",
+      "itjalisco": "Partners since 20XX",
+      "itcolima": "Partners since 20XX"
+    }
+  },
+  "our_team": {
+    "caption": "• Our Team",
+    "title": "Multiple personalities,\n No egos.",
+    "meet": "Talk with us",
+    "allpositions": {
+      "Aldair González": "QA",
+      "Anna Durán": "Jr Frontend Developer",
+      "Ángel Morán": "Jr Frontend Developer",
+      "Francisco Luna": "COO",
+      "Francisco Marmolejo": "CTO",
+      "Joel Martínez": "CEO",
+      "Mario Gómez": "Jr Backend Developer",
+      "Rafael Cabrera": "CFO",
+      "Sandra Delgado": "Jr Frontend Developer",
+      "Víctor Zamora": "Lead Mobile Developer"
+    }
+  }
+}

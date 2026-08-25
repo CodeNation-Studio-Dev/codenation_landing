@@ -1,0 +1,75 @@
+{
+  "title": "¿Cuánto cuesta una página web en México en 2026?",
+  "updatedAt": "06 May 2026",
+  "share": {
+    "title": "Compartir",
+    "linkedin": "Compartir en LinkedIn",
+    "twitter": "Compartir en Twitter",
+    "facebook": "Compartir en Facebook",
+    "link": "Compartir enlace"
+  },
+  "sidebar": {
+    "content": "Contenido",
+    "read_time": "10 min de lectura"
+  },
+  "heroImage": "/assets/build-ideas.png",
+  "heroImageAlt": "Ideas para una página web moderna",
+  "heroDescription": "Un diseño inteligente no es el costo más alto; es el que convierte visitantes en clientes. Descubre las cifras reales, los factores clave y cómo construir una presencia digital rentable este 2026.",
+  "sections": [
+    {
+      "heading": "Por qué invertir en tu sitio web ahora",
+      "image": "/assets/software-main.png",
+      "imageAlt": "Pantalla con diseño web moderno",
+      "paragraphs": [
+        "En 2026, una página web es el centro de una marca. No es solo una tarjeta de presentación: es un canal activo para ventas, reclutamiento y posicionamiento de marca.",
+        "El costo de una web en México ya no se mide solo en horas de programación, sino en claridad estratégica, experiencia de usuario y la capacidad de adaptarse a nuevos productos o servicios rápidamente."
+      ]
+    },
+    {
+      "heading": "Costos reales: diseño, desarrollo y mantenimiento",
+      "image": "/assets/meeting.png",
+      "imageAlt": "Reunión de equipo planificando un proyecto",
+      "paragraphs": [
+        "Un sitio web profesional en México parte de un rango de $25,000 a $60,000 MXN cuando incluye diseño personalizado, experiencia de usuario, contenido inicial y desarrollo con tecnologías modernas.",
+        "Si quieres una solución escalable con animaciones suaves, carga rápida y publicación en Google, la inversión suele ubicarse entre $45,000 y $120,000 MXN, según la complejidad.",
+        "Mantenimiento mensual, hosting y actualizaciones seguras agregan entre $1,000 y $4,500 MXN al mes. Una web bien mantenida protege tu inversión y mejora el rendimiento orgánico."
+      ],
+      "list": [
+        "Diseño visual y adaptativo (responsive)",
+        "Desarrollo front-end con buen rendimiento",
+        "Estrategia de contenidos y estructura SEO básica",
+        "Hosting rápido, certificado SSL y backups automáticos"
+      ]
+    },
+    {
+      "heading": "Cómo ahorrar sin perder calidad",
+      "image": "/assets/cloud-secondary.png",
+      "imageAlt": "Nube de servicios digitales",
+      "paragraphs": [
+        "Prioriza lo que realmente representa valor: una navegación clara, secciones directas y llamados a la acción bien definidos.",
+        "Evita plantillas sin personalidad si buscas credibilidad. En su lugar, usa bloques reutilizables y componentes que te permitan actualizar contenido sin rehacer la web completa.",
+        "Para proyectos con presupuesto ajustado, la mejor estrategia es comenzar con una landing page robusta y luego escalar con una infraestructura modular."
+      ]
+    },
+    {
+      "heading": "Qué esperar de un buen proyecto digital",
+      "image": "/assets/working.png",
+      "imageAlt": "Presentación profesional de proyecto",
+      "paragraphs": [
+        "Un proyecto exitoso debe entregarte algo más que código: debe incluir objetivos claros, métricas simples y la posibilidad de cambiar rápido según resultados.",
+        "El retorno real es mayor cuando la web ayuda a cerrar más clientes, reduce preguntas básicas y amplía tu presencia sin que debas invertir horas extra en atención manual.",
+        "En 2026, una página web eficaz es la que se siente viva: se actualiza, refleja novedades y se ajusta a tu crecimiento comercial."
+      ]
+    },
+    {
+      "heading": "Conclusiones finales",
+
+      "paragraphs": [
+        "Si buscas una página web que funcione como una herramienta de negocio y no como un gasto fijo, el camino ideal combina diseño estratégico, tecnología moderna y un plan de crecimiento gradual. Con la ruta correcta, 2026 puede ser el año en el que tu sitio web empiece a generar resultados reales."
+      ]
+    }
+  ],
+  "ready": "¿Listo para empezar?",
+  "callToAction": "¿Listo para construir tu primera página web sólida en México? Empieza con un plan que priorice resultados y no solo estética.",
+  "free_consultation": "Obtén una consulta gratuita"
+}

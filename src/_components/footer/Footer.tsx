@@ -1,11 +1,19 @@
 "use client";
 import { useTranslations } from "@providers/translationProvider";
 import { GoArrowUpRight } from "react-icons/go";
-import { FaSquareFacebook, FaLinkedinIn, FaPhone } from "react-icons/fa6";
+import {
+  FaSquareFacebook,
+  FaLinkedin,
+  FaSquareWhatsapp,
+} from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import Link from "next/link";
+import Image from "next/image";
+import { useParams } from "next/navigation";
 
 export const Footer = () => {
   const { footer } = useTranslations();
+  const { lang } = useParams();
 
   return (
     <footer className="bg-background grid w-full px-5 py-24 sm:px-15 lg:place-content-center">
@@ -16,8 +24,11 @@ export const Footer = () => {
           </h2>
           <p className="max-w-[350px]">{footer.contactUs.address}</p>
           <p>{footer.contactUs.phone}</p>
-          <button className="bg-primary-container text-tertiary group grid w-[300px] cursor-pointer grid-flow-col items-center justify-between gap-4 rounded-full px-7 py-4 backdrop-blur-2xl">
-            <div className="text-left">
+          <Link
+            href={`${lang}/contact-us`}
+            className="bg-primary-container text-tertiary group grid w-[300px] cursor-pointer grid-flow-col items-center justify-between gap-4 rounded-full px-7 py-4 backdrop-blur-2xl"
+          >
+            <div>
               <p className="text-sm font-bold">{footer.contactUs.callUs}</p>
               <span className="text-sm">{footer.contactUs.analyze}</span>
             </div>
@@ -25,26 +36,36 @@ export const Footer = () => {
               <GoArrowUpRight className="absolute top-1/2 left-1/2 h-[25px] w-[25px] -translate-x-1/2 -translate-y-1/2 opacity-100 transition-all duration-500 group-hover:translate-x-8 group-hover:-translate-y-12 group-hover:opacity-0" />
               <GoArrowUpRight className="absolute h-[25px] w-[25px] -translate-x-4 translate-y-12 opacity-0 transition-all duration-500 group-hover:translate-x-[19px] group-hover:translate-y-3 group-hover:opacity-100" />
             </figure>
-          </button>
+          </Link>
         </section>
         <section>
           <h2 className="font-inter mb-3 text-sm font-bold tracking-[3px] uppercase">
             {footer.services.title}
           </h2>
           <ul className="grid gap-y-2">
-            <li>{footer.services.web}</li>
-            <li>{footer.services.mobile}</li>
-            <li>{footer.services.design}</li>
-          </ul>
-        </section>
-        <section>
-          <h2 className="font-inter mb-3 text-sm font-bold tracking-[3px] uppercase">
-            {footer.solutions.title}
-          </h2>
-          <ul className="grid gap-y-2">
-            <li>{footer.solutions.contactCenter}</li>
-            <li>{footer.solutions.cloud}</li>
-            <li>{footer.solutions.ai}</li>
+            <li>
+              <Link href={`/${lang}/services/mvp`}>{footer.services.mvp}</Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/services/webpage`}>
+                {footer.services.web}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/services/design`}>
+                {footer.services.design}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/services/automatization`}>
+                {footer.services.automatization}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/services/cloud`}>
+                {footer.services.cloud}
+              </Link>
+            </li>
           </ul>
         </section>
         <section>
@@ -52,16 +73,44 @@ export const Footer = () => {
             {footer.company.title}
           </h2>
           <ul className="mb-10 grid gap-y-2">
-            <li>{footer.company.aboutUs}</li>
-            <li>{footer.company.careers}</li>
-            <li>{footer.company.blog}</li>
+            <Link href={`/${lang}/about-us`}>
+              <li>{footer.company.aboutUs}</li>
+            </Link>
+            <Link href={`/${lang}/about-us`}>
+              <li>{footer.company.blog}</li>
+            </Link>
           </ul>
           <footer className="grid grid-cols-4 text-2xl">
-            <FaSquareFacebook />
-            <FaLinkedinIn />
-            <FaPhone />
-            <MdEmail />
+            <a href="https://www.facebook.com/CodenationStudio">
+              <FaSquareFacebook />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/codenation-studio/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://wa.me/523339556808"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaSquareWhatsapp />
+            </a>
+            <a href="mailto:info@codenation-studio.com">
+              <MdEmail />
+            </a>
           </footer>
+        </section>
+        <section className="relative h-19 w-75 sm:h-14 sm:w-54 xl:h-16 xl:w-65 2xl:h-19 2xl:w-75">
+          <Image
+            src="/assets/white-logo.png"
+            alt="Logo"
+            fill
+            sizes="20x60"
+            className="rounded-4xl"
+          />
         </section>
       </article>
     </footer>
