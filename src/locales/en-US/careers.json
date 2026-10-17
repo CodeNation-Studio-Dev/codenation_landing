@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "Careers | CodeNation Studio",
+    "description": "Join CodeNation Studio. Explore open positions and help us build meaningful digital experiences and software solutions.",
+    "detailSuffix": "Careers | CodeNation Studio"
+  },
+  "hero": {
+    "eyebrow": "Careers",
+    "title": "Build What's Next With Us",
+    "description": "Join a team building meaningful digital experiences and software solutions through creativity, technology, and collaboration."
+  },
+  "list": {
+    "title": "Open positions",
+    "count_one": "1 open position",
+    "count_other": "{count} open positions",
+    "viewPosition": "View Position",
+    "empty": {
+      "title": "There are no open positions right now",
+      "description": "We are not hiring at the moment, but we are always growing. Please check back later to see new opportunities."
+    }
+  },
+  "labels": {
+    "department": "Discipline",
+    "employmentType": "Employment type",
+    "location": "Location",
+    "workArrangement": "Work arrangement",
+    "experienceLevel": "Experience level",
+    "compensation": "Compensation"
+  },
+  "enums": {
+    "employmentType": {
+      "full-time": "Full-time",
+      "part-time": "Part-time",
+      "contract": "Contract",
+      "freelance": "Freelance",
+      "internship": "Internship"
+    },
+    "workArrangement": {
+      "on-site": "On-site",
+      "hybrid": "Hybrid",
+      "remote": "Remote"
+    },
+    "experienceLevel": {
+      "junior": "Junior",
+      "mid": "Mid-level",
+      "senior": "Senior"
+    }
+  },
+  "detail": {
+    "backToCareers": "Back to Careers",
+    "applyNow": "Apply Now",
+    "positionDetails": "Position details",
+    "about": "About the role",
+    "responsibilities": "Responsibilities",
+    "learning": "What you'll learn",
+    "requirements": "Who we're looking for",
+    "niceToHave": "Nice-to-have tools",
+    "portfolio": "Portfolio expectations",
+    "offer": "What we offer",
+    "closed": {
+      "title": "This position is no longer open",
+      "description": "We are not accepting applications for this role anymore. Check our other open positions.",
+      "cta": "See open positions"
+    }
+  },
+  "form": {
+    "title": "Apply for this position",
+    "applyingFor": "You are applying for:",
+    "name": "Full name",
+    "email": "Email",
+    "portfolioUrl": "Portfolio URL",
+    "portfolioHint": "A link to your portfolio (Behance, Dribbble, personal website, Google Drive, etc.).",
+    "resumeUrl": "Résumé or CV link",
+    "resumeHint": "Optional. Share a link to a publicly accessible file.",
+    "message": "Anything else we should know?",
+    "optional": "Optional",
+    "submit": "Submit application",
+    "submitting": "Sending…",
+    "successTitle": "Application sent",
+    "successDescription": "Thank you for your interest in CodeNation Studio. Our team will review your application.",
+    "errors": {
+      "failed": "We couldn't send your application. Please try again in a moment.",
+      "unavailable": "This position is no longer accepting applications."
+    },
+    "validation": {
+      "name": {
+        "required": "Please write your name"
+      },
+      "email": {
+        "required": "Please write your email",
+        "invalid": "Enter a valid email address"
+      },
+      "portfolioUrl": {
+        "required": "Please share a link to your portfolio",
+        "invalid": "Enter a valid link, for example https://yourportfolio.com"
+      },
+      "resumeUrl": {
+        "invalid": "Enter a valid link, for example https://drive.google.com/…"
+      },
+      "message": {
+        "tooLong": "Please keep your message under 1500 characters"
+      }
+    }
+  },
+  "jobs": {
+    "graphic-designer": {
+      "title": "Graphic Designer Intern / Junior",
+      "department": "Branding & Content",
+      "summary": "Join CodeNation Studio's growth team and help build our brands, visual identity, and digital content.",
+      "description": [
+        "We are looking for a Graphic Designer Intern or recent graduate in Graphic Design, Digital Design, Visual Communication, or a related field, with an interest in branding, brand identity, and social media content creation.",
+        "You will be part of CodeNation Studio's growth team, helping create and evolve the visual identity of our brands and producing content for our digital channels.",
+        "Rather than someone who only knows how to use tools, we are looking for a person who wants to build brands and tell stories through design."
+      ],
+      "responsibilities": [
+        "Design graphics and visual assets for CodeNation Studio's brands and digital channels.",
+        "Create graphic pieces for social media and digital campaigns.",
+        "Develop visual concepts for content and campaigns.",
+        "Create and adapt content for different formats and platforms, such as Instagram, Facebook, LinkedIn, YouTube, and other channels.",
+        "Keep our brands visually consistent across all channels.",
+        "Take part in the development and evolution of brand identities.",
+        "Create graphic assets, compositions, illustrations, and digital materials.",
+        "Design reusable templates and visual systems for content.",
+        "Take part in planning and tracking content calendars.",
+        "Research design, content, and digital communication trends.",
+        "Work with the team to turn ideas and concepts into visual proposals."
+      ],
+      "learning": [
+        "Branding and brand identity.",
+        "Creating visual concepts and art directing content.",
+        "Design for social media and digital campaigns.",
+        "Building graphic systems and templates.",
+        "Adapting content for different platforms.",
+        "Typography, composition, and color theory.",
+        "Trend research, content planning, and organization.",
+        "Creative work within a technology and entrepreneurship team."
+      ],
+      "requirements": [
+        "A student in the final semesters of Graphic Design, Digital Design, Visual Communication, or a related field. Recent graduates are also welcome.",
+        "Knowledge of graphic design and visual communication.",
+        "Good aesthetic judgment and attention to detail.",
+        "Interest in branding and brand identity, social media, and digital content trends.",
+        "Interest in working with brands, technology, startups, and digital marketing.",
+        "Ability to turn an idea or concept into a visual proposal.",
+        "Good organization and time management.",
+        "Excellent communication and openness to feedback.",
+        "A proactive attitude, curiosity to learn, and the ability to work in a team.",
+        "Good writing and spelling."
+      ],
+      "niceToHave": [
+        "Adobe Photoshop.",
+        "Adobe Illustrator.",
+        "Adobe After Effects.",
+        "Canva or similar tools.",
+        "Figma or other digital design tools.",
+        "You don't need to master every tool: we mainly look for good design judgment, creativity, and the ability to learn."
+      ],
+      "portfolio": {
+        "intro": "Please share a portfolio with your best work, whether academic or professional. We want to see your judgment and how you think, in particular:",
+        "items": [
+          "Branding, logo, or brand identity projects.",
+          "Social media or campaign pieces.",
+          "Compositions, illustrations, or other graphic assets.",
+          "Any personal project that shows your creativity."
+        ],
+        "note": "No prior professional experience is required, and UI/UX case studies are not needed."
+      }
+    }
+  }
+}
