@@ -3,7 +3,7 @@
     "contactUs": {
       "title": "Contáctanos",
       "address": "Osa Mayor #4946, C.P.45070 Zapopan, Jalisco",
-      "phone": "+52 33 3955 6808",
+      "phone": "+52 33 3054 9994",
       "callUs": "Agenda una Reunión",
       "analyze": "Analiza tu caso"
     },
@@ -25,7 +25,8 @@
     "company": {
       "title": "Empresa",
       "aboutUs": "Sobre Nosotros",
-      "blog": "Blog"
+      "blog": "Blog",
+      "careers": "Carreras"
     }
   },
   "header": {

@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "Carreras | CodeNation Studio",
+    "description": "Únete a CodeNation Studio. Conoce nuestras vacantes y ayúdanos a crear experiencias digitales y soluciones de software con impacto.",
+    "detailSuffix": "Carreras | CodeNation Studio"
+  },
+  "hero": {
+    "eyebrow": "Carreras",
+    "title": "Construye lo que sigue con nosotros",
+    "description": "Únete a un equipo que crea experiencias digitales y soluciones de software con impacto a través de la creatividad, la tecnología y la colaboración."
+  },
+  "list": {
+    "title": "Vacantes abiertas",
+    "count_one": "1 vacante abierta",
+    "count_other": "{count} vacantes abiertas",
+    "viewPosition": "Ver vacante",
+    "empty": {
+      "title": "No hay vacantes abiertas por ahora",
+      "description": "Por el momento no estamos contratando, pero siempre estamos creciendo. Vuelve más adelante para conocer nuevas oportunidades."
+    }
+  },
+  "labels": {
+    "department": "Disciplina",
+    "employmentType": "Tipo de empleo",
+    "location": "Ubicación",
+    "workArrangement": "Modalidad de trabajo",
+    "experienceLevel": "Nivel de experiencia",
+    "compensation": "Compensación"
+  },
+  "enums": {
+    "employmentType": {
+      "full-time": "Tiempo completo",
+      "part-time": "Medio tiempo",
+      "contract": "Por contrato",
+      "freelance": "Freelance",
+      "internship": "Prácticas profesionales"
+    },
+    "workArrangement": {
+      "on-site": "Presencial",
+      "hybrid": "Híbrido",
+      "remote": "Remoto"
+    },
+    "experienceLevel": {
+      "junior": "Junior",
+      "mid": "Intermedio",
+      "senior": "Senior"
+    }
+  },
+  "detail": {
+    "backToCareers": "Volver a Carreras",
+    "applyNow": "Postúlate ahora",
+    "positionDetails": "Detalles de la vacante",
+    "about": "Sobre el puesto",
+    "responsibilities": "Responsabilidades",
+    "learning": "Qué vas a aprender",
+    "requirements": "A quién buscamos",
+    "niceToHave": "Herramientas deseables",
+    "portfolio": "Qué esperamos de tu portafolio",
+    "offer": "Qué ofrecemos",
+    "closed": {
+      "title": "Esta vacante ya no está abierta",
+      "description": "Ya no estamos recibiendo postulaciones para este puesto. Consulta nuestras otras vacantes abiertas.",
+      "cta": "Ver vacantes abiertas"
+    }
+  },
+  "form": {
+    "title": "Postúlate a esta vacante",
+    "applyingFor": "Te estás postulando a:",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "portfolioUrl": "Enlace a tu portafolio",
+    "portfolioHint": "Un enlace a tu portafolio (Behance, Dribbble, sitio personal, Google Drive, etc.).",
+    "resumeUrl": "Enlace a tu CV",
+    "resumeHint": "Opcional. Comparte un enlace a un archivo de acceso público.",
+    "message": "¿Hay algo más que debamos saber?",
+    "optional": "Opcional",
+    "submit": "Enviar postulación",
+    "submitting": "Enviando…",
+    "successTitle": "Postulación enviada",
+    "successDescription": "Gracias por tu interés en CodeNation Studio. Nuestro equipo revisará tu postulación.",
+    "errors": {
+      "failed": "No pudimos enviar tu postulación. Por favor inténtalo de nuevo en un momento.",
+      "unavailable": "Esta vacante ya no recibe postulaciones."
+    },
+    "validation": {
+      "name": {
+        "required": "Por favor escribe tu nombre"
+      },
+      "email": {
+        "required": "Por favor escribe tu correo electrónico",
+        "invalid": "Ingresa una dirección de correo válida"
+      },
+      "portfolioUrl": {
+        "required": "Por favor comparte el enlace a tu portafolio",
+        "invalid": "Ingresa un enlace válido, por ejemplo https://tuportafolio.com"
+      },
+      "resumeUrl": {
+        "invalid": "Ingresa un enlace válido, por ejemplo https://drive.google.com/…"
+      },
+      "message": {
+        "tooLong": "Por favor limita tu mensaje a 1500 caracteres"
+      }
+    }
+  },
+  "jobs": {
+    "graphic-designer": {
+      "title": "Diseñador Gráfico Junior",
+      "department": "Branding y Contenido",
+      "summary": "Forma parte del equipo de crecimiento de CodeNation Studio y participa en la construcción de nuestras marcas, identidad visual y contenido digital.",
+      "description": [
+        "Buscamos un Diseñador Gráfico Intern o recién egresado de Diseño Gráfico, Diseño Digital, Comunicación Visual o una carrera afín, con interés en branding, identidad de marca y creación de contenido para redes sociales.",
+        "Formarás parte del equipo de crecimiento de CodeNation Studio, participando en la creación y evolución de la identidad visual de nuestras marcas y en la producción de contenido para nuestros canales digitales.",
+        "Más que buscar a alguien que solamente sepa utilizar herramientas, buscamos a una persona que quiera construir marcas y contar historias a través del diseño."
+      ],
+      "responsibilities": [
+        "Diseñar gráficos y recursos visuales para las marcas de CodeNation Studio y sus canales digitales.",
+        "Crear piezas gráficas para redes sociales y campañas digitales.",
+        "Desarrollar conceptos visuales para contenido y campañas.",
+        "Crear y adaptar contenido para diferentes formatos y plataformas, como Instagram, Facebook, LinkedIn, YouTube y otros canales.",
+        "Mantener la consistencia visual de las marcas en todos sus canales.",
+        "Participar en el desarrollo y evolución de identidades de marca.",
+        "Crear recursos gráficos, composiciones, ilustraciones y materiales digitales.",
+        "Diseñar templates y sistemas visuales reutilizables para contenido.",
+        "Participar en la planeación y seguimiento de parrillas de contenido.",
+        "Investigar tendencias de diseño, contenido y comunicación digital.",
+        "Trabajar en conjunto con el equipo para convertir ideas y conceptos en propuestas visuales."
+      ],
+      "learning": [
+        "Branding e identidad de marca.",
+        "Creación de conceptos visuales y dirección visual de contenido.",
+        "Diseño para redes sociales y campañas digitales.",
+        "Creación de sistemas gráficos y templates.",
+        "Adaptación de contenido para diferentes plataformas.",
+        "Tipografía, composición y teoría del color.",
+        "Investigación de tendencias, planeación y organización de contenido.",
+        "Trabajo creativo dentro de un equipo de tecnología y emprendimiento."
+      ],
+      "requirements": [
+        "Estudiante de los últimos semestres de Diseño Gráfico, Diseño Digital, Comunicación Visual o carrera afín. También consideramos recién egresados(as).",
+        "Conocimientos de diseño gráfico y comunicación visual.",
+        "Buen criterio estético y atención al detalle.",
+        "Interés por branding e identidad de marca, redes sociales y tendencias de contenido digital.",
+        "Interés por trabajar con marcas, tecnología, startups y marketing digital.",
+        "Capacidad para convertir una idea o concepto en una propuesta visual.",
+        "Buena organización y gestión del tiempo.",
+        "Excelente comunicación y disposición para recibir feedback.",
+        "Actitud proactiva, curiosidad por aprender y capacidad para trabajar en equipo.",
+        "Buena redacción y ortografía."
+      ],
+      "niceToHave": [
+        "Adobe Photoshop.",
+        "Adobe Illustrator.",
+        "Adobe After Effects.",
+        "Canva o herramientas similares.",
+        "Figma u otras herramientas de diseño digital.",
+        "No es necesario dominar todas las herramientas: buscamos principalmente buen criterio de diseño, creatividad y capacidad de aprendizaje."
+      ],
+      "portfolio": {
+        "intro": "Comparte un portafolio con tus mejores trabajos, ya sean académicos o profesionales. Nos interesa ver tu criterio y tu forma de pensar, en particular:",
+        "items": [
+          "Proyectos de branding, logotipos o identidad de marca.",
+          "Piezas para redes sociales o campañas.",
+          "Composiciones, ilustraciones u otros recursos gráficos.",
+          "Cualquier proyecto personal que muestre tu creatividad."
+        ],
+        "note": "No necesitas experiencia profesional previa ni incluir casos de estudio UI/UX."
+      }
+    }
+  }
+}

@@ -25,7 +25,8 @@
     "company": {
       "title": "Company",
       "aboutUs": "About Us",
-      "blog": "Blog"
+      "blog": "Blog",
+      "careers": "Careers"
     }
   },
   "header": {

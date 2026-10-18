@@ -73,12 +73,15 @@ export const Footer = () => {
             {footer.company.title}
           </h2>
           <ul className="mb-10 grid gap-y-2">
-            <Link href={`/${lang}/about-us`}>
-              <li>{footer.company.aboutUs}</li>
-            </Link>
-            <Link href={`/${lang}/about-us`}>
-              <li>{footer.company.blog}</li>
-            </Link>
+            <li>
+              <Link href={`/${lang}/about-us`}>{footer.company.aboutUs}</Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/about-us`}>{footer.company.blog}</Link>
+            </li>
+            <li>
+              <Link href={`/${lang}/careers`}>{footer.company.careers}</Link>
+            </li>
           </ul>
           <footer className="grid grid-cols-4 text-2xl">
             <a href="https://www.facebook.com/CodenationStudio">
