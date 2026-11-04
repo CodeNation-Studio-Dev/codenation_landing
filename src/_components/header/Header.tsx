@@ -53,6 +53,8 @@ export const Header = () => {
     }
   }, [windowSize]);
 
+  if (pathname.endsWith("/links")) return null;
+
   return (
     <div className="relative z-101 h-[82px] w-full">
       <header

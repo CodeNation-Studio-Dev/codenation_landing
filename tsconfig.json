@@ -24,7 +24,8 @@
       "@components/*": ["src/_components/*"],
       "@lib/*": ["src/_lib/*"],
       "@providers/*": ["src/_providers/*"],
-      "@hooks/*": ["src/_hooks/*"]
+      "@hooks/*": ["src/_hooks/*"],
+      "@config/*": ["src/config/*"]
     }
   },
   "include": [
