@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "CodeNation Studio | Enlaces",
+    "description": "Encuentra el sitio web, servicios, proyectos y perfiles sociales de CodeNation Studio."
+  },
+  "profile": {
+    "eyebrow": "Estudio independiente",
+    "description": "Desarrollamos software enfocado en la velocidad, escalabilidad y eficiencia."
+  },
+  "links": {
+    "title": "Enlaces rápidos",
+    "website": {
+      "label": "Sitio web oficial",
+      "description": "Conoce CodeNation Studio"
+    },
+    "services": {
+      "label": "Nuestros servicios",
+      "description": "Software, diseño, MVPs y más"
+    },
+    "work": {
+      "label": "Nuestro trabajo",
+      "description": "Conoce lo que hemos construido"
+    },
+    "contact": {
+      "label": "Contáctanos",
+      "description": "Construyamos algo increíble juntos"
+    },
+    "careers": {
+      "label": "Vacantes",
+      "description": "Únete a nuestro equipo"
+    }
+  },
+  "social": {
+    "title": "Síguenos",
+    "labels": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "github": "GitHub",
+      "x": "X"
+    }
+  },
+  "footer": {
+    "tagline": "Construyendo lo que sigue.",
+    "copyright": "© {year} CodeNation Studio"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "CodeNation Studio | Links",
+    "description": "Find CodeNation Studio's website, services, work, and social profiles."
+  },
+  "profile": {
+    "eyebrow": "Independent studio",
+    "description": "We build software focused on speed, scalability, and efficiency."
+  },
+  "links": {
+    "title": "Quick links",
+    "website": {
+      "label": "Official Website",
+      "description": "Explore CodeNation Studio"
+    },
+    "services": {
+      "label": "Our Services",
+      "description": "Software, design, MVPs, and more"
+    },
+    "work": {
+      "label": "Our Work",
+      "description": "See what we have built"
+    },
+    "contact": {
+      "label": "Contact Us",
+      "description": "Let's build something great together"
+    },
+    "careers": {
+      "label": "Careers",
+      "description": "Join our growing team"
+    }
+  },
+  "social": {
+    "title": "Follow along",
+    "labels": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "github": "GitHub",
+      "x": "X"
+    }
+  },
+  "footer": {
+    "tagline": "Engineering what's next.",
+    "copyright": "© {year} CodeNation Studio"
+  }
+}
